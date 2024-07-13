@@ -1,0 +1,10 @@
+{
+	"LABEL": {},
+	"MESSAGE": {
+		"CHOOSE_PRODUCT": "Vui lòng chọn sản phẩm",
+		"UPDATE_CART": "Cập nhật sản phẩm thành công",
+		"ADD_CART": "Bạn vừa thêm 1 sản phẩm vào giỏ hàng"
+	},
+	"PLACEHOLDER": {},
+	"VALIDATOR": {}
+}

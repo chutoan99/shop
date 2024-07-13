@@ -1,0 +1,29 @@
+{
+	"LABEL": {
+		"ACCOUNT": "Hồ sơ của tôi",
+		"ADDRESS": "Địa chỉ:",
+		"SAVE": "Lưu",
+		"GENDER": "Giới Tính",
+		"EMAIL": "Email:",
+		"NAME": "Tên:",
+		"PHONE": "Điện Thoại:",
+		"BIRTHDAY": "Ngày Sinh:",
+		"UPDATE_ADDRESS": "Cập nhật địa chỉ",
+		"SELECT_AVATAR": "Chọn hình ảnh",
+		"SELECT_PROVINCE": "--Chọn Tỉnh/Thành Phố--",
+		"SELECT_DISTRICT": "--Chọn Quận--",
+		"SELECT_WARD": "--Chọn Huyện--",
+		"DESCRIPTION": "Quản lý thông tin hồ sơ để bảo mật tài khoản"
+	},
+	"MESSAGE": {
+		"UPDATE_ACCOUNT_SUCCESS": "Cập nhật thông tin thành công"
+	},
+	"PLACEHOLDER": {
+		"ADDRESS": "Nhập Địa Chỉ"
+	},
+	"VALIDATOR": {
+		"INVALID_ADDRESS": "Vui lòng cập nhật địa chỉ",
+		"INVALID_PHONE": "Vui lòng cập nhật số điện thoại",
+		"INVALID_AVATAR": "Vui lòng cập nhật ảnh đại diên"
+	}
+}

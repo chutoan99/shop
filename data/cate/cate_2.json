@@ -1,0 +1,2242 @@
+{
+  "msg": "success",
+  "code": 0,
+  "data": {
+    "total": 1341,
+    "global_cats": [
+      {
+        "category_name": "Sơn móng",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024459,
+        "images": [
+          "https://cf.shopee.sg/file/7bbe627e7df79305592d6ccecf46f1f8",
+          "https://cf.shopee.sg/file/de445a72fa1ac7bf5e3807ee07287116",
+          "https://cf.shopee.sg/file/3ca39723c9040db9f6d4edaa7a5fb7c0",
+          "https://cf.shopee.sg/file/e456ae3f7955789bd1f9083733f28bab",
+          "https://cf.shopee.sg/file/728e2becece6d1aa208eb720ec44ae3a",
+          "https://cf.shopee.sg/file/3af549d1b5105b0b4063e4c69283698c"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          {
+            "category_id": 100658,
+            "category_name": "Chăm sóc tay, chân & móng"
+          },
+          { "category_id": 100867, "category_name": "Chăm sóc móng" },
+          { "category_id": 102029, "category_name": "Sơn móng" }
+        ],
+        "category_id": 102029,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Dụng cụ tẩy sơn móng",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024459,
+        "images": [
+          "https://cf.shopee.sg/file/bc3673d1ad90ac313de25627a4db72d8",
+          "https://cf.shopee.sg/file/09114efefe17fd0a6713cc422c4269ff",
+          "https://cf.shopee.sg/file/d51eb40cea43221046d81d77acc319fb",
+          "https://cf.shopee.sg/file/aa01601cff29e5d6d11ac0e60c094390",
+          "https://cf.shopee.sg/file/9717b3fd9aeadb15720706be2be27743",
+          "https://cf.shopee.sg/file/6cd0f5e28b4f64bed902ec90fa95afbe"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          {
+            "category_id": 100658,
+            "category_name": "Chăm sóc tay, chân & móng"
+          },
+          { "category_id": 100867, "category_name": "Chăm sóc móng" },
+          { "category_id": 102030, "category_name": "Dụng cụ tẩy sơn móng" }
+        ],
+        "category_id": 102030,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Dưỡng móng",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024460,
+        "images": [
+          "https://cf.shopee.sg/file/68763261f052d9e3f49d81fc2603b1c1",
+          "https://cf.shopee.sg/file/0e770cd67d6c3e212e19667faf5672b2",
+          "https://cf.shopee.sg/file/481e9907f49871027bebce71922c991b",
+          "https://cf.shopee.sg/file/fe6c2edadad0ac06fddc846b1332c421",
+          "https://cf.shopee.sg/file/39905741d80f4f729a6f82fb7c691ddd",
+          "https://cf.shopee.sg/file/86ac4177ce23c6969b7f5f78d3fd1f88"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          {
+            "category_id": 100658,
+            "category_name": "Chăm sóc tay, chân & móng"
+          },
+          { "category_id": 100867, "category_name": "Chăm sóc móng" },
+          { "category_id": 102031, "category_name": "Dưỡng móng" }
+        ],
+        "category_id": 102031,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Móng giả",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024460,
+        "images": [
+          "https://cf.shopee.sg/file/63cfd6c4e4603557268e7c2aa2413d14",
+          "https://cf.shopee.sg/file/755cef5e4361ebdd41bbda1e07dac561",
+          "https://cf.shopee.sg/file/94caf1d6e0ec72fc6392a5056b7b28e9",
+          "https://cf.shopee.sg/file/a1100637facf21152e57ca1bd3ecf32b",
+          "https://cf.shopee.sg/file/a08c1fb7eee8ac853a991de66a3c4a49",
+          "https://cf.shopee.sg/file/d751ca9f9dd0e20e4fc67b430c61f27b"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          {
+            "category_id": 100658,
+            "category_name": "Chăm sóc tay, chân & móng"
+          },
+          { "category_id": 100867, "category_name": "Chăm sóc móng" },
+          { "category_id": 102032, "category_name": "Móng giả" }
+        ],
+        "category_id": 102032,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Hình dán móng",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024460,
+        "images": [
+          "https://cf.shopee.sg/file/9c8b55727c2f51996f60ebe3cbbcbe5a",
+          "https://cf.shopee.sg/file/cf8f30b7f92028bc19339a4e8468647c",
+          "https://cf.shopee.sg/file/3131485c34abfbb09ba12ce6b6c4765e",
+          "https://cf.shopee.sg/file/a944d9b2041615023d2901b0ce24c26c",
+          "https://cf.shopee.sg/file/f965c4fde73cc89b8a0c51ad8776cb02",
+          "https://cf.shopee.sg/file/3dc021274a6e051910dfba16ac187fb9"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          {
+            "category_id": 100658,
+            "category_name": "Chăm sóc tay, chân & móng"
+          },
+          { "category_id": 100867, "category_name": "Chăm sóc móng" },
+          { "category_id": 102033, "category_name": "Hình dán móng" }
+        ],
+        "category_id": 102033,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Dụng cụ & thiết bị làm móng",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024460,
+        "images": [
+          "https://cf.shopee.sg/file/beaf9f09563488c1e620ab6b60e7b31c",
+          "https://cf.shopee.sg/file/9acc9749c946ac23b22a45afe3272f0a",
+          "https://cf.shopee.sg/file/e691b068edcb172ed583f150c8177521",
+          "https://cf.shopee.sg/file/24f1359f905dfc33fc29150629bba237",
+          "https://cf.shopee.sg/file/616769756ad728c2e87a362a67461dcf",
+          "https://cf.shopee.sg/file/412c3d2fd533afbc2dcb2c3fbd030203"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          {
+            "category_id": 100658,
+            "category_name": "Chăm sóc tay, chân & móng"
+          },
+          { "category_id": 100867, "category_name": "Chăm sóc móng" },
+          {
+            "category_id": 102034,
+            "category_name": "Dụng cụ & thiết bị làm móng"
+          }
+        ],
+        "category_id": 102034,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Dầu gội",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024460,
+        "images": [
+          "https://cf.shopee.sg/file/f92b41fa06bacf0e6bde32fa4e054aa3",
+          "https://cf.shopee.sg/file/e4717e341f70af503f505408a299e82f",
+          "https://cf.shopee.sg/file/4da408cf2648a682caa46e962ba3f511",
+          "https://cf.shopee.sg/file/5f137711a86cb91cd9ea338abb7eaa13",
+          "https://cf.shopee.sg/file/87ca482979ee9a67273623aebc1bb6b2",
+          "https://cf.shopee.sg/file/2bd1828fffef70cf914b34a8a6433c85"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100659, "category_name": "Chăm sóc tóc" },
+          { "category_id": 100869, "category_name": "Dầu gội" }
+        ],
+        "category_id": 100869,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Thuốc nhuộm tóc",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024460,
+        "images": [
+          "https://cf.shopee.sg/file/4c9e8b08c5e7da1ac112d68e3d17e222",
+          "https://cf.shopee.sg/file/423d922491dcd3000f954ae433ace760",
+          "https://cf.shopee.sg/file/6577ef3f64bfd5d64ffc55f6401c118c",
+          "https://cf.shopee.sg/file/e07b11bb48ddc9cc259bba36596b7c8f",
+          "https://cf.shopee.sg/file/0dcad4437b71a5805a02cd394ea20a34",
+          "https://cf.shopee.sg/file/d5f142c78dba637293f9e0d28da4af7c"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100659, "category_name": "Chăm sóc tóc" },
+          { "category_id": 100870, "category_name": "Thuốc nhuộm tóc" }
+        ],
+        "category_id": 100870,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Sản phẩm dưỡng tóc",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024460,
+        "images": [
+          "https://cf.shopee.sg/file/1024efc0f1dce8007f1bd475745c7f1b",
+          "https://cf.shopee.sg/file/eeb3aa15ab9415ab0198e7f2b2547a48",
+          "https://cf.shopee.sg/file/bcfdb291ea6a92c10ba2240b475282af",
+          "https://cf.shopee.sg/file/930be2adcc907bb74e86405f68c1cc50",
+          "https://cf.shopee.sg/file/f9af5de03513bbfcfbb1cabb4ac2a686",
+          "https://cf.shopee.sg/file/4ea70c668dc1d814260d74667cce2c05"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100659, "category_name": "Chăm sóc tóc" },
+          { "category_id": 100871, "category_name": "Sản phẩm dưỡng tóc" }
+        ],
+        "category_id": 100871,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Dầu xả",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024460,
+        "images": [
+          "https://cf.shopee.sg/file/49348f2ea609a481f3f89955c5ea9cb1",
+          "https://cf.shopee.sg/file/c26f5ac4b4b5feeef4d9bb9ee7faad6f",
+          "https://cf.shopee.sg/file/f0a1147c3162e3b1bb2712a1ab4f6672",
+          "https://cf.shopee.sg/file/53ff3bbe8a5d48740ec47e090722c217",
+          "https://cf.shopee.sg/file/728e5936aa0500634ddd56462d5900fb",
+          "https://cf.shopee.sg/file/a7f782ed2c19d4cf618619dc40a2edef"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100659, "category_name": "Chăm sóc tóc" },
+          { "category_id": 100872, "category_name": "Dầu xả" }
+        ],
+        "category_id": 100872,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Sản phẩm tạo kiểu tóc",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024460,
+        "images": [
+          "https://cf.shopee.sg/file/0b703bb1ad291aae9a0fccc3b0854793",
+          "https://cf.shopee.sg/file/3d588a67e9cb2acdfd9ee0354c5a1417",
+          "https://cf.shopee.sg/file/9f3d0da3c4425fa0f28481df653d10a4",
+          "https://cf.shopee.sg/file/25c2a8b00a5e52c158c94c76f6415f41",
+          "https://cf.shopee.sg/file/aa1008541cf7821b3a7055c51674de0c",
+          "https://cf.shopee.sg/file/586f7f80f555549d3e87906222c96b89"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100659, "category_name": "Chăm sóc tóc" },
+          { "category_id": 100873, "category_name": "Sản phẩm tạo kiểu tóc" }
+        ],
+        "category_id": 100873,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Khác",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024460,
+        "images": [
+          "https://cf.shopee.sg/file/7238887ff49eb9b0ba62646c3c5f360a",
+          "https://cf.shopee.sg/file/c13b055851dcf40edd10728d963430a0",
+          "https://cf.shopee.sg/file/cfc594c9a352ebebe4f7a44ea9bcdc50",
+          "https://cf.shopee.sg/file/a4f5c47a391653dc3aa41486e7dd9cb5",
+          "https://cf.shopee.sg/file/8a0ac4aa03dd33fad39a4cb0a9dc060a",
+          "https://cf.shopee.sg/file/ceae4db661174965f5294f8963d0fbe2"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100659, "category_name": "Chăm sóc tóc" },
+          { "category_id": 100874, "category_name": "Khác" }
+        ],
+        "category_id": 100874,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Sữa tắm & chăm sóc cơ thể",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024460,
+        "images": [
+          "https://cf.shopee.sg/file/c9266658866264486173543f9a916064",
+          "https://cf.shopee.sg/file/3bfe47154ff1bbbe6a6c31eae1b8d6e7",
+          "https://cf.shopee.sg/file/f6aa155bbb2d7e6a17f28b094b9bb81f",
+          "https://cf.shopee.sg/file/42672cd7aa7daaa3e1713fe01e2697c3",
+          "https://cf.shopee.sg/file/5fc1bfe92d1fc217ae60efb6ec32f56b",
+          "https://cf.shopee.sg/file/0a8f36dd815e3a0c4043b5c060c35ef7"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100660, "category_name": "Chăm sóc nam giới" },
+          {
+            "category_id": 100875,
+            "category_name": "Sữa tắm & chăm sóc cơ thể"
+          }
+        ],
+        "category_id": 100875,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Sữa rửa mặt",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024460,
+        "images": [
+          "https://cf.shopee.sg/file/6a2932c8543ba0d011b15e0d1f647f80",
+          "https://cf.shopee.sg/file/e9a92c7d33d8c5b1147dc8c5b8343abb",
+          "https://cf.shopee.sg/file/0d011c5210ada114a025b7be148a167a",
+          "https://cf.shopee.sg/file/343b7509959705aac9f95ca7d4064cf8",
+          "https://cf.shopee.sg/file/237c4acf6aeef07d59329945bcd9fc49",
+          "https://cf.shopee.sg/file/15f04b10d35deb7dcaa08b9f841e2eca"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100660, "category_name": "Chăm sóc nam giới" },
+          { "category_id": 100876, "category_name": "Chăm sóc da" },
+          { "category_id": 101616, "category_name": "Sữa rửa mặt" }
+        ],
+        "category_id": 101616,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Kem dưỡng ẩm & dưỡng da",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024461,
+        "images": [
+          "https://cf.shopee.sg/file/82ceb7d8f83e4f84e54f3f7f2f02a72a",
+          "https://cf.shopee.sg/file/8dd4bee3cce3fe82464185c9549cc890",
+          "https://cf.shopee.sg/file/9c67d3f0da02783046fcd92e9fafee6f",
+          "https://cf.shopee.sg/file/4933053d118a91f7119721a978eabbc4",
+          "https://cf.shopee.sg/file/e63c8b12fded50f9253121e7ae95f5a7",
+          "https://cf.shopee.sg/file/47d1851b68518e6679d9bb7251c2017c"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100660, "category_name": "Chăm sóc nam giới" },
+          { "category_id": 100876, "category_name": "Chăm sóc da" },
+          { "category_id": 101617, "category_name": "Kem dưỡng ẩm & dưỡng da" }
+        ],
+        "category_id": 101617,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Khác",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024461,
+        "images": [
+          "https://cf.shopee.sg/file/e42fc3c5774577be14f398f403cc9de7",
+          "https://cf.shopee.sg/file/55393953ec7d1978a8458e0e8b44288e",
+          "https://cf.shopee.sg/file/72108ff3be49e77b257dfdcc1b8fc382",
+          "https://cf.shopee.sg/file/d6ede516bb34b24d0c6d803fcc78102c",
+          "https://cf.shopee.sg/file/a1fc5b958867b2c501e70a4a60954cda",
+          "https://cf.shopee.sg/file/16c997e2577b3c56c9e7222d2d1c5b64"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100660, "category_name": "Chăm sóc nam giới" },
+          { "category_id": 100876, "category_name": "Chăm sóc da" },
+          { "category_id": 101618, "category_name": "Khác" }
+        ],
+        "category_id": 101618,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Dưỡng da sau cạo râu",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024461,
+        "images": [
+          "https://cf.shopee.sg/file/fc94c3a9def510f0f767e30f6ced32b5",
+          "https://cf.shopee.sg/file/224ef9aa9b09e98ea000076574afdc89",
+          "https://cf.shopee.sg/file/99393a9b70fbe58c8832f781dd07e1d2",
+          "https://cf.shopee.sg/file/5f5a3496aa97b4ec612861ed6ac8cd1a",
+          "https://cf.shopee.sg/file/ad765fe1af7ade52b3f99d43a3e008ee",
+          "https://cf.shopee.sg/file/7acbf8ec7393fcccef8fa3db4ac13702"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100660, "category_name": "Chăm sóc nam giới" },
+          {
+            "category_id": 100877,
+            "category_name": "Sản phẩm cạo râu & hớt tóc"
+          },
+          { "category_id": 101619, "category_name": "Dưỡng da sau cạo râu" }
+        ],
+        "category_id": 101619,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Kem dưỡng, kem tạo bọt & gel",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024461,
+        "images": [
+          "https://cf.shopee.sg/file/20c37bee70697eb0c718682d6bba5357",
+          "https://cf.shopee.sg/file/3e5a4de2749ad65038a994b9ea050cf8",
+          "https://cf.shopee.sg/file/ddb2525924d1ad89df94adee70a75ec7",
+          "https://cf.shopee.sg/file/699ebf5782c77927ed2b2835e429f536",
+          "https://cf.shopee.sg/file/665dbbbdcf60205ac78b431af9d79a69",
+          "https://cf.shopee.sg/file/e074273d0c4dc7c5ae2a94852f8f9185"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100660, "category_name": "Chăm sóc nam giới" },
+          {
+            "category_id": 100877,
+            "category_name": "Sản phẩm cạo râu & hớt tóc"
+          },
+          {
+            "category_id": 101620,
+            "category_name": "Kem dưỡng, kem tạo bọt & gel"
+          }
+        ],
+        "category_id": 101620,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Dao cạo râu",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024461,
+        "images": [
+          "https://cf.shopee.sg/file/d06604fe637f00c1d6499847aaa8df38",
+          "https://cf.shopee.sg/file/420c907531c82fc2a23699e4a98ed5e8",
+          "https://cf.shopee.sg/file/0dce1b448d1ff47479f5b6cc3a92932a",
+          "https://cf.shopee.sg/file/81e2a064a28cb023b440b70f6fdffe4b",
+          "https://cf.shopee.sg/file/1dc47cc9531dbdafb43dae7ce285cbf2",
+          "https://cf.shopee.sg/file/555fa8d4cbd338a870bfc42b0153c89e"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100660, "category_name": "Chăm sóc nam giới" },
+          {
+            "category_id": 100877,
+            "category_name": "Sản phẩm cạo râu & hớt tóc"
+          },
+          { "category_id": 101621, "category_name": "Dao cạo râu" }
+        ],
+        "category_id": 101621,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Máy cạo râu",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024461,
+        "images": [
+          "https://cf.shopee.sg/file/222b88316d5f9132e3066a1a51e7133b",
+          "https://cf.shopee.sg/file/f011e79b390e730371ef136947aaf089",
+          "https://cf.shopee.sg/file/9f7b083aa098aab985cadfc9bddba1d8",
+          "https://cf.shopee.sg/file/af24a21214bf99e83e5db4fb76c0bb1a",
+          "https://cf.shopee.sg/file/bcd74af17e6d5cfccd95f45f867f5577",
+          "https://cf.shopee.sg/file/6c54a159a31948a02c860dee5aabc5ed"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100660, "category_name": "Chăm sóc nam giới" },
+          {
+            "category_id": 100877,
+            "category_name": "Sản phẩm cạo râu & hớt tóc"
+          },
+          { "category_id": 101622, "category_name": "Máy cạo râu" }
+        ],
+        "category_id": 101622,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Cọ cạo râu",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024461,
+        "images": [
+          "https://cf.shopee.sg/file/d797ef43df08a945b466054ba5804f20",
+          "https://cf.shopee.sg/file/8a08e46b1eeb1f38b95dfc5381f939e3",
+          "https://cf.shopee.sg/file/a7f34e212fced705fe32879c812772a3",
+          "https://cf.shopee.sg/file/78ff94d28c33282c8a2fefdee0144a05",
+          "https://cf.shopee.sg/file/c226a7d1f9a6672cd0dac0859ad25787",
+          "https://cf.shopee.sg/file/1f4cb7225a3570a09e3d357aefaa2be2"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100660, "category_name": "Chăm sóc nam giới" },
+          {
+            "category_id": 100877,
+            "category_name": "Sản phẩm cạo râu & hớt tóc"
+          },
+          { "category_id": 101623, "category_name": "Cọ cạo râu" }
+        ],
+        "category_id": 101623,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Máy cạo râu đa chức năng",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024461,
+        "images": [
+          "https://cf.shopee.sg/file/ab1f3133e2faf805aa3e496171c1889c",
+          "https://cf.shopee.sg/file/f11e62beecac52ea052a43fd08a63d56",
+          "https://cf.shopee.sg/file/b1cb20f86d05c2f78e90484d017377a0",
+          "https://cf.shopee.sg/file/2ba75c1c76dbe1cdbe19312b34f2c5af",
+          "https://cf.shopee.sg/file/818c2bb3fd225439dcc96275d9eb0d0d",
+          "https://cf.shopee.sg/file/d23fba9e56b865931513f16ea8e44f73"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100660, "category_name": "Chăm sóc nam giới" },
+          {
+            "category_id": 100877,
+            "category_name": "Sản phẩm cạo râu & hớt tóc"
+          },
+          { "category_id": 101624, "category_name": "Máy cạo râu đa chức năng" }
+        ],
+        "category_id": 101624,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Phụ kiện hỗ trợ cạo râu",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024461,
+        "images": [
+          "https://cf.shopee.sg/file/6fa2924d880477eb0af48303decee7c4",
+          "https://cf.shopee.sg/file/afba787180ded899e1e3085ff9908c6b",
+          "https://cf.shopee.sg/file/4934e356d8d8a169691012233881c6db",
+          "https://cf.shopee.sg/file/0fe0b2a4987ede433bdd5f26bfc141db",
+          "https://cf.shopee.sg/file/2224bc94b50d21004640adb749b3f3c5",
+          "https://cf.shopee.sg/file/a6bacd9efab187e6dc3406e36a74194f"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100660, "category_name": "Chăm sóc nam giới" },
+          {
+            "category_id": 100877,
+            "category_name": "Sản phẩm cạo râu & hớt tóc"
+          },
+          { "category_id": 101625, "category_name": "Phụ kiện hỗ trợ cạo râu" }
+        ],
+        "category_id": 101625,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Khác",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024461,
+        "images": [
+          "https://cf.shopee.sg/file/1f049a72f38be46260c09524250adc68",
+          "https://cf.shopee.sg/file/634dc6dabf44e2e099976e55b9d80bfc",
+          "https://cf.shopee.sg/file/2dbd16c54195ddc78aa10049e88c4b41",
+          "https://cf.shopee.sg/file/6eaf9c47d35be009eb2e7d37e0d82c00",
+          "https://cf.shopee.sg/file/eb26660d6bbf1ac5081d4e7ce4098daf",
+          "https://cf.shopee.sg/file/590a9bf42f6fb7478971bf405829932a"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100660, "category_name": "Chăm sóc nam giới" },
+          {
+            "category_id": 100877,
+            "category_name": "Sản phẩm cạo râu & hớt tóc"
+          },
+          { "category_id": 101626, "category_name": "Khác" }
+        ],
+        "category_id": 101626,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Chăm sóc tóc",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024461,
+        "images": [
+          "https://cf.shopee.sg/file/4a8172daaed46303033c10747c99d399",
+          "https://cf.shopee.sg/file/b1a216e5198d99354cea9b73ecba030d",
+          "https://cf.shopee.sg/file/4eb98a925a8d67033ac961a81813c328",
+          "https://cf.shopee.sg/file/be28bf68570d1f25589fe51afc2ebfd5",
+          "https://cf.shopee.sg/file/559f9263723e7137c5cafda551bdf7dc",
+          "https://cf.shopee.sg/file/a81a579afbbdf4baddf5ee10dbb1a06b"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100660, "category_name": "Chăm sóc nam giới" },
+          { "category_id": 100878, "category_name": "Chăm sóc tóc" }
+        ],
+        "category_id": 100878,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Nước hoa",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024461,
+        "images": [
+          "https://cf.shopee.sg/file/171ea8f83ee75d87659009a162fca679",
+          "https://cf.shopee.sg/file/2b5e4c1caee98dc338b03b326c32999d",
+          "https://cf.shopee.sg/file/ce74f9163707697a19b6401493f03ae6",
+          "https://cf.shopee.sg/file/b80fe60b46b4c825637902a878f9d00e",
+          "https://cf.shopee.sg/file/9ac088819737cf80f4da9a77f12d619e",
+          "https://cf.shopee.sg/file/b8270d602844ae4e2f4fb7e80b9b923b"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100661, "category_name": "Nước hoa" }
+        ],
+        "category_id": 100661,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Kem lót",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024462,
+        "images": [
+          "https://cf.shopee.sg/file/af160f337e507c853eddd7155c1c2c42",
+          "https://cf.shopee.sg/file/d525dc0da90f4056b3ef86861f73c652",
+          "https://cf.shopee.sg/file/8d3c1f0314dcba3eca0125ac35cf30fa",
+          "https://cf.shopee.sg/file/34883c2c6221273e6d146ba4fc5c22fb",
+          "https://cf.shopee.sg/file/5acd6fe44df00b969d15bccd7abaf1e4",
+          "https://cf.shopee.sg/file/d003b82eeb21a28665dc3bdbf5c636d1"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100662, "category_name": "Trang điểm" },
+          { "category_id": 100881, "category_name": "Trang điểm mặt" },
+          { "category_id": 101627, "category_name": "Kem lót" }
+        ],
+        "category_id": 101627,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Kem nền",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024462,
+        "images": [
+          "https://cf.shopee.sg/file/a9a67482a08b1179f9498b5325ee613b",
+          "https://cf.shopee.sg/file/6eabe86a3b465e49640515e306a3cc67",
+          "https://cf.shopee.sg/file/fbe30d7f027200dd2d30f3c2c29ec6a0",
+          "https://cf.shopee.sg/file/c24d79f3cede1cb96d8072fa07dc9fca",
+          "https://cf.shopee.sg/file/6fef85a11ecdaa80d4e47ad973ebc032",
+          "https://cf.shopee.sg/file/2de99552efe8eb8bd4bc6f0d6ce431ce"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100662, "category_name": "Trang điểm" },
+          { "category_id": 100881, "category_name": "Trang điểm mặt" },
+          { "category_id": 101628, "category_name": "Kem nền" }
+        ],
+        "category_id": 101628,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Kem BB & CC",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024462,
+        "images": [
+          "https://cf.shopee.sg/file/eb8ad3ef9d0956590db4a719d52eb089",
+          "https://cf.shopee.sg/file/ea10396561fdf204ac25db4876e22166",
+          "https://cf.shopee.sg/file/c8e8e3d66e855826db25f4482b559cde",
+          "https://cf.shopee.sg/file/364754bf9abb4493ae26aeb334e1f3a0",
+          "https://cf.shopee.sg/file/687c3c1ac64aa3905d241b2c01903e63",
+          "https://cf.shopee.sg/file/907b5ac272a8c5c58125768f98c38cc9"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100662, "category_name": "Trang điểm" },
+          { "category_id": 100881, "category_name": "Trang điểm mặt" },
+          { "category_id": 101629, "category_name": "Kem BB & CC" }
+        ],
+        "category_id": 101629,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Phấn phủ",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024462,
+        "images": [
+          "https://cf.shopee.sg/file/56a3a6f38602a39af710819df9e52988",
+          "https://cf.shopee.sg/file/31cac499d5fd295d1c813404a9d4882f",
+          "https://cf.shopee.sg/file/a208d80ef7b9daaf33468e7d0c762bc3",
+          "https://cf.shopee.sg/file/342abf5eb3ea6ab4ceb3973185e7f8a7",
+          "https://cf.shopee.sg/file/f0a5418ecbe16c7e29d50e39d9b8f663",
+          "https://cf.shopee.sg/file/ee04049547f8b3819379f5c7b947a20b"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100662, "category_name": "Trang điểm" },
+          { "category_id": 100881, "category_name": "Trang điểm mặt" },
+          { "category_id": 101630, "category_name": "Phấn phủ" }
+        ],
+        "category_id": 101630,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Che khuyết điểm",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024462,
+        "images": [
+          "https://cf.shopee.sg/file/5b826b57fd5ec5aa4a27582cedde0360",
+          "https://cf.shopee.sg/file/6b7c0d5544d1f81148633fb2269646dc",
+          "https://cf.shopee.sg/file/c489109a0251d26409eb0e4570e61eaa",
+          "https://cf.shopee.sg/file/8b615d612439828da50862b2b7b5721e",
+          "https://cf.shopee.sg/file/174f8b2598c84e3bc8bb8b55948b5ead",
+          "https://cf.shopee.sg/file/6bcf49a5adb34e1d17e85bc516b3d203"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100662, "category_name": "Trang điểm" },
+          { "category_id": 100881, "category_name": "Trang điểm mặt" },
+          { "category_id": 101631, "category_name": "Che khuyết điểm" }
+        ],
+        "category_id": 101631,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Tạo khối & bắt sáng",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024462,
+        "images": [
+          "https://cf.shopee.sg/file/66d06983953d831cbbe5a219e7a55d21",
+          "https://cf.shopee.sg/file/efccf316f66fbcf0f26137d517d8c7bf",
+          "https://cf.shopee.sg/file/307200b5bdc4a5c8f47e08c02def5dfb",
+          "https://cf.shopee.sg/file/e77fc50722580d3313ea97987cccf426",
+          "https://cf.shopee.sg/file/ee77c654ede0005174d274e3f6364cc5",
+          "https://cf.shopee.sg/file/d56f519fe2452203a049f3b42f5e4199"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100662, "category_name": "Trang điểm" },
+          { "category_id": 100881, "category_name": "Trang điểm mặt" },
+          { "category_id": 101632, "category_name": "Tạo khối & bắt sáng" }
+        ],
+        "category_id": 101632,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Xịt giữ makeup",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024462,
+        "images": [
+          "https://cf.shopee.sg/file/7ca8c28beb91e29af06107042ad65f3e",
+          "https://cf.shopee.sg/file/2dc71f6d55e5fcea993793d804d96107",
+          "https://cf.shopee.sg/file/c35516785e2955253d99962365873872",
+          "https://cf.shopee.sg/file/9aa9600031271a69b4359dca8d5b6224",
+          "https://cf.shopee.sg/file/62d3344c4fade953f76d165412569e94",
+          "https://cf.shopee.sg/file/a622a77514962e8710469d7073ece1e1"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100662, "category_name": "Trang điểm" },
+          { "category_id": 100881, "category_name": "Trang điểm mặt" },
+          { "category_id": 101633, "category_name": "Xịt giữ makeup" }
+        ],
+        "category_id": 101633,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Má hồng",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024462,
+        "images": [
+          "https://cf.shopee.sg/file/4d64c0a8a63ccfea0c2783ab2bddb65d",
+          "https://cf.shopee.sg/file/8e4aab0266e1482b600f4d6712ca86a3",
+          "https://cf.shopee.sg/file/ea184cf1a45c4415eab2c3d141b61cd6",
+          "https://cf.shopee.sg/file/aae7adf446ff18a4d5cd23312763ed2b",
+          "https://cf.shopee.sg/file/54704383c61070e1ddeac1c3a9253c59",
+          "https://cf.shopee.sg/file/393b896e0b0a48d8c23a75befe8d5211"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100662, "category_name": "Trang điểm" },
+          { "category_id": 100881, "category_name": "Trang điểm mặt" },
+          { "category_id": 101634, "category_name": "Má hồng" }
+        ],
+        "category_id": 101634,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Khác",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024462,
+        "images": [
+          "https://cf.shopee.sg/file/dd96bcf20ee65b9b074350120bd7b25e",
+          "https://cf.shopee.sg/file/3d4a50353a44cdd1f9ad8b63de9a920f",
+          "https://cf.shopee.sg/file/91b1f9da8f7e54e984925497eed6fb8f",
+          "https://cf.shopee.sg/file/2bfc0b92ed7a5e8099e4860bba5e1fe2",
+          "https://cf.shopee.sg/file/feefe113ab11b39c2150600b6aabc8fb",
+          "https://cf.shopee.sg/file/08aa95945496e352df76a110bcafc03d"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100662, "category_name": "Trang điểm" },
+          { "category_id": 100881, "category_name": "Trang điểm mặt" },
+          { "category_id": 101635, "category_name": "Khác" }
+        ],
+        "category_id": 101635,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Phấn mắt",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024462,
+        "images": [
+          "https://cf.shopee.sg/file/d9535071b2b9a222c3061996ccb72c3a",
+          "https://cf.shopee.sg/file/95c81195328a0ef3b5e4a0696074070b",
+          "https://cf.shopee.sg/file/9a0c1bb66aa500443741df227cb45a80",
+          "https://cf.shopee.sg/file/0f7d4e0100e9efe8ba00228d7282fa41",
+          "https://cf.shopee.sg/file/4c54f1d7b00fc61fff2f9f4b9a94c572",
+          "https://cf.shopee.sg/file/06712b659201465084b91a870ec27a85"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100662, "category_name": "Trang điểm" },
+          { "category_id": 100882, "category_name": "Trang điểm mắt" },
+          { "category_id": 101636, "category_name": "Phấn mắt" }
+        ],
+        "category_id": 101636,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Kem lót mắt",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024462,
+        "images": [
+          "https://cf.shopee.sg/file/f8726bdacd98f376c00ef775564751bf",
+          "https://cf.shopee.sg/file/1531c4bd703db5bba339cd9153da2b75",
+          "https://cf.shopee.sg/file/6881b6084cec767693b3609585308623",
+          "https://cf.shopee.sg/file/6f8156fce51edca9b26cdf13539e6491",
+          "https://cf.shopee.sg/file/04dae93aa0c7c549da0f8cbd230a4db1",
+          "https://cf.shopee.sg/file/855a276acb94259810d9ed5f919a3c7d"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100662, "category_name": "Trang điểm" },
+          { "category_id": 100882, "category_name": "Trang điểm mắt" },
+          { "category_id": 101637, "category_name": "Kem lót mắt" }
+        ],
+        "category_id": 101637,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Bút kẻ mắt",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024462,
+        "images": [
+          "https://cf.shopee.sg/file/d2de1c9d0ec5cd5fa9476fbc0d9567eb",
+          "https://cf.shopee.sg/file/5e47f963a1b1d7f1a2dfaf6d4ac1d877",
+          "https://cf.shopee.sg/file/361863ff4e5bd742cf7e379d4c5d6056",
+          "https://cf.shopee.sg/file/58f5887109f9105fceb3dbe3a60d903c",
+          "https://cf.shopee.sg/file/17595cb9fc16b244fe0542762800f752",
+          "https://cf.shopee.sg/file/b32ccda9a2ab272a699aeaf4836906e2"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100662, "category_name": "Trang điểm" },
+          { "category_id": 100882, "category_name": "Trang điểm mắt" },
+          { "category_id": 101638, "category_name": "Bút kẻ mắt" }
+        ],
+        "category_id": 101638,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Mascara",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024462,
+        "images": [
+          "https://cf.shopee.sg/file/81f475405f7b76e11bda11e5e7a4723f",
+          "https://cf.shopee.sg/file/daee756099963e7d6bb99fa6daece8f6",
+          "https://cf.shopee.sg/file/943af61ddcaa1225875e862ce5648e80",
+          "https://cf.shopee.sg/file/a1801259d0e0843ba39e855ee6f04ac2",
+          "https://cf.shopee.sg/file/2bad233fce48822975d644bab87c51f9",
+          "https://cf.shopee.sg/file/d8dd07c2c0c8312b13679dd3b16d51f9"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100662, "category_name": "Trang điểm" },
+          { "category_id": 100882, "category_name": "Trang điểm mắt" },
+          { "category_id": 101639, "category_name": "Mascara" }
+        ],
+        "category_id": 101639,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Kẻ mày",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024463,
+        "images": [
+          "https://cf.shopee.sg/file/cb12168375af96e88c1517bc47a2e55b",
+          "https://cf.shopee.sg/file/9f8f96b1e5d1f52c919bfb4dbc500c21",
+          "https://cf.shopee.sg/file/b053ffc3681ae37c651a5ee7f4b03ef9",
+          "https://cf.shopee.sg/file/e9831aa8b84149b55714c786f04a3568",
+          "https://cf.shopee.sg/file/69d504ab00c561d45c68ee64d62fcdbe",
+          "https://cf.shopee.sg/file/224d0cc9e37b3b33a8d11f6dfe338675"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100662, "category_name": "Trang điểm" },
+          { "category_id": 100882, "category_name": "Trang điểm mắt" },
+          { "category_id": 101640, "category_name": "Kẻ mày" }
+        ],
+        "category_id": 101640,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Son môi",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024463,
+        "images": [
+          "https://cf.shopee.sg/file/9dd51ef16c81bf0f99f07f790a5df8ef",
+          "https://cf.shopee.sg/file/fbdb093e67e924e94c6aca390f38362b",
+          "https://cf.shopee.sg/file/04269a6245bd4b5958c0eb2deec903d9",
+          "https://cf.shopee.sg/file/25b5a5ae85545ca5d2edac1f0ba907f5",
+          "https://cf.shopee.sg/file/ffc97d802ac9fbe38c74a8b292e26b65",
+          "https://cf.shopee.sg/file/39cdbb1a26eeacf821d35ef3b8cc5341"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100662, "category_name": "Trang điểm" },
+          { "category_id": 100883, "category_name": "Trang điểm môi" },
+          { "category_id": 101642, "category_name": "Son môi" }
+        ],
+        "category_id": 101642,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Son bóng",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024463,
+        "images": [
+          "https://cf.shopee.sg/file/cb11394c56a3ade790bbb24f584e4643",
+          "https://cf.shopee.sg/file/0ae2ad67d1ec921ff6fd97c8b8451593",
+          "https://cf.shopee.sg/file/b767958e9ba7d526822b4d7c5187f288",
+          "https://cf.shopee.sg/file/17d21fa43fbbc1d3cd91c467d803eb3e",
+          "https://cf.shopee.sg/file/e36eb35ee65d0383fd9efa481574e20f",
+          "https://cf.shopee.sg/file/3023dfaf2d1c718e2d1c2db7c3970d9b"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100662, "category_name": "Trang điểm" },
+          { "category_id": 100883, "category_name": "Trang điểm môi" },
+          { "category_id": 101643, "category_name": "Son bóng" }
+        ],
+        "category_id": 101643,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Viền môi",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024463,
+        "images": [
+          "https://cf.shopee.sg/file/64a664b491e541d836f9edadffbb2ff6",
+          "https://cf.shopee.sg/file/6449c941c39e5e70824913778c524c64",
+          "https://cf.shopee.sg/file/19d272fd73dbfd44f6c0e98b170f908b",
+          "https://cf.shopee.sg/file/78d86fbc8bc215951e2204d756192eff",
+          "https://cf.shopee.sg/file/7d9bbfd5785a3dd3496535095b22448e",
+          "https://cf.shopee.sg/file/b82f819b9dff317ec0b88241be646392"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100662, "category_name": "Trang điểm" },
+          { "category_id": 100883, "category_name": "Trang điểm môi" },
+          { "category_id": 101644, "category_name": "Viền môi" }
+        ],
+        "category_id": 101644,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Son tint",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024463,
+        "images": [
+          "https://cf.shopee.sg/file/45686924647d7c3202cd497375a68520",
+          "https://cf.shopee.sg/file/999d317db128ac75a125e6e318ead42e",
+          "https://cf.shopee.sg/file/46dde910d960064782ab6435c9d93d00",
+          "https://cf.shopee.sg/file/9643c7460980c9ad4a818e1b844ee30c",
+          "https://cf.shopee.sg/file/5d057e509f1c22e9f3f03ff743a1dbcc",
+          "https://cf.shopee.sg/file/28312a9e5e9cc785a52ca56be6c1b08a"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100662, "category_name": "Trang điểm" },
+          { "category_id": 100883, "category_name": "Trang điểm môi" },
+          { "category_id": 101645, "category_name": "Son tint" }
+        ],
+        "category_id": 101645,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Son làm căng môi",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024463,
+        "images": [
+          "https://cf.shopee.sg/file/5ba6607d634e7574d47e5770b6582cb8",
+          "https://cf.shopee.sg/file/9e79e6e17b357e9d1ae371eff8f7c697",
+          "https://cf.shopee.sg/file/c17ebd21c941ace88a784b6b32729c62",
+          "https://cf.shopee.sg/file/2169c1a141cea9037f9cc346f8a9501d",
+          "https://cf.shopee.sg/file/1f7810423217d47a9c484ef17d6a41a9",
+          "https://cf.shopee.sg/file/92d6112cc93de2e8e2d662cd2829ce3c"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100662, "category_name": "Trang điểm" },
+          { "category_id": 100883, "category_name": "Trang điểm môi" },
+          { "category_id": 101646, "category_name": "Son làm căng môi" }
+        ],
+        "category_id": 101646,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Tẩy trang",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024463,
+        "images": [
+          "https://cf.shopee.sg/file/28b2f0be5eb46673ce4352c93bbc2c3f",
+          "https://cf.shopee.sg/file/6b708a417cd9c27af82b676576502d1c",
+          "https://cf.shopee.sg/file/d28941256748e38977c7ebdcd8d396d7",
+          "https://cf.shopee.sg/file/b8c9ebeda7ed63869763f3fc68161874",
+          "https://cf.shopee.sg/file/b19bd67802b9a75f8cb4bd6d4cb9c973",
+          "https://cf.shopee.sg/file/d088cc39bc7c96308a6cbf9ee3d7d028"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100662, "category_name": "Trang điểm" },
+          { "category_id": 100884, "category_name": "Tẩy trang" }
+        ],
+        "category_id": 100884,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Bông tẩy trang",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024463,
+        "images": [
+          "https://cf.shopee.sg/file/08ce85829958cabeac387bffb60444db",
+          "https://cf.shopee.sg/file/630a01d8462a66c3c7223230da792a19",
+          "https://cf.shopee.sg/file/edb4fb747aa1c6182f2b636005d72cee",
+          "https://cf.shopee.sg/file/c1e3cb8b0b8b94d1468d7bff3e663662",
+          "https://cf.shopee.sg/file/25facc3931eeaa55114ae2b4e015b419",
+          "https://cf.shopee.sg/file/b0c4cd5443bd3eb3a9dcfc19732d98a9"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100663, "category_name": "Dụng cụ làm đẹp" },
+          { "category_id": 100885, "category_name": "Dụng cụ trang điểm" },
+          { "category_id": 101649, "category_name": "Bông tẩy trang" }
+        ],
+        "category_id": 101649,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Túi đựng đồ trang điểm",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024463,
+        "images": [
+          "https://cf.shopee.sg/file/71af7dfa6668e780a07f9f15031ebaa7",
+          "https://cf.shopee.sg/file/7a1ea4ad4b82e30d3ba651820ef4fd6d",
+          "https://cf.shopee.sg/file/a2f14810badd8929173407a9bb5cf42e",
+          "https://cf.shopee.sg/file/be8720afb4680bc93213bb3817ced382",
+          "https://cf.shopee.sg/file/bfeac8f5f499f55ee81a88ace20b858e",
+          "https://cf.shopee.sg/file/380234a69ac22642b672f86f2b721bb4"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100663, "category_name": "Dụng cụ làm đẹp" },
+          { "category_id": 100885, "category_name": "Dụng cụ trang điểm" },
+          { "category_id": 101650, "category_name": "Túi đựng đồ trang điểm" }
+        ],
+        "category_id": 101650,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Gương",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024463,
+        "images": [
+          "https://cf.shopee.sg/file/69b5f631d663bcd14ad7e2e864c12b25",
+          "https://cf.shopee.sg/file/3991cd198ac6b6cbb1296c0fe7fe1ff5",
+          "https://cf.shopee.sg/file/ad1aa3fad3ae7203e6ae73c759c5f1dc",
+          "https://cf.shopee.sg/file/eac1d66c9cc5e6c35bf922caa959f4c0",
+          "https://cf.shopee.sg/file/c62d63e44a855684296d5f15070eae83",
+          "https://cf.shopee.sg/file/e0ef15dc18bfea6cea8bee617582b19b"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100663, "category_name": "Dụng cụ làm đẹp" },
+          { "category_id": 100885, "category_name": "Dụng cụ trang điểm" },
+          { "category_id": 101651, "category_name": "Gương" }
+        ],
+        "category_id": 101651,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Dung dịch làm sạch cọ trang điểm",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024464,
+        "images": [
+          "https://cf.shopee.sg/file/baa3dc39362d93109025505669937d7f",
+          "https://cf.shopee.sg/file/a5a4369348eb9f7419205fb38d0d6ddf",
+          "https://cf.shopee.sg/file/3444d91e5030de112d1b7491940772a5",
+          "https://cf.shopee.sg/file/657476db9779f10ac39ee27378dbe126",
+          "https://cf.shopee.sg/file/0c19ffb8b35412539e62c87060bd57c7",
+          "https://cf.shopee.sg/file/91cddadfade37eb1f27d4aea81e748d4"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100663, "category_name": "Dụng cụ làm đẹp" },
+          { "category_id": 100885, "category_name": "Dụng cụ trang điểm" },
+          {
+            "category_id": 101652,
+            "category_name": "Dung dịch làm sạch cọ trang điểm"
+          }
+        ],
+        "category_id": 101652,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Cọ trang điểm",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024464,
+        "images": [
+          "https://cf.shopee.sg/file/832beeae45030be95c8bd9834d20feb8",
+          "https://cf.shopee.sg/file/a434106c9a944618b6e74da8cb11dcf9",
+          "https://cf.shopee.sg/file/bd53517e865d42e7ed6d112aec9a895b",
+          "https://cf.shopee.sg/file/a3ff5fb55dc9d2c554f2a08b5d0d1518",
+          "https://cf.shopee.sg/file/c501076655d7308663d1274df32670b8",
+          "https://cf.shopee.sg/file/7a2f53ea31f1797422e3c9aadce91121"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100663, "category_name": "Dụng cụ làm đẹp" },
+          { "category_id": 100885, "category_name": "Dụng cụ trang điểm" },
+          { "category_id": 101653, "category_name": "Cọ trang điểm" }
+        ],
+        "category_id": 101653,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Bông mút trang điểm",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024464,
+        "images": [
+          "https://cf.shopee.sg/file/241fa92ceabd1e454adee77c9276524a",
+          "https://cf.shopee.sg/file/ba7a22fa31fddbf27f2880d7c622355e",
+          "https://cf.shopee.sg/file/fe2221dabeba7089065686fd21c9e24d",
+          "https://cf.shopee.sg/file/df7a150c65f8fc001ba2bc83a6fb1584",
+          "https://cf.shopee.sg/file/4b25a53c4b00e44120bfe378c2b620de",
+          "https://cf.shopee.sg/file/225b45eb3886571347bb7b57eaf74cb0"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100663, "category_name": "Dụng cụ làm đẹp" },
+          { "category_id": 100885, "category_name": "Dụng cụ trang điểm" },
+          { "category_id": 101654, "category_name": "Bông mút trang điểm" }
+        ],
+        "category_id": 101654,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Kẹp bấm mi",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024464,
+        "images": [
+          "https://cf.shopee.sg/file/7d6f52f3acabb9cb82402e2327c7a6ec",
+          "https://cf.shopee.sg/file/9645f509f8a5e39248004ce2a3e569bd",
+          "https://cf.shopee.sg/file/60a81450b87a5c9ec8497444c4883f88",
+          "https://cf.shopee.sg/file/fcf405123131cdd9572343883c0d02b2",
+          "https://cf.shopee.sg/file/3154567076b02737f690d572a6b53832",
+          "https://cf.shopee.sg/file/d2738a8ecd433463798510ce206c60f3"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100663, "category_name": "Dụng cụ làm đẹp" },
+          { "category_id": 100885, "category_name": "Dụng cụ trang điểm" },
+          { "category_id": 101655, "category_name": "Kẹp bấm mi" }
+        ],
+        "category_id": 101655,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Khuôn kẻ chân mày",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024464,
+        "images": [
+          "https://cf.shopee.sg/file/830b7251fef058dda941f33e66e52891",
+          "https://cf.shopee.sg/file/335f1f84c86d6fb1ebc3ea9e23e64d82",
+          "https://cf.shopee.sg/file/c1aa54f1fff29814e79efb0e3d29b4a3",
+          "https://cf.shopee.sg/file/7114b481e5c3edc283dcc066a6129b23",
+          "https://cf.shopee.sg/file/0e7bcb47e2a3c6f41cbf72f6822a3343",
+          "https://cf.shopee.sg/file/94d6490b9eae57fcd32cc19f69a43a49"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100663, "category_name": "Dụng cụ làm đẹp" },
+          { "category_id": 100885, "category_name": "Dụng cụ trang điểm" },
+          { "category_id": 101656, "category_name": "Khuôn kẻ chân mày" }
+        ],
+        "category_id": 101656,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Mi giả",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024464,
+        "images": [
+          "https://cf.shopee.sg/file/03e7d6ba6f8c652299ad7ceb39108a8b",
+          "https://cf.shopee.sg/file/8a5d5a4180e5b3f1b36b1a4d45d62a0e",
+          "https://cf.shopee.sg/file/f4443d581f124220a2964186da044dbe",
+          "https://cf.shopee.sg/file/1cc32c92a40c88f30bb91e2f475017b7",
+          "https://cf.shopee.sg/file/e81d4c75cfacc88385167466891fd37f",
+          "https://cf.shopee.sg/file/8c9654dc7e90f5fe7833d3768712babb"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100663, "category_name": "Dụng cụ làm đẹp" },
+          { "category_id": 100885, "category_name": "Dụng cụ trang điểm" },
+          { "category_id": 101657, "category_name": "Mi giả" }
+        ],
+        "category_id": 101657,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Miếng dán mí & keo dán mí",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024464,
+        "images": [
+          "https://cf.shopee.sg/file/d0f74c3591242f89c621fdca0cd96cf0",
+          "https://cf.shopee.sg/file/690c66562eff7f841011c519657503a7",
+          "https://cf.shopee.sg/file/b4e0236a395f5f256736299027b0fb9a",
+          "https://cf.shopee.sg/file/49407f6a2edfd96dd08c959ab3f71382",
+          "https://cf.shopee.sg/file/492dd3b871d80be8d7315136c95d899c",
+          "https://cf.shopee.sg/file/e5ee8792bd2f23125b4030582a00f671"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100663, "category_name": "Dụng cụ làm đẹp" },
+          { "category_id": 100885, "category_name": "Dụng cụ trang điểm" },
+          {
+            "category_id": 101658,
+            "category_name": "Miếng dán mí & keo dán mí"
+          }
+        ],
+        "category_id": 101658,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Chuốt chì kẻ mày",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024464,
+        "images": [
+          "https://cf.shopee.sg/file/61c389781a48331551babdf587cb30dc",
+          "https://cf.shopee.sg/file/85394c5972ba027105a415856154de23",
+          "https://cf.shopee.sg/file/14f8e35339cfef0efe9605c45793fc73",
+          "https://cf.shopee.sg/file/c3af3b5587ee65d540cd04323452726e",
+          "https://cf.shopee.sg/file/5f6de110860097e7c1da08a1dcdcf121",
+          "https://cf.shopee.sg/file/779c78e13f2c5018a691b99d5d163010"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100663, "category_name": "Dụng cụ làm đẹp" },
+          { "category_id": 100885, "category_name": "Dụng cụ trang điểm" },
+          { "category_id": 101659, "category_name": "Chuốt chì kẻ mày" }
+        ],
+        "category_id": 101659,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Máy xông mặt",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024464,
+        "images": [
+          "https://cf.shopee.sg/file/bea2ee4cc6ef05f685fed8e8133b12df",
+          "https://cf.shopee.sg/file/23a6a394e5e9b1357d95ba28925d14b0",
+          "https://cf.shopee.sg/file/b8eb3ff196043e142088b356f1bc1f91",
+          "https://cf.shopee.sg/file/5f6586aab172590c5713f72e1480f206",
+          "https://cf.shopee.sg/file/eaa5552dc5662acb9d0271e65342dac0",
+          "https://cf.shopee.sg/file/dc02f8e0a06f647a9e011d17184591b2"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100663, "category_name": "Dụng cụ làm đẹp" },
+          { "category_id": 100886, "category_name": "Dụng cụ chăm sóc da mặt" },
+          { "category_id": 101660, "category_name": "Máy xông mặt" }
+        ],
+        "category_id": 101660,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Dụng cụ làm thon gọn & mát xa mặt",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024464,
+        "images": [
+          "https://cf.shopee.sg/file/c7d0608114aace2fc989919b612eb4b9",
+          "https://cf.shopee.sg/file/8e211dcb29b651ff1c9d5be34e3f38de",
+          "https://cf.shopee.sg/file/9679a90300d4eaf5c03dc369f346f701",
+          "https://cf.shopee.sg/file/4d5c7e9c4466f4559231c1bd4f6d4ab4",
+          "https://cf.shopee.sg/file/fae89d5f6728900cbee7552d7c0dcf3c",
+          "https://cf.shopee.sg/file/007193dea150d591ee1657a1ca49483e"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100663, "category_name": "Dụng cụ làm đẹp" },
+          { "category_id": 100886, "category_name": "Dụng cụ chăm sóc da mặt" },
+          {
+            "category_id": 101661,
+            "category_name": "Dụng cụ làm thon gọn & mát xa mặt"
+          }
+        ],
+        "category_id": 101661,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Dụng cụ rửa mặt",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024464,
+        "images": [
+          "https://cf.shopee.sg/file/1e677ea3c471aac1ff9fde6f82aeabd9",
+          "https://cf.shopee.sg/file/76baba2ac1d6ac34357c7a33e8b5ecd3",
+          "https://cf.shopee.sg/file/92954ae46c4e211f6cc76ac1f3857efe",
+          "https://cf.shopee.sg/file/a218e511884b2c81e7861766e6aade1b",
+          "https://cf.shopee.sg/file/b76da04b980dd5ea46573649ed438ff4",
+          "https://cf.shopee.sg/file/f1ed8540da4ce54977a0822c3757bc20"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100663, "category_name": "Dụng cụ làm đẹp" },
+          { "category_id": 100886, "category_name": "Dụng cụ chăm sóc da mặt" },
+          { "category_id": 101662, "category_name": "Dụng cụ rửa mặt" }
+        ],
+        "category_id": 101662,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Dụng cụ làm thon gọn cơ thể",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024464,
+        "images": [
+          "https://cf.shopee.sg/file/d06e20c6a53652eba61445804c769b52",
+          "https://cf.shopee.sg/file/a6ace8d3365ce35cc26bc2b4a27c33ca",
+          "https://cf.shopee.sg/file/484c27d2aaa22ae914f3b3d36c7f7816",
+          "https://cf.shopee.sg/file/edc5daa4bcdcd279273107d2c8ab906b",
+          "https://cf.shopee.sg/file/53662421047f821eff3761b6ba077d9c",
+          "https://cf.shopee.sg/file/b0ebfe07e9ec3a2da5c36e7371764a85"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100663, "category_name": "Dụng cụ làm đẹp" },
+          {
+            "category_id": 100887,
+            "category_name": "Dụng cụ làm thon gọn cơ thể"
+          }
+        ],
+        "category_id": 100887,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Dụng cụ tẩy lông",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024465,
+        "images": [
+          "https://cf.shopee.sg/file/87a7166df4757d334350e547b4b28c36",
+          "https://cf.shopee.sg/file/0612149e44f187008aa6a1f86a12cfd4",
+          "https://cf.shopee.sg/file/2c35efdd009b0832b1861ee0d7a14346",
+          "https://cf.shopee.sg/file/bbf82b1d19f46e1e7c6bb9ad53dd1b46",
+          "https://cf.shopee.sg/file/7aa6d6714f4412b5de9cb9e9a1290f8e",
+          "https://cf.shopee.sg/file/80f7ff6886f3c70fe07897d0787750de"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100663, "category_name": "Dụng cụ làm đẹp" },
+          { "category_id": 100888, "category_name": "Dụng cụ tẩy lông" }
+        ],
+        "category_id": 100888,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Lược chải",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024465,
+        "images": [
+          "https://cf.shopee.sg/file/b3d5a24f6c3288e6faa09e861a326a80",
+          "https://cf.shopee.sg/file/5a7f65b223e3c427dd2438c7642ae142",
+          "https://cf.shopee.sg/file/b8afb61d1acec1ec85b4b953e3e683f9",
+          "https://cf.shopee.sg/file/a210a3b0b04d6e42615c27f590c4bee3",
+          "https://cf.shopee.sg/file/970aa68999c2faeb5f342aad37d119e4",
+          "https://cf.shopee.sg/file/ae2e6f10d0cb4a714e82679f1da361d6"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100663, "category_name": "Dụng cụ làm đẹp" },
+          { "category_id": 100889, "category_name": "Dụng cụ chăm sóc tóc" },
+          { "category_id": 101664, "category_name": "Lược chải" }
+        ],
+        "category_id": 101664,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Máy sấy tóc",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024465,
+        "images": [
+          "https://cf.shopee.sg/file/2fdd2c66ea30b7ee4eafff85bd3278d8",
+          "https://cf.shopee.sg/file/af4dce1fda8eedb22879334967ea6b32",
+          "https://cf.shopee.sg/file/96fdbf2b290f5a1b901a4f34235b9d5a",
+          "https://cf.shopee.sg/file/76844bfcad60dd042dafa155e0639ac2",
+          "https://cf.shopee.sg/file/222d3d097236616e2a27807d7a6c1047",
+          "https://cf.shopee.sg/file/eecd2497316e0f32f5a64dfaabad803e"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100663, "category_name": "Dụng cụ làm đẹp" },
+          { "category_id": 100889, "category_name": "Dụng cụ chăm sóc tóc" },
+          { "category_id": 101665, "category_name": "Máy sấy tóc" }
+        ],
+        "category_id": 101665,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Máy tạo kiểu tóc",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024465,
+        "images": [
+          "https://cf.shopee.sg/file/11d2a4bf81ec55795adecda41e4ba92c",
+          "https://cf.shopee.sg/file/6f4af614856bd8bd629955c39b7a9dc1",
+          "https://cf.shopee.sg/file/616547f9c3697410aad2c256ce5dbb8c",
+          "https://cf.shopee.sg/file/c2e1a023bebc2934d44c4fb346932250",
+          "https://cf.shopee.sg/file/0363f6fec15fcd5209d568d506a7631f",
+          "https://cf.shopee.sg/file/906db3c9ad59b11505dfc37a11d7edb6"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100663, "category_name": "Dụng cụ làm đẹp" },
+          { "category_id": 100889, "category_name": "Dụng cụ chăm sóc tóc" },
+          { "category_id": 101666, "category_name": "Máy tạo kiểu tóc" }
+        ],
+        "category_id": 101666,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Dụng cụ tạo kiểu không nhiệt",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024465,
+        "images": [
+          "https://cf.shopee.sg/file/f06167fee44e9bb97299bd9f31f757c0",
+          "https://cf.shopee.sg/file/e17017ec8f1bd757893df3f91f1b8d4d",
+          "https://cf.shopee.sg/file/622f85f6c874bb5fe8ac256d0bbd879d",
+          "https://cf.shopee.sg/file/9e4f3da449ff499e078add279c8376f5",
+          "https://cf.shopee.sg/file/6e3796664b8f6c97ffc2944d91825d72",
+          "https://cf.shopee.sg/file/824ad18c33512739190352d637ee1e04"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100663, "category_name": "Dụng cụ làm đẹp" },
+          { "category_id": 100889, "category_name": "Dụng cụ chăm sóc tóc" },
+          {
+            "category_id": 101667,
+            "category_name": "Dụng cụ tạo kiểu không nhiệt"
+          }
+        ],
+        "category_id": 101667,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Khác",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024465,
+        "images": [
+          "https://cf.shopee.sg/file/af3c9041702ee53ae5ed434647e1bbfe",
+          "https://cf.shopee.sg/file/9757e638e8396a551d5df75b85a468ba",
+          "https://cf.shopee.sg/file/816fab79521858d78b7677772c72696c",
+          "https://cf.shopee.sg/file/a954cdbe9f77cbfd1546821b02b2e644",
+          "https://cf.shopee.sg/file/34f0a79dcf3e8e7579f4339ceaf34a10",
+          "https://cf.shopee.sg/file/e5b577c1229ddd84f157efd580b45648"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100663, "category_name": "Dụng cụ làm đẹp" },
+          { "category_id": 100889, "category_name": "Dụng cụ chăm sóc tóc" },
+          { "category_id": 101668, "category_name": "Khác" }
+        ],
+        "category_id": 101668,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Khác",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024465,
+        "images": [
+          "https://cf.shopee.sg/file/e2585473ecc23271beacf50218b3b5a3",
+          "https://cf.shopee.sg/file/7284e8147ca4a1b95eceb4847b80fdf3",
+          "https://cf.shopee.sg/file/2e08e1e69a209f6cced7499500749ffe",
+          "https://cf.shopee.sg/file/a9ce1d969b533ed7f01d613c3b361e91",
+          "https://cf.shopee.sg/file/3e2e5b269fc52e5f216461e7a2e4b429",
+          "https://cf.shopee.sg/file/d879839d48b707daf3f99cbd110710f8"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100663, "category_name": "Dụng cụ làm đẹp" },
+          { "category_id": 100890, "category_name": "Khác" }
+        ],
+        "category_id": 100890,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Sữa rửa mặt",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024465,
+        "images": [
+          "https://cf.shopee.sg/file/fec86f8478ee51f8f427f8ae953c97fb",
+          "https://cf.shopee.sg/file/b26715e0e37c58cea0db402845f30c87",
+          "https://cf.shopee.sg/file/df6eea7ab35cc7b8f7c5a118003fd2ae",
+          "https://cf.shopee.sg/file/5d0169b9165078e60113c54d6ef50841",
+          "https://cf.shopee.sg/file/6472d111d5327ee8c83681e8dde1439a",
+          "https://cf.shopee.sg/file/7b1e17ae917f33756432f7983e266726"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100664, "category_name": "Chăm sóc da mặt" },
+          { "category_id": 100891, "category_name": "Sữa rửa mặt" }
+        ],
+        "category_id": 100891,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Nước cân bằng da",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024465,
+        "images": [
+          "https://cf.shopee.sg/file/16abd1cf06721485f3c988800bcff82b",
+          "https://cf.shopee.sg/file/2556d485c0c48246d947285aebf6389a",
+          "https://cf.shopee.sg/file/97d5ade8fbc038ddb773b4bf0006c239",
+          "https://cf.shopee.sg/file/27a921434c27991619559a7cff28cdaf",
+          "https://cf.shopee.sg/file/dd447a8d0a8e2e61ba81da0a7890f94a",
+          "https://cf.shopee.sg/file/53c3733dba780984759b809ff2ec9880"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100664, "category_name": "Chăm sóc da mặt" },
+          { "category_id": 100892, "category_name": "Nước cân bằng da" }
+        ],
+        "category_id": 100892,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Kem dưỡng ẩm",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024465,
+        "images": [
+          "https://cf.shopee.sg/file/6007cbf9cda968dca10a8c67a3d6a302",
+          "https://cf.shopee.sg/file/d5a85267eeb2c1f5f46dfa6f84c9d4c2",
+          "https://cf.shopee.sg/file/e08b7a5f96c358cca5f5984c700f0b43",
+          "https://cf.shopee.sg/file/4370c74d0d252bdc540f4f9eca703f15",
+          "https://cf.shopee.sg/file/fe458087fac5a924823101685e4cf9de",
+          "https://cf.shopee.sg/file/67ca9dc9d17c6f7f022b42d7fd6a25a9"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100664, "category_name": "Chăm sóc da mặt" },
+          { "category_id": 100893, "category_name": "Kem dưỡng ẩm" }
+        ],
+        "category_id": 100893,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Dầu dưỡng ẩm",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024465,
+        "images": [
+          "https://cf.shopee.sg/file/036b1394ab7aa2e34458c7179a607314",
+          "https://cf.shopee.sg/file/b0e35b4ad303d024fa7e1b1dc514787d",
+          "https://cf.shopee.sg/file/3bfe1deb0483ed8d68f1854d38f033a7",
+          "https://cf.shopee.sg/file/26ee71c03989574f8806354e5259db35",
+          "https://cf.shopee.sg/file/6cee1a73b204b7469a89c2ad752d1d90",
+          "https://cf.shopee.sg/file/95c63db15a6121b77db989acc79f1528"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100664, "category_name": "Chăm sóc da mặt" },
+          { "category_id": 100894, "category_name": "Dầu dưỡng ẩm" }
+        ],
+        "category_id": 100894,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Tinh chất dưỡng",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024465,
+        "images": [
+          "https://cf.shopee.sg/file/22f45bb9355666a6aee1405f28f3959c",
+          "https://cf.shopee.sg/file/7723a2ada1529d13256a95381666dcf8",
+          "https://cf.shopee.sg/file/4962750ad5132094778b649accb935dc",
+          "https://cf.shopee.sg/file/5f5cbd6cf3d3d246415e6b0145f42c41",
+          "https://cf.shopee.sg/file/d00cf7fa5d0c7c41c145f310ec3ee5e4",
+          "https://cf.shopee.sg/file/3babfaf0aade9977884723e53d57d726"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100664, "category_name": "Chăm sóc da mặt" },
+          { "category_id": 100896, "category_name": "Tinh chất dưỡng" }
+        ],
+        "category_id": 100896,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Tẩy tế bào chết",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024465,
+        "images": [
+          "https://cf.shopee.sg/file/1aa2fcad5064cd6f7d427bc0869f72c7",
+          "https://cf.shopee.sg/file/3f112fb8b0798ab3a29077d7977782d1",
+          "https://cf.shopee.sg/file/bc5ffc3915a2001a6a26d14d12fd718e",
+          "https://cf.shopee.sg/file/dbdc8e4c21dd4eaa4687f140b38a3cc6",
+          "https://cf.shopee.sg/file/fb11b19c44d79a09dc511a6e6b3670bd",
+          "https://cf.shopee.sg/file/a7436a8a437e7b520e3135b90f125323"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100664, "category_name": "Chăm sóc da mặt" },
+          { "category_id": 100897, "category_name": "Tẩy tế bào chết" }
+        ],
+        "category_id": 100897,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Mặt nạ",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024466,
+        "images": [
+          "https://cf.shopee.sg/file/283a2f55ecba6d1afec2b5f33e6f3c7f",
+          "https://cf.shopee.sg/file/0ae227faa9c3c24a5a13f670be8d7645",
+          "https://cf.shopee.sg/file/d371f68687261baea1c478f7cee13d38",
+          "https://cf.shopee.sg/file/985536de213febff1af343d9d7a7e3c4",
+          "https://cf.shopee.sg/file/9df5ac9b90ae32911233475c9ba38bc5",
+          "https://cf.shopee.sg/file/bc8b5fa445f1cdd7881e752cfc2c662f"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100664, "category_name": "Chăm sóc da mặt" },
+          { "category_id": 100898, "category_name": "Mặt nạ" }
+        ],
+        "category_id": 100898,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Kem dưỡng mắt",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024466,
+        "images": [
+          "https://cf.shopee.sg/file/479e513efcaac3387bf6861564c283a5",
+          "https://cf.shopee.sg/file/c3af2032f7686f50ec70c31bdc24741a",
+          "https://cf.shopee.sg/file/a5f32607e13ff836e94fefc6d3296434",
+          "https://cf.shopee.sg/file/1c96c310629c00793fb8890180fe0414",
+          "https://cf.shopee.sg/file/3847e6a6b91c2bdc9d77ba1d65fc43db",
+          "https://cf.shopee.sg/file/de99e99e7106d1e6d6f7feb48d785992"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100664, "category_name": "Chăm sóc da mặt" },
+          { "category_id": 100899, "category_name": "Sản phẩm dưỡng mắt" },
+          { "category_id": 101669, "category_name": "Kem dưỡng mắt" }
+        ],
+        "category_id": 101669,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Mặt nạ cho mắt",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024466,
+        "images": [
+          "https://cf.shopee.sg/file/ccc2156d3745c21aa287a29a1d11a093",
+          "https://cf.shopee.sg/file/a3c9d008a4addb438f1cf3a1b95dadf3",
+          "https://cf.shopee.sg/file/38db683764607fd7b9dca50625ca4ed0",
+          "https://cf.shopee.sg/file/95c1b7406cab93d6fa63644df779bfdb",
+          "https://cf.shopee.sg/file/d8f6f3d41ca020cf6afcb8ef067e9694",
+          "https://cf.shopee.sg/file/06d24703695bec0eef4584e148e1f96f"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100664, "category_name": "Chăm sóc da mặt" },
+          { "category_id": 100899, "category_name": "Sản phẩm dưỡng mắt" },
+          { "category_id": 101670, "category_name": "Mặt nạ cho mắt" }
+        ],
+        "category_id": 101670,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Tinh chất dưỡng mày & mi",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024466,
+        "images": [
+          "https://cf.shopee.sg/file/db76398fb852c9a21a0bf33517df0d6a",
+          "https://cf.shopee.sg/file/c25120d763ec1dc8bc995e7f17d5a7af",
+          "https://cf.shopee.sg/file/1a5950d0460cf2dc49484dd879e2953c",
+          "https://cf.shopee.sg/file/9d549f77c153f8b841d55b9f8ec80579",
+          "https://cf.shopee.sg/file/27ca01eb616693b95d541b15a4487189",
+          "https://cf.shopee.sg/file/da3db86ec221fcf699dc9c1786cf3ef6"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100664, "category_name": "Chăm sóc da mặt" },
+          { "category_id": 100899, "category_name": "Sản phẩm dưỡng mắt" },
+          { "category_id": 101671, "category_name": "Tinh chất dưỡng mày & mi" }
+        ],
+        "category_id": 101671,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Son dưỡng môi",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024466,
+        "images": [
+          "https://cf.shopee.sg/file/efcb0208119fcad394a2827bb04eb68b",
+          "https://cf.shopee.sg/file/aac7f62a1f336d96e8efbf5affa53527",
+          "https://cf.shopee.sg/file/de5b8dd87c5922404c725f3813d2cc23",
+          "https://cf.shopee.sg/file/6ea7c2f0a5fc3253d1c7d8e9e5fc373c",
+          "https://cf.shopee.sg/file/98a87c75407a8638e0891c5d78337427",
+          "https://cf.shopee.sg/file/53e0072a5e6d3156da6f28bc787e0004"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100664, "category_name": "Chăm sóc da mặt" },
+          { "category_id": 100900, "category_name": "Sản phẩm dưỡng môi" },
+          { "category_id": 101673, "category_name": "Son dưỡng môi" }
+        ],
+        "category_id": 101673,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Tẩy tế bào chết môi",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024466,
+        "images": [
+          "https://cf.shopee.sg/file/bae2ae9920ea15c9c0e1cbd5b754b4a5",
+          "https://cf.shopee.sg/file/0f383100a72059beedc2530d62e4ccb8",
+          "https://cf.shopee.sg/file/7f85e9514023d9b66d6e3c778751d806",
+          "https://cf.shopee.sg/file/43fa06c6f043df93200677cb72695c8a",
+          "https://cf.shopee.sg/file/59ec7a61d2c7f0d0d9747b24c6a51943",
+          "https://cf.shopee.sg/file/86839069b37ca3cf6401fbd9e8dc508f"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100664, "category_name": "Chăm sóc da mặt" },
+          { "category_id": 100900, "category_name": "Sản phẩm dưỡng môi" },
+          { "category_id": 101674, "category_name": "Tẩy tế bào chết môi" }
+        ],
+        "category_id": 101674,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Mặt nạ cho môi",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024466,
+        "images": [
+          "https://cf.shopee.sg/file/7f0517c8e91643980be5940ddeda884f",
+          "https://cf.shopee.sg/file/074e7c3ef3bd42c73cfd08cb71b8a99a",
+          "https://cf.shopee.sg/file/8e92bf8cf8276e667a182e6958027e06",
+          "https://cf.shopee.sg/file/721af8ea9d7f858136d76bb5c4731c41",
+          "https://cf.shopee.sg/file/c8190d3e097ba2311a2fa474c26e5ea9",
+          "https://cf.shopee.sg/file/a92569aec2619d5655429c4ae9ef79ba"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100664, "category_name": "Chăm sóc da mặt" },
+          { "category_id": 100900, "category_name": "Sản phẩm dưỡng môi" },
+          { "category_id": 101675, "category_name": "Mặt nạ cho môi" }
+        ],
+        "category_id": 101675,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Kem chống nắng cho mặt",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024466,
+        "images": [
+          "https://cf.shopee.sg/file/0361c7a4fa1ec4f6dba3b16b9a254cec",
+          "https://cf.shopee.sg/file/2083bbb26531de711e6e2d74139c8bd5",
+          "https://cf.shopee.sg/file/91397d5ae6ff4cd7ab1fc022dd1efe23",
+          "https://cf.shopee.sg/file/65cca7637a9fe5f0f3c78775fe57c4f2",
+          "https://cf.shopee.sg/file/bf2af3b2b1d5a92991c57bfe35c1af54",
+          "https://cf.shopee.sg/file/babbe7998fc49a5c28f32e756df513cb"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100664, "category_name": "Chăm sóc da mặt" },
+          { "category_id": 100901, "category_name": "Kem chống nắng cho mặt" }
+        ],
+        "category_id": 100901,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Kem dưỡng sau chống nắng",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024466,
+        "images": [
+          "https://cf.shopee.sg/file/4d7a33dc1f35dc6afbf899b1f5cc8cdb",
+          "https://cf.shopee.sg/file/c0f38cba86a00083cb1649d796528e5e",
+          "https://cf.shopee.sg/file/5cadf5058348dbc040ccbe0f5b15c468",
+          "https://cf.shopee.sg/file/2ac0e633ebbe52f1ef81d2ab7caef9d6",
+          "https://cf.shopee.sg/file/ac28e96d8a78a400a1a0f235ba3eb599",
+          "https://cf.shopee.sg/file/1ba89026f27eb21029bb12c7a78de215"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100664, "category_name": "Chăm sóc da mặt" },
+          { "category_id": 100902, "category_name": "Kem dưỡng sau chống nắng" }
+        ],
+        "category_id": 100902,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Giấy thấm dầu",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024466,
+        "images": [
+          "https://cf.shopee.sg/file/4ea6388af3caac86fb5538e995f4f8cc",
+          "https://cf.shopee.sg/file/6414510637dc2a865f09b7dbae14c88b",
+          "https://cf.shopee.sg/file/f947bf096d59d98fbc463d9f21b0615f",
+          "https://cf.shopee.sg/file/db7d4bd1fa8fc609541787a326bb38b6",
+          "https://cf.shopee.sg/file/7740bd48625e076373cca28d5d96ec70",
+          "https://cf.shopee.sg/file/a0d8e33d8f592e83a66694c38dddaf3f"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100664, "category_name": "Chăm sóc da mặt" },
+          { "category_id": 100903, "category_name": "Giấy thấm dầu" }
+        ],
+        "category_id": 100903,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Sản phẩm trị mụn",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024466,
+        "images": [
+          "https://cf.shopee.sg/file/8d112d6fb29ffcd909fef85d5b1fa7e6",
+          "https://cf.shopee.sg/file/954fac9269aa58229d7f627d6ce3ba7d",
+          "https://cf.shopee.sg/file/30da8669fbec60b4d50a98e33ccf7f85",
+          "https://cf.shopee.sg/file/8ee554b017f25d4d10ac1ddbe518b6dc",
+          "https://cf.shopee.sg/file/09c89cfabad230357e4446f568c0d3b1",
+          "https://cf.shopee.sg/file/e1c700a562a9fbaadc118821998eb4da"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100664, "category_name": "Chăm sóc da mặt" },
+          { "category_id": 100904, "category_name": "Sản phẩm trị mụn" }
+        ],
+        "category_id": 100904,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Bộ sản phẩm làm đẹp",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024466,
+        "images": [
+          "https://cf.shopee.sg/file/e5cb37e516f1e956e1b87628356f0f70",
+          "https://cf.shopee.sg/file/b25a5517d080c5d7db3eeb7f3aced9c7",
+          "https://cf.shopee.sg/file/ec1cae7bc327cc378d287f48e4f32577",
+          "https://cf.shopee.sg/file/c726d6076f3b285e3d25ed19e1796574",
+          "https://cf.shopee.sg/file/518270d1e45f0bfb1ad6e5605ddf68a6",
+          "https://cf.shopee.sg/file/6ccad1d15b590936ae5d16083ae53382"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 100665, "category_name": "Bộ sản phẩm làm đẹp" }
+        ],
+        "category_id": 100665,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Xà phòng & sữa tắm",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024467,
+        "images": [
+          "https://cf.shopee.sg/file/018f8f63864d62f26e43b116be11a392",
+          "https://cf.shopee.sg/file/71af49a39277e9d64c6c31989781d17a",
+          "https://cf.shopee.sg/file/02fb68508bd541e8427583705d6fd7b2",
+          "https://cf.shopee.sg/file/d8ca84be2158cbdf37aa14b00b21f454",
+          "https://cf.shopee.sg/file/3b2787c6b2be8f25ebb7241e58d1fba8",
+          "https://cf.shopee.sg/file/33148ba9a4f31e8c3e1a9d29aa77d058"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 102002, "category_name": "Tắm & chăm sóc cơ thể" },
+          { "category_id": 102003, "category_name": "Xà phòng & sữa tắm" }
+        ],
+        "category_id": 102003,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Tẩy tế bào chết cơ thể",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024467,
+        "images": [
+          "https://cf.shopee.sg/file/e286686f831338b650b29447b10ffeff",
+          "https://cf.shopee.sg/file/6a32de01de74e0889e43964c8c7c61a2",
+          "https://cf.shopee.sg/file/6561393a4057a434c54290f3e23080fb",
+          "https://cf.shopee.sg/file/53a8e31245cb2b25649cacfdd3323c73",
+          "https://cf.shopee.sg/file/16b97090bc1d8b49249105c84fa14b47",
+          "https://cf.shopee.sg/file/ac20762d7612e3166d34765f55608c79"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 102002, "category_name": "Tắm & chăm sóc cơ thể" },
+          { "category_id": 102004, "category_name": "Tẩy tế bào chết cơ thể" }
+        ],
+        "category_id": 102004,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Mặt nạ ủ cơ thể",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024467,
+        "images": [
+          "https://cf.shopee.sg/file/2c42d25a2bc0004a12da318c79444f24",
+          "https://cf.shopee.sg/file/1c760d7fd6f28c3eb370dbc0fe3bff80",
+          "https://cf.shopee.sg/file/7fe4dcc52dece7f2f74dde6871a61d76",
+          "https://cf.shopee.sg/file/2c74a2f6ef10c5b357546c82450b7264",
+          "https://cf.shopee.sg/file/f20d2dfdb0f0ae78f6de15e89fd798ee",
+          "https://cf.shopee.sg/file/986047c5b93b99aa38746185ee70860a"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 102002, "category_name": "Tắm & chăm sóc cơ thể" },
+          { "category_id": 102005, "category_name": "Mặt nạ ủ cơ thể" }
+        ],
+        "category_id": 102005,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Dầu dưỡng da",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024467,
+        "images": [
+          "https://cf.shopee.sg/file/7f37bc53f416aeea0fc17a1d66dd79e7",
+          "https://cf.shopee.sg/file/0c4c7377bb389d83ad2ecd87cfc9a503",
+          "https://cf.shopee.sg/file/cfb4b5f0afe335132706ca0606d29099",
+          "https://cf.shopee.sg/file/ac04aeff3962680bbe52c65f1c1d79a9",
+          "https://cf.shopee.sg/file/e82299fb875b1275eef4f020981d20d9",
+          "https://cf.shopee.sg/file/060d0fbe38af4f4b22dcfac53ad4fdfb"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 102002, "category_name": "Tắm & chăm sóc cơ thể" },
+          { "category_id": 102006, "category_name": "Dầu dưỡng da" }
+        ],
+        "category_id": 102006,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Kem & sữa dưỡng thể",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024467,
+        "images": [
+          "https://cf.shopee.sg/file/702b3912fb66b73d26a3544f70c0d577",
+          "https://cf.shopee.sg/file/02922344919b726cdcc4ef7f031cbfca",
+          "https://cf.shopee.sg/file/4080e88aa2418b754ca86e9bcdfdd81d",
+          "https://cf.shopee.sg/file/0e13e044047ecc3c46c111d0fb09f72c",
+          "https://cf.shopee.sg/file/ca21736b6a27145346c414e72d093606",
+          "https://cf.shopee.sg/file/404f989499c7f49d363995cce69f00b5"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 102002, "category_name": "Tắm & chăm sóc cơ thể" },
+          { "category_id": 102007, "category_name": "Kem & sữa dưỡng thể" }
+        ],
+        "category_id": 102007,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Khử mùi cơ thể",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024467,
+        "images": [
+          "https://cf.shopee.sg/file/e9d470aee96bcc43f1b057f3241976d9",
+          "https://cf.shopee.sg/file/66955aeb047ac1c09de774aa786ec1ab",
+          "https://cf.shopee.sg/file/7a98893860011ef359016525e45b9a84",
+          "https://cf.shopee.sg/file/f3f91a5c63fb18246b0243d6e0300b9d",
+          "https://cf.shopee.sg/file/64d0e5a97ef280b54ddadb4bac6b3bc5",
+          "https://cf.shopee.sg/file/032a503d93754fb6bf1b3a87d854e03e"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 102002, "category_name": "Tắm & chăm sóc cơ thể" },
+          { "category_id": 102008, "category_name": "Khử mùi cơ thể" }
+        ],
+        "category_id": 102008,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Dầu massage",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024467,
+        "images": [
+          "https://cf.shopee.sg/file/2b4c84c2218568fb1f835dea05bc4382",
+          "https://cf.shopee.sg/file/ca5135cc956d6373c3e11eea40a54b64",
+          "https://cf.shopee.sg/file/1dffcdffae2692852270814487b5b761",
+          "https://cf.shopee.sg/file/416afb95792104b517538038d4d581a9",
+          "https://cf.shopee.sg/file/1b111ba5ec8e6b34271b89807730bcb0",
+          "https://cf.shopee.sg/file/c92f5a5a40c797fe61ab9b078bc1d821"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 102002, "category_name": "Tắm & chăm sóc cơ thể" },
+          { "category_id": 102009, "category_name": "Dầu massage" }
+        ],
+        "category_id": 102009,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Kem tẩy lông & wax lông",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024467,
+        "images": [
+          "https://cf.shopee.sg/file/0816bdb47f542da5b371c78ce73df0db",
+          "https://cf.shopee.sg/file/857daec7845eb4ef08cb99ce445e964a",
+          "https://cf.shopee.sg/file/234e04aeef02217058e3acbe33d1e92e",
+          "https://cf.shopee.sg/file/082076902edc3b47df12a5aae53614cd",
+          "https://cf.shopee.sg/file/225e13cff8e72a02eb66ac206cf31b3f",
+          "https://cf.shopee.sg/file/eb2a193a81b6dbad2f7b00227d65a8b9"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 102002, "category_name": "Tắm & chăm sóc cơ thể" },
+          { "category_id": 102010, "category_name": "Kem tẩy lông & wax lông" }
+        ],
+        "category_id": 102010,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Chống nắng & chăm sóc sau đi nắng",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024467,
+        "images": [
+          "https://cf.shopee.sg/file/864a45601c4fc47c377386258770f367",
+          "https://cf.shopee.sg/file/c5b6aa49fddf8e51fa99cc115b1f7aed",
+          "https://cf.shopee.sg/file/eb7340fe1684e7677df9a7365c6cf54f",
+          "https://cf.shopee.sg/file/131c1be8a859b268dddd2b8f98fd03a9",
+          "https://cf.shopee.sg/file/d6ed6e84bc4fb45c9730084959a1ed0a",
+          "https://cf.shopee.sg/file/53cd39f0447bafa01e235b69d0c2c93b"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 102002, "category_name": "Tắm & chăm sóc cơ thể" },
+          { "category_id": 102011, "category_name": "Chống nắng" },
+          {
+            "category_id": 102014,
+            "category_name": "Chống nắng & chăm sóc sau đi nắng"
+          }
+        ],
+        "category_id": 102014,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Thuốc nhuộm da",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024467,
+        "images": [
+          "https://cf.shopee.sg/file/9da849832d3bce08c7fe6d60c39e183e",
+          "https://cf.shopee.sg/file/1d0acfe08702c5bdd77d092c075c89f9",
+          "https://cf.shopee.sg/file/e44058101896e71208974650d98de67d",
+          "https://cf.shopee.sg/file/9aa6bd8d69d094237d409d7757812f48",
+          "https://cf.shopee.sg/file/04e7cd4534b307ecc6653b2077adc57a",
+          "https://cf.shopee.sg/file/c657751a7c441f34bcd01d9e7a4b4aaf"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 102002, "category_name": "Tắm & chăm sóc cơ thể" },
+          { "category_id": 102011, "category_name": "Chống nắng" },
+          { "category_id": 102015, "category_name": "Thuốc nhuộm da" }
+        ],
+        "category_id": 102015,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Chăm sóc ngực",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024467,
+        "images": [
+          "https://cf.shopee.sg/file/615c903b46e215378d422050ccbdd16b",
+          "https://cf.shopee.sg/file/45b03a59dbc1991fbfc7a033a7c3fbdf",
+          "https://cf.shopee.sg/file/0d09bbd1c3fef97ec87bee2a324371c8",
+          "https://cf.shopee.sg/file/45d709fdd2410ef75080b6067630a25b",
+          "https://cf.shopee.sg/file/bf12cee1e70675433c94340e02427514",
+          "https://cf.shopee.sg/file/9710846ef5ab42f20349126e56d47c14"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 102002, "category_name": "Tắm & chăm sóc cơ thể" },
+          { "category_id": 102012, "category_name": "Chăm sóc ngực" }
+        ],
+        "category_id": 102012,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Khác",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024467,
+        "images": [
+          "https://cf.shopee.sg/file/83b4e339e2f99be6f19a41a9a7368431",
+          "https://cf.shopee.sg/file/049d325211621a09ddb8fa40ae25c063",
+          "https://cf.shopee.sg/file/8934d8d8e815b05c4b17ce3cf11ce3be",
+          "https://cf.shopee.sg/file/611bd100b74e08d98fa1e4a73d66d63d",
+          "https://cf.shopee.sg/file/1066d4a45669a60dd02ed70aa66af5a8",
+          "https://cf.shopee.sg/file/ad799a82d7d18d342375e5245fbec830"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          { "category_id": 102002, "category_name": "Tắm & chăm sóc cơ thể" },
+          { "category_id": 102013, "category_name": "Khác" }
+        ],
+        "category_id": 102013,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Hỗ trợ kiểm soát cân nặng",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024409,
+        "images": [
+          "https://cf.shopee.sg/file/1279ec7d73da5e43bebc31038821b33a",
+          "https://cf.shopee.sg/file/139d117be614ccb25b350deab658dae0",
+          "https://cf.shopee.sg/file/d891fecca3f35d6ff98934dd6d8a8bb7",
+          "https://cf.shopee.sg/file/28b641216fc559617ca65747bf94123e",
+          "https://cf.shopee.sg/file/989ffa73f9e3113cf970005f11523020",
+          "https://cf.shopee.sg/file/6c5befad4cdcaa833ed4700aae3509d7"
+        ],
+        "path": [
+          { "category_id": 100001, "category_name": "Sức Khỏe" },
+          { "category_id": 100002, "category_name": "Thực phẩm chức năng" },
+          {
+            "category_id": 100003,
+            "category_name": "Hỗ trợ kiểm soát cân nặng"
+          }
+        ],
+        "category_id": 100003,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Hỗ trợ làm đẹp",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024409,
+        "images": [
+          "https://cf.shopee.sg/file/917287f2a3bb02a7f12efb761709515a",
+          "https://cf.shopee.sg/file/0e92dee2283f898b05c42dac61721307",
+          "https://cf.shopee.sg/file/b46f50fe65aa134a44ae570472c18437",
+          "https://cf.shopee.sg/file/01e16bdf94ce26992d2cbe4a7e9000d8",
+          "https://cf.shopee.sg/file/5826c0f59933cf4a00bffd29804d9ebf",
+          "https://cf.shopee.sg/file/e34a4607875c3de26876e258a4633f3f"
+        ],
+        "path": [
+          { "category_id": 100001, "category_name": "Sức Khỏe" },
+          { "category_id": 100002, "category_name": "Thực phẩm chức năng" },
+          { "category_id": 100004, "category_name": "Hỗ trợ làm đẹp" }
+        ],
+        "category_id": 100004,
+        "hl_category_name": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "bff_meta": null,
+  "error": null,
+  "error_msg": null,
+  "data": {
+    "shopid": 267466458,
+    "userid": 267469689,
+    "last_active_time": 1672475416,
+    "vacation": false,
+    "place": "Quận Bắc Từ Liêm, Hà Nội",
+    "account": {
+      "portrait": "0204ea006507f501ef688f85c95efdbc",
+      "username": "vienchibao",
+      "status": 1
+    },
+    "is_shopee_verified": false,
+    "is_preferred_plus_seller": false,
+    "is_official_shop": true,
+    "shop_location": "Hà Nội",
+    "item_count": 3426,
+    "rating_star": 4.899241,
+    "response_rate": 100,
+    "session_info": {
+      "is_show": true,
+      "session_id": 3617800,
+      "view_count": 16,
+      "session_url": "https://play-ws-src.livestream.shopee.vn/livestreaming/vn-live-1018246803834398-3617800_speld.flv?auditkey=1.0~KMdz5qr76oXHnyl5TqP4mSSKYQerM1OMwhe_0SvqT1AlinUIQmp1N1M9qbFxZjBbh1jgXmgqntX5YNb59pMsOk5rR2wdsoagHDiqt5JcfNY~118190909ea8ba019b5671b39fa422a8cd0ac7d47e7fb56eeee499dac9c8dc75\u0026expire_ts=1672477321",
+      "preview_image": "f4ae7c2a40ea042f28643d2813a608cb"
+    },
+    "name": "Viễn Chí Bảo",
+    "ctime": 1590633298,
+    "response_time": 5905,
+    "follower_count": 456297,
+    "show_official_shop_label": true,
+    "rating_bad": 471,
+    "rating_good": 64562,
+    "rating_normal": 1178,
+    "session_infos": [
+      {
+        "is_show": true,
+        "session_id": 3617800,
+        "view_count": 16,
+        "session_url": "https://play-ws-src.livestream.shopee.vn/livestreaming/vn-live-1018246803834398-3617800_speld.flv?auditkey=1.0~KMdz5qr76oXHnyl5TqP4mSSKYQerM1OMwhe_0SvqT1AlinUIQmp1N1M9qbFxZjBbh1jgXmgqntX5YNb59pMsOk5rR2wdsoagHDiqt5JcfNY~118190909ea8ba019b5671b39fa422a8cd0ac7d47e7fb56eeee499dac9c8dc75\u0026expire_ts=1672477321",
+        "preview_image": "f4ae7c2a40ea042f28643d2813a608cb"
+      }
+    ],
+    "show_shopee_mission": false,
+    "status": 1
+  }
+}

@@ -1,0 +1,877 @@
+{
+  "msg": "success",
+  "code": 0,
+  "data": {
+    "total": 1341,
+    "global_cats": [
+      {
+        "category_name": "Bo Mạch Âm Thanh",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024541,
+        "images": [
+          "https://cf.shopee.sg/file/dc062a5ff358457103445c6ef587fa2b",
+          "https://cf.shopee.sg/file/805308ebc111ee1cd16c3a1d8f92824e",
+          "https://cf.shopee.sg/file/7a0c25d12f0a9838dbbb6d3641b07069",
+          "https://cf.shopee.sg/file/d419ecf4390c8083d28914714f965bf3",
+          "https://cf.shopee.sg/file/e4148bd9372e334dae58e7577ff4c989",
+          "https://cf.shopee.sg/file/6194e810b823f557e72ff40d9967e7f5"
+        ],
+        "path": [
+          { "category_id": 100644, "category_name": "Máy tính & Laptop" },
+          { "category_id": 101934, "category_name": "Linh Kiện Máy Tính" },
+          { "category_id": 101959, "category_name": "Bo Mạch Âm Thanh" }
+        ],
+        "category_id": 101959,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Khác",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024541,
+        "images": [
+          "https://cf.shopee.sg/file/c4ddd618dd018174806f1e54868c6358",
+          "https://cf.shopee.sg/file/9577f086bd0a4839e025eca961bb2862",
+          "https://cf.shopee.sg/file/b1ab903ba62f6eeacbcb16b5bc1aff29",
+          "https://cf.shopee.sg/file/ee128e2f18c91d3c9cd29a0710cabc76",
+          "https://cf.shopee.sg/file/e14dcab6bbb2828fb33f822e02e785b4",
+          "https://cf.shopee.sg/file/77c6cc456ba7fd15ecadc4ad3f68ebb5"
+        ],
+        "path": [
+          { "category_id": 100644, "category_name": "Máy tính & Laptop" },
+          { "category_id": 101934, "category_name": "Linh Kiện Máy Tính" },
+          { "category_id": 101960, "category_name": "Khác" }
+        ],
+        "category_id": 101960,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Ổ Cứng Di Động",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024541,
+        "images": [
+          "https://cf.shopee.sg/file/c9f53c7bfbe6c072e66e9b55f0577ec1",
+          "https://cf.shopee.sg/file/c411e325574da7d0ffca1e2f518680e1",
+          "https://cf.shopee.sg/file/c006ce1dd7f9e68a8f3281f8ef16f892",
+          "https://cf.shopee.sg/file/ba969a489df150d66a799c606f67e372",
+          "https://cf.shopee.sg/file/158b598c501a3cef7d66169cfb94beb0",
+          "https://cf.shopee.sg/file/b71a81484d24fa92f5a239f96ac086e4"
+        ],
+        "path": [
+          { "category_id": 100644, "category_name": "Máy tính & Laptop" },
+          { "category_id": 101935, "category_name": "Thiết Bị Lưu Trữ" },
+          { "category_id": 101961, "category_name": "Ổ Cứng Di Động" }
+        ],
+        "category_id": 101961,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Ổ Cứng SSD",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024541,
+        "images": [
+          "https://cf.shopee.sg/file/d6e677d1c4f69dda35f027655a2d4015",
+          "https://cf.shopee.sg/file/98acef725b765ad5c2b2ca695f604d29",
+          "https://cf.shopee.sg/file/e9eada03370396ed606926c2ee4d4f47",
+          "https://cf.shopee.sg/file/5e36748cb23425011745d77f028a1718",
+          "https://cf.shopee.sg/file/cc6789b996085ebedea8ac9fdd46d1d0",
+          "https://cf.shopee.sg/file/3a12188edfd5e216bd8ab463bd12c020"
+        ],
+        "path": [
+          { "category_id": 100644, "category_name": "Máy tính & Laptop" },
+          { "category_id": 101935, "category_name": "Thiết Bị Lưu Trữ" },
+          { "category_id": 101962, "category_name": "Ổ Cứng SSD" }
+        ],
+        "category_id": 101962,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Ổ Cứng Mạng (NAS)",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024541,
+        "images": [
+          "https://cf.shopee.sg/file/4f8a13ed78d986020171ef9e74d37017",
+          "https://cf.shopee.sg/file/f402cbc36168f20dd1f0cad45a70ae3a",
+          "https://cf.shopee.sg/file/ca420be52ced4d5e04651c2092c4fb8c",
+          "https://cf.shopee.sg/file/6187b916ec0bdfaf94989fb3b313ca5a",
+          "https://cf.shopee.sg/file/499e1780560a6925e2a38a34d822a874",
+          "https://cf.shopee.sg/file/04bba837332830c5c20c8f506fb0ed61"
+        ],
+        "path": [
+          { "category_id": 100644, "category_name": "Máy tính & Laptop" },
+          { "category_id": 101935, "category_name": "Thiết Bị Lưu Trữ" },
+          { "category_id": 101963, "category_name": "Ổ Cứng Mạng (NAS)" }
+        ],
+        "category_id": 101963,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "USB & OTG",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024541,
+        "images": [
+          "https://cf.shopee.sg/file/9d67423b72060a4ca695aa121185bd7c",
+          "https://cf.shopee.sg/file/2a643ab9539a61496ff09dc0b67f0870",
+          "https://cf.shopee.sg/file/4c362ffe1b315fa4acf7a9dadb2c1a9f",
+          "https://cf.shopee.sg/file/4863f333e9cc5542f3c4e8e846fc6edb",
+          "https://cf.shopee.sg/file/f6af2ae8882111a1526b63cc400193c1",
+          "https://cf.shopee.sg/file/f93bc1b47c631db237ef5fe47ba0c132"
+        ],
+        "path": [
+          { "category_id": 100644, "category_name": "Máy tính & Laptop" },
+          { "category_id": 101935, "category_name": "Thiết Bị Lưu Trữ" },
+          { "category_id": 101964, "category_name": "USB & OTG" }
+        ],
+        "category_id": 101964,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Thiết Bị Đựng Ổ Cứng",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024541,
+        "images": [
+          "https://cf.shopee.sg/file/92164cff67639029173d2302ddc1010d",
+          "https://cf.shopee.sg/file/12969e0caec63ce51ba70d4f1868c839",
+          "https://cf.shopee.sg/file/b78dc9708a0f69fc1c2b0c8b5044c59e",
+          "https://cf.shopee.sg/file/808906ab9e243ad4d1a53ea350f39e0a",
+          "https://cf.shopee.sg/file/1d3774af0c1352f6b33209e48fbac2d0",
+          "https://cf.shopee.sg/file/656876ed44e52ac10a7c5e089b238a8c"
+        ],
+        "path": [
+          { "category_id": 100644, "category_name": "Máy tính & Laptop" },
+          { "category_id": 101935, "category_name": "Thiết Bị Lưu Trữ" },
+          { "category_id": 101965, "category_name": "Thiết Bị Đựng Ổ Cứng" }
+        ],
+        "category_id": 101965,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Đĩa CD",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024541,
+        "images": [
+          "https://cf.shopee.sg/file/b9d9156b9fe658f86ff4e784694a0091",
+          "https://cf.shopee.sg/file/1ec26fa0d55b878f7634e55b4205f384",
+          "https://cf.shopee.sg/file/3fc276ecf711d56876ed9121d00c3100",
+          "https://cf.shopee.sg/file/41feb67178aad20330095cd46b1e7c3b",
+          "https://cf.shopee.sg/file/a5279c02d40f2db9bf68b98419bcee6e",
+          "https://cf.shopee.sg/file/12406ab1a64634183f8244e56ac8e32b"
+        ],
+        "path": [
+          { "category_id": 100644, "category_name": "Máy tính & Laptop" },
+          { "category_id": 101935, "category_name": "Thiết Bị Lưu Trữ" },
+          { "category_id": 101966, "category_name": "Đĩa CD" }
+        ],
+        "category_id": 101966,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Bộ Phát Wifi",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024541,
+        "images": [
+          "https://cf.shopee.sg/file/df721d492d38db13e870e11aee7acd2a",
+          "https://cf.shopee.sg/file/de7b3810a5456fe7ff3286d46d44ec00",
+          "https://cf.shopee.sg/file/58059d87cc0b8fb0ba188aa3d3fe9b5d",
+          "https://cf.shopee.sg/file/d52bbe474d41083f33733702d5a00394",
+          "https://cf.shopee.sg/file/03f67278c20aed9e5b52412ca3c594a9",
+          "https://cf.shopee.sg/file/c72d0ea208474369f2b124c6aa6f2e12"
+        ],
+        "path": [
+          { "category_id": 100644, "category_name": "Máy tính & Laptop" },
+          { "category_id": 101936, "category_name": "Thiết Bị Mạng" },
+          { "category_id": 101968, "category_name": "Bộ Phát Wifi" }
+        ],
+        "category_id": 101968,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Bộ Kích Wifi",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024541,
+        "images": [
+          "https://cf.shopee.sg/file/fbda619d315cb1a711aa98442a9fc757",
+          "https://cf.shopee.sg/file/883bc90f32ddcc819072d52419ade763",
+          "https://cf.shopee.sg/file/b2d837415091827ebc5557e406262e6f",
+          "https://cf.shopee.sg/file/4bbb92aa0074a20d1148fb034e847ed0",
+          "https://cf.shopee.sg/file/01dd0c0b62b8cd2892567039a4f4103c",
+          "https://cf.shopee.sg/file/1ccf74763b44d6ba99be5059aafe503e"
+        ],
+        "path": [
+          { "category_id": 100644, "category_name": "Máy tính & Laptop" },
+          { "category_id": 101936, "category_name": "Thiết Bị Mạng" },
+          { "category_id": 101969, "category_name": "Bộ Kích Wifi" }
+        ],
+        "category_id": 101969,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Bộ Thu Wifi",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024541,
+        "images": [
+          "https://cf.shopee.sg/file/2b6c208f135953e25d0b809e4eda5483",
+          "https://cf.shopee.sg/file/89a16c1782186f463b504f678d04dfdd",
+          "https://cf.shopee.sg/file/dafb2ae179d8e0a4be845b5799fec01b",
+          "https://cf.shopee.sg/file/456a2b40552d05bac197342b29c69a02",
+          "https://cf.shopee.sg/file/18858525595b2b942ff376b0dfb1bc1b",
+          "https://cf.shopee.sg/file/59aeb60050bad43b075f2773d9f992b0"
+        ],
+        "path": [
+          { "category_id": 100644, "category_name": "Máy tính & Laptop" },
+          { "category_id": 101936, "category_name": "Thiết Bị Mạng" },
+          { "category_id": 101970, "category_name": "Bộ Thu Wifi" }
+        ],
+        "category_id": 101970,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Bộ Chuyển Đổi Mạng",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024541,
+        "images": [
+          "https://cf.shopee.sg/file/6b949c54c63cccf3db639c12a1312f92",
+          "https://cf.shopee.sg/file/4afd8087200578695364ed36b3622404",
+          "https://cf.shopee.sg/file/aa98983651b1d24164af130e346687dd",
+          "https://cf.shopee.sg/file/4c476ce99a24620c823f2663e127973c",
+          "https://cf.shopee.sg/file/07d59eac4fbf5ffe8cc2d2b78a22b3ba",
+          "https://cf.shopee.sg/file/3ddbc00f09e55277f84cd7c187f88ce1"
+        ],
+        "path": [
+          { "category_id": 100644, "category_name": "Máy tính & Laptop" },
+          { "category_id": 101936, "category_name": "Thiết Bị Mạng" },
+          { "category_id": 101971, "category_name": "Bộ Chuyển Đổi Mạng" }
+        ],
+        "category_id": 101971,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Bộ chia mạng",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024541,
+        "images": [
+          "https://cf.shopee.sg/file/5acff777f9cca7a2d32920f532cc3148",
+          "https://cf.shopee.sg/file/1dc65c2e179e3c05717ff51316d3c2f5",
+          "https://cf.shopee.sg/file/2b5ab53700dee6d1c5b367561e0de39c",
+          "https://cf.shopee.sg/file/3632124d5e791737d246239376e49be2",
+          "https://cf.shopee.sg/file/3b4ae0250d7bbbd4ec5ea5bbbb701293",
+          "https://cf.shopee.sg/file/e618a81d827fcf045f611f6ed153db12"
+        ],
+        "path": [
+          { "category_id": 100644, "category_name": "Máy tính & Laptop" },
+          { "category_id": 101936, "category_name": "Thiết Bị Mạng" },
+          { "category_id": 101972, "category_name": "Bộ chia mạng" }
+        ],
+        "category_id": 101972,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Cáp Máy Tính",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024542,
+        "images": [
+          "https://cf.shopee.sg/file/3cfcd5af8414e5bbcd2126fc2ca7a671",
+          "https://cf.shopee.sg/file/a278190951a9765b061567dbb5c7025c",
+          "https://cf.shopee.sg/file/f0ad2903ac42e38c1719ebd2814bd388",
+          "https://cf.shopee.sg/file/11f4d3d63b1ab3940a343f67fbb949f3",
+          "https://cf.shopee.sg/file/fffed5b4169efe15e87bde64fa0ee2dc",
+          "https://cf.shopee.sg/file/3fad0945fec2538460d2f0f0317808c2"
+        ],
+        "path": [
+          { "category_id": 100644, "category_name": "Máy tính & Laptop" },
+          { "category_id": 101936, "category_name": "Thiết Bị Mạng" },
+          { "category_id": 101973, "category_name": "Cáp Máy Tính" }
+        ],
+        "category_id": 101973,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Bộ Chuyển Mạch KVM",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024542,
+        "images": [
+          "https://cf.shopee.sg/file/6c7e33d920ee9fc81a1cc2d28e24bad0",
+          "https://cf.shopee.sg/file/496a97a9da36e349f73be0f9a7a6fd08",
+          "https://cf.shopee.sg/file/65c3a12228a770bd3102607484fd8e18",
+          "https://cf.shopee.sg/file/70a13158267813a98189e15f049749ac",
+          "https://cf.shopee.sg/file/9b8d3e46dadf28ae3777d5f9c515b6ff",
+          "https://cf.shopee.sg/file/6d0de38860c7b256bd0939b10c1f77eb"
+        ],
+        "path": [
+          { "category_id": 100644, "category_name": "Máy tính & Laptop" },
+          { "category_id": 101936, "category_name": "Thiết Bị Mạng" },
+          { "category_id": 101974, "category_name": "Bộ Chuyển Mạch KVM" }
+        ],
+        "category_id": 101974,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Máy Chủ Máy In",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024542,
+        "images": [
+          "https://cf.shopee.sg/file/e8d593cc2f832393c9a06451e01f6fb0",
+          "https://cf.shopee.sg/file/fe277c901e691a3e9e05973c06416692",
+          "https://cf.shopee.sg/file/b64502bc6041300f7d0c2981e30c4159",
+          "https://cf.shopee.sg/file/fe3f3a0ec234070a94ee579345af3522",
+          "https://cf.shopee.sg/file/2311cccfbc137f88f1b880840b6e343a",
+          "https://cf.shopee.sg/file/ef46ff49898e8c83b25274228c08aba2"
+        ],
+        "path": [
+          { "category_id": 100644, "category_name": "Máy tính & Laptop" },
+          { "category_id": 101936, "category_name": "Thiết Bị Mạng" },
+          { "category_id": 101975, "category_name": "Máy Chủ Máy In" }
+        ],
+        "category_id": 101975,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Phần Mềm",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024542,
+        "images": [
+          "https://cf.shopee.sg/file/efc0822a846da733cef173336da95e70",
+          "https://cf.shopee.sg/file/7975dac3170addaf6beebbba7d4e2e07",
+          "https://cf.shopee.sg/file/ca84757f3a09d73c89850ffa3bc05cae",
+          "https://cf.shopee.sg/file/ee1e82ef80791d7431da4c371cb51de5",
+          "https://cf.shopee.sg/file/89b25d903a1d052a4a149069c19d5d06",
+          "https://cf.shopee.sg/file/3c019aaea5e042c213f224b2f4fcea81"
+        ],
+        "path": [
+          { "category_id": 100644, "category_name": "Máy tính & Laptop" },
+          { "category_id": 101937, "category_name": "Phần Mềm" }
+        ],
+        "category_id": 101937,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Máy Đánh Chữ",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024542,
+        "images": [
+          "https://cf.shopee.sg/file/75682a2349891f7ee2f380ef79212e2f",
+          "https://cf.shopee.sg/file/a7c47031f593a949be4417e43ea46724",
+          "https://cf.shopee.sg/file/57cd3afa50805c7b597039fc97aaf869",
+          "https://cf.shopee.sg/file/e3e4fffeb8dd63c6edb21b04f3396bbf",
+          "https://cf.shopee.sg/file/90cf92b2d194b2fdeced9049c34129ba",
+          "https://cf.shopee.sg/file/9b7c890d617e49a99c7780aaf138c105"
+        ],
+        "path": [
+          { "category_id": 100644, "category_name": "Máy tính & Laptop" },
+          { "category_id": 101938, "category_name": "Thiết Bị Văn Phòng" },
+          { "category_id": 101977, "category_name": "Máy Đánh Chữ" }
+        ],
+        "category_id": 101977,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Máy Chấm Công",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024542,
+        "images": [
+          "https://cf.shopee.sg/file/849c34061a6a17519b929136bc6a1b4a",
+          "https://cf.shopee.sg/file/67a5b543208dedc1eacd846f0f76e083",
+          "https://cf.shopee.sg/file/9e15384dddd2a2776b36616f2bcf7032",
+          "https://cf.shopee.sg/file/77710c4c1a52a152a566185d50ca75f5",
+          "https://cf.shopee.sg/file/82eaf9025ffbe4dc05b3ad9da84cdaf4",
+          "https://cf.shopee.sg/file/31c6ec27ff59558a55711bb261192ff4"
+        ],
+        "path": [
+          { "category_id": 100644, "category_name": "Máy tính & Laptop" },
+          { "category_id": 101938, "category_name": "Thiết Bị Văn Phòng" },
+          { "category_id": 101978, "category_name": "Máy Chấm Công" }
+        ],
+        "category_id": 101978,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Máy Hủy Tài Liệu",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024542,
+        "images": [
+          "https://cf.shopee.sg/file/3d7901ed4236b90fefe52f8c94026fd8",
+          "https://cf.shopee.sg/file/793b2ec54841dba6623a4f433ba03b0f",
+          "https://cf.shopee.sg/file/8a64f85dc84fbdd7bd63ec940a78d9ab",
+          "https://cf.shopee.sg/file/132b0f8cc9d07e502239c78d922cf97c",
+          "https://cf.shopee.sg/file/612817c017ecda7145b21e14254d6d01",
+          "https://cf.shopee.sg/file/a2ed56db3d985f1a3404c51ae80c74e8"
+        ],
+        "path": [
+          { "category_id": 100644, "category_name": "Máy tính & Laptop" },
+          { "category_id": 101938, "category_name": "Thiết Bị Văn Phòng" },
+          { "category_id": 101979, "category_name": "Máy Hủy Tài Liệu" }
+        ],
+        "category_id": 101979,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Máy Đếm Tiền",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024542,
+        "images": [
+          "https://cf.shopee.sg/file/992e0426a5a9e441cb3e9fb4694bffc1",
+          "https://cf.shopee.sg/file/a0da910992058784fbb79cc4bedf798b",
+          "https://cf.shopee.sg/file/c02d44fed5574fa875b75064321f944b",
+          "https://cf.shopee.sg/file/c1d43b03d0e0dc544fdb55d5c5b157c6",
+          "https://cf.shopee.sg/file/e6bd8f4d1d546544ede36687b72555bf",
+          "https://cf.shopee.sg/file/f0e18f790d3ecf0c467753c3e71dd894"
+        ],
+        "path": [
+          { "category_id": 100644, "category_name": "Máy tính & Laptop" },
+          { "category_id": 101938, "category_name": "Thiết Bị Văn Phòng" },
+          { "category_id": 101980, "category_name": "Máy Đếm Tiền" }
+        ],
+        "category_id": 101980,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Máy In, Máy Scan & Máy Photo",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024542,
+        "images": [
+          "https://cf.shopee.sg/file/c46313e35db41923cdd168814ad1230e",
+          "https://cf.shopee.sg/file/a48dcc867026990fdceff806f17dd5fb",
+          "https://cf.shopee.sg/file/d5d0423734e0d87909ccd6d574561b0c",
+          "https://cf.shopee.sg/file/486f1d1bbf228e364baff10257497974",
+          "https://cf.shopee.sg/file/8008720132627e35612f6986e8a27fa7",
+          "https://cf.shopee.sg/file/d1c57e71ae1b822840deb0fc87f6485e"
+        ],
+        "path": [
+          { "category_id": 100644, "category_name": "Máy tính & Laptop" },
+          { "category_id": 101939, "category_name": "Máy In & Máy Scan" },
+          {
+            "category_id": 101982,
+            "category_name": "Máy In, Máy Scan & Máy Photo"
+          }
+        ],
+        "category_id": 101982,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Máy In Mã Vạch",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024542,
+        "images": [
+          "https://cf.shopee.sg/file/78dcd3ba1bac76cb2bc6e045c4640d0b",
+          "https://cf.shopee.sg/file/81692ad8b98793ad621a0eb772978171",
+          "https://cf.shopee.sg/file/c472fd489ef8c28d838023f8dacf0603",
+          "https://cf.shopee.sg/file/5286a7c1be472a08c840c47ec11d6fed",
+          "https://cf.shopee.sg/file/0b96ef0b7725801a31a9e557771ac9c8",
+          "https://cf.shopee.sg/file/fda14ae85a566e09eb5fe4d5268f5fe9"
+        ],
+        "path": [
+          { "category_id": 100644, "category_name": "Máy tính & Laptop" },
+          { "category_id": 101939, "category_name": "Máy In & Máy Scan" },
+          { "category_id": 101983, "category_name": "Máy In Mã Vạch" }
+        ],
+        "category_id": 101983,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Mực In & Khay Mực",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024542,
+        "images": [
+          "https://cf.shopee.sg/file/01470b5d47d95f3e0e80fdba7e82d1f2",
+          "https://cf.shopee.sg/file/06743d34fe2e9ea3510049fbef0ee4b1",
+          "https://cf.shopee.sg/file/7174f8abaadadd8646489105d3029b0c",
+          "https://cf.shopee.sg/file/5dc96e36da540170b444a09ca8c40c5e",
+          "https://cf.shopee.sg/file/b5b28d99401875db1fe3595d24f40c41",
+          "https://cf.shopee.sg/file/bd3a85a045dd6d09f76404f740599098"
+        ],
+        "path": [
+          { "category_id": 100644, "category_name": "Máy tính & Laptop" },
+          { "category_id": 101939, "category_name": "Máy In & Máy Scan" },
+          { "category_id": 101984, "category_name": "Mực In & Khay Mực" }
+        ],
+        "category_id": 101984,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Máy In 3D",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024542,
+        "images": [
+          "https://cf.shopee.sg/file/6f21be4e09eb599743edf0ab7bd8a054",
+          "https://cf.shopee.sg/file/b04358b7e207cf48fde1543f6fd1e1f2",
+          "https://cf.shopee.sg/file/c4acf9466f657ca844b1a2f1e7762193",
+          "https://cf.shopee.sg/file/7f699555f4c52b0cbbed348cc0d6c1fb",
+          "https://cf.shopee.sg/file/55aa6f4ab71a305675897a4e38e9961f",
+          "https://cf.shopee.sg/file/4450c0b3e972fdfa5e60014db841708c"
+        ],
+        "path": [
+          { "category_id": 100644, "category_name": "Máy tính & Laptop" },
+          { "category_id": 101939, "category_name": "Máy In & Máy Scan" },
+          { "category_id": 101985, "category_name": "Máy In 3D" }
+        ],
+        "category_id": 101985,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Khác",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024542,
+        "images": [
+          "https://cf.shopee.sg/file/5124d0390dd21e54469ae850e8ff8200",
+          "https://cf.shopee.sg/file/6655fda26e2757ebb6e7e9a67c07f34e",
+          "https://cf.shopee.sg/file/b3195b661f287e50554f93f2fa19659a",
+          "https://cf.shopee.sg/file/49a4054a4efb2eab1dd3e4a4f195e3a3",
+          "https://cf.shopee.sg/file/9f6a9d61bff753bb531dd0847d07cf62",
+          "https://cf.shopee.sg/file/0487c71aabfcc44babede9e0824027ed"
+        ],
+        "path": [
+          { "category_id": 100644, "category_name": "Máy tính & Laptop" },
+          { "category_id": 101939, "category_name": "Máy In & Máy Scan" },
+          { "category_id": 101986, "category_name": "Khác" }
+        ],
+        "category_id": 101986,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Bộ chia cổng USB & Đọc thẻ nhớ",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024543,
+        "images": [
+          "https://cf.shopee.sg/file/b6d376432c401b75ea76b1d183990993",
+          "https://cf.shopee.sg/file/448bb6e9db3fea96c6d970c39cfc910c",
+          "https://cf.shopee.sg/file/7233d576f3bf4cd24695ffc4a24e4b00",
+          "https://cf.shopee.sg/file/b745b49964b10ceb1d43b22aec1cac79",
+          "https://cf.shopee.sg/file/a1df1cd631d4036dd82fb68f8c992e75",
+          "https://cf.shopee.sg/file/ee75a2a074b0d18a90c79c7fd46ee5af"
+        ],
+        "path": [
+          { "category_id": 100644, "category_name": "Máy tính & Laptop" },
+          { "category_id": 101940, "category_name": "Phụ Kiện Máy Tính" },
+          {
+            "category_id": 101987,
+            "category_name": "Bộ chia cổng USB & Đọc thẻ nhớ"
+          }
+        ],
+        "category_id": 101987,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Webcam",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024543,
+        "images": [
+          "https://cf.shopee.sg/file/c086f9e95d32f7328130ec7353858cb5",
+          "https://cf.shopee.sg/file/769d3ec3e96c4c0eeb0ceb64fa370e14",
+          "https://cf.shopee.sg/file/b8da79444bac9a69c3ec7f4f83d495ca",
+          "https://cf.shopee.sg/file/2959d63a8d90e579621e1a2e2400d5a2",
+          "https://cf.shopee.sg/file/969c2a9cbd36d65388641eeadbd2b195",
+          "https://cf.shopee.sg/file/7ed4d66c71a9b2c435d274edd5f9c377"
+        ],
+        "path": [
+          { "category_id": 100644, "category_name": "Máy tính & Laptop" },
+          { "category_id": 101940, "category_name": "Phụ Kiện Máy Tính" },
+          { "category_id": 101988, "category_name": "Webcam" }
+        ],
+        "category_id": 101988,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Miếng Dán & Ốp Laptop",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024543,
+        "images": [
+          "https://cf.shopee.sg/file/08c3ed9c2c02d7de496949f699c5fe45",
+          "https://cf.shopee.sg/file/7a13a39a51096434dda4c504ab9afe20",
+          "https://cf.shopee.sg/file/eceace88488ab2d39ff0f41839e516fb",
+          "https://cf.shopee.sg/file/ff8139603f44d04d962e7c4d90d4f025",
+          "https://cf.shopee.sg/file/31be4152ad6f370a7073c4ff2939f97c",
+          "https://cf.shopee.sg/file/31cbafddd1cab37e3c046ca0d84a2091"
+        ],
+        "path": [
+          { "category_id": 100644, "category_name": "Máy tính & Laptop" },
+          { "category_id": 101940, "category_name": "Phụ Kiện Máy Tính" },
+          { "category_id": 101989, "category_name": "Miếng Dán & Ốp Laptop" }
+        ],
+        "category_id": 101989,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Đế Tản Nhiệt",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024543,
+        "images": [
+          "https://cf.shopee.sg/file/1c2aa073fd97953e77bd30b4bd329a54",
+          "https://cf.shopee.sg/file/7bbd2fbfd44dad028ec92985b6539944",
+          "https://cf.shopee.sg/file/8531cfd1159538354e81f6e5ce56f10c",
+          "https://cf.shopee.sg/file/f597733b6d9769886f480cd64173a69b",
+          "https://cf.shopee.sg/file/60641ae71aca029903d4fff7abaa8ad7",
+          "https://cf.shopee.sg/file/9fd5b53b2095a203032e2f14600095b6"
+        ],
+        "path": [
+          { "category_id": 100644, "category_name": "Máy tính & Laptop" },
+          { "category_id": 101940, "category_name": "Phụ Kiện Máy Tính" },
+          { "category_id": 101990, "category_name": "Đế Tản Nhiệt" }
+        ],
+        "category_id": 101990,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Bàn Laptop",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024543,
+        "images": [
+          "https://cf.shopee.sg/file/7f2ed1716137e12e788909ea7bc0f21f",
+          "https://cf.shopee.sg/file/4d43ab9f864703ee61600a3ea6286226",
+          "https://cf.shopee.sg/file/ac214f9b844fa676b20cd56160ef7440",
+          "https://cf.shopee.sg/file/5a27d409e620301818755e6e7770c4f4",
+          "https://cf.shopee.sg/file/7392ee451ad123e54220c1593fe81ec9",
+          "https://cf.shopee.sg/file/12b0dd2a2c25cd5f8dab7f26fcd81378"
+        ],
+        "path": [
+          { "category_id": 100644, "category_name": "Máy tính & Laptop" },
+          { "category_id": 101940, "category_name": "Phụ Kiện Máy Tính" },
+          { "category_id": 101991, "category_name": "Bàn Laptop" }
+        ],
+        "category_id": 101991,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Miếng Dán Bàn Phím",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024543,
+        "images": [
+          "https://cf.shopee.sg/file/71fe79c9716e67a0855e4a45c3148872",
+          "https://cf.shopee.sg/file/763bd4f8cb84c421d5b6f6aae51c5753",
+          "https://cf.shopee.sg/file/de9fb9aecda5c288edf214482853617c",
+          "https://cf.shopee.sg/file/ab492eae2819cf5d3f944d7137c6733e",
+          "https://cf.shopee.sg/file/7fa9cb3c268fa6d401a8e3b2d4783c12",
+          "https://cf.shopee.sg/file/91bf585c1e7d5608d1cc049c08e3f12e"
+        ],
+        "path": [
+          { "category_id": 100644, "category_name": "Máy tính & Laptop" },
+          { "category_id": 101940, "category_name": "Phụ Kiện Máy Tính" },
+          { "category_id": 101992, "category_name": "Miếng Dán Bàn Phím" }
+        ],
+        "category_id": 101992,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Pin Laptop",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024543,
+        "images": [
+          "https://cf.shopee.sg/file/70b0c40b14429a0fac480852b943de24",
+          "https://cf.shopee.sg/file/fa6793ee4d228b576876cb00bed8f5fb",
+          "https://cf.shopee.sg/file/6815ebf4cb202f68a336edf8667ec669",
+          "https://cf.shopee.sg/file/2dfc3145737bead1b9df975f7f80dcf6",
+          "https://cf.shopee.sg/file/251bcaa1a1492ea8ff5faee2a69a9a42",
+          "https://cf.shopee.sg/file/da0bf24e98dca8261f5699a6eed2956e"
+        ],
+        "path": [
+          { "category_id": 100644, "category_name": "Máy tính & Laptop" },
+          { "category_id": 101940, "category_name": "Phụ Kiện Máy Tính" },
+          { "category_id": 101993, "category_name": "Pin Laptop" }
+        ],
+        "category_id": 101993,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Bộ Sạc Laptop",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024543,
+        "images": [
+          "https://cf.shopee.sg/file/41a55cfcef138a6195d79aa96a837c6e",
+          "https://cf.shopee.sg/file/c4f83997801b6c3a5a2c148987af6c17",
+          "https://cf.shopee.sg/file/1eb96ff4cb699c4e7607dc2846c94b2f",
+          "https://cf.shopee.sg/file/890443f37061f0cfff660763b605d7cb",
+          "https://cf.shopee.sg/file/09498120fcda734f84f5e8a0cbe5c29d",
+          "https://cf.shopee.sg/file/ecc06d7f1c059daf784fd0dcd15a599d"
+        ],
+        "path": [
+          { "category_id": 100644, "category_name": "Máy tính & Laptop" },
+          { "category_id": 101940, "category_name": "Phụ Kiện Máy Tính" },
+          { "category_id": 101994, "category_name": "Bộ Sạc Laptop" }
+        ],
+        "category_id": 101994,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Thiết Bị Truyền Hình Hội Nghị",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024543,
+        "images": [
+          "https://cf.shopee.sg/file/d2593d99cd0f0f43765983bfc32ced77",
+          "https://cf.shopee.sg/file/eb7120e767a0803be586e707d1ddb918",
+          "https://cf.shopee.sg/file/3364b86936fe25d4da56dd8a6b6e14ac",
+          "https://cf.shopee.sg/file/57e2a76be1112b6df3dad6e005b2b0ab",
+          "https://cf.shopee.sg/file/27d128ea2423cbdb0df85a5a8fd5271d",
+          "https://cf.shopee.sg/file/ee47ee0e2f6ad0f6ac2d686e97a20c53"
+        ],
+        "path": [
+          { "category_id": 100644, "category_name": "Máy tính & Laptop" },
+          { "category_id": 101940, "category_name": "Phụ Kiện Máy Tính" },
+          {
+            "category_id": 101995,
+            "category_name": "Thiết Bị Truyền Hình Hội Nghị"
+          }
+        ],
+        "category_id": 101995,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Bàn Di Chuột",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024543,
+        "images": [
+          "https://cf.shopee.sg/file/de0053e20454ee3f8555e3c4cd199d37",
+          "https://cf.shopee.sg/file/b66e75ab03f6969ec60114c62eec2ad7",
+          "https://cf.shopee.sg/file/e97890caaec149dda985f6f2104a0d56",
+          "https://cf.shopee.sg/file/a7619cf4cb06f95d4a67923cdd58f7a1",
+          "https://cf.shopee.sg/file/20a6fc2eadc8ab60735d6ca3f477e2f7",
+          "https://cf.shopee.sg/file/536f47687556bcb156cef6618fa3320e"
+        ],
+        "path": [
+          { "category_id": 100644, "category_name": "Máy tính & Laptop" },
+          { "category_id": 101940, "category_name": "Phụ Kiện Máy Tính" },
+          { "category_id": 101996, "category_name": "Bàn Di Chuột" }
+        ],
+        "category_id": 101996,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Chuột Máy Tính",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024543,
+        "images": [
+          "https://cf.shopee.sg/file/a69eafbb31f39893f6efb734c8399f04",
+          "https://cf.shopee.sg/file/609ebe6fa6e4a3e17d3b8f932ff1b4dc",
+          "https://cf.shopee.sg/file/290f7589d781b89e4538130f0ecc2636",
+          "https://cf.shopee.sg/file/1b23777f2420b856a9c9727e74af9b16",
+          "https://cf.shopee.sg/file/cff8b733453594e2fc13c45940a8ffb5",
+          "https://cf.shopee.sg/file/5c685deac1bd3d18d19cc66bd06fb0e5"
+        ],
+        "path": [
+          { "category_id": 100644, "category_name": "Máy tính & Laptop" },
+          { "category_id": 101941, "category_name": "Chuột & Bàn Phím" },
+          { "category_id": 101998, "category_name": "Chuột Máy Tính" }
+        ],
+        "category_id": 101998,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Bàn Phím Máy Tính",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024543,
+        "images": [
+          "https://cf.shopee.sg/file/18003e04681f44e0d5c5357966bf1510",
+          "https://cf.shopee.sg/file/0e3bb960649a602ff949d43279ccc66a",
+          "https://cf.shopee.sg/file/f2b71c6b798819a5b22752c838d6cd80",
+          "https://cf.shopee.sg/file/941c3f40e989626704d143a02f043945",
+          "https://cf.shopee.sg/file/2468411f430ca377452bd90eae3317f5",
+          "https://cf.shopee.sg/file/00155da1f7ea48f618b2f76c9155176e"
+        ],
+        "path": [
+          { "category_id": 100644, "category_name": "Máy tính & Laptop" },
+          { "category_id": 101941, "category_name": "Chuột & Bàn Phím" },
+          { "category_id": 101999, "category_name": "Bàn Phím Máy Tính" }
+        ],
+        "category_id": 101999,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Bảng Vẽ Điện Tử",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024543,
+        "images": [
+          "https://cf.shopee.sg/file/b64b4865dd6588ed9e605eb6c5c4eae8",
+          "https://cf.shopee.sg/file/659a1c7c1662d905acec21aec5ca60a1",
+          "https://cf.shopee.sg/file/b89a9af1fc9160e0e26edff352f751b1",
+          "https://cf.shopee.sg/file/525b9cca927d4f43fd4ccad886b8ffd3",
+          "https://cf.shopee.sg/file/0a103e482fed145be61d0091c9d42a4f",
+          "https://cf.shopee.sg/file/2745b926e368c77a74bdd0832590259f"
+        ],
+        "path": [
+          { "category_id": 100644, "category_name": "Máy tính & Laptop" },
+          { "category_id": 101941, "category_name": "Chuột & Bàn Phím" },
+          { "category_id": 102000, "category_name": "Bảng Vẽ Điện Tử" }
+        ],
+        "category_id": 102000,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Khác",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024543,
+        "images": [
+          "https://cf.shopee.sg/file/558bf3349a90cda38fbc07c2446600f6",
+          "https://cf.shopee.sg/file/5ef1ce975f09c5ce892055acabc65606",
+          "https://cf.shopee.sg/file/aea380b5c6424988d5506ea83f964c22",
+          "https://cf.shopee.sg/file/402ffc97f8ceb58e39dffb6022051bdf",
+          "https://cf.shopee.sg/file/1fbd1453671b5b500c139f42fbf312fd",
+          "https://cf.shopee.sg/file/b3c2551c3ce871015d5e77025f818ac0"
+        ],
+        "path": [
+          { "category_id": 100644, "category_name": "Máy tính & Laptop" },
+          { "category_id": 101941, "category_name": "Chuột & Bàn Phím" },
+          { "category_id": 102001, "category_name": "Khác" }
+        ],
+        "category_id": 102001,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Laptop",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024543,
+        "images": [
+          "https://cf.shopee.sg/file/e671e6fb65e2d14c4e9d9f83200ad8a3",
+          "https://cf.shopee.sg/file/38f3f451ee5b8b99351c627259daf6b9",
+          "https://cf.shopee.sg/file/3fd726203e682add99d3c946cc24de97",
+          "https://cf.shopee.sg/file/46f93f5f1f9f161a354660fc03629a28",
+          "https://cf.shopee.sg/file/ba069e2f740ed7f5fa442615f9250298",
+          "https://cf.shopee.sg/file/d5ccc593bf13e1a6f6fee1c40da34654"
+        ],
+        "path": [
+          { "category_id": 100644, "category_name": "Máy tính & Laptop" },
+          { "category_id": 101942, "category_name": "Laptop" }
+        ],
+        "category_id": 101942,
+        "hl_category_name": ""
+      }
+    ]
+  }
+}

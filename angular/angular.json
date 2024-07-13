@@ -1,0 +1,119 @@
+{
+	"$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+	"version": 1,
+	"newProjectRoot": "projects",
+	"projects": {
+		"admin": {
+			"projectType": "application",
+			"schematics": {
+				"@schematics/angular:component": {
+					"style": "scss"
+				}
+			},
+			"root": "",
+			"sourceRoot": "src",
+			"prefix": "app",
+			"architect": {
+				"build": {
+					"builder": "@angular-devkit/build-angular:browser",
+					"options": {
+						"outputPath": "dist/admin",
+						"index": "src/index.html",
+						"main": "src/main.ts",
+						"polyfills": ["zone.js"],
+						"tsConfig": "tsconfig.app.json",
+						"inlineStyleLanguage": "scss",
+						"assets": [
+							"src/assets",
+							"src/assets/svg/*",
+							{
+								"glob": "**/*",
+								"input": "./node_modules/@ant-design/icons-angular/src/inline-svg/",
+								"output": "/assets/"
+							}
+						],
+						"styles": [
+							"src/theme.less",
+							"src/styles.scss",
+							"./node_modules/bootstrap/dist/css/bootstrap.min.css",
+							"node_modules/ng-zorro-antd/ng-zorro-antd.min.css",
+							"./node_modules/leaflet/dist/leaflet.css"
+						],
+						"scripts": [
+							"./node_modules/jquery/dist/jquery.min.js",
+							"./node_modules/bootstrap/dist/js/bootstrap.min.js"
+						]
+					},
+					"configurations": {
+						"production": {
+							"budgets": [
+								{
+									"type": "initial",
+									"maximumWarning": "2mb",
+									"maximumError": "4mb"
+								},
+								{
+									"type": "anyComponentStyle",
+									"maximumWarning": "2kb",
+									"maximumError": "4mb"
+								}
+							],
+							"outputHashing": "all"
+						},
+						"development": {
+							"buildOptimizer": false,
+							"optimization": false,
+							"vendorChunk": true,
+							"extractLicenses": false,
+							"sourceMap": true,
+							"namedChunks": true
+						}
+					},
+					"defaultConfiguration": "production"
+				},
+				"serve": {
+					"builder": "@angular-devkit/build-angular:dev-server",
+					"configurations": {
+						"production": {
+							"browserTarget": "admin:build:production"
+						},
+						"development": {
+							"browserTarget": "admin:build:development"
+						}
+					},
+					"defaultConfiguration": "development"
+				},
+				"extract-i18n": {
+					"builder": "@angular-devkit/build-angular:extract-i18n",
+					"options": {
+						"browserTarget": "admin:build"
+					}
+				},
+				"test": {
+					"builder": "@angular-devkit/build-angular:karma",
+					"options": {
+						"polyfills": ["zone.js", "zone.js/testing"],
+						"tsConfig": "tsconfig.spec.json",
+						"inlineStyleLanguage": "scss",
+						"assets": ["src/favicon.ico", "src/assets"],
+						"styles": ["src/styles.scss"],
+						"scripts": ["node_modules/apexcharts/dist/apexcharts.min.js"]
+					}
+				},
+				"deploy": {
+					"builder": "@angular/fire:deploy",
+					"options": {
+						"prerender": false,
+						"ssr": false,
+						"browserTarget": "admin:build:production",
+						"firebaseProject": "shopee-1116a",
+						"firebaseHostingSite": "shopee-1116a"
+					}
+				}
+			}
+		}
+	},
+	"cli": {
+		"analytics": "e529a169-c4e5-48f5-a0a3-f6abc6b434ab"
+	}
+}

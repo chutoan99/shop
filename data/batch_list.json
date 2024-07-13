@@ -1,0 +1,240 @@
+{
+  "data": {
+    "banners": [
+      {
+        "type": "pc_home_circles",
+        "version": "22e74e482aeeaff1068b6e4bb04e0ab2",
+        "not_modified": false,
+        "settings": null
+      },
+      {
+        "banners": [
+          {
+            "id": 230153,
+            "start": 1673197200,
+            "end": 1673801999,
+            "banner_image": "https://cf.shopee.vn/file/e4a404283b3824c211c1549aedd28d5f",
+            "navigate_params": {
+              "config": {},
+              "navbar": {
+                "multilang_title": "{\"default\":\"Khung Giờ Săn Sale\",\"en\":\"Khung Giờ Săn Sale\",\"vi\":\"Khung Giờ Săn Sale\"}",
+                "title": "{\"default\":\"Khung Giờ Săn Sale\",\"en\":\"Khung Giờ Săn Sale\",\"vi\":\"Khung Giờ Săn Sale\"}"
+              },
+              "url": "https://shopee.vn/m/khung-gio-san-sale"
+            },
+            "type": 13,
+            "display": { "mobile": true, "pc": true },
+            "banner_image_tall": "",
+            "position": 1,
+            "data": {}
+          },
+          {
+            "id": 230159,
+            "start": 1673197200,
+            "end": 1673801999,
+            "banner_image": "https://cf.shopee.vn/file/b3535d7e56c58c4ebe9a87672d38cc5e",
+            "navigate_params": {
+              "config": {},
+              "navbar": {
+                "multilang_title": "{\"default\":\"Gì Cũng Rẻ - Mua Là Freeship\",\"en\":\"Gì Cũng Rẻ - Mua Là Freeship\",\"vi\":\"Gì Cũng Rẻ - Mua Là Freeship\"}",
+                "title": "{\"default\":\"Gì Cũng Rẻ - Mua Là Freeship\",\"en\":\"Gì Cũng Rẻ - Mua Là Freeship\",\"vi\":\"Gì Cũng Rẻ - Mua Là Freeship\"}"
+              },
+              "url": "https://shopee.vn/m/gi-cung-re-freeship"
+            },
+            "type": 13,
+            "display": { "mobile": true, "pc": true },
+            "banner_image_tall": "",
+            "position": 2,
+            "data": {}
+          },
+          {
+            "id": 230160,
+            "start": 1673197200,
+            "end": 1673801999,
+            "banner_image": "https://cf.shopee.vn/file/80dcfaf633608774229c32d8058b84e5",
+            "navigate_params": {
+              "config": {},
+              "navbar": {
+                "multilang_title": "{\"default\":\"Mã Giảm Giá\",\"en\":\"Mã Giảm Giá\",\"vi\":\"Mã Giảm Giá\"}",
+                "title": "{\"default\":\"Mã Giảm Giá\",\"en\":\"Mã Giảm Giá\",\"vi\":\"Mã Giảm Giá\"}"
+              },
+              "url": "https://shopee.vn/m/ma-giam-gia"
+            },
+            "type": 13,
+            "display": { "mobile": true, "pc": true },
+            "banner_image_tall": "",
+            "position": 3,
+            "data": {}
+          },
+          {
+            "id": 230163,
+            "start": 1673456400,
+            "end": 1673629199,
+            "banner_image": "https://cf.shopee.vn/file/c7a2e1ae720f9704f92f72c9ef1a494a",
+            "navigate_params": {
+              "config": {},
+              "navbar": {
+                "multilang_title": "{\"default\":\"Miễn Phí Vận Chuyển\",\"en\":\"Miễn Phí Vận Chuyển\",\"vi\":\"Miễn Phí Vận Chuyển\"}",
+                "title": "{\"default\":\"Miễn Phí Vận Chuyển\",\"en\":\"Miễn Phí Vận Chuyển\",\"vi\":\"Miễn Phí Vận Chuyển\"}"
+              },
+              "url": "https://shopee.vn/m/mien-phi-van-chuyen"
+            },
+            "type": 13,
+            "display": { "mobile": true, "pc": true },
+            "banner_image_tall": "",
+            "position": 4,
+            "data": {}
+          },
+          {
+            "id": 230168,
+            "start": 1673197200,
+            "end": 1673801999,
+            "banner_image": "https://cf.shopee.vn/file/1975fb1af4ae3c22878d04f6f440b6f9",
+            "navigate_params": {
+              "config": {},
+              "navbar": {
+                "multilang_title": "{\"default\":\"Bắt Trend - Giá Sốc\",\"en\":\"Bắt Trend - Giá Sốc\",\"vi\":\"Bắt Trend - Giá Sốc\"}",
+                "title": "{\"default\":\"Bắt Trend - Giá Sốc\",\"en\":\"Bắt Trend - Giá Sốc\",\"vi\":\"Bắt Trend - Giá Sốc\"}"
+              },
+              "url": "https://shopee.vn/m/top-deal-hot-trend"
+            },
+            "type": 13,
+            "display": { "mobile": true, "pc": true },
+            "banner_image_tall": "",
+            "position": 6,
+            "data": {}
+          },
+          {
+            "id": 230171,
+            "start": 1673542800,
+            "end": 1673629199,
+            "banner_image": "https://cf.shopee.vn/file/9da9a3acb5520d601f86a90434f455a5",
+            "navigate_params": {
+              "config": {},
+              "navbar": {
+                "multilang_title": "{\"default\":\"Hoàn Xu Xtra Từ 100K\",\"en\":\"Hoàn Xu Xtra Từ 100K\",\"vi\":\"Hoàn Xu Xtra Từ 100K\"}",
+                "title": "{\"default\":\"Hoàn Xu Xtra Từ 100K\",\"en\":\"Hoàn Xu Xtra Từ 100K\",\"vi\":\"Hoàn Xu Xtra Từ 100K\"}"
+              },
+              "url": "https://shopee.vn/m/shopee-cashback"
+            },
+            "type": 13,
+            "display": { "mobile": true, "pc": true },
+            "banner_image_tall": "",
+            "position": 7,
+            "data": {}
+          },
+          {
+            "id": 230176,
+            "start": 1673370000,
+            "end": 1673715599,
+            "banner_image": "https://cf.shopee.vn/file/8d6d5ee795e7675fed39d31ba04c3b92",
+            "navigate_params": {
+              "config": {},
+              "navbar": {
+                "multilang_title": "{\"default\":\"Hàng Hiệu Giá Tốt\",\"en\":\"Hàng Hiệu Giá Tốt\",\"vi\":\"Hàng Hiệu Giá Tốt\"}",
+                "title": "{\"default\":\"Hàng Hiệu Giá Tốt\",\"en\":\"Hàng Hiệu Giá Tốt\",\"vi\":\"Hàng Hiệu Giá Tốt\"}"
+              },
+              "url": "https://shopee.vn/m/sale-hang-hieu-gia-tot"
+            },
+            "type": 13,
+            "display": { "mobile": true, "pc": true },
+            "banner_image_tall": "",
+            "position": 10,
+            "data": {}
+          },
+          {
+            "id": 230190,
+            "start": 1673197200,
+            "end": 1673668799,
+            "banner_image": "https://cf.shopee.vn/file/e90d0cb881d603a7f7cb4e0c9ff6a287",
+            "navigate_params": {
+              "config": {},
+              "navbar": {
+                "multilang_title": "{\"default\":\"Chia Kho Xu 30 Triệu\",\"en\":\"Chia Kho Xu 30 Triệu\",\"vi\":\"Chia Kho Xu 30 Triệu\"}",
+                "title": "{\"default\":\"Chia Kho Xu 30 Triệu\",\"en\":\"Chia Kho Xu 30 Triệu\",\"vi\":\"Chia Kho Xu 30 Triệu\"}"
+              },
+              "url": "https://shopee.vn/m/shopeesogiday"
+            },
+            "type": 13,
+            "display": { "mobile": true, "pc": true },
+            "block_buyer_platform": [2],
+            "banner_image_tall": "",
+            "position": 12,
+            "data": {}
+          },
+          {
+            "id": 229752,
+            "start": 1672592400,
+            "end": 1675097999,
+            "banner_image": "https://cf.shopee.vn/file/9df57ba80ca225e67c08a8a0d8cc7b85",
+            "navigate_params": {
+              "config": {},
+              "navbar": {
+                "multilang_title": "{\"default\":\"Nạp Điện Thoại \\u0026 Thẻ Game\",\"en\":\"Nạp Điện Thoại \\u0026 Thẻ Game\",\"vi\":\"Nạp Điện Thoại \\u0026 Thẻ Game\"}",
+                "title": "{\"default\":\"Nạp Điện Thoại \\u0026 Thẻ Game\",\"en\":\"Nạp Điện Thoại \\u0026 Thẻ Game\",\"vi\":\"Nạp Điện Thoại \\u0026 Thẻ Game\"}"
+              },
+              "url": "https://shopee.vn/digital-product/shop/game"
+            },
+            "type": 13,
+            "display": { "mobile": false, "pc": true },
+            "banner_image_tall": "",
+            "position": 15,
+            "data": {}
+          },
+          {
+            "id": 230179,
+            "start": 1673197200,
+            "end": 1673715599,
+            "banner_image": "https://cf.shopee.vn/file/a08ab28962514a626195ef0415411585",
+            "navigate_params": {
+              "config": {},
+              "navbar": {
+                "multilang_title": "{\"default\":\"Hàng Quốc Tế\",\"en\":\"Hàng Quốc Tế\",\"vi\":\"Hàng Quốc Tế\"}",
+                "title": "{\"default\":\"Hàng Quốc Tế\",\"en\":\"Hàng Quốc Tế\",\"vi\":\"Hàng Quốc Tế\"}"
+              },
+              "url": "https://shopee.vn/sandealquocte"
+            },
+            "type": 13,
+            "display": { "mobile": true, "pc": true },
+            "banner_image_tall": "",
+            "position": 32,
+            "data": {}
+          }
+        ],
+        "type": "pc_home_squares",
+        "version": "69fb82dac254cae40b72c0842312c802",
+        "not_modified": false,
+        "settings": null
+      },
+      {
+        "type": "popup",
+        "version": "b117d5aa2c806d4694f57aca3460a50c",
+        "not_modified": false,
+        "settings": null
+      },
+      {
+        "banners": [
+          {
+            "id": 78014,
+            "start": 0,
+            "end": 1893456000,
+            "banner_image": "https://cf.shopee.vn/file/4c1e9c9a4fac9666ec08cdff27b4d532",
+            "navigate_params": {
+              "url": "https://shopee.vn/welcome-package?smtt=201.78014",
+              "navbar": { "title": null },
+              "config": {}
+            },
+            "type": 9,
+            "display": { "mobile": false, "pc": true },
+            "banner_image_tall": "",
+            "data": {}
+          }
+        ],
+        "type": "welcome_package_entrance",
+        "version": "bd6bbf2cdf8db52cf930996267176109",
+        "not_modified": false,
+        "settings": null
+      }
+    ]
+  }
+}

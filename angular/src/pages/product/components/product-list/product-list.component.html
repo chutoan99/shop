@@ -1,0 +1,139 @@
+<div class="flex-1 mt-[20px]">
+	<ul class="flex w-[100%]">
+		<li
+			style="background: rgba(255, 255, 255, 70%)"
+			class="flex bg-[rgba(255, 255 , 255, 90)] shadow-sm rounded-[5px] p-[10px] w-[100%]">
+			<div class="w-100 flex items-center">
+				<div
+					class="py-1 font-inter text-[14px] font-medium leading-[20px] text-[#687182] px-[4px] w-[5%] justify-center flex items-center">
+					#
+				</div>
+				<div class="font-inter text-[14px] font-medium leading-[20px] text-[#687182] px-[4px] w-[13%]">
+					Image
+				</div>
+				<div class="flex flex-col gap-[5px] font-inter text-[14px] font-medium text-[#687182] px-[4px]">
+					Name
+				</div>
+			</div>
+			<div
+				class="w-100"
+				style="
+					display: grid;
+					grid-template-columns: repeat(3, 0.8fr) 1.8fr 2fr 1fr;
+					grid-template-rows: 0.8fr;
+					grid-column-gap: 10px;
+				">
+				<div class="py-1 font-inter text-[14px] font-medium leading-[20px] text-[#687182] px-[4px] text-center">
+					Sold
+				</div>
+				<div class="py-1 font-inter text-[14px] font-medium leading-[20px] text-[#687182] px-[4px] text-center">
+					Stock
+				</div>
+				<div class="py-1 font-inter text-[14px] font-medium leading-[20px] text-[#687182] px-[4px] text-center">
+					Discount
+				</div>
+				<div class="py-1 font-inter text-[14px] font-medium leading-[20px] text-[#687182] px-[4px] text-center">
+					Price
+				</div>
+				<div class="py-1 font-inter text-[14px] font-medium leading-[20px] text-[#687182] px-[4px] text-center">
+					Before Discount
+				</div>
+				<div
+					class="py-1 font-inter text-[14px] font-medium leading-[20px] text-[#687182] px-[4px] flex text-end">
+					Actions
+				</div>
+			</div>
+		</li>
+	</ul>
+</div>
+<div class="flex-1 mt-[15px]">
+	<ul *ngFor="let data of dataSources$ | async; let i = index" class="flex w-[100%]">
+		<li style="background: rgba(255, 255, 255, 70%)" class="flex shadow-sm rounded-[5px] p-[10px] w-[100%]">
+			<div class="w-100 flex items-center">
+				<div
+					class="py-4 font-inter text-[14px] font-medium leading-[20px] text-[#687182] px-[4px] w-[5%] justify-center flex items-center">
+					{{ i + 1 }}
+				</div>
+				<div class="flex items-center gap-[10px]">
+					<div class="font-inter text-[14px] font-medium leading-[20px] text-[#687182] px-[4px] w-[20%]">
+						<div class="h-[60px] rounded-[5px]">
+							<img
+								src="https://cf.shopee.vn/file/{{ data?.image }}"
+								class="h-full rounded-[5px]"
+								alt="{{ data?.name }}" />
+						</div>
+					</div>
+					<div class="flex flex-col gap-[5px] font-inter text-[14px] font-medium text-[#687182] px-[4px]">
+						<div class="text-[#f8482f] flex items-center gap-[5px]">
+							{{ data?.itemid }}<nz-rate [ngModel]="data?.shop_rating" nzDisabled></nz-rate>
+						</div>
+						<div class="word-break">
+							{{ data?.name }}
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div
+				class="w-100"
+				style="
+					display: grid;
+					grid-template-columns: repeat(3, 0.8fr) 1.8fr 2fr 1fr;
+					grid-template-rows: 1fr;
+					grid-column-gap: 10px;
+				">
+				<div class="py-4 font-inter text-[14px] font-medium leading-[20px] text-[#687182] px-[4px] text-center">
+					{{ data?.historical_sold }}
+				</div>
+				<div class="py-4 font-inter text-[14px] font-medium leading-[20px] text-[#687182] px-[4px] text-center">
+					{{ data?.stock }}
+				</div>
+				<ng-container *ngIf="data?.discount; else elseDiscount">
+					<div
+						class="py-4 font-inter text-[14px] font-medium leading-[20px] text-[#687182] px-[4px] text-center"
+						[class]="getNumber(data.discount) ? 'text-red' : 'text-green'">
+						{{ data?.discount }}
+					</div>
+				</ng-container>
+				<ng-template #elseDiscount>
+					<div
+						class="py-4 font-inter text-[14px] font-medium leading-[20px] text-[#687182] px-[4px] text-center">
+						0%
+					</div>
+				</ng-template>
+				<div class="py-4 font-inter text-[14px] font-medium leading-[20px] text-[#687182] px-[4px] text-center">
+					{{ data.price.toLocaleString('it-IT') }} đ
+				</div>
+				<div class="py-4 font-inter text-[14px] font-medium leading-[20px] text-[#687182] px-[4px] text-center">
+					{{ data.price_before_discount.toLocaleString('it-IT') }} đ
+				</div>
+				<div class="py-4 flex justify-center text-end">
+					<img
+						nz-dropdown
+						nzTrigger="click"
+						[nzDropdownMenu]="menu"
+						class="w-[20px] h-[20px] hover:opacity-70"
+						src="/assets/svg/actions.svg"
+						alt="actions" />
+					<nz-dropdown-menu #menu="nzDropdownMenu">
+						<ul nz-menu>
+							<li nz-menu-item>
+								<img
+									class="mr-[5px]"
+									src="/assets/svg/info.svg"
+									alt="actions"
+									[routerLink]="['./detail/', data.itemid]" />View Detail
+							</li>
+							<li nz-menu-item>
+								<img class="mr-[5px]" src="/assets/svg/pencil-fiiled.svg" alt="edit" />Edit
+							</li>
+							<li nz-menu-item>
+								<img class="mr-[5px]" src="/assets/svg/trash-filled.svg" alt="remove" />Remove
+							</li>
+						</ul>
+					</nz-dropdown-menu>
+				</div>
+			</div>
+		</li>
+	</ul>
+</div>

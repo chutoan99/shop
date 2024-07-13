@@ -1,0 +1,1524 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "orderid": 124947308268652,
+        "itemid": 15914169245,
+        "cmtid": 10391980931,
+        "ctime": 1671850945,
+        "rating": 1,
+        "userid": 495142443,
+        "shopid": 267466458,
+        "comment": "Chất liệu:bạc\nMàu sắc:bạc\nĐúng với mô tả:y như hình\n\nshop giao đúng nhanh luôn còn chiều theo yêu cầu KH nữa quá là dễ thương luôn, trang sức đúng xịn với còn có giấy tờ đàng hoàng nữa . quá tốt luôn kiểu này mua khỏi sợ lừa đảo với nhiều rủi ro . Thích quá kiểu này sẽ ủng hộ dài dài",
+        "rating_star": 5,
+        "status": 2,
+        "mtime": 1672316269,
+        "editable": 1,
+        "opt": 2,
+        "filter": 7,
+        "mentioned": [],
+        "is_hidden": false,
+        "author_username": "lamkhanhung9",
+        "author_portrait": "",
+        "author_shopid": 495122865,
+        "anonymous": false,
+        "images": [
+          "vn-11134103-22120-39abzajegglv6c",
+          "vn-11134103-22120-68abzajegglv7a",
+          "vn-11134103-22120-itpczajegglv3d",
+          "vn-11134103-22120-pzhajbjegglvec",
+          "vn-11134103-22120-m1hajbjegglv1d"
+        ],
+        "videos": [
+          {
+            "id": "vn_cd7ee35a-c9fe-425b-a5ae-7065989357ac_000219",
+            "cover": "https://img.sp.mms.shopee.sg/vn-11110103-22120-9iyb68tegglvdd",
+            "url": "https://play-ws.vod.shopee.com/api/v4/11110103/mms/vn_cd7ee35a-c9fe-425b-a5ae-7065989357ac_000219.16000051671850780.mp4",
+            "duration": 9130,
+            "upload_time": null,
+            "mms_ext": "{\"vid\":\"vn_cd7ee35a-c9fe-425b-a5ae-7065989357ac_000219\",\"biz\":103,\"duration\":9133,\"create_time\":1671850778,\"serviceID\":2,\"cover\":\"https://img.sp.mms.shopee.sg/vn-11110103-22120-9iyb68tegglvdd\",\"cover_list\":null,\"formats\":[{\"format\":1600005,\"defn\":\"V640P\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/api/v4/11110103/mms/vn_cd7ee35a-c9fe-425b-a5ae-7065989357ac_000219.16000051671850780.mp4\",\"width\":360,\"height\":640,\"bitrate\":517992,\"size\":613803,\"fps\":25.10965,\"duration\":9149,\"update_time\":1671850783}],\"default_format\":{\"format\":600001,\"defn\":\"ORI\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/api/v4/11110103/mms/vn_cd7ee35a-c9fe-425b-a5ae-7065989357ac_000219.ori.mp4\",\"width\":360,\"height\":640,\"bitrate\":1551017,\"size\":1780243,\"fps\":30,\"duration\":9133,\"update_time\":1671850780},\"extend_formats\":{},\"ab_test\":\"\"}",
+            "cover_image_id": ""
+          }
+        ],
+        "product_items": [
+          {
+            "itemid": 15914169245,
+            "shopid": 267466458,
+            "name": "Dây chuyền bạc nữ đá tròn lấp lánh chất liệu bạc 925 thời trang phụ kiện trang sức nữ Viễn Chí Bảo D400483",
+            "image": "fc8112931a986b6339fd22a4cbc556e0",
+            "is_snapshot": 1,
+            "snapshotid": 6400154687,
+            "modelid": 114332187850,
+            "model_name": "",
+            "options": [""]
+          }
+        ],
+        "delete_reason": null,
+        "delete_operator": null,
+        "ItemRatingReply": null,
+        "tags": null,
+        "editable_date": 1674442945,
+        "show_reply": null,
+        "like_count": 2,
+        "liked": null,
+        "sync_to_social": false,
+        "detailed_rating": {
+          "product_quality": 5,
+          "seller_service": 5,
+          "delivery_service": 5
+        },
+        "exclude_scoring_due_low_logistic": false,
+        "loyalty_info": null,
+        "template_tags": ["Chất liệu", "Màu sắc", "Đúng với mô tả"],
+        "has_template_tag": true,
+        "sync_to_social_toggle": null,
+        "sip_info": { "is_oversea": false, "origin_region": "vn" },
+        "is_repeated_purchase": false,
+        "display_variation_filter": null,
+        "overall_fit": 0,
+        "is_normal_item": true,
+        "viewed": null,
+        "show_view": null,
+        "sync_to_social_detail": null,
+        "profile": null,
+        "size_info_tags": null,
+        "size_info_abt": "",
+        "image_data": [
+          {
+            "image_id": "vn-11134103-22120-39abzajegglv6c",
+            "cover_image_id": "vn-11134103-22120-39abzajegglv6c"
+          },
+          {
+            "image_id": "vn-11134103-22120-68abzajegglv7a",
+            "cover_image_id": "vn-11134103-22120-68abzajegglv7a"
+          },
+          {
+            "image_id": "vn-11134103-22120-itpczajegglv3d",
+            "cover_image_id": "vn-11134103-22120-itpczajegglv3d"
+          },
+          {
+            "image_id": "vn-11134103-22120-pzhajbjegglvec",
+            "cover_image_id": "vn-11134103-22120-pzhajbjegglvec"
+          },
+          {
+            "image_id": "vn-11134103-22120-m1hajbjegglv1d",
+            "cover_image_id": "vn-11134103-22120-m1hajbjegglv1d"
+          }
+        ],
+        "key_media": { "key_media_code": 0, "key_media_id": "" }
+      },
+      {
+        "orderid": 124548293155568,
+        "itemid": 15914169245,
+        "cmtid": 10356995041,
+        "ctime": 1671470098,
+        "rating": 1,
+        "userid": 64911148,
+        "shopid": 267466458,
+        "comment": "Ngay gần nhà mà giao hơi lâu :( nhưng được cái vòng sáng lắm mà package trông cũng chỉn chu",
+        "rating_star": 5,
+        "status": 2,
+        "mtime": 1671955336,
+        "editable": 1,
+        "opt": 2,
+        "filter": 7,
+        "mentioned": [],
+        "is_hidden": false,
+        "author_username": "t*****4",
+        "author_portrait": "f6ac19995130d934b52e22f06940b5df",
+        "author_shopid": 64909695,
+        "anonymous": true,
+        "images": [
+          "vn-11134103-22120-e20qp0vx60kv7a",
+          "vn-11134103-22120-iwc0y4gy60kv31",
+          "vn-11134103-22120-qe9n1lly60kvac",
+          "vn-11134103-22120-4j5dyyjz60kv16",
+          "vn-11134103-22120-bikvfspz60kv95"
+        ],
+        "videos": [
+          {
+            "id": "vn_89f4a7b5-4e24-4155-9669-34febe773a78_000218",
+            "cover": "https://img.sp.mms.shopee.sg/vn-11110103-22120-kg937vzz60kv85",
+            "url": "https://play-ws.vod.shopee.com/api/v4/11110103/mms/vn_89f4a7b5-4e24-4155-9669-34febe773a78_000218.16000051671470065.mp4",
+            "duration": 6298,
+            "upload_time": null,
+            "mms_ext": "{\"vid\":\"vn_89f4a7b5-4e24-4155-9669-34febe773a78_000218\",\"biz\":103,\"duration\":6298,\"create_time\":1671470064,\"serviceID\":2,\"cover\":\"https://img.sp.mms.shopee.sg/vn-11110103-22120-kg937vzz60kv85\",\"cover_list\":null,\"formats\":[{\"format\":1600005,\"defn\":\"V640P\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/api/v4/11110103/mms/vn_89f4a7b5-4e24-4155-9669-34febe773a78_000218.16000051671470065.mp4\",\"width\":640,\"height\":1138,\"bitrate\":778487,\"size\":692746,\"fps\":25.15924,\"duration\":6280,\"update_time\":1671470070},{\"format\":1600046,\"defn\":\"V480P\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/api/v4/11110103/mms/vn_89f4a7b5-4e24-4155-9669-34febe773a78_000218.16000461671470066.mp4\",\"width\":480,\"height\":854,\"bitrate\":601419,\"size\":553396,\"fps\":25.15924,\"duration\":6280,\"update_time\":1671470072}],\"default_format\":{\"format\":600001,\"defn\":\"ORI\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/api/v4/11110103/mms/vn_89f4a7b5-4e24-4155-9669-34febe773a78_000218.ori.mp4\",\"width\":720,\"height\":1280,\"bitrate\":5450448,\"size\":4395179,\"fps\":29.84917,\"duration\":6298,\"update_time\":1671470066},\"extend_formats\":{\"H265\":[{\"format\":1600022,\"defn\":\"V640P\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/api/v4/11110103/mms/vn_89f4a7b5-4e24-4155-9669-34febe773a78_000218.16000221671470065.mp4\",\"width\":640,\"height\":1138,\"bitrate\":715428,\"size\":669110,\"fps\":25.15924,\"duration\":6280,\"update_time\":1671470078}]},\"ab_test\":\"\"}",
+            "cover_image_id": ""
+          }
+        ],
+        "product_items": [
+          {
+            "itemid": 15914169245,
+            "shopid": 267466458,
+            "name": "Dây chuyền bạc nữ đá tròn lấp lánh chất liệu bạc 925 thời trang phụ kiện trang sức nữ Viễn Chí Bảo D400483",
+            "image": "fc8112931a986b6339fd22a4cbc556e0",
+            "is_snapshot": 1,
+            "snapshotid": 4079742956,
+            "modelid": 114332187850,
+            "model_name": "",
+            "options": [""]
+          }
+        ],
+        "delete_reason": null,
+        "delete_operator": null,
+        "ItemRatingReply": null,
+        "tags": null,
+        "editable_date": 1674062098,
+        "show_reply": null,
+        "like_count": 0,
+        "liked": null,
+        "sync_to_social": false,
+        "detailed_rating": {
+          "product_quality": 5,
+          "seller_service": 5,
+          "delivery_service": 5
+        },
+        "exclude_scoring_due_low_logistic": false,
+        "loyalty_info": null,
+        "template_tags": [],
+        "has_template_tag": false,
+        "sync_to_social_toggle": null,
+        "sip_info": { "is_oversea": false, "origin_region": "vn" },
+        "is_repeated_purchase": false,
+        "display_variation_filter": null,
+        "overall_fit": 0,
+        "is_normal_item": true,
+        "viewed": null,
+        "show_view": null,
+        "sync_to_social_detail": null,
+        "profile": null,
+        "size_info_tags": null,
+        "size_info_abt": "",
+        "image_data": [
+          {
+            "image_id": "vn-11134103-22120-e20qp0vx60kv7a",
+            "cover_image_id": "vn-11134103-22120-e20qp0vx60kv7a"
+          },
+          {
+            "image_id": "vn-11134103-22120-iwc0y4gy60kv31",
+            "cover_image_id": "vn-11134103-22120-iwc0y4gy60kv31"
+          },
+          {
+            "image_id": "vn-11134103-22120-qe9n1lly60kvac",
+            "cover_image_id": "vn-11134103-22120-qe9n1lly60kvac"
+          },
+          {
+            "image_id": "vn-11134103-22120-4j5dyyjz60kv16",
+            "cover_image_id": "vn-11134103-22120-4j5dyyjz60kv16"
+          },
+          {
+            "image_id": "vn-11134103-22120-bikvfspz60kv95",
+            "cover_image_id": "vn-11134103-22120-bikvfspz60kv95"
+          }
+        ],
+        "key_media": { "key_media_code": 0, "key_media_id": "" }
+      },
+      {
+        "orderid": 123989769293533,
+        "itemid": 15914169245,
+        "cmtid": 10270028139,
+        "ctime": 1670655679,
+        "rating": 1,
+        "userid": 60503724,
+        "shopid": 267466458,
+        "comment": "Màu sắc:trắng\nĐúng với mô tả:đúng sản phẩm\nChất liệu:bạc\n\nChất lượng bạc sáng , đẹp , dây hơi nhỏ tuy nhiên mặt đá sáng , đóng gói đẹp , tặng kèm dây buộc tóc nữa .",
+        "rating_star": 5,
+        "status": 2,
+        "mtime": 1672311794,
+        "editable": 1,
+        "opt": 2,
+        "filter": 7,
+        "mentioned": [],
+        "is_hidden": false,
+        "author_username": "m*****1",
+        "author_portrait": "8aa89a6d8cd8c0df3d345125719c6265",
+        "author_shopid": 60502288,
+        "anonymous": true,
+        "images": [
+          "vn-11134103-22120-ks0zemrjpwkv9b",
+          "vn-11134103-22120-ls0zemrjpwkvac",
+          "vn-11134103-22120-2co2emrjpwkv43",
+          "vn-11134103-22120-gp9xsnrjpwkv72",
+          "vn-11134103-22120-hp9xsnrjpwkv1b"
+        ],
+        "videos": [
+          {
+            "id": "vn_20b5697f-17b4-4aa4-a602-199b41e1da04_000215",
+            "cover": "https://img.sp.mms.shopee.sg/vn-11110103-22120-taxggmvkpwkv94",
+            "url": "https://play-ws.vod.shopee.com/c3/98934353/103/A3oyOYMJAFCDUusTEXYGACY.mp4",
+            "duration": 42972,
+            "upload_time": null,
+            "mms_ext": "{\"vid\":\"vn_20b5697f-17b4-4aa4-a602-199b41e1da04_000215\",\"biz\":103,\"duration\":42972,\"create_time\":1670655506,\"serviceID\":2,\"cover\":\"https://img.sp.mms.shopee.sg/vn-11110103-22120-taxggmvkpwkv94\",\"cover_list\":null,\"formats\":[{\"format\":1600005,\"defn\":\"V640P\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/c3/98934353/103/A3oyOYMJAFCDUusTEXYGACY.mp4\",\"width\":640,\"height\":1138,\"bitrate\":781734,\"size\":4790268,\"fps\":25.02306,\"duration\":43360,\"update_time\":1670655550},{\"format\":1600046,\"defn\":\"V480P\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/c3/98934353/103/A3oyOb0DACQwUesTEWcDACY.mp4\",\"width\":480,\"height\":854,\"bitrate\":605953,\"size\":3834358,\"fps\":25.02306,\"duration\":43360,\"update_time\":1670655528}],\"default_format\":{\"format\":600001,\"defn\":\"ORI\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/api/v4/11110103/mms/vn_20b5697f-17b4-4aa4-a602-199b41e1da04_000215.ori.mp4\",\"width\":720,\"height\":1280,\"bitrate\":1525297,\"size\":8921563,\"fps\":24.02326,\"duration\":42972,\"update_time\":1670655509},\"extend_formats\":{\"H265\":[{\"format\":1600022,\"defn\":\"V640P\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/c3/98934353/103/A3oyORK7AMTGU-sTET8DACY.mp4\",\"width\":640,\"height\":1138,\"bitrate\":704002,\"size\":4541304,\"fps\":25.02306,\"duration\":43360,\"update_time\":1670655570}]},\"ab_test\":\"\"}",
+            "cover_image_id": ""
+          }
+        ],
+        "product_items": [
+          {
+            "itemid": 15914169245,
+            "shopid": 267466458,
+            "name": "Dây chuyền bạc nữ đá tròn lấp lánh chất liệu bạc 925 thời trang phụ kiện trang sức nữ Viễn Chí Bảo D400483",
+            "image": "fc8112931a986b6339fd22a4cbc556e0",
+            "is_snapshot": 1,
+            "snapshotid": 4057261548,
+            "modelid": 114332187850,
+            "model_name": "",
+            "options": [""]
+          }
+        ],
+        "delete_reason": null,
+        "delete_operator": null,
+        "ItemRatingReply": null,
+        "tags": null,
+        "editable_date": 1673247679,
+        "show_reply": null,
+        "like_count": 5,
+        "liked": null,
+        "sync_to_social": false,
+        "detailed_rating": {
+          "product_quality": 5,
+          "seller_service": 5,
+          "delivery_service": 5
+        },
+        "exclude_scoring_due_low_logistic": false,
+        "loyalty_info": null,
+        "template_tags": ["Chất liệu", "Màu sắc", "Đúng với mô tả"],
+        "has_template_tag": true,
+        "sync_to_social_toggle": null,
+        "sip_info": { "is_oversea": false, "origin_region": "vn" },
+        "is_repeated_purchase": false,
+        "display_variation_filter": null,
+        "overall_fit": 0,
+        "is_normal_item": true,
+        "viewed": null,
+        "show_view": null,
+        "sync_to_social_detail": null,
+        "profile": null,
+        "size_info_tags": null,
+        "size_info_abt": "",
+        "image_data": [
+          {
+            "image_id": "vn-11134103-22120-ks0zemrjpwkv9b",
+            "cover_image_id": "vn-11134103-22120-ks0zemrjpwkv9b"
+          },
+          {
+            "image_id": "vn-11134103-22120-ls0zemrjpwkvac",
+            "cover_image_id": "vn-11134103-22120-ls0zemrjpwkvac"
+          },
+          {
+            "image_id": "vn-11134103-22120-2co2emrjpwkv43",
+            "cover_image_id": "vn-11134103-22120-2co2emrjpwkv43"
+          },
+          {
+            "image_id": "vn-11134103-22120-gp9xsnrjpwkv72",
+            "cover_image_id": "vn-11134103-22120-gp9xsnrjpwkv72"
+          },
+          {
+            "image_id": "vn-11134103-22120-hp9xsnrjpwkv1b",
+            "cover_image_id": "vn-11134103-22120-hp9xsnrjpwkv1b"
+          }
+        ],
+        "key_media": { "key_media_code": 0, "key_media_id": "" }
+      },
+      {
+        "orderid": 119639550160825,
+        "itemid": 15914169245,
+        "cmtid": 9849591264,
+        "ctime": 1666149156,
+        "rating": 1,
+        "userid": 420096002,
+        "shopid": 267466458,
+        "comment": "Chất liệu:ok\nMàu sắc:in\nĐúng với mô tả:bhi\n\nHònh ảnh mang tính chất minh hoạ. So nhỏ hơn rong hình di ti ct hhn t",
+        "rating_star": 5,
+        "status": 2,
+        "mtime": 1669961001,
+        "editable": 0,
+        "opt": 2,
+        "filter": 7,
+        "mentioned": [],
+        "is_hidden": false,
+        "author_username": "h*****1",
+        "author_portrait": "299084afc1895c989a50410d3e8b867a",
+        "author_shopid": 420076425,
+        "anonymous": true,
+        "images": [
+          "vn-11134103-22100-ojl70q7l0tiva1",
+          "vn-11134103-22100-64z80q7l0tivdd",
+          "vn-11134103-22100-koe00q7l0tiv4c",
+          "vn-11134103-22100-pjl70q7l0tiva1",
+          "vn-11134103-22100-54z80q7l0tivd2"
+        ],
+        "videos": [
+          {
+            "id": "vn_d649df36-8195-404f-b99e-649393f7ac5b_000201",
+            "cover": "https://img.sp.mms.shopee.sg/vn-11110103-22100-l5eoamem0tiv02",
+            "url": "https://play-ws.vod.shopee.com/api/v4/11110103/mms/vn_d649df36-8195-404f-b99e-649393f7ac5b_000201.12000051666149132.mp4",
+            "duration": 29217,
+            "upload_time": null,
+            "mms_ext": "{\"vid\":\"vn_d649df36-8195-404f-b99e-649393f7ac5b_000201\",\"biz\":103,\"duration\":29215,\"create_time\":1666149124,\"serviceID\":2,\"cover\":\"https://img.sp.mms.shopee.sg/vn-11110103-22100-l5eoamem0tiv02\",\"cover_list\":null,\"formats\":[{\"format\":1600005,\"defn\":\"V640P\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/api/v4/11110103/mms/vn_d649df36-8195-404f-b99e-649393f7ac5b_000201.12000051666149132.mp4\",\"width\":576,\"height\":1024,\"bitrate\":750149,\"size\":2924407,\"fps\":25,\"duration\":29281,\"update_time\":1666149133},{\"format\":1600046,\"defn\":\"V480P\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/api/v4/11110103/mms/vn_d649df36-8195-404f-b99e-649393f7ac5b_000201.12000461666149134.mp4\",\"width\":480,\"height\":854,\"bitrate\":573560,\"size\":2432844,\"fps\":25,\"duration\":29281,\"update_time\":1666149134}],\"default_format\":{\"format\":600001,\"defn\":\"ORI\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/api/v4/11110103/mms/vn_d649df36-8195-404f-b99e-649393f7ac5b_000201.ori.mp4\",\"width\":576,\"height\":1024,\"bitrate\":1260498,\"size\":5103757,\"fps\":55.86263,\"duration\":29215,\"update_time\":1666149125},\"extend_formats\":{\"H265\":[{\"format\":1600018,\"defn\":\"V480P\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/c3/98934353/103/A3oyOQrPAFhKSpETEaAHACY.mp4\",\"width\":480,\"height\":854,\"bitrate\":406520,\"size\":1862011,\"fps\":25.03425,\"duration\":29200,\"update_time\":1670277927},{\"format\":1600022,\"defn\":\"V640P\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/c3/98934353/103/A3oyOavQAHzhSpETEVAFACY.mp4\",\"width\":576,\"height\":1024,\"bitrate\":539354,\"size\":2459943,\"fps\":25.03425,\"duration\":29200,\"update_time\":1670277937}]},\"ab_test\":\"\"}",
+            "cover_image_id": ""
+          }
+        ],
+        "product_items": [
+          {
+            "itemid": 15914169245,
+            "shopid": 267466458,
+            "name": "Dây chuyền bạc nữ đá tròn lấp lánh chất liệu bạc 925 thời trang phụ kiện trang sức nữ Viễn Chí Bảo D400483",
+            "image": "fc8112931a986b6339fd22a4cbc556e0",
+            "is_snapshot": 1,
+            "snapshotid": 3924246663,
+            "modelid": 114332187850,
+            "model_name": "",
+            "options": [""]
+          }
+        ],
+        "delete_reason": null,
+        "delete_operator": null,
+        "ItemRatingReply": null,
+        "tags": null,
+        "editable_date": 1668741156,
+        "show_reply": null,
+        "like_count": 2,
+        "liked": null,
+        "sync_to_social": false,
+        "detailed_rating": {
+          "product_quality": 5,
+          "seller_service": 5,
+          "delivery_service": 5
+        },
+        "exclude_scoring_due_low_logistic": false,
+        "loyalty_info": null,
+        "template_tags": ["Chất liệu", "Màu sắc", "Đúng với mô tả"],
+        "has_template_tag": true,
+        "sync_to_social_toggle": null,
+        "sip_info": { "is_oversea": false, "origin_region": "vn" },
+        "is_repeated_purchase": false,
+        "display_variation_filter": null,
+        "overall_fit": 0,
+        "is_normal_item": true,
+        "viewed": null,
+        "show_view": null,
+        "sync_to_social_detail": null,
+        "profile": null,
+        "size_info_tags": null,
+        "size_info_abt": "",
+        "image_data": [
+          {
+            "image_id": "vn-11134103-22100-ojl70q7l0tiva1",
+            "cover_image_id": "vn-11134103-22100-ojl70q7l0tiva1"
+          },
+          {
+            "image_id": "vn-11134103-22100-64z80q7l0tivdd",
+            "cover_image_id": "vn-11134103-22100-64z80q7l0tivdd"
+          },
+          {
+            "image_id": "vn-11134103-22100-koe00q7l0tiv4c",
+            "cover_image_id": "vn-11134103-22100-koe00q7l0tiv4c"
+          },
+          {
+            "image_id": "vn-11134103-22100-pjl70q7l0tiva1",
+            "cover_image_id": "vn-11134103-22100-pjl70q7l0tiva1"
+          },
+          {
+            "image_id": "vn-11134103-22100-54z80q7l0tivd2",
+            "cover_image_id": "vn-11134103-22100-54z80q7l0tivd2"
+          }
+        ],
+        "key_media": { "key_media_code": 0, "key_media_id": "" }
+      },
+      {
+        "orderid": 115348041270092,
+        "itemid": 15914169245,
+        "cmtid": 9420052777,
+        "ctime": 1661851761,
+        "rating": 1,
+        "userid": 243813715,
+        "shopid": 267466458,
+        "comment": "Chất liệu:bacj\nMàu sắc:trắng\nĐúng với mô tả:hàng đẹp lắm ạ! Như hình mẫu luôn thậm chí đẹp hơn hình mẫu ý ạ. Giao hàng cũng nhanh ch",
+        "rating_star": 5,
+        "status": 2,
+        "mtime": 1671354313,
+        "editable": 0,
+        "opt": 2,
+        "filter": 7,
+        "mentioned": [],
+        "is_hidden": false,
+        "author_username": "le_thanh_ngoc_diep",
+        "author_portrait": "5bf6f8ce511e6bfa3a82711946c52974",
+        "author_shopid": 243808007,
+        "anonymous": false,
+        "images": [
+          "vn-11134103-22080-1ohsgofy0ugv5c",
+          "vn-11134103-22080-s33rqofy0ugv9d",
+          "vn-11134103-22080-du0qapfy0ugv6a",
+          "vn-11134103-22080-2ohsgofy0ugv1b",
+          "vn-11134103-22080-kgor1ofy0ugv65"
+        ],
+        "videos": [
+          {
+            "id": "vn_22332580-19a2-433f-ba71-ec908db3d942_000186",
+            "cover": "https://play-ws.vod.shopee.com/c3/98934353/103/A3oxOJKyAIi7VbgLESIIACc.jpg",
+            "url": "https://play-ws.vod.shopee.com/c3/98934353/103/A3oxOGmzAIT6VrgLESQJACY.mp4",
+            "duration": 26148,
+            "upload_time": null,
+            "mms_ext": "{\"vid\":\"vn_22332580-19a2-433f-ba71-ec908db3d942_000186\",\"biz\":103,\"duration\":26166,\"create_time\":1661851756,\"serviceID\":2,\"cover\":\"http://play-ws.vod.shopee.com/c3/98934353/103/A3oxOJKyAIi7VbgLESIIACc.jpg\",\"cover_list\":null,\"formats\":[{\"format\":1600005,\"defn\":\"V640P\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/c3/98934353/103/A3oxOGmzAIT6VrgLESQJACY.mp4\",\"width\":360,\"height\":640,\"bitrate\":841474,\"size\":2928237,\"fps\":25,\"duration\":26176,\"update_time\":1661851778}],\"default_format\":{\"format\":600001,\"defn\":\"ORI\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/c3/98934353/103/A3oxOLztABjBVbgLESwJACY.mp4\",\"width\":360,\"height\":640,\"bitrate\":1511582,\"size\":5317748,\"fps\":24,\"duration\":26166,\"update_time\":1661851758},\"extend_formats\":{},\"ab_test\":\"\"}",
+            "cover_image_id": ""
+          }
+        ],
+        "product_items": [
+          {
+            "itemid": 15914169245,
+            "shopid": 267466458,
+            "name": "Dây chuyền bạc nữ đá tròn lấp lánh chất liệu bạc 925 thời trang phụ kiện trang sức nữ Viễn Chí Bảo D400483",
+            "image": "fc8112931a986b6339fd22a4cbc556e0",
+            "is_snapshot": 1,
+            "snapshotid": 3802530360,
+            "modelid": 114332187850,
+            "model_name": "",
+            "options": [""]
+          }
+        ],
+        "delete_reason": null,
+        "delete_operator": null,
+        "ItemRatingReply": null,
+        "tags": null,
+        "editable_date": 1668605010,
+        "show_reply": null,
+        "like_count": 21,
+        "liked": null,
+        "sync_to_social": false,
+        "detailed_rating": {
+          "product_quality": 5,
+          "seller_service": null,
+          "delivery_service": null
+        },
+        "exclude_scoring_due_low_logistic": false,
+        "loyalty_info": null,
+        "template_tags": ["Chất liệu", "Màu sắc", "Đúng với mô tả"],
+        "has_template_tag": true,
+        "sync_to_social_toggle": null,
+        "sip_info": { "is_oversea": false, "origin_region": "vn" },
+        "is_repeated_purchase": false,
+        "display_variation_filter": null,
+        "overall_fit": 0,
+        "is_normal_item": true,
+        "viewed": null,
+        "show_view": null,
+        "sync_to_social_detail": null,
+        "profile": null,
+        "size_info_tags": null,
+        "size_info_abt": "",
+        "image_data": [
+          {
+            "image_id": "vn-11134103-22080-1ohsgofy0ugv5c",
+            "cover_image_id": "vn-11134103-22080-1ohsgofy0ugv5c"
+          },
+          {
+            "image_id": "vn-11134103-22080-s33rqofy0ugv9d",
+            "cover_image_id": "vn-11134103-22080-s33rqofy0ugv9d"
+          },
+          {
+            "image_id": "vn-11134103-22080-du0qapfy0ugv6a",
+            "cover_image_id": "vn-11134103-22080-du0qapfy0ugv6a"
+          },
+          {
+            "image_id": "vn-11134103-22080-2ohsgofy0ugv1b",
+            "cover_image_id": "vn-11134103-22080-2ohsgofy0ugv1b"
+          },
+          {
+            "image_id": "vn-11134103-22080-kgor1ofy0ugv65",
+            "cover_image_id": "vn-11134103-22080-kgor1ofy0ugv65"
+          }
+        ],
+        "key_media": { "key_media_code": 0, "key_media_id": "" }
+      },
+      {
+        "orderid": 100976579595663,
+        "itemid": 15914169245,
+        "cmtid": 7791085031,
+        "ctime": 1647584339,
+        "rating": 1,
+        "userid": 320200612,
+        "shopid": 267466458,
+        "comment": "Hàng xinh dã man luôn ạ, shop đóng gói rất kĩ, lại được tặng thêm buộc tóc nữa",
+        "rating_star": 5,
+        "status": 2,
+        "mtime": 1671592936,
+        "editable": 0,
+        "opt": 2,
+        "filter": 7,
+        "mentioned": [],
+        "is_hidden": false,
+        "author_username": "d*****3",
+        "author_portrait": "",
+        "author_shopid": 320181013,
+        "anonymous": true,
+        "images": [
+          "637f4ab388de17b34d36145b7ed238df",
+          "77ba07f2a9ede1e04a04e4326cb4fc67",
+          "bc6ee898d068283cc5c04e7332bf2385",
+          "59eef1587f4d5e9bc8068732a4e12de5",
+          "73eb30efd6e6d3f9c6969abd60447048"
+        ],
+        "videos": [
+          {
+            "id": "vn_23ef8a9d-cadc-465a-a67a-91bad1d0927d_000131",
+            "cover": "https://play-ws.vod.shopee.com/c3/98934353/103/AnoxRCQAXAsbwQERPAkARw.jpg",
+            "url": "https://play-ws.vod.shopee.com/c3/98934353/103/AnoyOo8AsNG3bv4hfQEIAEc.mp4",
+            "duration": 3581,
+            "upload_time": null,
+            "mms_ext": "{\"vid\":\"vn_23ef8a9d-cadc-465a-a67a-91bad1d0927d_000131\",\"biz\":103,\"duration\":3543,\"create_time\":1647584335,\"serviceID\":1,\"cover\":\"http://play-ws.vod.shopee.com/c3/98934353/103/AnoxRCQAXAsbwQERPAkARw.jpg\",\"cover_list\":null,\"formats\":[{\"format\":1600005,\"defn\":\"V640P\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/c3/98934353/103/AnoyOo8AsNG3bv4hfQEIAEc.mp4\",\"width\":1136,\"height\":640,\"bitrate\":800081,\"size\":378086,\"fps\":25,\"duration\":3543,\"update_time\":1647584343}],\"default_format\":{\"format\":600001,\"defn\":\"ORI\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/c3/98934353/103/AnoyGjYAMHC3bv4hVQEMAEc.mp4\",\"width\":1280,\"height\":720,\"bitrate\":1472942,\"size\":699421,\"fps\":24.28235,\"duration\":3552,\"update_time\":1647584336},\"extend_formats\":{\"H265\":[{\"format\":1600022,\"defn\":\"V640P\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/c3/98934353/103/A3oxOJCaAJRWzgwNEUcFACc.mp4\",\"width\":1138,\"height\":640,\"bitrate\":654714,\"size\":341743,\"fps\":25.2809,\"duration\":3559,\"update_time\":1663279797}]},\"ab_test\":\"\"}",
+            "cover_image_id": ""
+          }
+        ],
+        "product_items": [
+          {
+            "itemid": 15914169245,
+            "shopid": 267466458,
+            "name": "Dây chuyền bạc nữ đá tròn lấp lánh chất liệu bạc 925 thời trang phụ kiện trang sức nữ Viễn Chí Bảo D400483",
+            "image": "ddac91c8d40933c65465fde9ddc41434",
+            "is_snapshot": 1,
+            "snapshotid": 3384042617,
+            "modelid": 114332187850,
+            "model_name": "",
+            "options": [""]
+          }
+        ],
+        "delete_reason": null,
+        "delete_operator": null,
+        "ItemRatingReply": null,
+        "tags": null,
+        "editable_date": 1663974917,
+        "show_reply": null,
+        "like_count": 7,
+        "liked": null,
+        "sync_to_social": false,
+        "detailed_rating": {
+          "product_quality": 5,
+          "seller_service": null,
+          "delivery_service": null
+        },
+        "exclude_scoring_due_low_logistic": false,
+        "loyalty_info": null,
+        "template_tags": [],
+        "has_template_tag": false,
+        "sync_to_social_toggle": null,
+        "sip_info": { "is_oversea": false, "origin_region": "vn" },
+        "is_repeated_purchase": false,
+        "display_variation_filter": null,
+        "overall_fit": 0,
+        "is_normal_item": true,
+        "viewed": null,
+        "show_view": null,
+        "sync_to_social_detail": null,
+        "profile": null,
+        "size_info_tags": null,
+        "size_info_abt": "",
+        "image_data": [
+          {
+            "image_id": "637f4ab388de17b34d36145b7ed238df",
+            "cover_image_id": "637f4ab388de17b34d36145b7ed238df"
+          },
+          {
+            "image_id": "77ba07f2a9ede1e04a04e4326cb4fc67",
+            "cover_image_id": "77ba07f2a9ede1e04a04e4326cb4fc67"
+          },
+          {
+            "image_id": "bc6ee898d068283cc5c04e7332bf2385",
+            "cover_image_id": "bc6ee898d068283cc5c04e7332bf2385"
+          },
+          {
+            "image_id": "59eef1587f4d5e9bc8068732a4e12de5",
+            "cover_image_id": "59eef1587f4d5e9bc8068732a4e12de5"
+          },
+          {
+            "image_id": "73eb30efd6e6d3f9c6969abd60447048",
+            "cover_image_id": "73eb30efd6e6d3f9c6969abd60447048"
+          }
+        ],
+        "key_media": { "key_media_code": 0, "key_media_id": "" }
+      },
+      {
+        "orderid": 124788659270456,
+        "itemid": 15914169245,
+        "cmtid": 10351074748,
+        "ctime": 1671426152,
+        "rating": 1,
+        "userid": 98729124,
+        "shopid": 267466458,
+        "comment": "Giao hàng lâu thiệc á. Nội thành HN mà mất tận 4 hôm để giao hàng\nNhưng nhận hàng thì quạo bay hết sạch luôn, vì chiếc vòng dễ thưn quá chời ơi, nó bé xinh, dây mảnh và ngắn qua hõm cổ chút đúng ý mình luôn. Đeo lên duyên dáng mà sang cực kì. 10 điểm cho sụe xinh xẻo này",
+        "rating_star": 5,
+        "status": 2,
+        "mtime": 1672213668,
+        "editable": 1,
+        "opt": 2,
+        "filter": 7,
+        "mentioned": [],
+        "is_hidden": false,
+        "author_username": "soxbeh",
+        "author_portrait": "",
+        "author_shopid": 98727646,
+        "anonymous": false,
+        "images": [
+          "vn-11134103-22120-pzdr2hktf0kv9b",
+          "vn-11134103-22120-h2dqrhktf0kve5",
+          "vn-11134103-22120-0ezp2hktf0kve7",
+          "vn-11134103-22120-9ezp2hktf0kv14",
+          "vn-11134103-22120-g2dqrhktf0kvb9"
+        ],
+        "videos": [
+          {
+            "id": "vn_c1fdc04c-2a9e-4762-b3de-60a98af93ad5_000218",
+            "cover": "https://img.sp.mms.shopee.sg/vn-11110103-22120-wlok46yuf0kvb8",
+            "url": "https://play-ws.vod.shopee.com/api/v4/11110103/mms/vn_c1fdc04c-2a9e-4762-b3de-60a98af93ad5_000218.16000051671426111.mp4",
+            "duration": 14048,
+            "upload_time": null,
+            "mms_ext": "{\"vid\":\"vn_c1fdc04c-2a9e-4762-b3de-60a98af93ad5_000218\",\"biz\":103,\"duration\":14047,\"create_time\":1671426110,\"serviceID\":2,\"cover\":\"https://img.sp.mms.shopee.sg/vn-11110103-22120-wlok46yuf0kvb8\",\"cover_list\":null,\"formats\":[{\"format\":1600005,\"defn\":\"V640P\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/api/v4/11110103/mms/vn_c1fdc04c-2a9e-4762-b3de-60a98af93ad5_000218.16000051671426111.mp4\",\"width\":544,\"height\":960,\"bitrate\":322816,\"size\":745865,\"fps\":25.07163,\"duration\":14048,\"update_time\":1671426116},{\"format\":1600046,\"defn\":\"V480P\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/api/v4/11110103/mms/vn_c1fdc04c-2a9e-4762-b3de-60a98af93ad5_000218.16000461671426148.mp4\",\"width\":480,\"height\":848,\"bitrate\":302209,\"size\":708907,\"fps\":25.07163,\"duration\":14059,\"update_time\":1671426157}],\"default_format\":{\"format\":600001,\"defn\":\"ORI\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/api/v4/11110103/mms/vn_c1fdc04c-2a9e-4762-b3de-60a98af93ad5_000218.ori.mp4\",\"width\":544,\"height\":960,\"bitrate\":2631671,\"size\":4855502,\"fps\":12.96127,\"duration\":14047,\"update_time\":1671426113},\"extend_formats\":{},\"ab_test\":\"\"}",
+            "cover_image_id": ""
+          }
+        ],
+        "product_items": [
+          {
+            "itemid": 15914169245,
+            "shopid": 267466458,
+            "name": "Dây chuyền bạc nữ đá tròn lấp lánh chất liệu bạc 925 thời trang phụ kiện trang sức nữ Viễn Chí Bảo D400483",
+            "image": "fc8112931a986b6339fd22a4cbc556e0",
+            "is_snapshot": 1,
+            "snapshotid": 8400110071,
+            "modelid": 114332187850,
+            "model_name": "",
+            "options": [""]
+          }
+        ],
+        "delete_reason": null,
+        "delete_operator": null,
+        "ItemRatingReply": null,
+        "tags": null,
+        "editable_date": 1674018152,
+        "show_reply": null,
+        "like_count": 1,
+        "liked": null,
+        "sync_to_social": false,
+        "detailed_rating": {
+          "product_quality": 5,
+          "seller_service": 5,
+          "delivery_service": 5
+        },
+        "exclude_scoring_due_low_logistic": false,
+        "loyalty_info": null,
+        "template_tags": [],
+        "has_template_tag": false,
+        "sync_to_social_toggle": null,
+        "sip_info": { "is_oversea": false, "origin_region": "vn" },
+        "is_repeated_purchase": false,
+        "display_variation_filter": null,
+        "overall_fit": 0,
+        "is_normal_item": true,
+        "viewed": null,
+        "show_view": null,
+        "sync_to_social_detail": null,
+        "profile": null,
+        "size_info_tags": null,
+        "size_info_abt": "",
+        "image_data": [
+          {
+            "image_id": "vn-11134103-22120-pzdr2hktf0kv9b",
+            "cover_image_id": "vn-11134103-22120-pzdr2hktf0kv9b"
+          },
+          {
+            "image_id": "vn-11134103-22120-h2dqrhktf0kve5",
+            "cover_image_id": "vn-11134103-22120-h2dqrhktf0kve5"
+          },
+          {
+            "image_id": "vn-11134103-22120-0ezp2hktf0kve7",
+            "cover_image_id": "vn-11134103-22120-0ezp2hktf0kve7"
+          },
+          {
+            "image_id": "vn-11134103-22120-9ezp2hktf0kv14",
+            "cover_image_id": "vn-11134103-22120-9ezp2hktf0kv14"
+          },
+          {
+            "image_id": "vn-11134103-22120-g2dqrhktf0kvb9",
+            "cover_image_id": "vn-11134103-22120-g2dqrhktf0kvb9"
+          }
+        ],
+        "key_media": { "key_media_code": 0, "key_media_id": "" }
+      },
+      {
+        "orderid": 113234427264775,
+        "itemid": 15914169245,
+        "cmtid": 9513748752,
+        "ctime": 1662777264,
+        "rating": 1,
+        "userid": 571499833,
+        "shopid": 267466458,
+        "comment": "Đúng với mô tả:đúng\nChất liệu:bạc\nMàu sắc:bạc\n\nĐẹp lắm nhé mn\nMn nên mua nha \nCảm ơn shop nhiều lắm ạ",
+        "rating_star": 5,
+        "status": 2,
+        "mtime": 1670850504,
+        "editable": 0,
+        "opt": 2,
+        "filter": 7,
+        "mentioned": [],
+        "is_hidden": false,
+        "author_username": "b*****2",
+        "author_portrait": "1dc94305449ce7d28e21c6b8e31f9105",
+        "author_shopid": 571480248,
+        "anonymous": true,
+        "images": [
+          "vn-11134103-22090-9uv037vbkahvcc",
+          "vn-11134103-22090-5v0hypwbkahv94",
+          "vn-11134103-22090-58a8fxwbkahv1c"
+        ],
+        "videos": [
+          {
+            "id": "vn_85ff6533-e0ff-4e71-9073-6383b98c9cc4_000189",
+            "cover": "https://play-ws.vod.shopee.com/c3/98934353/103/A3oxOA1sAIDB-pQMETYKACc.jpg",
+            "url": "https://play-ws.vod.shopee.com/c3/98934353/103/A3oxOHqRANTb-pQMEVoAACc.mp4",
+            "duration": 5533,
+            "upload_time": null,
+            "mms_ext": "{\"vid\":\"vn_85ff6533-e0ff-4e71-9073-6383b98c9cc4_000189\",\"biz\":103,\"duration\":5541,\"create_time\":1662777207,\"serviceID\":2,\"cover\":\"http://play-ws.vod.shopee.com/c3/98934353/103/A3oxOA1sAIDB-pQMETYKACc.jpg\",\"cover_list\":null,\"formats\":[{\"format\":1600005,\"defn\":\"V640P\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/c3/98934353/103/A3oxOHqRANTb-pQMEVoAACc.mp4\",\"width\":640,\"height\":542,\"bitrate\":277146,\"size\":193774,\"fps\":25.18116,\"duration\":5519,\"update_time\":1662777210},{\"format\":1600046,\"defn\":\"V480P\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/c3/98934353/103/A3oxOO2oABjc-pQMETUIACc.mp4\",\"width\":566,\"height\":480,\"bitrate\":264933,\"size\":185347,\"fps\":25.18116,\"duration\":5519,\"update_time\":1662777210}],\"default_format\":{\"format\":600001,\"defn\":\"ORI\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/c3/98934353/103/A3oxOAeKAPDC-pQMEVAAACc.mp4\",\"width\":640,\"height\":542,\"bitrate\":1227427,\"size\":851909,\"fps\":24,\"duration\":5541,\"update_time\":1662777209},\"extend_formats\":{},\"ab_test\":\"\"}",
+            "cover_image_id": ""
+          }
+        ],
+        "product_items": [
+          {
+            "itemid": 15914169245,
+            "shopid": 267466458,
+            "name": "Dây chuyền bạc nữ đá tròn lấp lánh chất liệu bạc 925 thời trang phụ kiện trang sức nữ Viễn Chí Bảo D400483",
+            "image": "fc8112931a986b6339fd22a4cbc556e0",
+            "is_snapshot": 1,
+            "snapshotid": 3721135050,
+            "modelid": 114332187850,
+            "model_name": "",
+            "options": [""]
+          }
+        ],
+        "delete_reason": null,
+        "delete_operator": null,
+        "ItemRatingReply": null,
+        "tags": null,
+        "editable_date": 1668570388,
+        "show_reply": null,
+        "like_count": 4,
+        "liked": null,
+        "sync_to_social": false,
+        "detailed_rating": {
+          "product_quality": 5,
+          "seller_service": null,
+          "delivery_service": null
+        },
+        "exclude_scoring_due_low_logistic": false,
+        "loyalty_info": null,
+        "template_tags": ["Chất liệu", "Màu sắc", "Đúng với mô tả"],
+        "has_template_tag": true,
+        "sync_to_social_toggle": null,
+        "sip_info": { "is_oversea": false, "origin_region": "vn" },
+        "is_repeated_purchase": false,
+        "display_variation_filter": null,
+        "overall_fit": 0,
+        "is_normal_item": true,
+        "viewed": null,
+        "show_view": null,
+        "sync_to_social_detail": null,
+        "profile": null,
+        "size_info_tags": null,
+        "size_info_abt": "",
+        "image_data": [
+          {
+            "image_id": "vn-11134103-22090-9uv037vbkahvcc",
+            "cover_image_id": "vn-11134103-22090-9uv037vbkahvcc"
+          },
+          {
+            "image_id": "vn-11134103-22090-5v0hypwbkahv94",
+            "cover_image_id": "vn-11134103-22090-5v0hypwbkahv94"
+          },
+          {
+            "image_id": "vn-11134103-22090-58a8fxwbkahv1c",
+            "cover_image_id": "vn-11134103-22090-58a8fxwbkahv1c"
+          }
+        ],
+        "key_media": { "key_media_code": 0, "key_media_id": "" }
+      },
+      {
+        "orderid": 108472627347311,
+        "itemid": 15914169245,
+        "cmtid": 8944235266,
+        "ctime": 1657604982,
+        "rating": 1,
+        "userid": 493040631,
+        "shopid": 267466458,
+        "comment": "Xinh",
+        "rating_star": 5,
+        "status": 2,
+        "mtime": 1666516859,
+        "editable": 0,
+        "opt": 2,
+        "filter": 7,
+        "mentioned": [],
+        "is_hidden": false,
+        "author_username": "t.binhh05",
+        "author_portrait": "",
+        "author_shopid": 493021053,
+        "anonymous": false,
+        "images": [
+          "vn-11134103-22070-w6zy09173wev48",
+          "vn-11134103-22070-daispd273wev23",
+          "vn-11134103-22070-y2or0d273wev85",
+          "vn-11134103-22070-synpnf273wevca",
+          "vn-11134103-22070-6n4rzd273wevd7"
+        ],
+        "videos": [
+          {
+            "id": "vn_c8f0ff00-c765-47da-be10-8897653a1a07_000169",
+            "cover": "https://play-ws.vod.shopee.com/c3/98934353/103/A3oxOCldALTUWcMHERoKACc.jpg",
+            "url": "https://play-ws.vod.shopee.com/c3/98934353/103/A3oxOCNfACh2WsMHEScLACY.mp4",
+            "duration": 34178,
+            "upload_time": null,
+            "mms_ext": "{\"vid\":\"vn_c8f0ff00-c765-47da-be10-8897653a1a07_000169\",\"biz\":103,\"duration\":34178,\"create_time\":1657602993,\"serviceID\":2,\"cover\":\"http://play-ws.vod.shopee.com/c3/98934353/103/A3oxOCldALTUWcMHERoKACc.jpg\",\"cover_list\":null,\"formats\":[{\"format\":1600005,\"defn\":\"V640P\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/c3/98934353/103/A3oxOCNfACh2WsMHEScLACY.mp4\",\"width\":576,\"height\":1232,\"bitrate\":731903,\"size\":3341806,\"fps\":25,\"duration\":34202,\"update_time\":1657603005}],\"default_format\":{\"format\":600001,\"defn\":\"ORI\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/c3/98934353/103/A3oxOPV=AOjZWcMHERoDACY.mp4\",\"width\":576,\"height\":1232,\"bitrate\":2421395,\"size\":10926031,\"fps\":24.05018,\"duration\":34178,\"update_time\":1657602995},\"extend_formats\":{\"H265\":[{\"format\":1600018,\"defn\":\"V480P\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/c3/98934353/103/A3oyORhAAPwobFITEbIHACY.mp4\",\"width\":480,\"height\":1026,\"bitrate\":500747,\"size\":2600782,\"fps\":25.029,\"duration\":34479,\"update_time\":1670014241},{\"format\":1600022,\"defn\":\"V640P\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/c3/98934353/103/A3oyOZRAANBibFITEQsDACY.mp4\",\"width\":576,\"height\":1232,\"bitrate\":630416,\"size\":3296346,\"fps\":25.029,\"duration\":34479,\"update_time\":1670014245}]},\"ab_test\":\"\"}",
+            "cover_image_id": ""
+          }
+        ],
+        "product_items": [
+          {
+            "itemid": 15914169245,
+            "shopid": 267466458,
+            "name": "Dây chuyền bạc nữ đá tròn lấp lánh chất liệu bạc 925 thời trang phụ kiện trang sức nữ Viễn Chí Bảo D400483",
+            "image": "fc8112931a986b6339fd22a4cbc556e0",
+            "is_snapshot": 1,
+            "snapshotid": 3581177970,
+            "modelid": 114332187850,
+            "model_name": "",
+            "options": [""]
+          }
+        ],
+        "delete_reason": null,
+        "delete_operator": null,
+        "ItemRatingReply": null,
+        "tags": null,
+        "editable_date": 1663475272,
+        "show_reply": null,
+        "like_count": 0,
+        "liked": null,
+        "sync_to_social": false,
+        "detailed_rating": {
+          "product_quality": 5,
+          "seller_service": null,
+          "delivery_service": null
+        },
+        "exclude_scoring_due_low_logistic": false,
+        "loyalty_info": null,
+        "template_tags": [],
+        "has_template_tag": false,
+        "sync_to_social_toggle": null,
+        "sip_info": { "is_oversea": false, "origin_region": "vn" },
+        "is_repeated_purchase": false,
+        "display_variation_filter": null,
+        "overall_fit": 0,
+        "is_normal_item": true,
+        "viewed": null,
+        "show_view": null,
+        "sync_to_social_detail": null,
+        "profile": null,
+        "size_info_tags": null,
+        "size_info_abt": "",
+        "image_data": [
+          {
+            "image_id": "vn-11134103-22070-w6zy09173wev48",
+            "cover_image_id": "vn-11134103-22070-w6zy09173wev48"
+          },
+          {
+            "image_id": "vn-11134103-22070-daispd273wev23",
+            "cover_image_id": "vn-11134103-22070-daispd273wev23"
+          },
+          {
+            "image_id": "vn-11134103-22070-y2or0d273wev85",
+            "cover_image_id": "vn-11134103-22070-y2or0d273wev85"
+          },
+          {
+            "image_id": "vn-11134103-22070-synpnf273wevca",
+            "cover_image_id": "vn-11134103-22070-synpnf273wevca"
+          },
+          {
+            "image_id": "vn-11134103-22070-6n4rzd273wevd7",
+            "cover_image_id": "vn-11134103-22070-6n4rzd273wevd7"
+          }
+        ],
+        "key_media": { "key_media_code": 0, "key_media_id": "" }
+      },
+      {
+        "orderid": 124451598248281,
+        "itemid": 15914169245,
+        "cmtid": 10427197361,
+        "ctime": 1672280361,
+        "rating": 1,
+        "userid": 536042844,
+        "shopid": 267466458,
+        "comment": "Chất liệu:bạc trắng\nMàu sắc:trắng\nĐúng với mô tả:sản phẩm đúng với mô tả\n\nDây tuy hơi mảnh nhưng vẫn rất xinh nha. Mặt đá rất sáng. Nên mua nhé moij người. Sẽ tiếp tục ủng hộ shop",
+        "rating_star": 5,
+        "status": 2,
+        "mtime": 1672280361,
+        "editable": 1,
+        "opt": 2,
+        "filter": 7,
+        "mentioned": [],
+        "is_hidden": false,
+        "author_username": "1234....me",
+        "author_portrait": "",
+        "author_shopid": 536023265,
+        "anonymous": false,
+        "images": [
+          "vn-11134103-22120-af61iddpjnlv84",
+          "vn-11134103-22120-de61iddpjnlva9"
+        ],
+        "videos": [
+          {
+            "id": "vn_15293caa-1ce8-43b6-a4fe-dbf7cfdca5d1_000221",
+            "cover": "https://img.sp.mms.shopee.sg/vn-11110103-22120-2gnrtfmpjnlv12",
+            "url": "https://play-aka.vod.shopee.com/api/v4/11110103/mms/vn_15293caa-1ce8-43b6-a4fe-dbf7cfdca5d1_000221.16000051672280070.mp4",
+            "duration": 9798,
+            "upload_time": null,
+            "mms_ext": "{\"vid\":\"vn_15293caa-1ce8-43b6-a4fe-dbf7cfdca5d1_000221\",\"biz\":103,\"duration\":9833,\"create_time\":1672280068,\"serviceID\":2,\"cover\":\"https://img.sp.mms.shopee.sg/vn-11110103-22120-2gnrtfmpjnlv12\",\"cover_list\":null,\"formats\":[{\"format\":1600005,\"defn\":\"V640P\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-aka.vod.shopee.com/api/v4/11110103/mms/vn_15293caa-1ce8-43b6-a4fe-dbf7cfdca5d1_000221.16000051672280070.mp4\",\"width\":360,\"height\":640,\"bitrate\":179895,\"size\":348584,\"fps\":25.10204,\"duration\":9822,\"update_time\":1672280071}],\"default_format\":{\"format\":600001,\"defn\":\"ORI\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-aka.vod.shopee.com/api/v4/11110103/mms/vn_15293caa-1ce8-43b6-a4fe-dbf7cfdca5d1_000221.ori.mp4\",\"width\":360,\"height\":640,\"bitrate\":1586600,\"size\":2081084,\"fps\":24,\"duration\":9833,\"update_time\":1672280070},\"extend_formats\":{},\"ab_test\":\"\"}",
+            "cover_image_id": ""
+          }
+        ],
+        "product_items": [
+          {
+            "itemid": 15914169245,
+            "shopid": 267466458,
+            "name": "Dây chuyền bạc nữ đá tròn lấp lánh chất liệu bạc 925 thời trang phụ kiện trang sức nữ Viễn Chí Bảo D400483",
+            "image": "fc8112931a986b6339fd22a4cbc556e0",
+            "is_snapshot": 1,
+            "snapshotid": 4072731554,
+            "modelid": 114332187850,
+            "model_name": "",
+            "options": [""]
+          }
+        ],
+        "delete_reason": null,
+        "delete_operator": null,
+        "ItemRatingReply": null,
+        "tags": null,
+        "editable_date": 1674872361,
+        "show_reply": null,
+        "like_count": null,
+        "liked": null,
+        "sync_to_social": false,
+        "detailed_rating": {
+          "product_quality": 5,
+          "seller_service": 5,
+          "delivery_service": 5
+        },
+        "exclude_scoring_due_low_logistic": false,
+        "loyalty_info": null,
+        "template_tags": ["Chất liệu", "Màu sắc", "Đúng với mô tả"],
+        "has_template_tag": true,
+        "sync_to_social_toggle": null,
+        "sip_info": { "is_oversea": false, "origin_region": "vn" },
+        "is_repeated_purchase": false,
+        "display_variation_filter": null,
+        "overall_fit": 0,
+        "is_normal_item": true,
+        "viewed": null,
+        "show_view": null,
+        "sync_to_social_detail": null,
+        "profile": null,
+        "size_info_tags": null,
+        "size_info_abt": "",
+        "image_data": [
+          {
+            "image_id": "vn-11134103-22120-af61iddpjnlv84",
+            "cover_image_id": "vn-11134103-22120-af61iddpjnlv84"
+          },
+          {
+            "image_id": "vn-11134103-22120-de61iddpjnlva9",
+            "cover_image_id": "vn-11134103-22120-de61iddpjnlva9"
+          }
+        ],
+        "key_media": { "key_media_code": 0, "key_media_id": "" }
+      },
+      {
+        "orderid": 123695966147078,
+        "itemid": 15914169245,
+        "cmtid": 10373557049,
+        "ctime": 1671635267,
+        "rating": 1,
+        "userid": 466216570,
+        "shopid": 267466458,
+        "comment": "Dây chuyền mảnh, dễ thương, đeo lên sáng. Cái mặt hay chạy vào mắc xích gài của sợi dây tạo nên 1 đám rối khó gỡ.",
+        "rating_star": 5,
+        "status": 2,
+        "mtime": 1671731299,
+        "editable": 1,
+        "opt": 2,
+        "filter": 7,
+        "mentioned": [],
+        "is_hidden": false,
+        "author_username": "hienlinh0705",
+        "author_portrait": "",
+        "author_shopid": 466196993,
+        "anonymous": false,
+        "images": [
+          "vn-11134103-22120-7bouaep7vclv5b",
+          "vn-11134103-22120-0aouaep7vclv89"
+        ],
+        "videos": [
+          {
+            "id": "vn_905104ca-59fe-435d-8de2-034617d30e0a_000219",
+            "cover": "https://img.sp.mms.shopee.sg/vn-11110103-22120-6jwrz657vclvc5",
+            "url": "https://play-ws.vod.shopee.com/api/v4/11110103/mms/vn_905104ca-59fe-435d-8de2-034617d30e0a_000219.16000051671635187.mp4",
+            "duration": 6298,
+            "upload_time": null,
+            "mms_ext": "{\"vid\":\"vn_905104ca-59fe-435d-8de2-034617d30e0a_000219\",\"biz\":103,\"duration\":6291,\"create_time\":1671635186,\"serviceID\":2,\"cover\":\"https://img.sp.mms.shopee.sg/vn-11110103-22120-6jwrz657vclvc5\",\"cover_list\":null,\"formats\":[{\"format\":1600005,\"defn\":\"V640P\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/api/v4/11110103/mms/vn_905104ca-59fe-435d-8de2-034617d30e0a_000219.16000051671635187.mp4\",\"width\":358,\"height\":640,\"bitrate\":526397,\"size\":493436,\"fps\":25.16026,\"duration\":6269,\"update_time\":1671635190}],\"default_format\":{\"format\":600001,\"defn\":\"ORI\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/api/v4/11110103/mms/vn_905104ca-59fe-435d-8de2-034617d30e0a_000219.ori.mp4\",\"width\":358,\"height\":640,\"bitrate\":1546318,\"size\":1316525,\"fps\":24,\"duration\":6291,\"update_time\":1671635188},\"extend_formats\":{},\"ab_test\":\"\"}",
+            "cover_image_id": ""
+          }
+        ],
+        "product_items": [
+          {
+            "itemid": 15914169245,
+            "shopid": 267466458,
+            "name": "Dây chuyền bạc nữ đá tròn lấp lánh chất liệu bạc 925 thời trang phụ kiện trang sức nữ Viễn Chí Bảo D400483",
+            "image": "fc8112931a986b6339fd22a4cbc556e0",
+            "is_snapshot": 1,
+            "snapshotid": 4049764203,
+            "modelid": 114332187850,
+            "model_name": "",
+            "options": [""]
+          }
+        ],
+        "delete_reason": null,
+        "delete_operator": null,
+        "ItemRatingReply": null,
+        "tags": null,
+        "editable_date": 1674227267,
+        "show_reply": null,
+        "like_count": 0,
+        "liked": null,
+        "sync_to_social": false,
+        "detailed_rating": {
+          "product_quality": 5,
+          "seller_service": 5,
+          "delivery_service": 5
+        },
+        "exclude_scoring_due_low_logistic": false,
+        "loyalty_info": null,
+        "template_tags": [],
+        "has_template_tag": false,
+        "sync_to_social_toggle": null,
+        "sip_info": { "is_oversea": false, "origin_region": "vn" },
+        "is_repeated_purchase": false,
+        "display_variation_filter": null,
+        "overall_fit": 0,
+        "is_normal_item": true,
+        "viewed": null,
+        "show_view": null,
+        "sync_to_social_detail": null,
+        "profile": null,
+        "size_info_tags": null,
+        "size_info_abt": "",
+        "image_data": [
+          {
+            "image_id": "vn-11134103-22120-7bouaep7vclv5b",
+            "cover_image_id": "vn-11134103-22120-7bouaep7vclv5b"
+          },
+          {
+            "image_id": "vn-11134103-22120-0aouaep7vclv89",
+            "cover_image_id": "vn-11134103-22120-0aouaep7vclv89"
+          }
+        ],
+        "key_media": { "key_media_code": 0, "key_media_id": "" }
+      },
+      {
+        "orderid": 125406323166832,
+        "itemid": 15914169245,
+        "cmtid": 10413196015,
+        "ctime": 1672120227,
+        "rating": 1,
+        "userid": 30093449,
+        "shopid": 267466458,
+        "comment": "Dây hơi mỏng, nhỏ bé xinh \nAi thích mỏng manh nhẹ nhàng thì ok \nNói chung phù hợp giá tiền",
+        "rating_star": 5,
+        "status": 2,
+        "mtime": 1672242139,
+        "editable": 1,
+        "opt": 2,
+        "filter": 7,
+        "mentioned": [],
+        "is_hidden": false,
+        "author_username": "l*****2",
+        "author_portrait": "3b09b9a7b6013582553efc3d7436f9f5",
+        "author_shopid": 30092065,
+        "anonymous": true,
+        "images": [
+          "vn-11134103-22120-disxawxlwklva5",
+          "vn-11134103-22120-pfq4fk3lwklv01"
+        ],
+        "videos": [
+          {
+            "id": "vn_c10e881b-87c7-4c12-95be-5685d0e88017_000220",
+            "cover": "https://img.sp.mms.shopee.sg/vn-11110103-22120-ojxjsnimwklv90",
+            "url": "https://play-ws.vod.shopee.com/api/v4/11110103/mms/vn_c10e881b-87c7-4c12-95be-5685d0e88017_000220.16000051672120181.mp4",
+            "duration": 17266,
+            "upload_time": null,
+            "mms_ext": "{\"vid\":\"vn_c10e881b-87c7-4c12-95be-5685d0e88017_000220\",\"biz\":103,\"duration\":17299,\"create_time\":1672120179,\"serviceID\":2,\"cover\":\"https://img.sp.mms.shopee.sg/vn-11110103-22120-ojxjsnimwklv90\",\"cover_list\":null,\"formats\":[{\"format\":1600005,\"defn\":\"V640P\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/api/v4/11110103/mms/vn_c10e881b-87c7-4c12-95be-5685d0e88017_000220.16000051672120181.mp4\",\"width\":480,\"height\":640,\"bitrate\":381555,\"size\":1048135,\"fps\":25.05787,\"duration\":17280,\"update_time\":1672120186},{\"format\":1600046,\"defn\":\"V480P\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/api/v4/11110103/mms/vn_c10e881b-87c7-4c12-95be-5685d0e88017_000220.16000461672120180.mp4\",\"width\":480,\"height\":640,\"bitrate\":446713,\"size\":1187602,\"fps\":25.05787,\"duration\":17280,\"update_time\":1672120189}],\"default_format\":{\"format\":600001,\"defn\":\"ORI\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/api/v4/11110103/mms/vn_c10e881b-87c7-4c12-95be-5685d0e88017_000220.ori.mp4\",\"width\":480,\"height\":640,\"bitrate\":1529795,\"size\":3547221,\"fps\":30,\"duration\":17299,\"update_time\":1672120181},\"extend_formats\":{},\"ab_test\":\"\"}",
+            "cover_image_id": ""
+          }
+        ],
+        "product_items": [
+          {
+            "itemid": 15914169245,
+            "shopid": 267466458,
+            "name": "Dây chuyền bạc nữ đá tròn lấp lánh chất liệu bạc 925 thời trang phụ kiện trang sức nữ Viễn Chí Bảo D400483",
+            "image": "fc8112931a986b6339fd22a4cbc556e0",
+            "is_snapshot": 1,
+            "snapshotid": 6400154687,
+            "modelid": 114332187850,
+            "model_name": "",
+            "options": [""]
+          }
+        ],
+        "delete_reason": null,
+        "delete_operator": null,
+        "ItemRatingReply": null,
+        "tags": null,
+        "editable_date": 1674712227,
+        "show_reply": null,
+        "like_count": 0,
+        "liked": null,
+        "sync_to_social": false,
+        "detailed_rating": {
+          "product_quality": 5,
+          "seller_service": 5,
+          "delivery_service": 5
+        },
+        "exclude_scoring_due_low_logistic": false,
+        "loyalty_info": null,
+        "template_tags": [],
+        "has_template_tag": false,
+        "sync_to_social_toggle": null,
+        "sip_info": { "is_oversea": false, "origin_region": "vn" },
+        "is_repeated_purchase": false,
+        "display_variation_filter": null,
+        "overall_fit": 0,
+        "is_normal_item": true,
+        "viewed": null,
+        "show_view": null,
+        "sync_to_social_detail": null,
+        "profile": null,
+        "size_info_tags": null,
+        "size_info_abt": "",
+        "image_data": [
+          {
+            "image_id": "vn-11134103-22120-disxawxlwklva5",
+            "cover_image_id": "vn-11134103-22120-disxawxlwklva5"
+          },
+          {
+            "image_id": "vn-11134103-22120-pfq4fk3lwklv01",
+            "cover_image_id": "vn-11134103-22120-pfq4fk3lwklv01"
+          }
+        ],
+        "key_media": { "key_media_code": 0, "key_media_id": "" }
+      },
+      {
+        "orderid": 117854390271373,
+        "itemid": 15914169245,
+        "cmtid": 9679279377,
+        "ctime": 1664359306,
+        "rating": 1,
+        "userid": 314817394,
+        "shopid": 267466458,
+        "comment": "Chất liệu:Bạc\nMàu sắc:trắng\nĐúng với mô tả:đúng\n\nGiao hàng nhanh. Sản phẩm đúng mẫu. Hình ảnh mang tính chất nhận xu",
+        "rating_star": 5,
+        "status": 2,
+        "mtime": 1667028843,
+        "editable": 0,
+        "opt": 2,
+        "filter": 7,
+        "mentioned": [],
+        "is_hidden": false,
+        "author_username": "n*****i",
+        "author_portrait": "aa82b0d43bf179530c97118e57a16d58",
+        "author_shopid": 314797795,
+        "anonymous": true,
+        "images": [
+          "vn-11134103-22090-rmeurq37o1hv49",
+          "vn-11134103-22090-mnoz6m37o1hvba"
+        ],
+        "videos": [
+          {
+            "id": "vn_857f87ad-9d0b-420f-b8e0-52dbd3776087_000195",
+            "cover": "https://play-ws.vod.shopee.com/c3/98934353/103/A3oxOFsvAMA2Lg4OESADACc.jpg",
+            "url": "https://play-ws.vod.shopee.com/c3/98934353/103/A3oxOFOUAKR7Lg4OEScFACY.mp4",
+            "duration": 19000,
+            "upload_time": null,
+            "mms_ext": "{\"vid\":\"vn_857f87ad-9d0b-420f-b8e0-52dbd3776087_000195\",\"biz\":103,\"duration\":19000,\"create_time\":1664359303,\"serviceID\":2,\"cover\":\"http://play-ws.vod.shopee.com/c3/98934353/103/A3oxOFsvAMA2Lg4OESADACc.jpg\",\"cover_list\":null,\"formats\":[{\"format\":1600005,\"defn\":\"V640P\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/c3/98934353/103/A3oxOFOUAKR7Lg4OEScFACY.mp4\",\"width\":360,\"height\":640,\"bitrate\":614375,\"size\":1483425,\"fps\":25,\"duration\":19072,\"update_time\":1664359309}],\"default_format\":{\"format\":600001,\"defn\":\"ORI\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/c3/98934353/103/A3oxOAfXAAA5Lg4OESgHACY.mp4\",\"width\":360,\"height\":640,\"bitrate\":818924,\"size\":1958067,\"fps\":24,\"duration\":19000,\"update_time\":1664359304},\"extend_formats\":{},\"ab_test\":\"\"}",
+            "cover_image_id": ""
+          }
+        ],
+        "product_items": [
+          {
+            "itemid": 15914169245,
+            "shopid": 267466458,
+            "name": "Dây chuyền bạc nữ đá tròn lấp lánh chất liệu bạc 925 thời trang phụ kiện trang sức nữ Viễn Chí Bảo D400483",
+            "image": "fc8112931a986b6339fd22a4cbc556e0",
+            "is_snapshot": 1,
+            "snapshotid": 3879160302,
+            "modelid": 114332187850,
+            "model_name": "",
+            "options": [""]
+          }
+        ],
+        "delete_reason": null,
+        "delete_operator": null,
+        "ItemRatingReply": null,
+        "tags": null,
+        "editable_date": 1666951306,
+        "show_reply": null,
+        "like_count": 2,
+        "liked": null,
+        "sync_to_social": false,
+        "detailed_rating": {
+          "product_quality": 5,
+          "seller_service": 5,
+          "delivery_service": 5
+        },
+        "exclude_scoring_due_low_logistic": false,
+        "loyalty_info": null,
+        "template_tags": ["Chất liệu", "Màu sắc", "Đúng với mô tả"],
+        "has_template_tag": true,
+        "sync_to_social_toggle": null,
+        "sip_info": { "is_oversea": false, "origin_region": "vn" },
+        "is_repeated_purchase": false,
+        "display_variation_filter": null,
+        "overall_fit": 0,
+        "is_normal_item": true,
+        "viewed": null,
+        "show_view": null,
+        "sync_to_social_detail": null,
+        "profile": null,
+        "size_info_tags": null,
+        "size_info_abt": "",
+        "image_data": [
+          {
+            "image_id": "vn-11134103-22090-rmeurq37o1hv49",
+            "cover_image_id": "vn-11134103-22090-rmeurq37o1hv49"
+          },
+          {
+            "image_id": "vn-11134103-22090-mnoz6m37o1hvba",
+            "cover_image_id": "vn-11134103-22090-mnoz6m37o1hvba"
+          }
+        ],
+        "key_media": { "key_media_code": 0, "key_media_id": "" }
+      },
+      {
+        "orderid": 117586477265694,
+        "itemid": 15914169245,
+        "cmtid": 9680764228,
+        "ctime": 1664368478,
+        "rating": 1,
+        "userid": 471680615,
+        "shopid": 267466458,
+        "comment": "dây chuyền đẹp sáng bóng rất oke nhé tks shop nhiều lần sau sẽ ủng hộ tiếp !!!",
+        "rating_star": 5,
+        "status": 2,
+        "mtime": 1667028837,
+        "editable": 0,
+        "opt": 2,
+        "filter": 7,
+        "mentioned": [],
+        "is_hidden": false,
+        "author_username": "h.ngg01",
+        "author_portrait": "03006e0c7e3c64db9f273d9863adb079",
+        "author_shopid": 471661038,
+        "anonymous": false,
+        "images": [
+          "vn-11134103-22090-3vx5jojmu1hv4d",
+          "vn-11134103-22090-e2ty5xpmu1hv7f"
+        ],
+        "videos": [
+          {
+            "id": "vn_3105bd31-5006-4c94-adc4-6e99bf9f9880_000195",
+            "cover": "https://play-ws.vod.shopee.com/c3/98934353/103/A3oxOJ5IAAzkWxAOESkCACc.jpg",
+            "url": "https://play-ws.vod.shopee.com/c3/98934353/103/A3oxOPC1ANQcXBAOETkAACc.mp4",
+            "duration": 4866,
+            "upload_time": null,
+            "mms_ext": "{\"vid\":\"vn_3105bd31-5006-4c94-adc4-6e99bf9f9880_000195\",\"biz\":103,\"duration\":4866,\"create_time\":1664368439,\"serviceID\":2,\"cover\":\"http://play-ws.vod.shopee.com/c3/98934353/103/A3oxOJ5IAAzkWxAOESkCACc.jpg\",\"cover_list\":null,\"formats\":[{\"format\":1600005,\"defn\":\"V640P\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/c3/98934353/103/A3oxOPC1ANQcXBAOETkAACc.mp4\",\"width\":640,\"height\":1138,\"bitrate\":918420,\"size\":603970,\"fps\":25,\"duration\":4960,\"update_time\":1664368445},{\"format\":1600046,\"defn\":\"V480P\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/c3/98934353/103/A3oxOLKVALxZXBAOEQMHACc.mp4\",\"width\":480,\"height\":854,\"bitrate\":667822,\"size\":477754,\"fps\":25,\"duration\":4960,\"update_time\":1664368449}],\"default_format\":{\"format\":600001,\"defn\":\"ORI\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/c3/98934353/103/A3oxOBMgAHTmWxAOEQsIACY.mp4\",\"width\":720,\"height\":1280,\"bitrate\":5346941,\"size\":3333574,\"fps\":30,\"duration\":4866,\"update_time\":1664368441},\"extend_formats\":{\"H265\":[{\"format\":1600022,\"defn\":\"V640P\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/c3/98934353/103/A3oxOEwmAMSrXBAOEVMAACc.mp4\",\"width\":640,\"height\":1138,\"bitrate\":754560,\"size\":540155,\"fps\":25.20661,\"duration\":4840,\"update_time\":1664368454}]},\"ab_test\":\"\"}",
+            "cover_image_id": ""
+          }
+        ],
+        "product_items": [
+          {
+            "itemid": 15914169245,
+            "shopid": 267466458,
+            "name": "Dây chuyền bạc nữ đá tròn lấp lánh chất liệu bạc 925 thời trang phụ kiện trang sức nữ Viễn Chí Bảo D400483",
+            "image": "fc8112931a986b6339fd22a4cbc556e0",
+            "is_snapshot": 1,
+            "snapshotid": 3872176495,
+            "modelid": 114332187850,
+            "model_name": "",
+            "options": [""]
+          }
+        ],
+        "delete_reason": null,
+        "delete_operator": null,
+        "ItemRatingReply": null,
+        "tags": null,
+        "editable_date": 1666960478,
+        "show_reply": null,
+        "like_count": 2,
+        "liked": null,
+        "sync_to_social": false,
+        "detailed_rating": {
+          "product_quality": 5,
+          "seller_service": 5,
+          "delivery_service": 5
+        },
+        "exclude_scoring_due_low_logistic": false,
+        "loyalty_info": null,
+        "template_tags": [],
+        "has_template_tag": false,
+        "sync_to_social_toggle": null,
+        "sip_info": { "is_oversea": false, "origin_region": "vn" },
+        "is_repeated_purchase": false,
+        "display_variation_filter": null,
+        "overall_fit": 0,
+        "is_normal_item": true,
+        "viewed": null,
+        "show_view": null,
+        "sync_to_social_detail": null,
+        "profile": null,
+        "size_info_tags": null,
+        "size_info_abt": "",
+        "image_data": [
+          {
+            "image_id": "vn-11134103-22090-3vx5jojmu1hv4d",
+            "cover_image_id": "vn-11134103-22090-3vx5jojmu1hv4d"
+          },
+          {
+            "image_id": "vn-11134103-22090-e2ty5xpmu1hv7f",
+            "cover_image_id": "vn-11134103-22090-e2ty5xpmu1hv7f"
+          }
+        ],
+        "key_media": { "key_media_code": 0, "key_media_id": "" }
+      },
+      {
+        "orderid": 117765791257983,
+        "itemid": 15914169245,
+        "cmtid": 9771006851,
+        "ctime": 1665372943,
+        "rating": 1,
+        "userid": 152588981,
+        "shopid": 267466458,
+        "comment": "Chất liệu:bạc\nMàu sắc:bạc\nĐúng với mô tả:đẹp\n\nMở hàng ra đẹp thật sự, dây lấp lánh và sáng tuy hơi giả nhưng trang sức phụ kiện khôgn đeo thường xuyên nên mhư vậy là ổn rồi. Nói chung sản phẩm rất ưng ý, ohù hợp với giá tiền, ai chần chừng thì cứ mua đi, đẹp lắm",
+        "rating_star": 5,
+        "status": 2,
+        "mtime": 1671873246,
+        "editable": 0,
+        "opt": 2,
+        "filter": 7,
+        "mentioned": [],
+        "is_hidden": false,
+        "author_username": "buinhakhiem97",
+        "author_portrait": "542dcda066d6d63cc143427df6e4906c",
+        "author_shopid": 152587120,
+        "anonymous": false,
+        "images": [
+          "vn-11134103-22100-xtqvzj3wfhiv63",
+          "vn-11134103-22100-wtqvzj3wfhivcb"
+        ],
+        "videos": [
+          {
+            "id": "vn_1b4f94a7-ccf9-45b6-8b92-6991cac370ca_000198",
+            "cover": "https://img.sp.mms.shopee.sg/vn-11110103-22100-nfy0t9cxfhivbb",
+            "url": "https://play-ws.vod.shopee.com/c3/98934353/103/A3oxODjcAEzqz=8OEWMEACc.mp4",
+            "duration": 12726,
+            "upload_time": null,
+            "mms_ext": "{\"vid\":\"vn_1b4f94a7-ccf9-45b6-8b92-6991cac370ca_000198\",\"biz\":103,\"duration\":12750,\"create_time\":1665372777,\"serviceID\":2,\"cover\":\"https://img.sp.mms.shopee.sg/vn-11110103-22100-nfy0t9cxfhivbb\",\"cover_list\":null,\"formats\":[{\"format\":1600005,\"defn\":\"V640P\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/c3/98934353/103/A3oxODjcAEzqz=8OEWMEACc.mp4\",\"width\":360,\"height\":640,\"bitrate\":233488,\"size\":403059,\"fps\":25.07862,\"duration\":12720,\"update_time\":1665372781}],\"default_format\":{\"format\":600001,\"defn\":\"ORI\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/api/v4/11110103/mms/vn_1b4f94a7-ccf9-45b6-8b92-6991cac370ca_000198.ori.mp4\",\"width\":360,\"height\":640,\"bitrate\":1549752,\"size\":2479218,\"fps\":24,\"duration\":12750,\"update_time\":1665372778},\"extend_formats\":{},\"ab_test\":\"\"}",
+            "cover_image_id": ""
+          }
+        ],
+        "product_items": [
+          {
+            "itemid": 15914169245,
+            "shopid": 267466458,
+            "name": "Dây chuyền bạc nữ đá tròn lấp lánh chất liệu bạc 925 thời trang phụ kiện trang sức nữ Viễn Chí Bảo D400483",
+            "image": "fc8112931a986b6339fd22a4cbc556e0",
+            "is_snapshot": 1,
+            "snapshotid": 3875701148,
+            "modelid": 114332187850,
+            "model_name": "",
+            "options": [""]
+          }
+        ],
+        "delete_reason": null,
+        "delete_operator": null,
+        "ItemRatingReply": null,
+        "tags": null,
+        "editable_date": 1667964943,
+        "show_reply": null,
+        "like_count": 3,
+        "liked": null,
+        "sync_to_social": false,
+        "detailed_rating": {
+          "product_quality": 5,
+          "seller_service": 5,
+          "delivery_service": 5
+        },
+        "exclude_scoring_due_low_logistic": false,
+        "loyalty_info": null,
+        "template_tags": ["Chất liệu", "Màu sắc", "Đúng với mô tả"],
+        "has_template_tag": true,
+        "sync_to_social_toggle": null,
+        "sip_info": { "is_oversea": false, "origin_region": "vn" },
+        "is_repeated_purchase": false,
+        "display_variation_filter": null,
+        "overall_fit": 0,
+        "is_normal_item": true,
+        "viewed": null,
+        "show_view": null,
+        "sync_to_social_detail": null,
+        "profile": null,
+        "size_info_tags": null,
+        "size_info_abt": "",
+        "image_data": [
+          {
+            "image_id": "vn-11134103-22100-xtqvzj3wfhiv63",
+            "cover_image_id": "vn-11134103-22100-xtqvzj3wfhiv63"
+          },
+          {
+            "image_id": "vn-11134103-22100-wtqvzj3wfhivcb",
+            "cover_image_id": "vn-11134103-22100-wtqvzj3wfhivcb"
+          }
+        ],
+        "key_media": { "key_media_code": 0, "key_media_id": "" }
+      }
+    ],
+    "item_rating_summary": {
+      "rating_total": 249,
+      "rating_count": [1, 2, 5, 7, 234],
+      "rcount_with_context": 133,
+      "rcount_with_image": 115,
+      "rcount_with_media": 115,
+      "rcount_local_review": 249,
+      "rcount_repeat_purchase": 0,
+      "rcount_overall_fit_small": 0,
+      "rcount_overall_fit_fit": 0,
+      "rcount_overall_fit_large": 0,
+      "rcount_oversea_review": 0,
+      "rcount_folded": 0
+    },
+    "is_sip_item": false,
+    "rcmd_algo": "BUNDLE:comment_search,RECALLER:comment_search_default,QUEUE:comment_search_default,ABTEST:2.a.3644@AD0,QUEUES:comment_search_default,NEWABTEST:0",
+    "downgrade_switch": false,
+    "has_more": true,
+    "show_local_review": false,
+    "browsing_ui": "",
+    "enable_buyer_gallery_media": false,
+    "user_latest_rating": null,
+    "size_info_abt": "",
+    "top_ratings": [],
+    "resize_image_abt": false,
+    "purchase_bar_abt": "bucket_a"
+  },
+  "error": 0,
+  "error_msg": null
+}

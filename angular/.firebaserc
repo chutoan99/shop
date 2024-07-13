@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "shopee-1116a": {
+      "hosting": {
+        "admin": [
+          "shopee-1116a"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "shopee-1116a"
+  }
+}

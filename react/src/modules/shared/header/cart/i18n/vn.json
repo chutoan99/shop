@@ -1,0 +1,11 @@
+{
+	"LABEL": {
+		"PRODUCTS_ADDED": "Sản phẩm đã thêm",
+		"NO_PRODUCT": "Chưa có sản phẩm",
+		"VIEW_CART": "Xem giỏ hàng",
+		"SEE_MORE": "Xem thêm sản {{totalCart}} phẩm khác"
+	},
+	"MESSAGE": {},
+	"PLACEHOLDER": {},
+	"VALIDATOR": {}
+}

@@ -1,0 +1,12 @@
+{
+	"LABEL": {
+		"OUT_SHOP": "Ngoài Shop",
+		"IN_SHOP": "Trong shop",
+		"HISTORY": "Lịch sử tìm kiếm"
+	},
+	"MESSAGE": {},
+	"PLACEHOLDER": {
+		"DESCRIPTION": "Nhập để tìm kiếm sản phẩm"
+	},
+	"VALIDATOR": {}
+}

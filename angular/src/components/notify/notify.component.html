@@ -1,0 +1,72 @@
+<ng-container *ngIf="isShowNotify">
+	<div class="bottom-[30px] left-[50px] absolute" style="margin-bottom: unset">
+		<div class="h-[100px] mb-[20px] rounded-[20px] bg-[#7e7ef4] relative">
+			<div class="absolute top-[-20px]">
+				<img
+					[src]="
+						type === 'shipped' ? '../../assets/img/sf-alternate4.png' : '../../assets/img/sf-alternate1.png'
+					"
+					class="w-[35%] h-[35%] ml-[20px" />
+			</div>
+			<div class="flex gap-[10px] ml-[180px] h-full">
+				<div class="mt-[30p] gap-[7px] flex flex-col h-full justify-between p-[10px]">
+					<h2
+						style="
+							color: white;
+							font-family: Inter;
+							font-weight: bold;
+							font-size: 16px;
+							line-height: 16px;
+							font-weight: 700;
+							margin-bottom: unset;
+						">
+						{{ title }}
+					</h2>
+					<h2
+						style="
+							color: white;
+							font-family: Inter;
+							font-weight: bold;
+							font-size: 14px;
+							line-height: 14px;
+							font-weight: 600;
+							margin-bottom: unset;
+						">
+						{{ content }}
+					</h2>
+					<h2
+						style="
+							color: white;
+							font-family: Inter;
+							font-weight: bold;
+							font-size: 14px;
+							line-height: 14px;
+							font-weight: 600;
+							margin-bottom: unset;
+						">
+						{{ orderId }}
+					</h2>
+				</div>
+				<div class="h-full flex items-center justify-center">
+					<div class="relative">
+						<iframe src="https://embed.lottiefiles.com/animation/85744"></iframe>
+					</div>
+					<button
+						class="rounded-[15px] h-[40px] px-[10px] absolute"
+						style="
+							background: #ffbb6e;
+							color: white;
+							font-family: Inter;
+							font-weight: bold;
+							font-size: 14px;
+							line-height: 14px;
+							font-weight: 600;
+							margin-bottom: unset;
+						">
+						Check Your Order Details
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</ng-container>

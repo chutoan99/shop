@@ -1,0 +1,36 @@
+{
+  "bff_meta": null,
+  "error": null,
+  "error_msg": null,
+  "data": {
+    "shopid": 309549005,
+    "userid": 309568590,
+    "last_active_time": 1672474249,
+    "vacation": false,
+    "place": "",
+    "account": {
+      "portrait": "ba4fda2c6afdd10d25b544f93de9cfd5",
+      "username": "riomestore.vn",
+      "status": 1
+    },
+    "is_shopee_verified": false,
+    "is_preferred_plus_seller": false,
+    "is_official_shop": false,
+    "shop_location": "Quốc Tế",
+    "item_count": 1046,
+    "rating_star": 4.654872,
+    "response_rate": 22,
+    "session_info": null,
+    "name": "💖RIOME Tủ quần áo💖",
+    "ctime": 1600057802,
+    "response_time": 13738,
+    "follower_count": 97486,
+    "show_official_shop_label": false,
+    "rating_bad": 448,
+    "rating_good": 11197,
+    "rating_normal": 723,
+    "session_infos": null,
+    "show_shopee_mission": false,
+    "status": 1
+  }
+}

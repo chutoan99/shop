@@ -1,0 +1,2267 @@
+{
+  "msg": "success",
+  "code": 0,
+  "data": {
+    "total": 1341,
+    "global_cats": [
+      {
+        "category_name": "Hỗ trợ tăng cơ",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024409,
+        "images": [
+          "https://cf.shopee.sg/file/daea0754bce295306ca28d6fb420cced",
+          "https://cf.shopee.sg/file/cfe269449eac4e4c5bd5fec19f8777b7",
+          "https://cf.shopee.sg/file/3ee4fe258489e705cb58e1e63155402f",
+          "https://cf.shopee.sg/file/762609286a9d38e24e418ac3dfa1405c",
+          "https://cf.shopee.sg/file/fb35b2e8cc09cabb4e35de1591ff6775",
+          "https://cf.shopee.sg/file/40e47c630f2449f517d542f5baa93d9e"
+        ],
+        "path": [
+          { "category_id": 100001, "category_name": "Sức Khỏe" },
+          { "category_id": 100002, "category_name": "Thực phẩm chức năng" },
+          { "category_id": 100005, "category_name": "Hỗ trợ tăng cơ" }
+        ],
+        "category_id": 100005,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Hỗ trợ sức khỏe",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024410,
+        "images": [
+          "https://cf.shopee.sg/file/2e66562a11e79501c0298f05a6e159b4",
+          "https://cf.shopee.sg/file/437267176d150d474478061260a4805f",
+          "https://cf.shopee.sg/file/d05036590eba21258ecfe2097225f0c7",
+          "https://cf.shopee.sg/file/ed9ec07ca1c801e020f130b61f21d6cf",
+          "https://cf.shopee.sg/file/cc901711ff5b8c5c38614924e608f490",
+          "https://cf.shopee.sg/file/c43dc06d378ee990558163f2a186debd"
+        ],
+        "path": [
+          { "category_id": 100001, "category_name": "Sức Khỏe" },
+          { "category_id": 100002, "category_name": "Thực phẩm chức năng" },
+          { "category_id": 100006, "category_name": "Hỗ trợ sức khỏe" }
+        ],
+        "category_id": 100006,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Máy đo huyết áp",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024410,
+        "images": [
+          "https://cf.shopee.sg/file/36986b829b7f231984c2b633c4a7358b",
+          "https://cf.shopee.sg/file/09cd5db9e835e5b3a3763468c2a04ccb",
+          "https://cf.shopee.sg/file/7a1a725aac01f2787981c72f34bd2edd",
+          "https://cf.shopee.sg/file/bc0c95e2aba18009f6972d0d07e6e8d5",
+          "https://cf.shopee.sg/file/e47b56959d0b8cb60f9f99e344e44530",
+          "https://cf.shopee.sg/file/46ddc7520c8edcd64b1a7f75df1deccb"
+        ],
+        "path": [
+          { "category_id": 100001, "category_name": "Sức Khỏe" },
+          { "category_id": 100018, "category_name": "Vật tư y tế" },
+          {
+            "category_id": 100121,
+            "category_name": "Kiểm tra và theo dõi sức khỏe"
+          },
+          { "category_id": 100420, "category_name": "Máy đo huyết áp" }
+        ],
+        "category_id": 100420,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Máy đo lượng đường trong máu",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024410,
+        "images": [
+          "https://cf.shopee.sg/file/e763d025352bf4e6dc74ef0ee73e5591",
+          "https://cf.shopee.sg/file/2d9b72653a51dc30e2834633395c7eb0",
+          "https://cf.shopee.sg/file/bae709a5b8294a7a59612c81d97c9650",
+          "https://cf.shopee.sg/file/c7dbff8dffb10f415c8efea8bc795853",
+          "https://cf.shopee.sg/file/c93c4206aa4dc15642a9cc799c282186",
+          "https://cf.shopee.sg/file/4aea56f486cb08c14b76de417a5f0c56"
+        ],
+        "path": [
+          { "category_id": 100001, "category_name": "Sức Khỏe" },
+          { "category_id": 100018, "category_name": "Vật tư y tế" },
+          {
+            "category_id": 100121,
+            "category_name": "Kiểm tra và theo dõi sức khỏe"
+          },
+          {
+            "category_id": 100421,
+            "category_name": "Máy đo lượng đường trong máu"
+          }
+        ],
+        "category_id": 100421,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Máy đo nồng độ oxy trong máu",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024410,
+        "images": [
+          "https://cf.shopee.sg/file/ec19ebcd50bea65df2c3c57016b5e11d",
+          "https://cf.shopee.sg/file/6debab5891e69b771529a3119a4cd904",
+          "https://cf.shopee.sg/file/413ebbe9c9009fe9ed5c83331b4182ab",
+          "https://cf.shopee.sg/file/76604d0d3b57e046048de5b7b3837338",
+          "https://cf.shopee.sg/file/fdc11cd8a74b04ac8646bc07198cf34c",
+          "https://cf.shopee.sg/file/e59a1221c4dd02693d77d39793eb8fe1"
+        ],
+        "path": [
+          { "category_id": 100001, "category_name": "Sức Khỏe" },
+          { "category_id": 100018, "category_name": "Vật tư y tế" },
+          {
+            "category_id": 100121,
+            "category_name": "Kiểm tra và theo dõi sức khỏe"
+          },
+          {
+            "category_id": 100422,
+            "category_name": "Máy đo nồng độ oxy trong máu"
+          }
+        ],
+        "category_id": 100422,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Nhiệt kế",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024410,
+        "images": [
+          "https://cf.shopee.sg/file/53a2856e1526d4b09368efdacb26a941",
+          "https://cf.shopee.sg/file/935b3ff702de053c8e84539cfa16fbaa",
+          "https://cf.shopee.sg/file/a0bbc73393d484cdeae37fbb9a6a58ce",
+          "https://cf.shopee.sg/file/ac12a9e3a37994bfc4be3a4653378637",
+          "https://cf.shopee.sg/file/6b1f1900ae4338f29bf2cc5352fd01cf",
+          "https://cf.shopee.sg/file/7d62157cb40c04e2d4f2372b4b2d06d6"
+        ],
+        "path": [
+          { "category_id": 100001, "category_name": "Sức Khỏe" },
+          { "category_id": 100018, "category_name": "Vật tư y tế" },
+          {
+            "category_id": 100121,
+            "category_name": "Kiểm tra và theo dõi sức khỏe"
+          },
+          { "category_id": 100423, "category_name": "Nhiệt kế" }
+        ],
+        "category_id": 100423,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Khác",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024410,
+        "images": [
+          "https://cf.shopee.sg/file/dd162187dc1b06300edd6cfff015b642",
+          "https://cf.shopee.sg/file/5a3868d32824b5058e8622dc161afc73",
+          "https://cf.shopee.sg/file/d30d233390040ec3ec3b4573ba851ef9",
+          "https://cf.shopee.sg/file/9b555fe498dea25db570b9fb4e2c6f1f",
+          "https://cf.shopee.sg/file/fed1223448d335ea2cdcd7da627de9e1",
+          "https://cf.shopee.sg/file/30eee002fcb99e8da866c05ad220262f"
+        ],
+        "path": [
+          { "category_id": 100001, "category_name": "Sức Khỏe" },
+          { "category_id": 100018, "category_name": "Vật tư y tế" },
+          {
+            "category_id": 100121,
+            "category_name": "Kiểm tra và theo dõi sức khỏe"
+          },
+          { "category_id": 100424, "category_name": "Khác" }
+        ],
+        "category_id": 100424,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Cân sức khỏe và phân tích cơ thể",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024410,
+        "images": [
+          "https://cf.shopee.sg/file/d30f0fd7175ec3fd69536e2db8ee9ece",
+          "https://cf.shopee.sg/file/c2e978c1a4f529d86746287fcd93c732",
+          "https://cf.shopee.sg/file/16711ecf2f840e28fb513b0e16f34a88",
+          "https://cf.shopee.sg/file/8594768806e7b6f457b3178f3f449e24",
+          "https://cf.shopee.sg/file/8d04316b4243269e56b2d1acbd6d660a",
+          "https://cf.shopee.sg/file/22b003d975afeb98e3f3433a077af6d8"
+        ],
+        "path": [
+          { "category_id": 100001, "category_name": "Sức Khỏe" },
+          { "category_id": 100018, "category_name": "Vật tư y tế" },
+          {
+            "category_id": 100122,
+            "category_name": "Cân sức khỏe và phân tích cơ thể"
+          }
+        ],
+        "category_id": 100122,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Chăm sóc mũi",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024410,
+        "images": [
+          "https://cf.shopee.sg/file/7592c5b785becafd71c9c10cef7b743f",
+          "https://cf.shopee.sg/file/c766d43db9111c1c3323c147cfc2a5c7",
+          "https://cf.shopee.sg/file/e7f69d0b35a67b6f77df233a7b70019d",
+          "https://cf.shopee.sg/file/a625fb8e59aef035b1eaf9309e9fee55",
+          "https://cf.shopee.sg/file/6824c4d40ad55312106c23631d97702a",
+          "https://cf.shopee.sg/file/988647a958b36d2b838a7272275b2f62"
+        ],
+        "path": [
+          { "category_id": 100001, "category_name": "Sức Khỏe" },
+          { "category_id": 100018, "category_name": "Vật tư y tế" },
+          { "category_id": 100123, "category_name": "Chăm sóc mũi" }
+        ],
+        "category_id": 100123,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Băng gạc y tế",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024410,
+        "images": [
+          "https://cf.shopee.sg/file/a9fea4639bb2176d6cd44f17df82c70b",
+          "https://cf.shopee.sg/file/c70d97bbe0e063f268d7d8696ed01d02",
+          "https://cf.shopee.sg/file/8155453d38a451d13d5a25d48c35bda3",
+          "https://cf.shopee.sg/file/1e52adbfd29e5c4da217e53baa5f7bdc",
+          "https://cf.shopee.sg/file/e70573257bbc08cebf8d4aa5155ca68d",
+          "https://cf.shopee.sg/file/290d2dabebf1aabd878616a4110fe762"
+        ],
+        "path": [
+          { "category_id": 100001, "category_name": "Sức Khỏe" },
+          { "category_id": 100018, "category_name": "Vật tư y tế" },
+          { "category_id": 100124, "category_name": "Dụng cụ sơ cứu" },
+          { "category_id": 100425, "category_name": "Băng gạc y tế" }
+        ],
+        "category_id": 100425,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Phụ kiện sơ cấp cứu",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024410,
+        "images": [
+          "https://cf.shopee.sg/file/11b906a31b2d65b5516fb92676602277",
+          "https://cf.shopee.sg/file/fed664f59a7541cf341146cd30e0330d",
+          "https://cf.shopee.sg/file/627e5388083ffa0fb40cf997cb196946",
+          "https://cf.shopee.sg/file/af83ca5068cb3bcc1e5dfda4207df786",
+          "https://cf.shopee.sg/file/12d6af49dfd595652d23cd98da006784",
+          "https://cf.shopee.sg/file/fcd774efeaabb6acb85b00f750c2ebe4"
+        ],
+        "path": [
+          { "category_id": 100001, "category_name": "Sức Khỏe" },
+          { "category_id": 100018, "category_name": "Vật tư y tế" },
+          { "category_id": 100124, "category_name": "Dụng cụ sơ cứu" },
+          { "category_id": 100426, "category_name": "Phụ kiện sơ cấp cứu" }
+        ],
+        "category_id": 100426,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Kem và thuốc mỡ",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024411,
+        "images": [
+          "https://cf.shopee.sg/file/e3f7258a8ca47c498472afeaba676420",
+          "https://cf.shopee.sg/file/0dc9919377cce93489f5dab920014037",
+          "https://cf.shopee.sg/file/f68c5ae93ade8c17af45ca91b301b143",
+          "https://cf.shopee.sg/file/7390528085506785fab8c45597fb219b",
+          "https://cf.shopee.sg/file/a01cb75c5e3d15c43b41c873ec4426a0",
+          "https://cf.shopee.sg/file/3f900c787125370f274f02b447d17bdc"
+        ],
+        "path": [
+          { "category_id": 100001, "category_name": "Sức Khỏe" },
+          { "category_id": 100018, "category_name": "Vật tư y tế" },
+          { "category_id": 100124, "category_name": "Dụng cụ sơ cứu" },
+          { "category_id": 100427, "category_name": "Kem và thuốc mỡ" }
+        ],
+        "category_id": 100427,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Thuốc sát trùng & khử trùng y tế",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024411,
+        "images": [
+          "https://cf.shopee.sg/file/801836a20d34f528131ca4b977db0d1a",
+          "https://cf.shopee.sg/file/1a215646d64d778a1485836d188dade9",
+          "https://cf.shopee.sg/file/87ee5c9f9782bd79e6fe824c5bc41374",
+          "https://cf.shopee.sg/file/bbaad452f97ef87035908f60b2c56554",
+          "https://cf.shopee.sg/file/52da3ea78cfdf00f71dee01a254c3052",
+          "https://cf.shopee.sg/file/6a0e0b4244537e8c9c71d00c3a266103"
+        ],
+        "path": [
+          { "category_id": 100001, "category_name": "Sức Khỏe" },
+          { "category_id": 100018, "category_name": "Vật tư y tế" },
+          { "category_id": 100124, "category_name": "Dụng cụ sơ cứu" },
+          {
+            "category_id": 100428,
+            "category_name": "Thuốc sát trùng & khử trùng y tế"
+          }
+        ],
+        "category_id": 100428,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Ống nghe y tế",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024411,
+        "images": [
+          "https://cf.shopee.sg/file/12ba100660f2c160bb7c9048983a8100",
+          "https://cf.shopee.sg/file/7a18a5b723cd21d0de2d224de4b4491f",
+          "https://cf.shopee.sg/file/fb20a558e9e8d85956360b1432edb70c",
+          "https://cf.shopee.sg/file/077de5a94d006be1a440030b0724f8cf",
+          "https://cf.shopee.sg/file/2cbe63399301afae9251e08774b055c8",
+          "https://cf.shopee.sg/file/b817eb48477fae2f767f298937c44c77"
+        ],
+        "path": [
+          { "category_id": 100001, "category_name": "Sức Khỏe" },
+          { "category_id": 100018, "category_name": "Vật tư y tế" },
+          { "category_id": 100125, "category_name": "Ống nghe y tế" }
+        ],
+        "category_id": 100125,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Dụng cụ thí nghiệm",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024411,
+        "images": [
+          "https://cf.shopee.sg/file/5f62a85a415df1ba6076b7679ae1f713",
+          "https://cf.shopee.sg/file/28d532be0514ed47c1d09c796911190f",
+          "https://cf.shopee.sg/file/9227060a1e441cf5f78c3501384a27b1",
+          "https://cf.shopee.sg/file/8d50adb31728c37e546cf00d85289b3c",
+          "https://cf.shopee.sg/file/fd4f86fc22fa176d13f276b6d7e82fcb",
+          "https://cf.shopee.sg/file/044064e595ed44ae2c3cba4a9d54faaf"
+        ],
+        "path": [
+          { "category_id": 100001, "category_name": "Sức Khỏe" },
+          { "category_id": 100018, "category_name": "Vật tư y tế" },
+          { "category_id": 100127, "category_name": "Dụng cụ thí nghiệm" }
+        ],
+        "category_id": 100127,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Bao tay và khẩu trang y tế",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024411,
+        "images": [
+          "https://cf.shopee.sg/file/7ba7418fb6cd5e3348b8e27e43cd5b8c",
+          "https://cf.shopee.sg/file/1fe624b0c0933b318f182d822e66ec3d",
+          "https://cf.shopee.sg/file/7696354d3f62d3020b5120c471df5c21",
+          "https://cf.shopee.sg/file/043065ec8adfac242602bbf5aea7b4f2",
+          "https://cf.shopee.sg/file/55d9d3da0d063e71e4da1beced899954",
+          "https://cf.shopee.sg/file/ae97a2f20b8d9f58ca649a8e813d0d57"
+        ],
+        "path": [
+          { "category_id": 100001, "category_name": "Sức Khỏe" },
+          { "category_id": 100018, "category_name": "Vật tư y tế" },
+          {
+            "category_id": 100128,
+            "category_name": "Bao tay và khẩu trang y tế"
+          }
+        ],
+        "category_id": 100128,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Nạng chống",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024411,
+        "images": [
+          "https://cf.shopee.sg/file/29d297819636c3b3878694c7d27a7aa6",
+          "https://cf.shopee.sg/file/834875ad93695ae322e0ac431676c875",
+          "https://cf.shopee.sg/file/3ddda663c3c62db05b6381003119a9ad",
+          "https://cf.shopee.sg/file/a5f494414293b68b408c371304e0eefb",
+          "https://cf.shopee.sg/file/2d4c55a24c3585ee6592c0a71e3dbcfa",
+          "https://cf.shopee.sg/file/bfe8dad9521f033d4546817036932cae"
+        ],
+        "path": [
+          { "category_id": 100001, "category_name": "Sức Khỏe" },
+          { "category_id": 100018, "category_name": "Vật tư y tế" },
+          {
+            "category_id": 100129,
+            "category_name": "Hỗ trợ chấn thương và khuyết tật"
+          },
+          { "category_id": 100430, "category_name": "Nạng chống" }
+        ],
+        "category_id": 100430,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Xe lăn",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024411,
+        "images": [
+          "https://cf.shopee.sg/file/94b57fe755e94b9803d4a4bf53929028",
+          "https://cf.shopee.sg/file/a8e66247549c8fd5bdbff395b694c6d4",
+          "https://cf.shopee.sg/file/b3ef30194ef14c9eea8c7fc33fdd364e",
+          "https://cf.shopee.sg/file/f4e232ba7ce8627475e536b64fb059d7",
+          "https://cf.shopee.sg/file/90d24e876f2b8032db09c90f521b9318",
+          "https://cf.shopee.sg/file/2764f541e930efc44094a06b0ee3b24d"
+        ],
+        "path": [
+          { "category_id": 100001, "category_name": "Sức Khỏe" },
+          { "category_id": 100018, "category_name": "Vật tư y tế" },
+          {
+            "category_id": 100129,
+            "category_name": "Hỗ trợ chấn thương và khuyết tật"
+          },
+          { "category_id": 100431, "category_name": "Xe lăn" }
+        ],
+        "category_id": 100431,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Dụng cụ nẹp và hỗ trợ khớp",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024411,
+        "images": [
+          "https://cf.shopee.sg/file/02d3ca15153b55f5a8f89ee2e189b794",
+          "https://cf.shopee.sg/file/ee93b634c25a3ed339e3a7c958b8db1d",
+          "https://cf.shopee.sg/file/374ac3a2e213e29ae30fa87ce34a3201",
+          "https://cf.shopee.sg/file/13af37b7a552b0de129704fb43a90b2b",
+          "https://cf.shopee.sg/file/34a8982b7cd5bab2c003f1f5ce9d4e9f",
+          "https://cf.shopee.sg/file/fde441f0c8a404c6a7273038b9ef1eb2"
+        ],
+        "path": [
+          { "category_id": 100001, "category_name": "Sức Khỏe" },
+          { "category_id": 100018, "category_name": "Vật tư y tế" },
+          {
+            "category_id": 100129,
+            "category_name": "Hỗ trợ chấn thương và khuyết tật"
+          },
+          {
+            "category_id": 100432,
+            "category_name": "Dụng cụ nẹp và hỗ trợ khớp"
+          }
+        ],
+        "category_id": 100432,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Trợ thính",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024411,
+        "images": [
+          "https://cf.shopee.sg/file/6d09b0283b43a264493ad354dcd646a6",
+          "https://cf.shopee.sg/file/67d04c2ae6721eee9976f7ff6a0bcc9c",
+          "https://cf.shopee.sg/file/3844b50e1ff98b07f56fab6ad50f41f3",
+          "https://cf.shopee.sg/file/66e926190d29cf3f63f6a3cc8f30082a",
+          "https://cf.shopee.sg/file/9ba1136d44b23a963a1c6798fd1ceaeb",
+          "https://cf.shopee.sg/file/95e78cacecfab405a57d440c24be333a"
+        ],
+        "path": [
+          { "category_id": 100001, "category_name": "Sức Khỏe" },
+          { "category_id": 100018, "category_name": "Vật tư y tế" },
+          {
+            "category_id": 100129,
+            "category_name": "Hỗ trợ chấn thương và khuyết tật"
+          },
+          { "category_id": 100433, "category_name": "Trợ thính" }
+        ],
+        "category_id": 100433,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Dung dịch sát khuẩn tay",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024411,
+        "images": [
+          "https://cf.shopee.sg/file/aa05599542c4a1764c94c6f8a12063e1",
+          "https://cf.shopee.sg/file/a03e289af34968e0f67a1e69315a1286",
+          "https://cf.shopee.sg/file/9355bc4bf5fddf2980f18bae8f61f5e7",
+          "https://cf.shopee.sg/file/4492621086437c0a47884a9419304429",
+          "https://cf.shopee.sg/file/44c2282bfc2e6514e92a8f103594031f",
+          "https://cf.shopee.sg/file/1d27291611071c61867f72275da90584"
+        ],
+        "path": [
+          { "category_id": 100001, "category_name": "Sức Khỏe" },
+          { "category_id": 100019, "category_name": "Chăm sóc cá nhân" },
+          { "category_id": 100131, "category_name": "Dung dịch sát khuẩn tay" }
+        ],
+        "category_id": 100131,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Kính áp tròng",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024412,
+        "images": [
+          "https://cf.shopee.sg/file/2747255c3ae557499ddcb6ee6ff33a5f",
+          "https://cf.shopee.sg/file/6c2afe4c6067b4909253160a772c09b7",
+          "https://cf.shopee.sg/file/5e45f28ec3649af6b23f8902218dc1ae",
+          "https://cf.shopee.sg/file/4b99974b9bc30b3d9e85b1f522d618f4",
+          "https://cf.shopee.sg/file/fba3a9603c17b065b09f50df4ff9edd7",
+          "https://cf.shopee.sg/file/60e5bc37a478ece3ca5acce11e3dba15"
+        ],
+        "path": [
+          { "category_id": 100001, "category_name": "Sức Khỏe" },
+          { "category_id": 100019, "category_name": "Chăm sóc cá nhân" },
+          { "category_id": 100132, "category_name": "Chăm sóc mắt" },
+          { "category_id": 100435, "category_name": "Kính áp tròng" }
+        ],
+        "category_id": 100435,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Thuốc nhỏ mắt và ngâm áp tròng",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024412,
+        "images": [
+          "https://cf.shopee.sg/file/efe2f085ae30a154f75d1e7928e86aa7",
+          "https://cf.shopee.sg/file/eed7b5d641e5697d615937dec80341b0",
+          "https://cf.shopee.sg/file/3cc9c3c038f58a4612c31624e7c8e996",
+          "https://cf.shopee.sg/file/d33770087c4df93fbcaf4dde6f139d05",
+          "https://cf.shopee.sg/file/e40b94051012032d22d7571933e9dfca",
+          "https://cf.shopee.sg/file/caf0e9fb6021183da15dc3ec671ffaaa"
+        ],
+        "path": [
+          { "category_id": 100001, "category_name": "Sức Khỏe" },
+          { "category_id": 100019, "category_name": "Chăm sóc cá nhân" },
+          { "category_id": 100132, "category_name": "Chăm sóc mắt" },
+          {
+            "category_id": 100436,
+            "category_name": "Thuốc nhỏ mắt và ngâm áp tròng"
+          }
+        ],
+        "category_id": 100436,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Khác",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024412,
+        "images": [
+          "https://cf.shopee.sg/file/72427872258eb2311bfeb32bea5b72e5",
+          "https://cf.shopee.sg/file/5fe75a1912612adcb9c0bba0fac284d2",
+          "https://cf.shopee.sg/file/97d6939dcfb8ebc8544a89f2c4933b8a",
+          "https://cf.shopee.sg/file/e5c82349643fc905a5cb4edeb9c09c86",
+          "https://cf.shopee.sg/file/df1775d50d4baa50a0e44f5fe764dc4e",
+          "https://cf.shopee.sg/file/3ce46e716edfcccc09ef1a539cb129ae"
+        ],
+        "path": [
+          { "category_id": 100001, "category_name": "Sức Khỏe" },
+          { "category_id": 100019, "category_name": "Chăm sóc cá nhân" },
+          { "category_id": 100132, "category_name": "Chăm sóc mắt" },
+          { "category_id": 100437, "category_name": "Khác" }
+        ],
+        "category_id": 100437,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Chăm sóc tai",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024412,
+        "images": [
+          "https://cf.shopee.sg/file/6c21f13fa29ea27ccf2f46a3c7a62a3c",
+          "https://cf.shopee.sg/file/e122afded6851251e892cfe3fbac9d76",
+          "https://cf.shopee.sg/file/a1495c9f7bba8e6d1356f5adf161aca8",
+          "https://cf.shopee.sg/file/9888413da749c1a53fcc1adb5c26352d",
+          "https://cf.shopee.sg/file/82b8e4b3ef5572a89e65ace710cb41ee",
+          "https://cf.shopee.sg/file/410449efbaf8774feae33093d670149e"
+        ],
+        "path": [
+          { "category_id": 100001, "category_name": "Sức Khỏe" },
+          { "category_id": 100019, "category_name": "Chăm sóc cá nhân" },
+          { "category_id": 100133, "category_name": "Chăm sóc tai" }
+        ],
+        "category_id": 100133,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Bàn chải đánh răng",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024412,
+        "images": [
+          "https://cf.shopee.sg/file/1b2ce40742b2bea30953c2e4f8610c59",
+          "https://cf.shopee.sg/file/a96f6300ec39de0077c797663902d5e4",
+          "https://cf.shopee.sg/file/f7c94098f68efd8c3d420d8ad3346874",
+          "https://cf.shopee.sg/file/786dfbd2c737c9dee12b88bf0bda5c47",
+          "https://cf.shopee.sg/file/cac49fa5d3310ebb68eb08b00e92b89c",
+          "https://cf.shopee.sg/file/0f1650738ad2dbd9db47bca9733bceb1"
+        ],
+        "path": [
+          { "category_id": 100001, "category_name": "Sức Khỏe" },
+          { "category_id": 100019, "category_name": "Chăm sóc cá nhân" },
+          { "category_id": 100134, "category_name": "Vệ sinh răng miệng" },
+          { "category_id": 100438, "category_name": "Bàn chải đánh răng" }
+        ],
+        "category_id": 100438,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Bàn chải điện & phụ kiện",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024412,
+        "images": [
+          "https://cf.shopee.sg/file/58db5612af1d70c4af6d6926145bc95a",
+          "https://cf.shopee.sg/file/59bc19aa4a0b6d54e2e36cea45849f0d",
+          "https://cf.shopee.sg/file/33e2de82f00afc195c3441e0582631e0",
+          "https://cf.shopee.sg/file/caf1c0fb9b1670b746ffd28285b6f8a4",
+          "https://cf.shopee.sg/file/1363e50721a2d38bf388e19c269e3589",
+          "https://cf.shopee.sg/file/e1151b29cc34402c5d3f75f71818ccb6"
+        ],
+        "path": [
+          { "category_id": 100001, "category_name": "Sức Khỏe" },
+          { "category_id": 100019, "category_name": "Chăm sóc cá nhân" },
+          { "category_id": 100134, "category_name": "Vệ sinh răng miệng" },
+          { "category_id": 100439, "category_name": "Bàn chải điện & phụ kiện" }
+        ],
+        "category_id": 100439,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Kem đánh răng",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024412,
+        "images": [
+          "https://cf.shopee.sg/file/ce615a475dd64249fffed036f162f5ac",
+          "https://cf.shopee.sg/file/489e52f1eec4c0fb00b0fe6d19719944",
+          "https://cf.shopee.sg/file/368b87454ef7190def698efe11c12008",
+          "https://cf.shopee.sg/file/eb11087254671797b84af87944c5875c",
+          "https://cf.shopee.sg/file/448ea8578ed02adcddb9beb3d10d7846",
+          "https://cf.shopee.sg/file/00a0e35866b9ec7701914b106b7096d8"
+        ],
+        "path": [
+          { "category_id": 100001, "category_name": "Sức Khỏe" },
+          { "category_id": 100019, "category_name": "Chăm sóc cá nhân" },
+          { "category_id": 100134, "category_name": "Vệ sinh răng miệng" },
+          { "category_id": 100440, "category_name": "Kem đánh răng" }
+        ],
+        "category_id": 100440,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Chỉ nha khoa",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024412,
+        "images": [
+          "https://cf.shopee.sg/file/535e71408fe2a1668576bda0acffac83",
+          "https://cf.shopee.sg/file/4ab3a9731429dc9b8e04b5a32f657b7d",
+          "https://cf.shopee.sg/file/b0ac54cd5704a19375c3d0c8da223d03",
+          "https://cf.shopee.sg/file/bdd0c906c6398ba8ee8ea250253315e3",
+          "https://cf.shopee.sg/file/faebbe00de6da0879cbc79dafccf9d92",
+          "https://cf.shopee.sg/file/08fc39b07c6acaefd05b888b4b0873a7"
+        ],
+        "path": [
+          { "category_id": 100001, "category_name": "Sức Khỏe" },
+          { "category_id": 100019, "category_name": "Chăm sóc cá nhân" },
+          { "category_id": 100134, "category_name": "Vệ sinh răng miệng" },
+          { "category_id": 100441, "category_name": "Chỉ nha khoa" }
+        ],
+        "category_id": 100441,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Nước súc miệng",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024412,
+        "images": [
+          "https://cf.shopee.sg/file/13da6fca0e8288f622090524eecdace9",
+          "https://cf.shopee.sg/file/152a6b0657475a65e22361d5ec57cb1d",
+          "https://cf.shopee.sg/file/1e54830355cc1999381cc15031f4fa40",
+          "https://cf.shopee.sg/file/67678f1c129585b1ce9b7051502b1fbe",
+          "https://cf.shopee.sg/file/b832cb9b97acc7e558b4a4089b98ff67",
+          "https://cf.shopee.sg/file/0dd8dfaaa823cea8eb756768e9f69e6a"
+        ],
+        "path": [
+          { "category_id": 100001, "category_name": "Sức Khỏe" },
+          { "category_id": 100019, "category_name": "Chăm sóc cá nhân" },
+          { "category_id": 100134, "category_name": "Vệ sinh răng miệng" },
+          { "category_id": 100442, "category_name": "Nước súc miệng" }
+        ],
+        "category_id": 100442,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Răng giả và phụ kiện",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024412,
+        "images": [
+          "https://cf.shopee.sg/file/c34ce617cf8b9aab85addf26dbe698d9",
+          "https://cf.shopee.sg/file/096d3f0e1f24968028e2d256c1dd6ca6",
+          "https://cf.shopee.sg/file/41ddefc1275e30cc2732b0bbf3349fa5",
+          "https://cf.shopee.sg/file/6f53c422d3df1acf13164b43d3d47808",
+          "https://cf.shopee.sg/file/9c0b281aa3523416f811ec1d5398e833",
+          "https://cf.shopee.sg/file/52a9c03a7b10b3ab2d75ce8eaec99b24"
+        ],
+        "path": [
+          { "category_id": 100001, "category_name": "Sức Khỏe" },
+          { "category_id": 100019, "category_name": "Chăm sóc cá nhân" },
+          { "category_id": 100134, "category_name": "Vệ sinh răng miệng" },
+          { "category_id": 100443, "category_name": "Răng giả và phụ kiện" }
+        ],
+        "category_id": 100443,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Hỗ trợ trắng răng",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024412,
+        "images": [
+          "https://cf.shopee.sg/file/09586a87e7ab8c193d38aec5e3ad71f6",
+          "https://cf.shopee.sg/file/4b6052e736df494ea1fc4bab33ddfec6",
+          "https://cf.shopee.sg/file/8fc31b28beb481ceae88fdb407ea4a56",
+          "https://cf.shopee.sg/file/159ab5a5a39361eb902d8e1e17208205",
+          "https://cf.shopee.sg/file/682bf03e2b6a4e64e64d73c3decd3fc1",
+          "https://cf.shopee.sg/file/4522402f7d37cd6ab8b4844113609daf"
+        ],
+        "path": [
+          { "category_id": 100001, "category_name": "Sức Khỏe" },
+          { "category_id": 100019, "category_name": "Chăm sóc cá nhân" },
+          { "category_id": 100134, "category_name": "Vệ sinh răng miệng" },
+          { "category_id": 100444, "category_name": "Hỗ trợ trắng răng" }
+        ],
+        "category_id": 100444,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Dụng cụ hỗ trợ chỉnh nha",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024412,
+        "images": [
+          "https://cf.shopee.sg/file/ea2458f37b1517a08cf1e045b4f82114",
+          "https://cf.shopee.sg/file/c8dca23dec42ccb6092f5951a5e7baea",
+          "https://cf.shopee.sg/file/223087df81ef9e66731482f7089b61ec",
+          "https://cf.shopee.sg/file/dcda4e08d585f307f1527561ed523cb9",
+          "https://cf.shopee.sg/file/2cd4fe7491a64154064b693e758f8ab4",
+          "https://cf.shopee.sg/file/3cda810970998b28e3a82a84c621d57d"
+        ],
+        "path": [
+          { "category_id": 100001, "category_name": "Sức Khỏe" },
+          { "category_id": 100019, "category_name": "Chăm sóc cá nhân" },
+          { "category_id": 100134, "category_name": "Vệ sinh răng miệng" },
+          { "category_id": 100445, "category_name": "Dụng cụ hỗ trợ chỉnh nha" }
+        ],
+        "category_id": 100445,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Khác",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024412,
+        "images": [
+          "https://cf.shopee.sg/file/d072bd5d0e0fe9fe4acf280092c25d57",
+          "https://cf.shopee.sg/file/79d25979d6eb4f6947e26c621d0e1336",
+          "https://cf.shopee.sg/file/49bc4be4ddf8b05999aef2b7b2bd7e83",
+          "https://cf.shopee.sg/file/3c521977a2e8d1f97f95e4a3d4432fe1",
+          "https://cf.shopee.sg/file/ee9ac9d9cffeeb746d720602ca4a7ef3",
+          "https://cf.shopee.sg/file/31ab490dcdeff802c3c0e8c14cfe4430"
+        ],
+        "path": [
+          { "category_id": 100001, "category_name": "Sức Khỏe" },
+          { "category_id": 100019, "category_name": "Chăm sóc cá nhân" },
+          { "category_id": 100134, "category_name": "Vệ sinh răng miệng" },
+          { "category_id": 100446, "category_name": "Khác" }
+        ],
+        "category_id": 100446,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Tã người lớn",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024412,
+        "images": [
+          "https://cf.shopee.sg/file/b444c58da9e93f96393bfa60ecc126a3",
+          "https://cf.shopee.sg/file/09cf8b6b99b87cce684f32e0540a9da1",
+          "https://cf.shopee.sg/file/e0ff67c5aca3102e7cb06055f4193a01",
+          "https://cf.shopee.sg/file/3b5b9d5f98fec1ad35ba94b868c87b32",
+          "https://cf.shopee.sg/file/a1c68ebf88753429ba6d042d8b9dc299",
+          "https://cf.shopee.sg/file/1f4bca35ba2fd7937b2ee5739923d924"
+        ],
+        "path": [
+          { "category_id": 100001, "category_name": "Sức Khỏe" },
+          { "category_id": 100019, "category_name": "Chăm sóc cá nhân" },
+          { "category_id": 100135, "category_name": "Tã người lớn" }
+        ],
+        "category_id": 100135,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Băng vệ sinh có cánh & không cánh",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024413,
+        "images": [
+          "https://cf.shopee.sg/file/80efd857ad769d5d93b2b5ed75bf55fe",
+          "https://cf.shopee.sg/file/60dedc8f496adb12d838a4fa4962bfa8",
+          "https://cf.shopee.sg/file/cb9be158acbf73287f0580459a41ecae",
+          "https://cf.shopee.sg/file/ea920ee454703b9515a0f54fba8c04d8",
+          "https://cf.shopee.sg/file/d5d9d1d7bac9b33522af6900b646fa10",
+          "https://cf.shopee.sg/file/fc8939d7c5d3ea4eb326a7e981465308"
+        ],
+        "path": [
+          { "category_id": 100001, "category_name": "Sức Khỏe" },
+          { "category_id": 100019, "category_name": "Chăm sóc cá nhân" },
+          { "category_id": 100136, "category_name": "Chăm sóc phụ nữ" },
+          {
+            "category_id": 100447,
+            "category_name": "Băng vệ sinh có cánh & không cánh"
+          }
+        ],
+        "category_id": 100447,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Tampon",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024413,
+        "images": [
+          "https://cf.shopee.sg/file/b6c41a0d5eccaf901183afc677ba1db7",
+          "https://cf.shopee.sg/file/922c6de41237d04745b40bf4a391d5de",
+          "https://cf.shopee.sg/file/221db7b95091418782b8abae8876871d",
+          "https://cf.shopee.sg/file/9238ff4cedd04bd60837df319804e35a",
+          "https://cf.shopee.sg/file/9ab26c07e9fd094a1f2e849d835cd855",
+          "https://cf.shopee.sg/file/a5bfb5e6226c79493913e6342122afbd"
+        ],
+        "path": [
+          { "category_id": 100001, "category_name": "Sức Khỏe" },
+          { "category_id": 100019, "category_name": "Chăm sóc cá nhân" },
+          { "category_id": 100136, "category_name": "Chăm sóc phụ nữ" },
+          { "category_id": 100448, "category_name": "Tampon" }
+        ],
+        "category_id": 100448,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Que thử thai",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024413,
+        "images": [
+          "https://cf.shopee.sg/file/c1870dee1526e6a70e1f2ed7d39f84aa",
+          "https://cf.shopee.sg/file/f21200d8fc8488c3900fb579e267f125",
+          "https://cf.shopee.sg/file/a919f6bd5829878cf1dc0f0060d9acf9",
+          "https://cf.shopee.sg/file/6c3fd4d23f0feafcc37610bac4e544f9",
+          "https://cf.shopee.sg/file/644b5f7fde425fb05d4b1a8a0351d65a",
+          "https://cf.shopee.sg/file/97d4c2d2721b22164ff9bc90d502d776"
+        ],
+        "path": [
+          { "category_id": 100001, "category_name": "Sức Khỏe" },
+          { "category_id": 100019, "category_name": "Chăm sóc cá nhân" },
+          { "category_id": 100136, "category_name": "Chăm sóc phụ nữ" },
+          { "category_id": 100449, "category_name": "Que thử thai" }
+        ],
+        "category_id": 100449,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Cốc nguyệt san",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024413,
+        "images": [
+          "https://cf.shopee.sg/file/85ff0b147a3b5cbd1d66b05b42e7ce65",
+          "https://cf.shopee.sg/file/227ad857e839bf9a7bbd94fbb70e2901",
+          "https://cf.shopee.sg/file/4d76f549be38beccd568079d66b50f93",
+          "https://cf.shopee.sg/file/ff08c95aebcde62b182e13bb24fdca72",
+          "https://cf.shopee.sg/file/74c9ddbd7b31c59f52f0240d84eac1ef",
+          "https://cf.shopee.sg/file/3edf12fcaf632c590310cef30d0bb0f1"
+        ],
+        "path": [
+          { "category_id": 100001, "category_name": "Sức Khỏe" },
+          { "category_id": 100019, "category_name": "Chăm sóc cá nhân" },
+          { "category_id": 100136, "category_name": "Chăm sóc phụ nữ" },
+          { "category_id": 100450, "category_name": "Cốc nguyệt san" }
+        ],
+        "category_id": 100450,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Dung dịch vệ sinh phụ nữ",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024413,
+        "images": [
+          "https://cf.shopee.sg/file/9ad750fda424c1814e0ff9ad1b04a826",
+          "https://cf.shopee.sg/file/4a454e4e7a615ba4fa84944ca7d3dfa3",
+          "https://cf.shopee.sg/file/a80857bb7e3ddbc4546d9d8fd83d5c0a",
+          "https://cf.shopee.sg/file/e72d5cab05f6cdadc5a5af2497d6d1da",
+          "https://cf.shopee.sg/file/012f399b25ec9e1b98f422f74c382ec2",
+          "https://cf.shopee.sg/file/cc90f3ab2c8cd89f675580608f66c414"
+        ],
+        "path": [
+          { "category_id": 100001, "category_name": "Sức Khỏe" },
+          { "category_id": 100019, "category_name": "Chăm sóc cá nhân" },
+          { "category_id": 100136, "category_name": "Chăm sóc phụ nữ" },
+          { "category_id": 100451, "category_name": "Dung dịch vệ sinh phụ nữ" }
+        ],
+        "category_id": 100451,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Kem dưỡng vùng kín",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024413,
+        "images": [
+          "https://cf.shopee.sg/file/37bceb453aa938dcfc75aef1c1a3f1ec",
+          "https://cf.shopee.sg/file/e81711ee81245cf4ae2253414d83b3bf",
+          "https://cf.shopee.sg/file/46209a1be8c79e8028cd97b5ea0fff77",
+          "https://cf.shopee.sg/file/55d2a70706aef12bcd6bda32a8443891",
+          "https://cf.shopee.sg/file/253c7d7762bfc083f9d24833bf815bb1",
+          "https://cf.shopee.sg/file/ebfb895ceef8f4c4df0553371d32708e"
+        ],
+        "path": [
+          { "category_id": 100001, "category_name": "Sức Khỏe" },
+          { "category_id": 100019, "category_name": "Chăm sóc cá nhân" },
+          { "category_id": 100136, "category_name": "Chăm sóc phụ nữ" },
+          { "category_id": 100452, "category_name": "Kem dưỡng vùng kín" }
+        ],
+        "category_id": 100452,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Dụng cụ massage và trị liệu",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024413,
+        "images": [
+          "https://cf.shopee.sg/file/cf55fcfa1339833265078bfe17a4a3b6",
+          "https://cf.shopee.sg/file/6b111667524b1f2aaaead36418d44eac",
+          "https://cf.shopee.sg/file/c56e28722bf22f05a49f0c6f644424be",
+          "https://cf.shopee.sg/file/b7af4ffde7b0177b485f6e7f17d1d5d1",
+          "https://cf.shopee.sg/file/a1d3bf116047992bc05d6f630139ba39",
+          "https://cf.shopee.sg/file/9728c8f22504327701574d5ddbaa545a"
+        ],
+        "path": [
+          { "category_id": 100001, "category_name": "Sức Khỏe" },
+          { "category_id": 100019, "category_name": "Chăm sóc cá nhân" },
+          {
+            "category_id": 100137,
+            "category_name": "Dụng cụ massage và trị liệu"
+          }
+        ],
+        "category_id": 100137,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Chống muỗi & xua đuổi côn trùng",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024413,
+        "images": [
+          "https://cf.shopee.sg/file/93e564fcf4d526cd69212c996994f884",
+          "https://cf.shopee.sg/file/2e0613c7a4c156a833babcf0c4145df5",
+          "https://cf.shopee.sg/file/99854439fe5a3e953479e87d20dc406d",
+          "https://cf.shopee.sg/file/e41d165aa777978e4db697d23c01dcab",
+          "https://cf.shopee.sg/file/3e200ffe5852812288053b2782f73923",
+          "https://cf.shopee.sg/file/46c4f114828eed1af232118756e3a932"
+        ],
+        "path": [
+          { "category_id": 100001, "category_name": "Sức Khỏe" },
+          { "category_id": 100019, "category_name": "Chăm sóc cá nhân" },
+          {
+            "category_id": 100138,
+            "category_name": "Chống muỗi & xua đuổi côn trùng"
+          }
+        ],
+        "category_id": 100138,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Bao cao su",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024413,
+        "images": [
+          "https://cf.shopee.sg/file/17f4fe062ce9d31eedccae5291b3fc16",
+          "https://cf.shopee.sg/file/b27d070114579f56a1d97fe32d058ec0",
+          "https://cf.shopee.sg/file/e7f531480ed239f77bebb106da2923ff",
+          "https://cf.shopee.sg/file/8c69f1419b14f76ee95d4a30f187fced",
+          "https://cf.shopee.sg/file/a537e4c6f8f5c2268aad3b7c1f002100",
+          "https://cf.shopee.sg/file/735c1670f41699fd09b41af435ea0e3c"
+        ],
+        "path": [
+          { "category_id": 100001, "category_name": "Sức Khỏe" },
+          { "category_id": 100020, "category_name": "Hỗ trợ tình dục" },
+          { "category_id": 100140, "category_name": "Bao cao su" }
+        ],
+        "category_id": 100140,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Bôi trơn",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024413,
+        "images": [
+          "https://cf.shopee.sg/file/ba60eb45264651a0a39ca3f951664c0c",
+          "https://cf.shopee.sg/file/e12535e443eb1476289b7adb54592e89",
+          "https://cf.shopee.sg/file/3dec609b45a4690dd63cd1525257558f",
+          "https://cf.shopee.sg/file/a075f4b13ef60bfd077a430757eeea87",
+          "https://cf.shopee.sg/file/d94a3d3f76a6eebc24a2916e7efdc89c",
+          "https://cf.shopee.sg/file/17df8ddda231c7ab62ce53dba9df3b99"
+        ],
+        "path": [
+          { "category_id": 100001, "category_name": "Sức Khỏe" },
+          { "category_id": 100020, "category_name": "Hỗ trợ tình dục" },
+          { "category_id": 100141, "category_name": "Bôi trơn" }
+        ],
+        "category_id": 100141,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Tăng cường sinh lý",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024413,
+        "images": [
+          "https://cf.shopee.sg/file/3efd391df4c97ced6e6d0eacced154c7",
+          "https://cf.shopee.sg/file/5c03a64833ee90ef5459c20040898912",
+          "https://cf.shopee.sg/file/7c0bb33e2581e41a807f48021cfd2cef",
+          "https://cf.shopee.sg/file/f4e79e3edd79651935b68eeb1e891fef",
+          "https://cf.shopee.sg/file/33e39cb6b4c0f3ff5ca9c4143ace72a7",
+          "https://cf.shopee.sg/file/699178da618902ff0cb3dfc18d4d13f9"
+        ],
+        "path": [
+          { "category_id": 100001, "category_name": "Sức Khỏe" },
+          { "category_id": 100020, "category_name": "Hỗ trợ tình dục" },
+          { "category_id": 100143, "category_name": "Tăng cường sinh lý" }
+        ],
+        "category_id": 100143,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Nhẫn",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024414,
+        "images": [
+          "https://cf.shopee.sg/file/464d3df1b52114ac2d9dc9b15b4ca760",
+          "https://cf.shopee.sg/file/fedd2a12cd6f78a9804145f72cec8680",
+          "https://cf.shopee.sg/file/efe3fc9264d5279f633c092ab8a5bf38",
+          "https://cf.shopee.sg/file/8c5a4563c0fe34f9598ea1710672da98",
+          "https://cf.shopee.sg/file/6d1b086f28a2c9cba837f82cb2b5a94d",
+          "https://cf.shopee.sg/file/e7894ba27d07164647c6ef32e4c33bcc"
+        ],
+        "path": [
+          { "category_id": 100009, "category_name": "Phụ Kiện Thời Trang" },
+          { "category_id": 100021, "category_name": "Nhẫn" }
+        ],
+        "category_id": 100021,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Bông tai",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024414,
+        "images": [
+          "https://cf.shopee.sg/file/9b2a570f211f15be604ec5291824ce49",
+          "https://cf.shopee.sg/file/0698fe67ae31f9c3e738d48e0d5ee491",
+          "https://cf.shopee.sg/file/be82fcce690725ac64113b874d582684",
+          "https://cf.shopee.sg/file/2ab0f7293751717cd5218d9b3b265887",
+          "https://cf.shopee.sg/file/8c62c72bd01f49f8981fa580898ee98c",
+          "https://cf.shopee.sg/file/f1038cbab94bfa40c2f927b49a3c8a57"
+        ],
+        "path": [
+          { "category_id": 100009, "category_name": "Phụ Kiện Thời Trang" },
+          { "category_id": 100022, "category_name": "Bông tai" }
+        ],
+        "category_id": 100022,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Khăn choàng",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024414,
+        "images": [
+          "https://cf.shopee.sg/file/62b28bf10d1925f0d903ae70e119254c",
+          "https://cf.shopee.sg/file/6173ea72c73f7f0fae7a0fc41117b213",
+          "https://cf.shopee.sg/file/eda83e2da8b1a4daddd60d1e63721a0e",
+          "https://cf.shopee.sg/file/12385fef8392a01393dfc9afb25388fc",
+          "https://cf.shopee.sg/file/ab9d8800aee38d04b5225da490565afa",
+          "https://cf.shopee.sg/file/a2056c4b0910e0c09ae3833ecd650023"
+        ],
+        "path": [
+          { "category_id": 100009, "category_name": "Phụ Kiện Thời Trang" },
+          { "category_id": 100023, "category_name": "Khăn choàng" }
+        ],
+        "category_id": 100023,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Găng tay",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024414,
+        "images": [
+          "https://cf.shopee.sg/file/8911c08820e96cdea2e75c3b80c0aee1",
+          "https://cf.shopee.sg/file/644497111d032f246239008188ed5154",
+          "https://cf.shopee.sg/file/abae9d5d3f9305d98c9a2cb57d38e97f",
+          "https://cf.shopee.sg/file/10b8a53479fd2d51c400d73b0bfe17dc",
+          "https://cf.shopee.sg/file/e53943a0e126e70ccf8eda60256873b9",
+          "https://cf.shopee.sg/file/8d39e40cb8e6b11bf85caf257430c699"
+        ],
+        "path": [
+          { "category_id": 100009, "category_name": "Phụ Kiện Thời Trang" },
+          { "category_id": 100024, "category_name": "Găng tay" }
+        ],
+        "category_id": 100024,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Băng đô tóc",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024414,
+        "images": [
+          "https://cf.shopee.sg/file/d43fc1485b05d5f8518d211728a43c98",
+          "https://cf.shopee.sg/file/960f3743fd92c86a0e0e2663fb3b0937",
+          "https://cf.shopee.sg/file/df5b1bd0c4b80ceeab7614ac17f50673",
+          "https://cf.shopee.sg/file/51af4a913b972df9d2ad3665991698c8",
+          "https://cf.shopee.sg/file/f1bdbca6f1676740a1d9c71e342096ff",
+          "https://cf.shopee.sg/file/cf82387690f0abca62723ba1efa32c0f"
+        ],
+        "path": [
+          { "category_id": 100009, "category_name": "Phụ Kiện Thời Trang" },
+          { "category_id": 100025, "category_name": "Phụ kiện tóc" },
+          { "category_id": 100145, "category_name": "Băng đô tóc" }
+        ],
+        "category_id": 100145,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Đồ buộc tóc & Nơ",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024414,
+        "images": [
+          "https://cf.shopee.sg/file/ab787ba3f45e11ac31468cb89a6debe6",
+          "https://cf.shopee.sg/file/7d9c13cef3ef691f19374e80e4b4f8c0",
+          "https://cf.shopee.sg/file/fcd6e27b39626506f0c6d729df3aff77",
+          "https://cf.shopee.sg/file/d6b89aa16f37884c8685da0687640a8e",
+          "https://cf.shopee.sg/file/4a653f941ea824fda1d7b889d46e411c",
+          "https://cf.shopee.sg/file/d2e519bcc77f379c6865146c5958b1ff"
+        ],
+        "path": [
+          { "category_id": 100009, "category_name": "Phụ Kiện Thời Trang" },
+          { "category_id": 100025, "category_name": "Phụ kiện tóc" },
+          { "category_id": 100146, "category_name": "Đồ buộc tóc & Nơ" }
+        ],
+        "category_id": 100146,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Kẹp tóc",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024414,
+        "images": [
+          "https://cf.shopee.sg/file/8cfcb024b0dee1448c8f9c9879a14e0e",
+          "https://cf.shopee.sg/file/2f10aad6fd40b500beddfc586f73911f",
+          "https://cf.shopee.sg/file/b4923ab47fbe9dc8414bb66dd35f8953",
+          "https://cf.shopee.sg/file/db1b980bdeadb179f0a74b82785006b6",
+          "https://cf.shopee.sg/file/442995597d3cca3a9a93c51b70703edc",
+          "https://cf.shopee.sg/file/92187d81fb9c5e18c8ce4cb3c04535ca"
+        ],
+        "path": [
+          { "category_id": 100009, "category_name": "Phụ Kiện Thời Trang" },
+          { "category_id": 100025, "category_name": "Phụ kiện tóc" },
+          { "category_id": 100147, "category_name": "Kẹp tóc" }
+        ],
+        "category_id": 100147,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Tóc giả & Tóc nối",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024414,
+        "images": [
+          "https://cf.shopee.sg/file/a49b5f1749c7dc5091e2db1c761f8e1c",
+          "https://cf.shopee.sg/file/28163764ad4306a251bfb02c7d9b8d72",
+          "https://cf.shopee.sg/file/4be1ae012efec3b854fe943548cb84fd",
+          "https://cf.shopee.sg/file/a47d06717e663377f1c36dc30bb0d01c",
+          "https://cf.shopee.sg/file/c4a713a233f7d5c96479e9c59946c4f1",
+          "https://cf.shopee.sg/file/c7fba0c2b0b8f99368e296c93c5775fe"
+        ],
+        "path": [
+          { "category_id": 100009, "category_name": "Phụ Kiện Thời Trang" },
+          { "category_id": 100025, "category_name": "Phụ kiện tóc" },
+          { "category_id": 100148, "category_name": "Tóc giả & Tóc nối" }
+        ],
+        "category_id": 100148,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Cài tóc, vương miện cài tóc",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024414,
+        "images": [
+          "https://cf.shopee.sg/file/3701f548b4969fd2da8301550cad04dd",
+          "https://cf.shopee.sg/file/55d7cdd42ddc53dffc68e44e16e432ed",
+          "https://cf.shopee.sg/file/bc7aad51ef1de3ade3d818a7f539ecd1",
+          "https://cf.shopee.sg/file/d4c24932d19303cfc7e21657a00e31ea",
+          "https://cf.shopee.sg/file/f6e87ce6bf65f69455cda4b718f336c0",
+          "https://cf.shopee.sg/file/5b1044b758f52a39ff8ce1f6aab77490"
+        ],
+        "path": [
+          { "category_id": 100009, "category_name": "Phụ Kiện Thời Trang" },
+          { "category_id": 100025, "category_name": "Phụ kiện tóc" },
+          {
+            "category_id": 100149,
+            "category_name": "Cài tóc, vương miện cài tóc"
+          }
+        ],
+        "category_id": 100149,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Vòng tay & Lắc tay",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024414,
+        "images": [
+          "https://cf.shopee.sg/file/29a39d6ddb32cc7f76c016ee6c0e58d5",
+          "https://cf.shopee.sg/file/7ed85d06df447975c7889be89c341f5b",
+          "https://cf.shopee.sg/file/2f00a51197a85c4152e47ff302fe5124",
+          "https://cf.shopee.sg/file/ace167b7b7c1924e2eb6ee4f5b347949",
+          "https://cf.shopee.sg/file/fbe97dd7193b60b1f2252c1d8a087b05",
+          "https://cf.shopee.sg/file/43b31b4e9ce8a9946e0ad92d45925935"
+        ],
+        "path": [
+          { "category_id": 100009, "category_name": "Phụ Kiện Thời Trang" },
+          { "category_id": 100026, "category_name": "Vòng tay & Lắc tay" }
+        ],
+        "category_id": 100026,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Lắc chân",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024414,
+        "images": [
+          "https://cf.shopee.sg/file/fdcdbfed778faa151f58c4ea5d1ea9b6",
+          "https://cf.shopee.sg/file/f9b1b8b681db315111a08b9dee3e4d1c",
+          "https://cf.shopee.sg/file/5725eadcb891059927d5cebdd1261714",
+          "https://cf.shopee.sg/file/0b1a5058b3b3cfb40788fd7568b62f5b",
+          "https://cf.shopee.sg/file/8c4db4e8bfa94f952f15d70e49a6e730",
+          "https://cf.shopee.sg/file/e4066ebbdea4ba40446f2ff852816551"
+        ],
+        "path": [
+          { "category_id": 100009, "category_name": "Phụ Kiện Thời Trang" },
+          { "category_id": 100027, "category_name": "Lắc chân" }
+        ],
+        "category_id": 100027,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Mũ",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024414,
+        "images": [
+          "https://cf.shopee.sg/file/f7dbf0b2784ff5692cc363b48563cbe5",
+          "https://cf.shopee.sg/file/0a9ee1eaa0e5b7377350bb06c9469b36",
+          "https://cf.shopee.sg/file/d0e684df839c5f54c29f3f367680e156",
+          "https://cf.shopee.sg/file/25a788dc6a18156d32253d185d967636",
+          "https://cf.shopee.sg/file/e929562b5347e1e0e28735e48e78bc07",
+          "https://cf.shopee.sg/file/ae5ea62fe15becae8b2776ab519c5901"
+        ],
+        "path": [
+          { "category_id": 100009, "category_name": "Phụ Kiện Thời Trang" },
+          { "category_id": 100028, "category_name": "Mũ" }
+        ],
+        "category_id": 100028,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Dây chuyền",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024414,
+        "images": [
+          "https://cf.shopee.sg/file/13cc5e7a2eac3e4bcce569027f9a3d36",
+          "https://cf.shopee.sg/file/ad58ece4ffda3ca1cf3bb75b8572f3fc",
+          "https://cf.shopee.sg/file/620f1c1d573aa460ad7bbedbb6ed24f1",
+          "https://cf.shopee.sg/file/0470fb8bfbb57e2bb0da93d7532381e7",
+          "https://cf.shopee.sg/file/52a3bda96b266c68743eac5cad41cea2",
+          "https://cf.shopee.sg/file/ea3861427b5b289f44131d1005e298be"
+        ],
+        "path": [
+          { "category_id": 100009, "category_name": "Phụ Kiện Thời Trang" },
+          { "category_id": 100029, "category_name": "Dây chuyền" }
+        ],
+        "category_id": 100029,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Kính mát",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024414,
+        "images": [
+          "https://cf.shopee.sg/file/b67fdb35301406b3730af11d2132437b",
+          "https://cf.shopee.sg/file/164ebd46ac7ab64c12eadbb015bf1b0c",
+          "https://cf.shopee.sg/file/55fb26d4e24e8fc66a8088dc8e2b624d"
+        ],
+        "path": [
+          { "category_id": 100009, "category_name": "Phụ Kiện Thời Trang" },
+          { "category_id": 100030, "category_name": "Kính mắt" },
+          { "category_id": 100151, "category_name": "Kính mát" }
+        ],
+        "category_id": 100151,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Gọng kính",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024415,
+        "images": [
+          "https://cf.shopee.sg/file/f8902baa4d1005638f06687f2f34efb9",
+          "https://cf.shopee.sg/file/1fc456e4ed6732096cd6470b3c59bc85",
+          "https://cf.shopee.sg/file/467b97cb51f15eb688818d165c8c8335"
+        ],
+        "path": [
+          { "category_id": 100009, "category_name": "Phụ Kiện Thời Trang" },
+          { "category_id": 100030, "category_name": "Kính mắt" },
+          { "category_id": 100152, "category_name": "Gọng kính" }
+        ],
+        "category_id": 100152,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Hộp kính và phụ kiện",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024415,
+        "images": [
+          "https://cf.shopee.sg/file/53890d7f9700c47e835c49d38cb885c0",
+          "https://cf.shopee.sg/file/4b11336b16d02a3df2a27277e46ff158",
+          "https://cf.shopee.sg/file/c72dec798fd9f398f2e09726c77d9983",
+          "https://cf.shopee.sg/file/120eb67ed65025175c67d37b3a9af049",
+          "https://cf.shopee.sg/file/877ef3f2463a3036b557d939d5f5bf5c",
+          "https://cf.shopee.sg/file/ef56c42119a26197f3af1de992008eba"
+        ],
+        "path": [
+          { "category_id": 100009, "category_name": "Phụ Kiện Thời Trang" },
+          { "category_id": 100030, "category_name": "Kính mắt" },
+          { "category_id": 100153, "category_name": "Hộp kính và phụ kiện" }
+        ],
+        "category_id": 100153,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Khác",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024415,
+        "images": [
+          "https://cf.shopee.sg/file/acaf26dc445df4b835566cfc990040c8",
+          "https://cf.shopee.sg/file/01c632708896f59b11e1cf78ed626096",
+          "https://cf.shopee.sg/file/0c60ea1ce22927ca45eeb3ecc628e5e0",
+          "https://cf.shopee.sg/file/11eea3e3f512dcc83382ad8f293e0cc7",
+          "https://cf.shopee.sg/file/2cc5f2a83fed260792a6b8dbabc3effe",
+          "https://cf.shopee.sg/file/c685117737e177c4e6f36c5694643350"
+        ],
+        "path": [
+          { "category_id": 100009, "category_name": "Phụ Kiện Thời Trang" },
+          { "category_id": 100030, "category_name": "Kính mắt" },
+          { "category_id": 100154, "category_name": "Khác" }
+        ],
+        "category_id": 100154,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Platinum & Vàng",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024415,
+        "images": [
+          "https://cf.shopee.sg/file/0cd23d70eea189d9640488cc765f81af",
+          "https://cf.shopee.sg/file/474b6526db7659daff05aa2370caf980",
+          "https://cf.shopee.sg/file/4ecfe96212c50fd4cb605d25bd5d79b6",
+          "https://cf.shopee.sg/file/93311d6113995df406e0abfa5026bf1f",
+          "https://cf.shopee.sg/file/6f9bd4b8444701b84e2243f788fe41e7",
+          "https://cf.shopee.sg/file/929fe4777ae474a0dba65b77d76f74ea"
+        ],
+        "path": [
+          { "category_id": 100009, "category_name": "Phụ Kiện Thời Trang" },
+          { "category_id": 100031, "category_name": "Kim loại quý" },
+          { "category_id": 100155, "category_name": "Platinum & Vàng" }
+        ],
+        "category_id": 100155,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Bạc",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024415,
+        "images": [
+          "https://cf.shopee.sg/file/4cfef561311b8f246b576d420e65ae30",
+          "https://cf.shopee.sg/file/09a37429ff1cd64c5210396e932cbe94",
+          "https://cf.shopee.sg/file/c35fa560387699bf780d696e618edb12",
+          "https://cf.shopee.sg/file/7deb37b4a4c08ddd49cc2de97a392248",
+          "https://cf.shopee.sg/file/a967e1c9227167a2a5584cccea466c79",
+          "https://cf.shopee.sg/file/34370d6e555b7706cda36909e03aa48a"
+        ],
+        "path": [
+          { "category_id": 100009, "category_name": "Phụ Kiện Thời Trang" },
+          { "category_id": 100031, "category_name": "Kim loại quý" },
+          { "category_id": 100156, "category_name": "Bạc" }
+        ],
+        "category_id": 100156,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Kim cương",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024415,
+        "images": [
+          "https://cf.shopee.sg/file/11698ac4ae1ff50d8fe0b448091d6ca3",
+          "https://cf.shopee.sg/file/83339b83756d74102c0baa9087e4ae35",
+          "https://cf.shopee.sg/file/fab8b06638f45cbe8b9d3504004c0a2d",
+          "https://cf.shopee.sg/file/6fe8ad532961f6b7a14b3ef1436ff503",
+          "https://cf.shopee.sg/file/1d7f64cbce161b6eeddd3186d5086f62",
+          "https://cf.shopee.sg/file/711fb49c33636b3b8d792e5437b2c61f"
+        ],
+        "path": [
+          { "category_id": 100009, "category_name": "Phụ Kiện Thời Trang" },
+          { "category_id": 100031, "category_name": "Kim loại quý" },
+          { "category_id": 100157, "category_name": "Kim cương" }
+        ],
+        "category_id": 100157,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Ngọc bích, Cẩm thạch",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024415,
+        "images": [
+          "https://cf.shopee.sg/file/90ae2bef941b1f82b8a28824788c0104",
+          "https://cf.shopee.sg/file/3d90f6ecf97bd865a6db739830014044",
+          "https://cf.shopee.sg/file/d8b3e4988acd20b07f494df0a5490521",
+          "https://cf.shopee.sg/file/d2463da98c5b0db9a65020ce767efd25",
+          "https://cf.shopee.sg/file/43de13caab9d89853494f2df94eb3cc7",
+          "https://cf.shopee.sg/file/de040f757ac3601aab7593b697920dfd"
+        ],
+        "path": [
+          { "category_id": 100009, "category_name": "Phụ Kiện Thời Trang" },
+          { "category_id": 100031, "category_name": "Kim loại quý" },
+          { "category_id": 100158, "category_name": "Ngọc bích, Cẩm thạch" }
+        ],
+        "category_id": 100158,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Khác",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024415,
+        "images": [
+          "https://cf.shopee.sg/file/20500683ef26eb4c1223df045882c9e4",
+          "https://cf.shopee.sg/file/fcc4922c46de6376af38e8cf24ab0449",
+          "https://cf.shopee.sg/file/e5933c217df85d92dbfd07254283e20c",
+          "https://cf.shopee.sg/file/b8150809a90ecf461e886593c66301f2",
+          "https://cf.shopee.sg/file/09009d3b92413f758ad85cd273616189",
+          "https://cf.shopee.sg/file/6231a33b0e9ec70472bc43ad528d4f88"
+        ],
+        "path": [
+          { "category_id": 100009, "category_name": "Phụ Kiện Thời Trang" },
+          { "category_id": 100031, "category_name": "Kim loại quý" },
+          { "category_id": 100159, "category_name": "Khác" }
+        ],
+        "category_id": 100159,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Thắt lưng",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024415,
+        "images": [
+          "https://cf.shopee.sg/file/bca557a118d048b279d56e3e74b87fe1",
+          "https://cf.shopee.sg/file/c334ec472e1d9a7caaf67b1c7816da3f",
+          "https://cf.shopee.sg/file/f6e603950e525d5a977cb5f06b682ad4",
+          "https://cf.shopee.sg/file/854bfeba5e23043e2e2f01e4d7d549a7",
+          "https://cf.shopee.sg/file/21b1d53c175bc7489e54adbd3e4fa5ba",
+          "https://cf.shopee.sg/file/9d0d90455f5d907f61b63d93434575cb"
+        ],
+        "path": [
+          { "category_id": 100009, "category_name": "Phụ Kiện Thời Trang" },
+          { "category_id": 100032, "category_name": "Thắt lưng" }
+        ],
+        "category_id": 100032,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Cà vạt & Nơ cổ",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024415,
+        "images": [
+          "https://cf.shopee.sg/file/f5e61259d7b7c05e88bfe48eba834761",
+          "https://cf.shopee.sg/file/eaf0ff46edd3b526bcd05be38424253b",
+          "https://cf.shopee.sg/file/636ae6123c1ab2f975c992072ab53e20",
+          "https://cf.shopee.sg/file/653fb8632a8792bafddd289c56e68e10",
+          "https://cf.shopee.sg/file/df34a8277141afb57d7bb180f3751280",
+          "https://cf.shopee.sg/file/b10912ab31cddf329b9647bb9a1363e3"
+        ],
+        "path": [
+          { "category_id": 100009, "category_name": "Phụ Kiện Thời Trang" },
+          { "category_id": 100033, "category_name": "Cà vạt & Nơ cổ" }
+        ],
+        "category_id": 100033,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Trâm & Ghim cài áo",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024415,
+        "images": [
+          "https://cf.shopee.sg/file/88ab7bbb4934c30b73359e655509f482",
+          "https://cf.shopee.sg/file/7e5aae316f0ed4f7838da554ae1bdc3b",
+          "https://cf.shopee.sg/file/e38a380fa94b0bffe1b7059c3aa18cb5",
+          "https://cf.shopee.sg/file/23fed8ee48358795e4b4c7ce32e1a6a6",
+          "https://cf.shopee.sg/file/7c9279c5de3b6738c2942cd04732b05f",
+          "https://cf.shopee.sg/file/c6631c8fe0b5f0d95e5c1f6f8614593e"
+        ],
+        "path": [
+          { "category_id": 100009, "category_name": "Phụ Kiện Thời Trang" },
+          { "category_id": 100034, "category_name": "Phụ kiện thêm" },
+          { "category_id": 100160, "category_name": "Trâm & Ghim cài áo" }
+        ],
+        "category_id": 100160,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Miếng vá áo",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024415,
+        "images": [
+          "https://cf.shopee.sg/file/7ea9ef8e92ec966717c5b5f2cb843365",
+          "https://cf.shopee.sg/file/8c9b25f3045a048f4549193cc7964c69",
+          "https://cf.shopee.sg/file/a44e449a3ea69214fc902c96645f63f3",
+          "https://cf.shopee.sg/file/801d55030362e617a7f20f800b4b340d",
+          "https://cf.shopee.sg/file/4961a4518138636e80ea3894abbccdfe",
+          "https://cf.shopee.sg/file/644734874a1ab872a47a032d31126be4"
+        ],
+        "path": [
+          { "category_id": 100009, "category_name": "Phụ Kiện Thời Trang" },
+          { "category_id": 100034, "category_name": "Phụ kiện thêm" },
+          { "category_id": 100161, "category_name": "Miếng vá áo" }
+        ],
+        "category_id": 100161,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Mặt dây chuyền và Charm",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024415,
+        "images": [
+          "https://cf.shopee.sg/file/888d1c72d21a54d44de76260b92441b2",
+          "https://cf.shopee.sg/file/123c20f12b5d6c2bfa27f44cf8aaf59a",
+          "https://cf.shopee.sg/file/b710eac07dc2ea4521426aa6afeb799a",
+          "https://cf.shopee.sg/file/b5ae025b2ae6f10358243de671cb41a8",
+          "https://cf.shopee.sg/file/0a397a43c7a183b4f6bcfc7291e6584e",
+          "https://cf.shopee.sg/file/f434f9d037f06c9d254436d89ead8217"
+        ],
+        "path": [
+          { "category_id": 100009, "category_name": "Phụ Kiện Thời Trang" },
+          { "category_id": 100034, "category_name": "Phụ kiện thêm" },
+          { "category_id": 100162, "category_name": "Mặt dây chuyền và Charm" }
+        ],
+        "category_id": 100162,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Măng sét nam",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024415,
+        "images": [
+          "https://cf.shopee.sg/file/614ab59e1947d15581c5012bba650719",
+          "https://cf.shopee.sg/file/0f18f47d04d8eb5a561e946bebcf74be",
+          "https://cf.shopee.sg/file/9bdbdaf7d69afabeccbd533e4204df5e",
+          "https://cf.shopee.sg/file/49daa4f3d7a3d07986682425236c3d8c",
+          "https://cf.shopee.sg/file/636de26c1ab1bd5a067a93c2d03d934f",
+          "https://cf.shopee.sg/file/59dc5f419dec3cbdd6965165fbecc26c"
+        ],
+        "path": [
+          { "category_id": 100009, "category_name": "Phụ Kiện Thời Trang" },
+          { "category_id": 100034, "category_name": "Phụ kiện thêm" },
+          { "category_id": 100163, "category_name": "Măng sét nam" }
+        ],
+        "category_id": 100163,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Hình xăm dán",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024415,
+        "images": [
+          "https://cf.shopee.sg/file/2cfd5f31702494840f31dba667046316",
+          "https://cf.shopee.sg/file/47106ddda0152d530eef7f24c0edc192",
+          "https://cf.shopee.sg/file/16a0373df71ea7601534a4a9d32f50aa",
+          "https://cf.shopee.sg/file/42cf5349562d3f06cc5471fab039303e",
+          "https://cf.shopee.sg/file/b6823649f9bee95ce30b6782b3d03384",
+          "https://cf.shopee.sg/file/96af364920aee6ec438ddc46e371e85b"
+        ],
+        "path": [
+          { "category_id": 100009, "category_name": "Phụ Kiện Thời Trang" },
+          { "category_id": 100034, "category_name": "Phụ kiện thêm" },
+          { "category_id": 100164, "category_name": "Hình xăm dán" }
+        ],
+        "category_id": 100164,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Khẩu trang thời trang",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024416,
+        "images": [
+          "https://cf.shopee.sg/file/4a519cb5b0bdda598f7e89214bc7d16d",
+          "https://cf.shopee.sg/file/c41a40c5c8c330ac7fe92dd82e7bed06",
+          "https://cf.shopee.sg/file/2922a63a84b516ad992e4cd6bf4bab3a",
+          "https://cf.shopee.sg/file/a15ec8ef2854d22762485568f760ce8a",
+          "https://cf.shopee.sg/file/6f4d8435ebf661fc082d691377a99955",
+          "https://cf.shopee.sg/file/88a17ef27d9685fe54ac9509fe4223c6"
+        ],
+        "path": [
+          { "category_id": 100009, "category_name": "Phụ Kiện Thời Trang" },
+          { "category_id": 100034, "category_name": "Phụ kiện thêm" },
+          { "category_id": 100165, "category_name": "Khẩu trang thời trang" }
+        ],
+        "category_id": 100165,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Khăn tay",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024416,
+        "images": [
+          "https://cf.shopee.sg/file/e78de9df57ae6761e0017c06c4536576",
+          "https://cf.shopee.sg/file/34da9099cebee145a985f2e1e9d322d5",
+          "https://cf.shopee.sg/file/d2678344c2cecb3426f2c6e02f3f4d35",
+          "https://cf.shopee.sg/file/14ecad431004f4e85186502dd2c1720a",
+          "https://cf.shopee.sg/file/6bd3b2147dd6d0bad50384266c77edeb",
+          "https://cf.shopee.sg/file/4918766ea2e6f8f8bd86e893b21787d3"
+        ],
+        "path": [
+          { "category_id": 100009, "category_name": "Phụ Kiện Thời Trang" },
+          { "category_id": 100034, "category_name": "Phụ kiện thêm" },
+          { "category_id": 100166, "category_name": "Khăn tay" }
+        ],
+        "category_id": 100166,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Khác",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024416,
+        "images": [
+          "https://cf.shopee.sg/file/d86bb62b71882324ee24dfa4cfa2cdfc",
+          "https://cf.shopee.sg/file/58811e9f1a3559112e008fd2aee394e9",
+          "https://cf.shopee.sg/file/c4a9cec7f458d6832099f4c21b6ffe47",
+          "https://cf.shopee.sg/file/1b4afa70162c8302fe56cdee09fd3bd7",
+          "https://cf.shopee.sg/file/db0f5dd69319e47c69481a983147486a",
+          "https://cf.shopee.sg/file/629d50ab027ece4ef5d3d7e84432adcd"
+        ],
+        "path": [
+          { "category_id": 100009, "category_name": "Phụ Kiện Thời Trang" },
+          { "category_id": 100034, "category_name": "Phụ kiện thêm" },
+          { "category_id": 100167, "category_name": "Khác" }
+        ],
+        "category_id": 100167,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Bộ phụ kiện",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024416,
+        "images": [
+          "https://cf.shopee.sg/file/5273c66ced1b0e904c0e985521a76697",
+          "https://cf.shopee.sg/file/a72336548203176256ce0ffba640322c",
+          "https://cf.shopee.sg/file/3120c5089e3cb3c3f62aa24e5132e8b7",
+          "https://cf.shopee.sg/file/1561d62d9b61d9907da418496c10d8ee",
+          "https://cf.shopee.sg/file/8a734604bd5d3c00eb8336936e865978",
+          "https://cf.shopee.sg/file/41575e13966e52f7b42c69350dfd9125"
+        ],
+        "path": [
+          { "category_id": 100009, "category_name": "Phụ Kiện Thời Trang" },
+          { "category_id": 100035, "category_name": "Bộ phụ kiện" }
+        ],
+        "category_id": 100035,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Máy chiếu & Màn hình chiếu",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024417,
+        "images": [
+          "https://cf.shopee.sg/file/309957ba6f84b8a7adb8944eb4418382",
+          "https://cf.shopee.sg/file/5b4c292554ec9d90ac7b181904f32571",
+          "https://cf.shopee.sg/file/04bfdfd8bce11e34d3fd18ae152033c1",
+          "https://cf.shopee.sg/file/fa549a5ff4c957671aebb161d0d5f475",
+          "https://cf.shopee.sg/file/dbf9feb81cc3fb4d03ff68fd7e099cfa",
+          "https://cf.shopee.sg/file/532d8e4bf1b8675aac856a85b47ec56f"
+        ],
+        "path": [
+          { "category_id": 100010, "category_name": "Thiết Bị Điện Gia Dụng" },
+          { "category_id": 100037, "category_name": "Máy chiếu & Phụ kiện" },
+          {
+            "category_id": 100168,
+            "category_name": "Máy chiếu & Màn hình chiếu"
+          }
+        ],
+        "category_id": 100168,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Bút trình chiếu",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024417,
+        "images": [
+          "https://cf.shopee.sg/file/2476b1c63e4240f9285fe09ff52b45b5",
+          "https://cf.shopee.sg/file/f235e822245b0d188ccec0765a6381a3",
+          "https://cf.shopee.sg/file/bd56d016f37648393f0404dfa5736516",
+          "https://cf.shopee.sg/file/e5eea1975c6256492f22e75d0f83dc96",
+          "https://cf.shopee.sg/file/4b8bee358dc4e7b6ac75701da0e49528",
+          "https://cf.shopee.sg/file/2ef43b1f56b65c3484ad81e730289524"
+        ],
+        "path": [
+          { "category_id": 100010, "category_name": "Thiết Bị Điện Gia Dụng" },
+          { "category_id": 100037, "category_name": "Máy chiếu & Phụ kiện" },
+          { "category_id": 100169, "category_name": "Bút trình chiếu" }
+        ],
+        "category_id": 100169,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Khác",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024417,
+        "images": [
+          "https://cf.shopee.sg/file/347b1e6d94aa106bcbcaf7956c82e39e",
+          "https://cf.shopee.sg/file/eb06d4c307673d29e8fd704283b575b6",
+          "https://cf.shopee.sg/file/6966f56b89a97f6a5910c0e2a29c5b86",
+          "https://cf.shopee.sg/file/458eae813a51d7b5ad661fc996a305a3",
+          "https://cf.shopee.sg/file/51c6100dcba0b8c369598d9d9747665c",
+          "https://cf.shopee.sg/file/acb95a34639df47f0871f77bc840cbf7"
+        ],
+        "path": [
+          { "category_id": 100010, "category_name": "Thiết Bị Điện Gia Dụng" },
+          { "category_id": 100037, "category_name": "Máy chiếu & Phụ kiện" },
+          { "category_id": 100170, "category_name": "Khác" }
+        ],
+        "category_id": 100170,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Thiết bị vệ sinh chân & Thư giãn",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024417,
+        "images": [
+          "https://cf.shopee.sg/file/e21faa8fe462420db4a6b1dce422b485",
+          "https://cf.shopee.sg/file/cad94f646fed93c5135aa0b2e9eb0bb8",
+          "https://cf.shopee.sg/file/34f0733ac660026d3080a816eef5c917",
+          "https://cf.shopee.sg/file/8c811976fce596e9882104d04493041c",
+          "https://cf.shopee.sg/file/42dbf2399efab0b029769bac7e22c676",
+          "https://cf.shopee.sg/file/43f9e79389eb6042269f6914ae7857ea"
+        ],
+        "path": [
+          { "category_id": 100010, "category_name": "Thiết Bị Điện Gia Dụng" },
+          {
+            "category_id": 100038,
+            "category_name": "Thiết bị điện gia dụng nhỏ"
+          },
+          {
+            "category_id": 100171,
+            "category_name": "Thiết bị vệ sinh chân & Thư giãn"
+          }
+        ],
+        "category_id": 100171,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Máy tăm nước",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024417,
+        "images": [
+          "https://cf.shopee.sg/file/e1ffdcb7e6a3bd2bf04e7b27c9c8f290",
+          "https://cf.shopee.sg/file/00c94dacd66e34345f0ae62f384e948e",
+          "https://cf.shopee.sg/file/2abdeac181beede77984ae722b8f9f6a",
+          "https://cf.shopee.sg/file/d087f182b7b55754f1f87f66c6c8f48b",
+          "https://cf.shopee.sg/file/3a053c30bfd758cf04373fe11478bb8b",
+          "https://cf.shopee.sg/file/fbf646b8bed528208d342a69d10cc22a"
+        ],
+        "path": [
+          { "category_id": 100010, "category_name": "Thiết Bị Điện Gia Dụng" },
+          {
+            "category_id": 100038,
+            "category_name": "Thiết bị điện gia dụng nhỏ"
+          },
+          { "category_id": 100172, "category_name": "Máy tăm nước" }
+        ],
+        "category_id": 100172,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Máy may & Phụ kiện",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024417,
+        "images": [
+          "https://cf.shopee.sg/file/051a39ff2aa0107d8e2d046723c44de9",
+          "https://cf.shopee.sg/file/77464beaf04b702bfd36979fe13a3f7f",
+          "https://cf.shopee.sg/file/3c41c31b8fe8e006b8da8e7f82c42a18",
+          "https://cf.shopee.sg/file/6e399dbc26ed219ff0c06338dbf6fadf",
+          "https://cf.shopee.sg/file/a71d088edee8e543134b7e493d37d642",
+          "https://cf.shopee.sg/file/2d6b9d6d7e6c3f0171c69559a20700ac"
+        ],
+        "path": [
+          { "category_id": 100010, "category_name": "Thiết Bị Điện Gia Dụng" },
+          {
+            "category_id": 100038,
+            "category_name": "Thiết bị điện gia dụng nhỏ"
+          },
+          { "category_id": 100173, "category_name": "Máy may & Phụ kiện" }
+        ],
+        "category_id": 100173,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Điện thoại có dây",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024417,
+        "images": [
+          "https://cf.shopee.sg/file/657a5e2a30ff7e6ea0f1749c88d26a94",
+          "https://cf.shopee.sg/file/3bf5781ea15b9c096e20d2ff8c48fdb3",
+          "https://cf.shopee.sg/file/e6292e90ded4d964ee954b017ef299a3",
+          "https://cf.shopee.sg/file/b8e3bcca124f2f35d61d206ffff5541a",
+          "https://cf.shopee.sg/file/3cc13e5e6c8742b63c813de3bc7b9ad8",
+          "https://cf.shopee.sg/file/0fa516fab4d027c97ebe5ee7c33946f6"
+        ],
+        "path": [
+          { "category_id": 100010, "category_name": "Thiết Bị Điện Gia Dụng" },
+          {
+            "category_id": 100038,
+            "category_name": "Thiết bị điện gia dụng nhỏ"
+          },
+          { "category_id": 100174, "category_name": "Điện thoại" },
+          { "category_id": 100454, "category_name": "Điện thoại có dây" }
+        ],
+        "category_id": 100454,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Điện thoại không dây",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024417,
+        "images": [
+          "https://cf.shopee.sg/file/7608f84bd860f0c20a2f6834282bcb6b",
+          "https://cf.shopee.sg/file/552a2641a1ebe024534d00a1c6e21b5b",
+          "https://cf.shopee.sg/file/1c1ac2bf25ac6d3cd8eb7dc23fdc0d4f",
+          "https://cf.shopee.sg/file/c98f17e579793b1a2269d7b48b567e67",
+          "https://cf.shopee.sg/file/4798c7e638c74ef57dbf9c2cf427a149",
+          "https://cf.shopee.sg/file/4d40119298fe6eb8ece99e25a9cba10b"
+        ],
+        "path": [
+          { "category_id": 100010, "category_name": "Thiết Bị Điện Gia Dụng" },
+          {
+            "category_id": 100038,
+            "category_name": "Thiết bị điện gia dụng nhỏ"
+          },
+          { "category_id": 100174, "category_name": "Điện thoại" },
+          { "category_id": 100455, "category_name": "Điện thoại không dây" }
+        ],
+        "category_id": 100455,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Máy fax",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024417,
+        "images": [
+          "https://cf.shopee.sg/file/3a3b029468207b593a4ef4658e4aafe4",
+          "https://cf.shopee.sg/file/568127114f5e6573d597044b0d6db2d9",
+          "https://cf.shopee.sg/file/bed7701764d5cb01c7065d8de225b241",
+          "https://cf.shopee.sg/file/3b7a04e8acabe032fe0903c19330f398",
+          "https://cf.shopee.sg/file/1a68485f6bb101b4e9273fc281111dff",
+          "https://cf.shopee.sg/file/c6a0657ab0a2d6950c243d72606f68dc"
+        ],
+        "path": [
+          { "category_id": 100010, "category_name": "Thiết Bị Điện Gia Dụng" },
+          {
+            "category_id": 100038,
+            "category_name": "Thiết bị điện gia dụng nhỏ"
+          },
+          { "category_id": 100174, "category_name": "Điện thoại" },
+          { "category_id": 100456, "category_name": "Máy fax" }
+        ],
+        "category_id": 100456,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Bàn là khô & Hơi nước",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024417,
+        "images": [
+          "https://cf.shopee.sg/file/8fa3bcaf80e444e63f0e7f3ac39e42ff",
+          "https://cf.shopee.sg/file/21ef7f75fe5064d17bfb91af90b1d097",
+          "https://cf.shopee.sg/file/e7ee03d30bde5ad80dee877905a1d173",
+          "https://cf.shopee.sg/file/58e8f87d288cbfc6f83572ed2cb6125f",
+          "https://cf.shopee.sg/file/934bb62708ddf7b4fb5f741614f7f515",
+          "https://cf.shopee.sg/file/deae11b30a77f6129443de02f129defd"
+        ],
+        "path": [
+          { "category_id": 100010, "category_name": "Thiết Bị Điện Gia Dụng" },
+          {
+            "category_id": 100038,
+            "category_name": "Thiết bị điện gia dụng nhỏ"
+          },
+          { "category_id": 100175, "category_name": "Bàn là khô & Hơi nước" }
+        ],
+        "category_id": 100175,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Máy lọc không khí",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024417,
+        "images": [
+          "https://cf.shopee.sg/file/cfa47be384839077f25ba402b1503bc0",
+          "https://cf.shopee.sg/file/fe16b44aebcc9146b1829a22b1727e4a",
+          "https://cf.shopee.sg/file/41a9fc885b407f7d938143491c50f974",
+          "https://cf.shopee.sg/file/a29a22823f407199fa8662905dfcc921",
+          "https://cf.shopee.sg/file/cb13a4c4d46f4e07ecc68b4dc648c2a7",
+          "https://cf.shopee.sg/file/48d18849cdc7287fcadace391b694878"
+        ],
+        "path": [
+          { "category_id": 100010, "category_name": "Thiết Bị Điện Gia Dụng" },
+          {
+            "category_id": 100038,
+            "category_name": "Thiết bị điện gia dụng nhỏ"
+          },
+          {
+            "category_id": 100176,
+            "category_name": "Thiết bị xử lý không khí"
+          },
+          { "category_id": 100458, "category_name": "Máy lọc không khí" }
+        ],
+        "category_id": 100458,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Máy hút ẩm",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024417,
+        "images": [
+          "https://cf.shopee.sg/file/5f9bfacff66ded6ed0fd162fcc80b690",
+          "https://cf.shopee.sg/file/e789acbe0f6c983d6d03d722da6093c6",
+          "https://cf.shopee.sg/file/f3504be07f36ed05564b9ac8c70372f2",
+          "https://cf.shopee.sg/file/c5bb22f69b3adb168824552ce3dff062",
+          "https://cf.shopee.sg/file/3e689a36ebf5898971a6ea50c35b9fec",
+          "https://cf.shopee.sg/file/ec7e3b368a41619be6e7bd5d58de85c4"
+        ],
+        "path": [
+          { "category_id": 100010, "category_name": "Thiết Bị Điện Gia Dụng" },
+          {
+            "category_id": 100038,
+            "category_name": "Thiết bị điện gia dụng nhỏ"
+          },
+          {
+            "category_id": 100176,
+            "category_name": "Thiết bị xử lý không khí"
+          },
+          { "category_id": 100459, "category_name": "Máy hút ẩm" }
+        ],
+        "category_id": 100459,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Máy hút bụi & Thiết bị làm sạch sàn",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024418,
+        "images": [
+          "https://cf.shopee.sg/file/faa7bf5e5fde091eb6c91949a79ec60b",
+          "https://cf.shopee.sg/file/cb68800c56210037cd212f932450196e",
+          "https://cf.shopee.sg/file/8862f725647f7c45c965f47dd2ca8ced",
+          "https://cf.shopee.sg/file/39d46666e3b7450e03ec978e6fd59296",
+          "https://cf.shopee.sg/file/b1db15ae64e5cfc5f97fd6dde30c4c4a",
+          "https://cf.shopee.sg/file/3197375dc6cb40c982621840eee6da09"
+        ],
+        "path": [
+          { "category_id": 100010, "category_name": "Thiết Bị Điện Gia Dụng" },
+          {
+            "category_id": 100038,
+            "category_name": "Thiết bị điện gia dụng nhỏ"
+          },
+          {
+            "category_id": 100177,
+            "category_name": "Máy hút bụi & Thiết bị làm sạch sàn"
+          }
+        ],
+        "category_id": 100177,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Khác",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024418,
+        "images": [
+          "https://cf.shopee.sg/file/2ee71b7c3c9aa954f2d0885f3603dbd2",
+          "https://cf.shopee.sg/file/dd984f63b953daa1a4a33436a2b97e43",
+          "https://cf.shopee.sg/file/706571d9e3ed539b957d3168b457b27d",
+          "https://cf.shopee.sg/file/897042beea444500ce65694557b07a1c",
+          "https://cf.shopee.sg/file/e8fba34aa189f897e64b13b7b560d8f9",
+          "https://cf.shopee.sg/file/dbfd92e63fa8a1dc97e607625ed9037c"
+        ],
+        "path": [
+          { "category_id": 100010, "category_name": "Thiết Bị Điện Gia Dụng" },
+          {
+            "category_id": 100038,
+            "category_name": "Thiết bị điện gia dụng nhỏ"
+          },
+          { "category_id": 100178, "category_name": "Khác" }
+        ],
+        "category_id": 100178,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Máy giặt",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024418,
+        "images": [
+          "https://cf.shopee.sg/file/ff133b54fa13ee329d2e3b5a0c1cff51",
+          "https://cf.shopee.sg/file/4cfdfc3fad6e9a34a4a4395ea29ec2f3",
+          "https://cf.shopee.sg/file/2c5795c65c9e89293d5d9b0361338bb2",
+          "https://cf.shopee.sg/file/3f5c6d5f5976339f61d656f1c24a704f",
+          "https://cf.shopee.sg/file/033f8371905c7367deda42301f805b8c"
+        ],
+        "path": [
+          { "category_id": 100010, "category_name": "Thiết Bị Điện Gia Dụng" },
+          {
+            "category_id": 100039,
+            "category_name": "Thiết bị điện gia dụng lớn"
+          },
+          { "category_id": 100179, "category_name": "Máy giặt & Máy sấy" },
+          { "category_id": 100461, "category_name": "Máy giặt" }
+        ],
+        "category_id": 100461,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Máy sấy quần áo",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024418,
+        "images": [
+          "https://cf.shopee.sg/file/62701115c899859aa4dc717afb7f047a",
+          "https://cf.shopee.sg/file/bbca8ab583c485c32211aea5154ff24d",
+          "https://cf.shopee.sg/file/33eb875a2e3bf0ed98ff9a8792e3c3fe",
+          "https://cf.shopee.sg/file/951229c60adcc880925eaabd1ac55717",
+          "https://cf.shopee.sg/file/a4366d6a657b385f596dd4ad7651d6f7",
+          "https://cf.shopee.sg/file/54de9944fa16a41b66411553c85c86df"
+        ],
+        "path": [
+          { "category_id": 100010, "category_name": "Thiết Bị Điện Gia Dụng" },
+          {
+            "category_id": 100039,
+            "category_name": "Thiết bị điện gia dụng lớn"
+          },
+          { "category_id": 100179, "category_name": "Máy giặt & Máy sấy" },
+          { "category_id": 100462, "category_name": "Máy sấy quần áo" }
+        ],
+        "category_id": 100462,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Máy nước nóng",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024418,
+        "images": [
+          "https://cf.shopee.sg/file/5fc763d6b0736163f8511821a73aee41",
+          "https://cf.shopee.sg/file/23039682d4e68895ef5bc7e6e26728b5",
+          "https://cf.shopee.sg/file/628d94f07b065020b12948affa8eabca",
+          "https://cf.shopee.sg/file/356e2e8a8760dad369344ca767c03379",
+          "https://cf.shopee.sg/file/7a7cd8bfcbb52dea2de24bfefe0c3bd7",
+          "https://cf.shopee.sg/file/baa38539b33bb45d347874d63c5c2e04"
+        ],
+        "path": [
+          { "category_id": 100010, "category_name": "Thiết Bị Điện Gia Dụng" },
+          {
+            "category_id": 100039,
+            "category_name": "Thiết bị điện gia dụng lớn"
+          },
+          { "category_id": 100180, "category_name": "Máy nước nóng" }
+        ],
+        "category_id": 100180,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Điều hòa",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024418,
+        "images": [
+          "https://cf.shopee.sg/file/d1ef5c45a4849f859231e4c086c6d184",
+          "https://cf.shopee.sg/file/8a0fe1f114d1725feca419043aa1a78a",
+          "https://cf.shopee.sg/file/ed740a3dc4f1dd34b0dbc2402d04dbf0",
+          "https://cf.shopee.sg/file/39d29756bac6e7b000400d8afa44a40a",
+          "https://cf.shopee.sg/file/a55089d126c8450ea7a407f96b080327",
+          "https://cf.shopee.sg/file/8ad67c8552e6bcdd198e8c6c2f7a474b"
+        ],
+        "path": [
+          { "category_id": 100010, "category_name": "Thiết Bị Điện Gia Dụng" },
+          {
+            "category_id": 100039,
+            "category_name": "Thiết bị điện gia dụng lớn"
+          },
+          { "category_id": 100181, "category_name": "Thiết bị làm mát" },
+          { "category_id": 100464, "category_name": "Điều hòa" }
+        ],
+        "category_id": 100464,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Máy làm mát không khí & Điều hoà cầm tay",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024418,
+        "images": [
+          "https://cf.shopee.sg/file/4bbf829a496dd8a394fc2b08c6b72ee0",
+          "https://cf.shopee.sg/file/428401541b77149e8bf6281dfe71dc71",
+          "https://cf.shopee.sg/file/e5c1f1eea545b78f0b11f17f8b8ca927",
+          "https://cf.shopee.sg/file/ab31e27790b3d6d715230671e0a87873",
+          "https://cf.shopee.sg/file/5aff34712a9e87e6e63e07d3a77ec4a7",
+          "https://cf.shopee.sg/file/5acc660032927e655ef2b1b47ec2d812"
+        ],
+        "path": [
+          { "category_id": 100010, "category_name": "Thiết Bị Điện Gia Dụng" },
+          {
+            "category_id": 100039,
+            "category_name": "Thiết bị điện gia dụng lớn"
+          },
+          { "category_id": 100181, "category_name": "Thiết bị làm mát" },
+          {
+            "category_id": 100465,
+            "category_name": "Máy làm mát không khí & Điều hoà cầm tay"
+          }
+        ],
+        "category_id": 100465,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Quạt",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024418,
+        "images": [
+          "https://cf.shopee.sg/file/2271142efb2550edb5a7d54c93c0ea6c",
+          "https://cf.shopee.sg/file/6ca71442016c31016f3490ade2ad21fa",
+          "https://cf.shopee.sg/file/bd6080cd9f71899eae4ce9698c991f72",
+          "https://cf.shopee.sg/file/c3e4b6f80922486ddc9a4a6d7ea7e497",
+          "https://cf.shopee.sg/file/aa726327054f66e9e6bdcdc97817deb7",
+          "https://cf.shopee.sg/file/2d56f94b4ba9f4a3aa8a31d7a29d16d3"
+        ],
+        "path": [
+          { "category_id": 100010, "category_name": "Thiết Bị Điện Gia Dụng" },
+          {
+            "category_id": 100039,
+            "category_name": "Thiết bị điện gia dụng lớn"
+          },
+          { "category_id": 100181, "category_name": "Thiết bị làm mát" },
+          { "category_id": 100466, "category_name": "Quạt" }
+        ],
+        "category_id": 100466,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Thiết bị sấy khô nệm & Giày",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024418,
+        "images": [
+          "https://cf.shopee.sg/file/57ede0f0e9ec8bc10369a3c68fff77af",
+          "https://cf.shopee.sg/file/cae769a3c4abc3c579970483f97e0a89",
+          "https://cf.shopee.sg/file/10235c6175e5023b4a0239bb744bf38e",
+          "https://cf.shopee.sg/file/5bf927f956ffec8770b794d57a7043d2",
+          "https://cf.shopee.sg/file/35a129fbdc47f0e6b6e9e0a5e370a344",
+          "https://cf.shopee.sg/file/d3a270e0bfb49c8c8a604bdfae99fbbc"
+        ],
+        "path": [
+          { "category_id": 100010, "category_name": "Thiết Bị Điện Gia Dụng" },
+          {
+            "category_id": 100039,
+            "category_name": "Thiết bị điện gia dụng lớn"
+          },
+          {
+            "category_id": 100182,
+            "category_name": "Thiết bị sấy khô nệm & Giày"
+          }
+        ],
+        "category_id": 100182,
+        "hl_category_name": ""
+      }
+    ]
+  }
+}

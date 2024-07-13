@@ -1,0 +1,358 @@
+{
+  "data": {
+    "space_banners": [
+      {
+        "space_key": "PC-VN-HOME_CAROUSEL_01",
+        "ratio": 3.3333333,
+        "banners": [
+          {
+            "banner_metadata": {
+              "banner_id": 46911,
+              "campaign_unit_id": 45776,
+              "slot_id": 1,
+              "source": 1,
+              "dl_json_data": "{\"slot_tracking_id\":0,\"space_group_id\":3}",
+              "tag": 0,
+              "team_id": 1
+            },
+            "image_url": "https://cf.shopee.vn/file/0cd37ce2271297265a0fa4d949e9649a",
+            "image_hash": "0cd37ce2271297265a0fa4d949e9649a",
+            "target_url": "https://shopee.vn/m/re-bat-ngo",
+            "is_placeholder": false,
+            "number_of_sections": 1,
+            "click_sections": [
+              {
+                "target_url": "https://shopee.vn/m/re-bat-ngo",
+                "image_width_percentage": 100
+              }
+            ]
+          },
+          {
+            "banner_metadata": {
+              "banner_id": 46922,
+              "campaign_unit_id": 45787,
+              "slot_id": 2,
+              "source": 1,
+              "dl_json_data": "{\"slot_tracking_id\":0,\"space_group_id\":3}",
+              "tag": 0,
+              "team_id": 1
+            },
+            "image_url": "https://cf.shopee.vn/file/fb723e620eb05351c581432649284f83",
+            "image_hash": "fb723e620eb05351c581432649284f83",
+            "target_url": "https://shopee.vn/m/khung-gio-san-sale",
+            "is_placeholder": false,
+            "number_of_sections": 1,
+            "click_sections": [
+              {
+                "target_url": "https://shopee.vn/m/khung-gio-san-sale",
+                "image_width_percentage": 100
+              }
+            ]
+          },
+          {
+            "banner_metadata": {
+              "banner_id": 46932,
+              "campaign_unit_id": 45791,
+              "slot_id": 3,
+              "source": 1,
+              "dl_json_data": "{\"slot_tracking_id\":0,\"space_group_id\":3}",
+              "tag": 0,
+              "team_id": 1
+            },
+            "image_url": "https://cf.shopee.vn/file/659d41c47d8921f1acc8e0d2fa1eaa7e",
+            "image_hash": "659d41c47d8921f1acc8e0d2fa1eaa7e",
+            "target_url": "https://shopee.vn/unilever-hb",
+            "is_placeholder": false,
+            "number_of_sections": 1,
+            "click_sections": [
+              {
+                "target_url": "https://shopee.vn/unilever-hb",
+                "image_width_percentage": 100
+              }
+            ]
+          },
+          {
+            "banner_metadata": {
+              "banner_id": 46934,
+              "campaign_unit_id": 45793,
+              "slot_id": 4,
+              "source": 1,
+              "dl_json_data": "{\"slot_tracking_id\":0,\"space_group_id\":3}",
+              "tag": 0,
+              "team_id": 1
+            },
+            "image_url": "https://cf.shopee.vn/file/82a3fbf9c82a4ca729ac7c7f41ec649f",
+            "image_hash": "82a3fbf9c82a4ca729ac7c7f41ec649f",
+            "target_url": "https://shopee.vn/samsungbrandstore-day",
+            "is_placeholder": false,
+            "number_of_sections": 1,
+            "click_sections": [
+              {
+                "target_url": "https://shopee.vn/samsungbrandstore-day",
+                "image_width_percentage": 100
+              }
+            ]
+          },
+          {
+            "banner_metadata": {
+              "banner_id": 46935,
+              "campaign_unit_id": 45794,
+              "slot_id": 5,
+              "source": 1,
+              "dl_json_data": "{\"slot_tracking_id\":0,\"space_group_id\":3}",
+              "tag": 0,
+              "team_id": 1
+            },
+            "image_url": "https://cf.shopee.vn/file/bd05ec15a92cbd61283c611c659e931c",
+            "image_hash": "bd05ec15a92cbd61283c611c659e931c",
+            "target_url": "https://shopee.vn/m/top-deal-hot-trend",
+            "is_placeholder": false,
+            "number_of_sections": 1,
+            "click_sections": [
+              {
+                "target_url": "https://shopee.vn/m/top-deal-hot-trend",
+                "image_width_percentage": 100
+              }
+            ]
+          },
+          {
+            "banner_metadata": {
+              "banner_id": 46936,
+              "campaign_unit_id": 45795,
+              "slot_id": 6,
+              "source": 1,
+              "dl_json_data": "{\"slot_tracking_id\":0,\"space_group_id\":3}",
+              "tag": 0,
+              "team_id": 1
+            },
+            "image_url": "https://cf.shopee.vn/file/d42e3d8d132a18fde8a3676ca9bead23",
+            "image_hash": "d42e3d8d132a18fde8a3676ca9bead23",
+            "target_url": "https://shopee.vn/sieu-sale-fmcg",
+            "is_placeholder": false,
+            "number_of_sections": 1,
+            "click_sections": [
+              {
+                "target_url": "https://shopee.vn/sieu-sale-fmcg",
+                "image_width_percentage": 100
+              }
+            ]
+          },
+          {
+            "banner_metadata": {
+              "banner_id": 46937,
+              "campaign_unit_id": 45796,
+              "slot_id": 7,
+              "source": 1,
+              "dl_json_data": "{\"slot_tracking_id\":0,\"space_group_id\":3}",
+              "tag": 0,
+              "team_id": 1
+            },
+            "image_url": "https://cf.shopee.vn/file/bdfffafdcebc0a8fdc30229028fa62ae",
+            "image_hash": "bdfffafdcebc0a8fdc30229028fa62ae",
+            "target_url": "https://shopee.vn/techzonee",
+            "is_placeholder": false,
+            "number_of_sections": 1,
+            "click_sections": [
+              {
+                "target_url": "https://shopee.vn/techzonee",
+                "image_width_percentage": 100
+              }
+            ]
+          },
+          {
+            "banner_metadata": {
+              "banner_id": 46938,
+              "campaign_unit_id": 45797,
+              "slot_id": 8,
+              "source": 1,
+              "dl_json_data": "{\"slot_tracking_id\":0,\"space_group_id\":3}",
+              "tag": 0,
+              "team_id": 1
+            },
+            "image_url": "https://cf.shopee.vn/file/e60718d2aaec7a55832b1aab5b4ba982",
+            "image_hash": "e60718d2aaec7a55832b1aab5b4ba982",
+            "target_url": "https://shopee.vn/ThoiTrangSieuSale",
+            "is_placeholder": false,
+            "number_of_sections": 1,
+            "click_sections": [
+              {
+                "target_url": "https://shopee.vn/ThoiTrangSieuSale",
+                "image_width_percentage": 100
+              }
+            ]
+          },
+          {
+            "banner_metadata": {
+              "banner_id": 46939,
+              "campaign_unit_id": 45798,
+              "slot_id": 9,
+              "source": 1,
+              "dl_json_data": "{\"slot_tracking_id\":0,\"space_group_id\":3}",
+              "tag": 0,
+              "team_id": 1
+            },
+            "image_url": "https://cf.shopee.vn/file/b0c7d18d33ea6560f9e11c12a2068b3f",
+            "image_hash": "b0c7d18d33ea6560f9e11c12a2068b3f",
+            "target_url": "https://shopee.vn/sieu-hoi-song-chat",
+            "is_placeholder": false,
+            "number_of_sections": 1,
+            "click_sections": [
+              {
+                "target_url": "https://shopee.vn/sieu-hoi-song-chat",
+                "image_width_percentage": 100
+              }
+            ]
+          },
+          {
+            "banner_metadata": {
+              "banner_id": 46940,
+              "campaign_unit_id": 45799,
+              "slot_id": 10,
+              "source": 1,
+              "dl_json_data": "{\"slot_tracking_id\":0,\"space_group_id\":3}",
+              "tag": 0,
+              "team_id": 1
+            },
+            "image_url": "https://cf.shopee.vn/file/c3b504430ecebed07e2e6c85fc10862d",
+            "image_hash": "c3b504430ecebed07e2e6c85fc10862d",
+            "target_url": "https://shopee.vn/sandealquocte",
+            "is_placeholder": false,
+            "number_of_sections": 1,
+            "click_sections": [
+              {
+                "target_url": "https://shopee.vn/sandealquocte",
+                "image_width_percentage": 100
+              }
+            ]
+          },
+          {
+            "banner_metadata": {
+              "banner_id": 46941,
+              "campaign_unit_id": 45800,
+              "slot_id": 11,
+              "source": 1,
+              "dl_json_data": "{\"slot_tracking_id\":0,\"space_group_id\":3}",
+              "tag": 0,
+              "team_id": 1
+            },
+            "image_url": "https://cf.shopee.vn/file/3faf96f421e1b4653fbdabd1cd44c539",
+            "image_hash": "3faf96f421e1b4653fbdabd1cd44c539",
+            "target_url": "https://shopee.vn/shop-xu-huong",
+            "is_placeholder": false,
+            "number_of_sections": 1,
+            "click_sections": [
+              {
+                "target_url": "https://shopee.vn/shop-xu-huong",
+                "image_width_percentage": 100
+              }
+            ]
+          },
+          {
+            "banner_metadata": {
+              "banner_id": 46952,
+              "campaign_unit_id": 45804,
+              "slot_id": 12,
+              "source": 1,
+              "dl_json_data": "{\"slot_tracking_id\":0,\"space_group_id\":3}",
+              "tag": 0,
+              "team_id": 1
+            },
+            "image_url": "https://cf.shopee.vn/file/954e0e468f73a6e762a458e585a92538",
+            "image_hash": "954e0e468f73a6e762a458e585a92538",
+            "target_url": "https://shopee.vn/nap-the-va-dich-vu-online",
+            "is_placeholder": false,
+            "number_of_sections": 1,
+            "click_sections": [
+              {
+                "target_url": "https://shopee.vn/nap-the-va-dich-vu-online",
+                "image_width_percentage": 100
+              }
+            ]
+          },
+          {
+            "banner_metadata": {
+              "banner_id": 46943,
+              "campaign_unit_id": 45805,
+              "slot_id": 13,
+              "source": 1,
+              "dl_json_data": "{\"slot_tracking_id\":0,\"space_group_id\":3}",
+              "tag": 0,
+              "team_id": 1
+            },
+            "image_url": "https://cf.shopee.vn/file/1f93cbc91a8e048af6524b00d3067177",
+            "image_hash": "1f93cbc91a8e048af6524b00d3067177",
+            "target_url": "https://shopee.vn/m/sale-hang-hieu-gia-tot",
+            "is_placeholder": false,
+            "number_of_sections": 1,
+            "click_sections": [
+              {
+                "target_url": "https://shopee.vn/m/sale-hang-hieu-gia-tot",
+                "image_width_percentage": 100
+              }
+            ]
+          },
+          {
+            "banner_metadata": {
+              "banner_id": 46945,
+              "campaign_unit_id": 45806,
+              "slot_id": 14,
+              "source": 1,
+              "dl_json_data": "{\"slot_tracking_id\":0,\"space_group_id\":3}",
+              "tag": 0,
+              "team_id": 1
+            },
+            "image_url": "https://cf.shopee.vn/file/cc0f5b71aafcce6d99041c01894e6bf2",
+            "image_hash": "cc0f5b71aafcce6d99041c01894e6bf2",
+            "target_url": "https://shopee.vn/m/mien-phi-van-chuyen",
+            "is_placeholder": false,
+            "number_of_sections": 1,
+            "click_sections": [
+              {
+                "target_url": "https://shopee.vn/m/mien-phi-van-chuyen",
+                "image_width_percentage": 100
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "space_key": "PC-VN-HOME_SKINNY_01",
+        "ratio": 10.909091,
+        "banners": [
+          {
+            "banner_metadata": {
+              "banner_id": 47035,
+              "campaign_unit_id": 45900,
+              "slot_id": 1,
+              "source": 1,
+              "dl_json_data": "{\"slot_tracking_id\":0,\"space_group_id\":7}",
+              "tag": 0,
+              "team_id": 1
+            },
+            "image_url": "https://cf.shopee.vn/file/080d467bb440bc3d4eb02c4c4e6ec507",
+            "image_hash": "080d467bb440bc3d4eb02c4c4e6ec507",
+            "target_url": "https://shopee.vn/bayer",
+            "is_placeholder": false,
+            "number_of_sections": 3,
+            "click_sections": [
+              {
+                "target_url": "https://shopee.vn/bayer",
+                "image_width_percentage": 33.333336
+              },
+              {
+                "target_url": "https://shopee.vn/m/sale-cuoi-thang-don-luong-ve",
+                "image_width_percentage": 33.333336
+              },
+              {
+                "target_url": "https://shopee.vn/m/freeship-xtra-plus",
+                "image_width_percentage": 33.333336
+              }
+            ]
+          }
+        ]
+      },
+      { "space_key": "PC-VN-HOME_NUZ_CAROUSEL_01", "ratio": 10.909091 },
+      { "space_key": "PC-VN-HOME_FLOATING", "ratio": 1 }
+    ]
+  }
+}

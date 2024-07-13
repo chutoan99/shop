@@ -1,0 +1,1596 @@
+{
+  "data": {
+    "ratings": [
+      {
+        "orderid": 119078398253656,
+        "itemid": 11282321915,
+        "cmtid": 9802927721,
+        "ctime": 1665669304,
+        "rating": 1,
+        "userid": 86562311,
+        "shopid": 175753395,
+        "comment": "Shop giao hàng nhanh, sản phẩm tốt, đóng gói hàng cẩn thận. Sẽ ủng hộ tiếp",
+        "rating_star": 5,
+        "status": 1,
+        "mtime": 1665669304,
+        "editable": 0,
+        "opt": 2,
+        "filter": 7,
+        "mentioned": null,
+        "is_hidden": false,
+        "author_username": "lazycosmetic",
+        "author_portrait": "6207542328be47e9523c97834c8ebc8d",
+        "author_shopid": 86560834,
+        "anonymous": false,
+        "images": [
+          "vn-11134103-22100-199uc478bmiva3",
+          "vn-11134103-22100-wdya9g88bmiv06",
+          "vn-11134103-22100-xdya9g88bmivf5",
+          "vn-11134103-22100-l1fuw478bmive0",
+          "vn-11134103-22100-cycc9g88bmiv0f"
+        ],
+        "videos": [
+          {
+            "id": "vn_5f54e2c1-770d-4b35-bc9b-e9bf0bcd6a2d_000199",
+            "cover": "https://img.sp.mms.shopee.sg/vn-11110103-22100-j1j0ydg9bmiv8f",
+            "url": "https://play-ws.vod.shopee.com/c3/98934353/103/A3oxOOwoAOD=fkYPEWgHACY.mp4",
+            "duration": 15890,
+            "upload_time": null,
+            "mms_ext": "{\"vid\":\"vn_5f54e2c1-770d-4b35-bc9b-e9bf0bcd6a2d_000199\",\"biz\":103,\"duration\":15890,\"create_time\":1665669241,\"serviceID\":2,\"cover\":\"https://img.sp.mms.shopee.sg/vn-11110103-22100-j1j0ydg9bmiv8f\",\"cover_list\":null,\"formats\":[{\"format\":1600005,\"defn\":\"V640P\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/c3/98934353/103/A3oxOOwoAOD=fkYPEWgHACY.mp4\",\"width\":640,\"height\":1138,\"bitrate\":645011,\"size\":1404410,\"fps\":25.06234,\"duration\":16040,\"update_time\":1665669251},{\"format\":1600046,\"defn\":\"V480P\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/api/v4/11110103/mms/vn_5f54e2c1-770d-4b35-bc9b-e9bf0bcd6a2d_000199.12000461665669247.mp4\",\"width\":480,\"height\":854,\"bitrate\":630375,\"size\":1462159,\"fps\":25,\"duration\":15920,\"update_time\":1665669247}],\"default_format\":{\"format\":600001,\"defn\":\"ORI\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/api/v4/11110103/mms/vn_5f54e2c1-770d-4b35-bc9b-e9bf0bcd6a2d_000199.ori.mp4\",\"width\":720,\"height\":1280,\"bitrate\":1544280,\"size\":3338598,\"fps\":24.10282,\"duration\":15890,\"update_time\":1665669243},\"extend_formats\":{\"H265\":[{\"format\":1600022,\"defn\":\"V640P\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/c3/98934353/103/A3oxOH4eAICPf0YPEXEEACY.mp4\",\"width\":640,\"height\":1138,\"bitrate\":720312,\"size\":1716330,\"fps\":25.06234,\"duration\":16040,\"update_time\":1665669260}]},\"ab_test\":\"\"}",
+            "cover_image_id": ""
+          }
+        ],
+        "product_items": [
+          {
+            "itemid": 11282321915,
+            "shopid": 175753395,
+            "name": "[Mã FMCGMALL -8% đơn 250K] HÀNG TẶNG KHÔNG BÁN - Mặt nạ nghệ Hưng Yên Cocoon giúp da rạng rỡ \u0026 mịn màng 30ml",
+            "image": "124ca72327ec30f94e232dbace4c9154",
+            "is_snapshot": 1,
+            "snapshotid": 3904108515,
+            "modelid": 141668121532,
+            "model_name": "",
+            "options": [""]
+          }
+        ],
+        "delete_reason": null,
+        "delete_operator": null,
+        "ItemRatingReply": null,
+        "tags": null,
+        "editable_date": null,
+        "show_reply": null,
+        "like_count": null,
+        "liked": null,
+        "sync_to_social": false,
+        "detailed_rating": {
+          "product_quality": 5,
+          "seller_service": 5,
+          "delivery_service": 5
+        },
+        "exclude_scoring_due_low_logistic": false,
+        "loyalty_info": null,
+        "template_tags": null,
+        "has_template_tag": false,
+        "sync_to_social_toggle": null,
+        "sip_info": { "is_oversea": false, "origin_region": "vn" },
+        "is_repeated_purchase": false,
+        "display_variation_filter": null,
+        "overall_fit": 0,
+        "is_normal_item": true,
+        "viewed": null,
+        "show_view": null,
+        "sync_to_social_detail": null,
+        "profile": null,
+        "size_info_tags": null,
+        "size_info_abt": "",
+        "image_data": [
+          {
+            "image_id": "vn-11134103-22100-199uc478bmiva3",
+            "cover_image_id": "vn-11134103-22100-199uc478bmiva3"
+          },
+          {
+            "image_id": "vn-11134103-22100-wdya9g88bmiv06",
+            "cover_image_id": "vn-11134103-22100-wdya9g88bmiv06"
+          },
+          {
+            "image_id": "vn-11134103-22100-xdya9g88bmivf5",
+            "cover_image_id": "vn-11134103-22100-xdya9g88bmivf5"
+          },
+          {
+            "image_id": "vn-11134103-22100-l1fuw478bmive0",
+            "cover_image_id": "vn-11134103-22100-l1fuw478bmive0"
+          },
+          {
+            "image_id": "vn-11134103-22100-cycc9g88bmiv0f",
+            "cover_image_id": "vn-11134103-22100-cycc9g88bmiv0f"
+          }
+        ],
+        "key_media": { "key_media_code": 0, "key_media_id": "" }
+      },
+      {
+        "orderid": 115094387239575,
+        "itemid": 11282321915,
+        "cmtid": 9401433929,
+        "ctime": 1661671406,
+        "rating": 1,
+        "userid": 647869708,
+        "shopid": 175753395,
+        "comment": "Công dụng:trị mụn, thâm, vv\nMùi hương:thiên nhiên\nDành cho da:mọi loại da\n\nMê cái xịt khoáng bởi cái vòi nhỏ, giúp tiết kiệm, giảm đau túi tiền. Thạch dưỡng ẩm thơm mùi bí đao, kết cấu kiểu mát và nhẹ dùng cứ bị phê í :3 mặt nạ nghệ thì mik chưa dùng nma trị mụn trước mik đã dùng hết một lọ và phải nói là trị mụn siu đỉnh. H dùng trị mấy vết thâm mụn mong sẽ ok.",
+        "rating_star": 5,
+        "status": 2,
+        "mtime": 1661671406,
+        "editable": 0,
+        "opt": 2,
+        "filter": 7,
+        "mentioned": null,
+        "is_hidden": false,
+        "author_username": "ksndkaincl",
+        "author_portrait": "0ca55533f79d8034727a4d93a2b43e2c",
+        "author_shopid": 647850123,
+        "anonymous": false,
+        "images": [
+          "vn-11134103-22080-9mpbuhpmasgv47",
+          "vn-11134103-22080-gl0nqywnasgv57",
+          "vn-11134103-22080-cqmy0xhoasgvcf",
+          "vn-11134103-22080-6f0yu1yoasgv89",
+          "vn-11134103-22080-kkzqi16oasgvd8"
+        ],
+        "videos": [
+          {
+            "id": "vn_c4f05b65-d4ac-4c7a-aac7-d5eeccb88e78_000185",
+            "cover": "https://play-ws.vod.shopee.com/c3/98934353/103/A3oxOM69ALDvUI0LETADACc.jpg",
+            "url": "https://play-ws.vod.shopee.com/c3/98934353/103/A3oxOC5iAOBHUY0LERIDACY.mp4",
+            "duration": 9060,
+            "upload_time": null,
+            "mms_ext": "{\"vid\":\"vn_c4f05b65-d4ac-4c7a-aac7-d5eeccb88e78_000185\",\"biz\":103,\"duration\":9008,\"create_time\":1661671322,\"serviceID\":2,\"cover\":\"http://play-ws.vod.shopee.com/c3/98934353/103/A3oxOM69ALDvUI0LETADACc.jpg\",\"cover_list\":null,\"formats\":[{\"format\":1600005,\"defn\":\"V640P\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/c3/98934353/103/A3oxOC5iAOBHUY0LERIDACY.mp4\",\"width\":640,\"height\":1138,\"bitrate\":873799,\"size\":1055669,\"fps\":25,\"duration\":9079,\"update_time\":1661671330},{\"format\":1600046,\"defn\":\"V480P\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/c3/98934353/103/A3oxOFIJAFRLUY0LEVEJACc.mp4\",\"width\":480,\"height\":854,\"bitrate\":647443,\"size\":854089,\"fps\":25,\"duration\":9079,\"update_time\":1661671330}],\"default_format\":{\"format\":600001,\"defn\":\"ORI\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/c3/98934353/103/A3oxOHGDAMDzUI0LEQkGACY.mp4\",\"width\":720,\"height\":1280,\"bitrate\":6039711,\"size\":6955890,\"fps\":29.96896,\"duration\":9008,\"update_time\":1661671324},\"extend_formats\":{\"H265\":[{\"format\":1600022,\"defn\":\"V640P\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/c3/98934353/103/A3oxOATLAEgxfBwNEUoAACc.mp4\",\"width\":640,\"height\":1138,\"bitrate\":732405,\"size\":975340,\"fps\":25.11161,\"duration\":8963,\"update_time\":1663345560}]},\"ab_test\":\"\"}",
+            "cover_image_id": ""
+          }
+        ],
+        "product_items": [
+          {
+            "itemid": 11282321915,
+            "shopid": 175753395,
+            "name": "HÀNG TẶNG KHÔNG BÁN - Mặt nạ nghệ Hưng Yên Cocoon giúp da rạng rỡ \u0026 mịn màng 30ml",
+            "image": "124ca72327ec30f94e232dbace4c9154",
+            "is_snapshot": 1,
+            "snapshotid": 3791146522,
+            "modelid": 141668121532,
+            "model_name": "",
+            "options": [""]
+          }
+        ],
+        "delete_reason": null,
+        "delete_operator": null,
+        "ItemRatingReply": null,
+        "tags": [
+          { "tag_id": 2, "tag_description": "Chất lượng sản phẩm tuyệt vời" },
+          {
+            "tag_id": 5,
+            "tag_description": "Đóng gói sản phẩm rất đẹp và chắc chắn"
+          },
+          { "tag_id": 6, "tag_description": "Shop phục vụ rất tốt" },
+          { "tag_id": 3, "tag_description": "Rất đáng tiền" },
+          { "tag_id": 4, "tag_description": "Thời gian giao hàng rất nhanh" }
+        ],
+        "editable_date": null,
+        "show_reply": null,
+        "like_count": null,
+        "liked": null,
+        "sync_to_social": false,
+        "detailed_rating": {
+          "product_quality": 5,
+          "seller_service": null,
+          "delivery_service": null
+        },
+        "exclude_scoring_due_low_logistic": false,
+        "loyalty_info": null,
+        "template_tags": ["Công dụng", "Mùi hương", "Dành cho da"],
+        "has_template_tag": true,
+        "sync_to_social_toggle": null,
+        "sip_info": { "is_oversea": false, "origin_region": "vn" },
+        "is_repeated_purchase": false,
+        "display_variation_filter": null,
+        "overall_fit": 0,
+        "is_normal_item": true,
+        "viewed": null,
+        "show_view": null,
+        "sync_to_social_detail": null,
+        "profile": null,
+        "size_info_tags": null,
+        "size_info_abt": "",
+        "image_data": [
+          {
+            "image_id": "vn-11134103-22080-9mpbuhpmasgv47",
+            "cover_image_id": "vn-11134103-22080-9mpbuhpmasgv47"
+          },
+          {
+            "image_id": "vn-11134103-22080-gl0nqywnasgv57",
+            "cover_image_id": "vn-11134103-22080-gl0nqywnasgv57"
+          },
+          {
+            "image_id": "vn-11134103-22080-cqmy0xhoasgvcf",
+            "cover_image_id": "vn-11134103-22080-cqmy0xhoasgvcf"
+          },
+          {
+            "image_id": "vn-11134103-22080-6f0yu1yoasgv89",
+            "cover_image_id": "vn-11134103-22080-6f0yu1yoasgv89"
+          },
+          {
+            "image_id": "vn-11134103-22080-kkzqi16oasgvd8",
+            "cover_image_id": "vn-11134103-22080-kkzqi16oasgvd8"
+          }
+        ],
+        "key_media": { "key_media_code": 0, "key_media_id": "" }
+      },
+      {
+        "orderid": 118976303200509,
+        "itemid": 11282321915,
+        "cmtid": 9771818312,
+        "ctime": 1665379493,
+        "rating": 1,
+        "userid": 86562311,
+        "shopid": 175753395,
+        "comment": "Đóng gói cẩn thận, giao hàng nhanh chóng, hàng chất lượng giá cả tốt",
+        "rating_star": 5,
+        "status": 2,
+        "mtime": 1665379493,
+        "editable": 0,
+        "opt": 2,
+        "filter": 7,
+        "mentioned": null,
+        "is_hidden": false,
+        "author_username": "lazycosmetic",
+        "author_portrait": "6207542328be47e9523c97834c8ebc8d",
+        "author_shopid": 86560834,
+        "anonymous": false,
+        "images": [
+          "vn-11134103-22100-5rmxrrjvjhive4",
+          "vn-11134103-22100-p88vrrjvjhiv2d",
+          "vn-11134103-22100-9yevbsjvjhiv55",
+          "vn-11134103-22100-sqluvsjvjhivea",
+          "vn-11134103-22100-0yevbsjvjhived"
+        ],
+        "videos": [
+          {
+            "id": "vn_71ef344e-ac70-4693-a73e-241655b91027_000198",
+            "cover": "https://img.sp.mms.shopee.sg/vn-11110103-22100-nbvos6tvjhiv2c",
+            "url": "https://play-ws.vod.shopee.com/api/v4/11110103/mms/vn_71ef344e-ac70-4693-a73e-241655b91027_000198.12000051665379438.mp4",
+            "duration": 12724,
+            "upload_time": null,
+            "mms_ext": "{\"vid\":\"vn_71ef344e-ac70-4693-a73e-241655b91027_000198\",\"biz\":103,\"duration\":12723,\"create_time\":1665379431,\"serviceID\":2,\"cover\":\"https://img.sp.mms.shopee.sg/vn-11110103-22100-nbvos6tvjhiv2c\",\"cover_list\":null,\"formats\":[{\"format\":1600005,\"defn\":\"V640P\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/api/v4/11110103/mms/vn_71ef344e-ac70-4693-a73e-241655b91027_000198.12000051665379438.mp4\",\"width\":640,\"height\":1138,\"bitrate\":795063,\"size\":1357353,\"fps\":25,\"duration\":12760,\"update_time\":1665379438},{\"format\":1600046,\"defn\":\"V480P\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/c3/98934353/103/A3oxOAlYABxGZgEPEVwEACY.mp4\",\"width\":480,\"height\":854,\"bitrate\":570124,\"size\":1079537,\"fps\":25.07788,\"duration\":12840,\"update_time\":1665379439}],\"default_format\":{\"format\":600001,\"defn\":\"ORI\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/api/v4/11110103/mms/vn_71ef344e-ac70-4693-a73e-241655b91027_000198.ori.mp4\",\"width\":720,\"height\":1280,\"bitrate\":1548067,\"size\":2679072,\"fps\":24.12725,\"duration\":12723,\"update_time\":1665379434},\"extend_formats\":{\"H265\":[{\"format\":1600022,\"defn\":\"V640P\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/c3/98934353/103/A3oxOCnsAHBxZwEPEWIFACY.mp4\",\"width\":640,\"height\":1138,\"bitrate\":725067,\"size\":1381894,\"fps\":25.07788,\"duration\":12840,\"update_time\":1665379458}]},\"ab_test\":\"\"}",
+            "cover_image_id": ""
+          }
+        ],
+        "product_items": [
+          {
+            "itemid": 11282321915,
+            "shopid": 175753395,
+            "name": "[Mã FMCGMALL -8% đơn 250K] HÀNG TẶNG KHÔNG BÁN - Mặt nạ nghệ Hưng Yên Cocoon giúp da rạng rỡ \u0026 mịn màng 30ml",
+            "image": "124ca72327ec30f94e232dbace4c9154",
+            "is_snapshot": 1,
+            "snapshotid": 3904108515,
+            "modelid": 141668121532,
+            "model_name": "",
+            "options": [""]
+          }
+        ],
+        "delete_reason": null,
+        "delete_operator": null,
+        "ItemRatingReply": null,
+        "tags": null,
+        "editable_date": null,
+        "show_reply": null,
+        "like_count": null,
+        "liked": null,
+        "sync_to_social": false,
+        "detailed_rating": {
+          "product_quality": 5,
+          "seller_service": 5,
+          "delivery_service": 5
+        },
+        "exclude_scoring_due_low_logistic": false,
+        "loyalty_info": null,
+        "template_tags": null,
+        "has_template_tag": false,
+        "sync_to_social_toggle": null,
+        "sip_info": { "is_oversea": false, "origin_region": "vn" },
+        "is_repeated_purchase": false,
+        "display_variation_filter": null,
+        "overall_fit": 0,
+        "is_normal_item": true,
+        "viewed": null,
+        "show_view": null,
+        "sync_to_social_detail": null,
+        "profile": null,
+        "size_info_tags": null,
+        "size_info_abt": "",
+        "image_data": [
+          {
+            "image_id": "vn-11134103-22100-5rmxrrjvjhive4",
+            "cover_image_id": "vn-11134103-22100-5rmxrrjvjhive4"
+          },
+          {
+            "image_id": "vn-11134103-22100-p88vrrjvjhiv2d",
+            "cover_image_id": "vn-11134103-22100-p88vrrjvjhiv2d"
+          },
+          {
+            "image_id": "vn-11134103-22100-9yevbsjvjhiv55",
+            "cover_image_id": "vn-11134103-22100-9yevbsjvjhiv55"
+          },
+          {
+            "image_id": "vn-11134103-22100-sqluvsjvjhivea",
+            "cover_image_id": "vn-11134103-22100-sqluvsjvjhivea"
+          },
+          {
+            "image_id": "vn-11134103-22100-0yevbsjvjhived",
+            "cover_image_id": "vn-11134103-22100-0yevbsjvjhived"
+          }
+        ],
+        "key_media": { "key_media_code": 0, "key_media_id": "" }
+      },
+      {
+        "orderid": 124477350199193,
+        "itemid": 11282321915,
+        "cmtid": 10329659376,
+        "ctime": 1671200287,
+        "rating": 1,
+        "userid": 54916292,
+        "shopid": 175753395,
+        "comment": "Công dụng:dưỡng trắng\nMùi hương:nghệ\nDành cho da:thường\n\nsản phẩm mẫu mả đẹp.hi vọng sẽ phù hợp với da.giap hàng nhanh.ok",
+        "rating_star": 5,
+        "status": 2,
+        "mtime": 1671200287,
+        "editable": 1,
+        "opt": 2,
+        "filter": 7,
+        "mentioned": null,
+        "is_hidden": false,
+        "author_username": "cafetruong",
+        "author_portrait": "1065223b9b14593208d16dff9d234501",
+        "author_shopid": 54914868,
+        "anonymous": false,
+        "images": [
+          "vn-11134103-22120-whtxdenep6kv61",
+          "vn-11134103-22120-c7iapkqep6kv8b",
+          "vn-11134103-22120-1soc9xtep6kvb7",
+          "vn-11134103-22120-wlwiz9wep6kvf5",
+          "vn-11134103-22120-54nuj51ep6kv45"
+        ],
+        "videos": [
+          {
+            "id": "vn_8e3d41ea-22eb-4aa5-bd59-a20353edb667_000217",
+            "cover": "https://img.sp.mms.shopee.sg/vn-11110103-22120-9qc9lr2fp6kv9f",
+            "url": "https://play-ws.vod.shopee.com/api/v4/11110103/mms/vn_8e3d41ea-22eb-4aa5-bd59-a20353edb667_000217.16000051671200091.mp4",
+            "duration": 22576,
+            "upload_time": null,
+            "mms_ext": "{\"vid\":\"vn_8e3d41ea-22eb-4aa5-bd59-a20353edb667_000217\",\"biz\":103,\"duration\":22545,\"create_time\":1671200091,\"serviceID\":3,\"cover\":\"https://img.sp.mms.shopee.sg/vn-11110103-22120-9qc9lr2fp6kv9f\",\"cover_list\":null,\"formats\":[{\"format\":1600005,\"defn\":\"V640P\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/api/v4/11110103/mms/vn_8e3d41ea-22eb-4aa5-bd59-a20353edb667_000217.16000051671200091.mp4\",\"width\":640,\"height\":1138,\"bitrate\":802074,\"size\":2545621,\"fps\":25.04448,\"duration\":22547,\"update_time\":1671200108},{\"format\":1600046,\"defn\":\"V480P\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/api/v4/11110103/mms/vn_8e3d41ea-22eb-4aa5-bd59-a20353edb667_000217.16000461671200091.mp4\",\"width\":480,\"height\":854,\"bitrate\":610746,\"size\":2006221,\"fps\":25.04448,\"duration\":22549,\"update_time\":1671200105}],\"default_format\":{\"format\":600001,\"defn\":\"ORI\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/api/v4/11110103/mms/vn_8e3d41ea-22eb-4aa5-bd59-a20353edb667_000217.ori.mp4\",\"width\":720,\"height\":1280,\"bitrate\":5661195,\"size\":16334167,\"fps\":28.08168,\"duration\":22545,\"update_time\":1671200092},\"extend_formats\":{\"H265\":[{\"format\":1600022,\"defn\":\"V640P\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/api/v4/11110103/mms/vn_8e3d41ea-22eb-4aa5-bd59-a20353edb667_000217.16000221671200092.mp4\",\"width\":640,\"height\":1138,\"bitrate\":712927,\"size\":2385468,\"fps\":25.04448,\"duration\":22500,\"update_time\":1671200148}]},\"ab_test\":\"\"}",
+            "cover_image_id": ""
+          }
+        ],
+        "product_items": [
+          {
+            "itemid": 11282321915,
+            "shopid": 175753395,
+            "name": "HÀNG TẶNG KHÔNG BÁN - Mặt nạ nghệ Hưng Yên Cocoon giúp da rạng rỡ \u0026 mịn màng 30ml",
+            "image": "124ca72327ec30f94e232dbace4c9154",
+            "is_snapshot": 1,
+            "snapshotid": 4074434651,
+            "modelid": 141668121532,
+            "model_name": "",
+            "options": [""]
+          }
+        ],
+        "delete_reason": null,
+        "delete_operator": null,
+        "ItemRatingReply": null,
+        "tags": null,
+        "editable_date": 1673792287,
+        "show_reply": null,
+        "like_count": null,
+        "liked": null,
+        "sync_to_social": false,
+        "detailed_rating": {
+          "product_quality": 5,
+          "seller_service": 5,
+          "delivery_service": 5
+        },
+        "exclude_scoring_due_low_logistic": false,
+        "loyalty_info": null,
+        "template_tags": ["Công dụng", "Mùi hương", "Dành cho da"],
+        "has_template_tag": true,
+        "sync_to_social_toggle": null,
+        "sip_info": { "is_oversea": false, "origin_region": "vn" },
+        "is_repeated_purchase": false,
+        "display_variation_filter": null,
+        "overall_fit": 0,
+        "is_normal_item": true,
+        "viewed": null,
+        "show_view": null,
+        "sync_to_social_detail": null,
+        "profile": null,
+        "size_info_tags": null,
+        "size_info_abt": "",
+        "image_data": [
+          {
+            "image_id": "vn-11134103-22120-whtxdenep6kv61",
+            "cover_image_id": "vn-11134103-22120-whtxdenep6kv61"
+          },
+          {
+            "image_id": "vn-11134103-22120-c7iapkqep6kv8b",
+            "cover_image_id": "vn-11134103-22120-c7iapkqep6kv8b"
+          },
+          {
+            "image_id": "vn-11134103-22120-1soc9xtep6kvb7",
+            "cover_image_id": "vn-11134103-22120-1soc9xtep6kvb7"
+          },
+          {
+            "image_id": "vn-11134103-22120-wlwiz9wep6kvf5",
+            "cover_image_id": "vn-11134103-22120-wlwiz9wep6kvf5"
+          },
+          {
+            "image_id": "vn-11134103-22120-54nuj51ep6kv45",
+            "cover_image_id": "vn-11134103-22120-54nuj51ep6kv45"
+          }
+        ],
+        "key_media": { "key_media_code": 0, "key_media_id": "" }
+      },
+      {
+        "orderid": 95880079030864,
+        "itemid": 11282321915,
+        "cmtid": 7256376628,
+        "ctime": 1642569139,
+        "rating": 1,
+        "userid": 370838797,
+        "shopid": 175753395,
+        "comment": "Công dụng:hHsn s snjsjwnnwnna\nMùi hương:hhssbbshsjsjnsnsnsnsjjss\nKết cấu:hshwbbsbwhzjjsns",
+        "rating_star": 5,
+        "status": 2,
+        "mtime": 1642569139,
+        "editable": 0,
+        "opt": 2,
+        "filter": 7,
+        "mentioned": null,
+        "is_hidden": false,
+        "author_username": "tuyet_van10",
+        "author_portrait": "",
+        "author_shopid": 370819220,
+        "anonymous": false,
+        "images": [
+          "7e58f669c4b27ce6157b9922f9edae31",
+          "631cba763a896bea4c250ef0cda33758",
+          "d00978497800b510f1f3e892e3e1ab10",
+          "48bc9a292dae5065ef0bd871dfc1f2e5",
+          "1e5232b9fc5c20df1a9a3f757667fbf3"
+        ],
+        "videos": [
+          {
+            "id": "vn_cc8c8eb7-9d5a-4537-a47d-e5e3257019ab_000113",
+            "cover": "https://play-ws.vod.shopee.com/c3/98934353/103/Anoxma0AbBD5sAERXQwARw.jpg",
+            "url": "https://play-ws.vod.shopee.com/c3/98934353/103/AnoywgEA4Oz=wvkhGwEIAEc.mp4",
+            "duration": 6000,
+            "upload_time": null,
+            "mms_ext": "{\"vid\":\"vn_cc8c8eb7-9d5a-4537-a47d-e5e3257019ab_000113\",\"biz\":103,\"duration\":6000,\"create_time\":1642569127,\"serviceID\":1,\"cover\":\"http://play-ws.vod.shopee.com/c3/98934353/103/Anoxma0AbBD5sAERXQwARw.jpg\",\"cover_list\":null,\"formats\":[{\"format\":1600005,\"defn\":\"V640P\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/c3/98934353/103/AnoywgEA4Oz=wvkhGwEIAEc.mp4\",\"width\":640,\"height\":1136,\"bitrate\":553169,\"size\":417459,\"fps\":25,\"duration\":6000,\"update_time\":1642569136}],\"default_format\":{\"format\":600001,\"defn\":\"ORI\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/c3/98934353/103/AnoyPgIAVHP=wvkhYwEGAEY.mp4\",\"width\":640,\"height\":1136,\"bitrate\":1610437,\"size\":1209360,\"fps\":24,\"duration\":6000,\"update_time\":1642569128},\"extend_formats\":{\"H265\":[{\"format\":1600022,\"defn\":\"V640P\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/c3/98934353/103/A3oxOE1EAMgV2qsLEVQJACc.mp4\",\"width\":640,\"height\":1136,\"bitrate\":495373,\"size\":374350,\"fps\":25.16779,\"duration\":5960,\"update_time\":1661799401}]},\"ab_test\":\"\"}",
+            "cover_image_id": ""
+          }
+        ],
+        "product_items": [
+          {
+            "itemid": 11282321915,
+            "shopid": 175753395,
+            "name": "HÀNG TẶNG KHÔNG BÁN - Mặt nạ nghệ Hưng Yên Cocoon giúp da rạng rỡ \u0026 mịn màng 30ml",
+            "image": "124ca72327ec30f94e232dbace4c9154",
+            "is_snapshot": 1,
+            "snapshotid": 3240326180,
+            "modelid": 141668121532,
+            "model_name": "",
+            "options": [""]
+          }
+        ],
+        "delete_reason": null,
+        "delete_operator": null,
+        "ItemRatingReply": null,
+        "tags": null,
+        "editable_date": null,
+        "show_reply": null,
+        "like_count": 1,
+        "liked": null,
+        "sync_to_social": false,
+        "detailed_rating": {
+          "product_quality": 5,
+          "seller_service": null,
+          "delivery_service": null
+        },
+        "exclude_scoring_due_low_logistic": false,
+        "loyalty_info": null,
+        "template_tags": ["Công dụng", "Mùi hương", "Kết cấu"],
+        "has_template_tag": true,
+        "sync_to_social_toggle": null,
+        "sip_info": { "is_oversea": false, "origin_region": "vn" },
+        "is_repeated_purchase": false,
+        "display_variation_filter": null,
+        "overall_fit": 0,
+        "is_normal_item": true,
+        "viewed": null,
+        "show_view": null,
+        "sync_to_social_detail": null,
+        "profile": null,
+        "size_info_tags": null,
+        "size_info_abt": "",
+        "image_data": [
+          {
+            "image_id": "7e58f669c4b27ce6157b9922f9edae31",
+            "cover_image_id": "7e58f669c4b27ce6157b9922f9edae31"
+          },
+          {
+            "image_id": "631cba763a896bea4c250ef0cda33758",
+            "cover_image_id": "631cba763a896bea4c250ef0cda33758"
+          },
+          {
+            "image_id": "d00978497800b510f1f3e892e3e1ab10",
+            "cover_image_id": "d00978497800b510f1f3e892e3e1ab10"
+          },
+          {
+            "image_id": "48bc9a292dae5065ef0bd871dfc1f2e5",
+            "cover_image_id": "48bc9a292dae5065ef0bd871dfc1f2e5"
+          },
+          {
+            "image_id": "1e5232b9fc5c20df1a9a3f757667fbf3",
+            "cover_image_id": "1e5232b9fc5c20df1a9a3f757667fbf3"
+          }
+        ],
+        "key_media": { "key_media_code": 0, "key_media_id": "" }
+      },
+      {
+        "orderid": 113213008267489,
+        "itemid": 11282321915,
+        "cmtid": 9210288911,
+        "ctime": 1660032302,
+        "rating": 1,
+        "userid": 80234305,
+        "shopid": 175753395,
+        "comment": "Công dụng:tHoa mặt\nMùi hương:thơm\nDành cho da:tất cả\n\nMùa cảm cúm đến rồi hãy uống yến sào TỔ VÀNG để tăng sức đề kháng nhé. Liên hệ 070 6719793 nha",
+        "rating_star": 5,
+        "status": 2,
+        "mtime": 1660032302,
+        "editable": 0,
+        "opt": 2,
+        "filter": 7,
+        "mentioned": null,
+        "is_hidden": false,
+        "author_username": "digikitties",
+        "author_portrait": "b63c34119713a031fdcc21437ccee18f",
+        "author_shopid": 80232831,
+        "anonymous": false,
+        "images": [
+          "vn-11134103-22080-3kim054w81fvb0",
+          "vn-11134103-22080-wxtg694w81fv96",
+          "vn-11134103-22080-03lfz04w81fv5c",
+          "vn-11134103-22080-emzd4a5w81fvc1"
+        ],
+        "videos": [
+          {
+            "id": "vn_67bcd7e2-f261-4c16-b4d2-8b6a40ba5067_000178",
+            "cover": "https://play-ws.vod.shopee.com/vn_67bcd7e2-f261-4c16-b4d2-8b6a40ba5067_000178.ori.jpg",
+            "url": "https://play-ws.vod.shopee.com/vn_67bcd7e2-f261-4c16-b4d2-8b6a40ba5067_000178.ori.mp4",
+            "duration": 19580,
+            "upload_time": null,
+            "mms_ext": null,
+            "cover_image_id": ""
+          }
+        ],
+        "product_items": [
+          {
+            "itemid": 11282321915,
+            "shopid": 175753395,
+            "name": "HÀNG TẶNG KHÔNG BÁN - Mặt nạ nghệ Hưng Yên Cocoon giúp da rạng rỡ \u0026 mịn màng 30ml",
+            "image": "124ca72327ec30f94e232dbace4c9154",
+            "is_snapshot": 1,
+            "snapshotid": 3729881914,
+            "modelid": 141668121532,
+            "model_name": "",
+            "options": [""]
+          }
+        ],
+        "delete_reason": null,
+        "delete_operator": null,
+        "ItemRatingReply": null,
+        "tags": [
+          { "tag_id": 2, "tag_description": "Chất lượng sản phẩm tuyệt vời" }
+        ],
+        "editable_date": null,
+        "show_reply": null,
+        "like_count": null,
+        "liked": null,
+        "sync_to_social": false,
+        "detailed_rating": {
+          "product_quality": 5,
+          "seller_service": null,
+          "delivery_service": null
+        },
+        "exclude_scoring_due_low_logistic": false,
+        "loyalty_info": null,
+        "template_tags": ["Công dụng", "Mùi hương", "Dành cho da"],
+        "has_template_tag": true,
+        "sync_to_social_toggle": null,
+        "sip_info": { "is_oversea": false, "origin_region": "vn" },
+        "is_repeated_purchase": false,
+        "display_variation_filter": null,
+        "overall_fit": 0,
+        "is_normal_item": true,
+        "viewed": null,
+        "show_view": null,
+        "sync_to_social_detail": null,
+        "profile": null,
+        "size_info_tags": null,
+        "size_info_abt": "",
+        "image_data": [
+          {
+            "image_id": "vn-11134103-22080-3kim054w81fvb0",
+            "cover_image_id": "vn-11134103-22080-3kim054w81fvb0"
+          },
+          {
+            "image_id": "vn-11134103-22080-wxtg694w81fv96",
+            "cover_image_id": "vn-11134103-22080-wxtg694w81fv96"
+          },
+          {
+            "image_id": "vn-11134103-22080-03lfz04w81fv5c",
+            "cover_image_id": "vn-11134103-22080-03lfz04w81fv5c"
+          },
+          {
+            "image_id": "vn-11134103-22080-emzd4a5w81fvc1",
+            "cover_image_id": "vn-11134103-22080-emzd4a5w81fvc1"
+          }
+        ],
+        "key_media": { "key_media_code": 0, "key_media_id": "" }
+      },
+      {
+        "orderid": 115085531258793,
+        "itemid": 11282321915,
+        "cmtid": 9383717264,
+        "ctime": 1661501247,
+        "rating": 1,
+        "userid": 63951025,
+        "shopid": 175753395,
+        "comment": "Công dụng:mask đắp mặt\nMùi hương:chưa thử\nDành cho da:nghệ thường hợp da mình\n\nChưa dùng ko biết sao nhưng trước mua 2 hộp 1 là bí đao 1 là hoa hồng. Hộp mini dùng được khoảng 10 lần. Bỏ tủ lạnh dùng mát rượi, fresh lắm. Dễ chịu không dị ứng. Da láng hẳn.",
+        "rating_star": 5,
+        "status": 2,
+        "mtime": 1661501247,
+        "editable": 0,
+        "opt": 2,
+        "filter": 7,
+        "mentioned": null,
+        "is_hidden": false,
+        "author_username": "w*****8",
+        "author_portrait": "167e5b08969b1ebf5724df50776b2a77",
+        "author_shopid": 63949582,
+        "anonymous": true,
+        "images": [
+          "vn-11134103-22080-54vk08n1gpgvb4",
+          "vn-11134103-22080-koam08n1gpgvcb",
+          "vn-11134103-22080-dqalz8n1gpgvd9"
+        ],
+        "videos": [
+          {
+            "id": "vn_3122fecd-ce34-4e5d-8772-ce1f50df72d4_000185",
+            "cover": "https://play-ws.vod.shopee.com/c3/98934353/103/A3oxOCMPANBomGQLETYBACc.jpg",
+            "url": "https://play-ws.vod.shopee.com/c3/98934353/103/A3oxOHoXAMhMmWQLERIEACY.mp4",
+            "duration": 12330,
+            "upload_time": null,
+            "mms_ext": "{\"vid\":\"vn_3122fecd-ce34-4e5d-8772-ce1f50df72d4_000185\",\"biz\":103,\"duration\":12363,\"create_time\":1661500526,\"serviceID\":2,\"cover\":\"http://play-ws.vod.shopee.com/c3/98934353/103/A3oxOCMPANBomGQLETYBACc.jpg\",\"cover_list\":null,\"formats\":[{\"format\":1600005,\"defn\":\"V640P\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/c3/98934353/103/A3oxOHoXAMhMmWQLERIEACY.mp4\",\"width\":640,\"height\":352,\"bitrate\":829150,\"size\":1285454,\"fps\":25,\"duration\":12359,\"update_time\":1661500543}],\"default_format\":{\"format\":600001,\"defn\":\"ORI\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/c3/98934353/103/A3oxOHPbAMxrmGQLETYLACY.mp4\",\"width\":640,\"height\":352,\"bitrate\":1533749,\"size\":2372345,\"fps\":24.02193,\"duration\":12363,\"update_time\":1661500529},\"extend_formats\":{},\"ab_test\":\"\"}",
+            "cover_image_id": ""
+          }
+        ],
+        "product_items": [
+          {
+            "itemid": 11282321915,
+            "shopid": 175753395,
+            "name": "HÀNG TẶNG KHÔNG BÁN - Mặt nạ nghệ Hưng Yên Cocoon giúp da rạng rỡ \u0026 mịn màng 30ml",
+            "image": "124ca72327ec30f94e232dbace4c9154",
+            "is_snapshot": 1,
+            "snapshotid": 3791146522,
+            "modelid": 141668121532,
+            "model_name": "",
+            "options": [""]
+          }
+        ],
+        "delete_reason": null,
+        "delete_operator": null,
+        "ItemRatingReply": null,
+        "tags": [
+          { "tag_id": 2, "tag_description": "Chất lượng sản phẩm tuyệt vời" },
+          {
+            "tag_id": 5,
+            "tag_description": "Đóng gói sản phẩm rất đẹp và chắc chắn"
+          },
+          { "tag_id": 6, "tag_description": "Shop phục vụ rất tốt" },
+          { "tag_id": 3, "tag_description": "Rất đáng tiền" },
+          { "tag_id": 4, "tag_description": "Thời gian giao hàng rất nhanh" }
+        ],
+        "editable_date": null,
+        "show_reply": null,
+        "like_count": null,
+        "liked": null,
+        "sync_to_social": false,
+        "detailed_rating": {
+          "product_quality": 5,
+          "seller_service": null,
+          "delivery_service": null
+        },
+        "exclude_scoring_due_low_logistic": false,
+        "loyalty_info": null,
+        "template_tags": ["Công dụng", "Mùi hương", "Dành cho da"],
+        "has_template_tag": true,
+        "sync_to_social_toggle": null,
+        "sip_info": { "is_oversea": false, "origin_region": "vn" },
+        "is_repeated_purchase": false,
+        "display_variation_filter": null,
+        "overall_fit": 0,
+        "is_normal_item": true,
+        "viewed": null,
+        "show_view": null,
+        "sync_to_social_detail": null,
+        "profile": null,
+        "size_info_tags": null,
+        "size_info_abt": "",
+        "image_data": [
+          {
+            "image_id": "vn-11134103-22080-54vk08n1gpgvb4",
+            "cover_image_id": "vn-11134103-22080-54vk08n1gpgvb4"
+          },
+          {
+            "image_id": "vn-11134103-22080-koam08n1gpgvcb",
+            "cover_image_id": "vn-11134103-22080-koam08n1gpgvcb"
+          },
+          {
+            "image_id": "vn-11134103-22080-dqalz8n1gpgvd9",
+            "cover_image_id": "vn-11134103-22080-dqalz8n1gpgvd9"
+          }
+        ],
+        "key_media": { "key_media_code": 0, "key_media_id": "" }
+      },
+      {
+        "orderid": 119088005231394,
+        "itemid": 11282321915,
+        "cmtid": 10120385279,
+        "ctime": 1669043175,
+        "rating": 1,
+        "userid": 9861946,
+        "shopid": 175753395,
+        "comment": "Sản phẩm đúng mô tả, mua 1 tặng 1\nĐóng gói cẩn thận, đầy đủ \nHạn dùng mới\nGiao hàng nhanh chóng",
+        "rating_star": 5,
+        "status": 2,
+        "mtime": 1669043175,
+        "editable": 0,
+        "opt": 2,
+        "filter": 7,
+        "mentioned": null,
+        "is_hidden": false,
+        "author_username": "k*****1",
+        "author_portrait": "ac1dcdc6482569e0656e19ddd5a12af6",
+        "author_shopid": 9860649,
+        "anonymous": true,
+        "images": [
+          "vn-11134103-22110-sybg98lo36jv26",
+          "vn-11134103-22110-whpec0lo36jv52",
+          "vn-11134103-22110-lcxfi9lo36jvc7"
+        ],
+        "videos": [
+          {
+            "id": "vn_9ab5cae0-03eb-4ecb-970a-5569a54faaad_000210",
+            "cover": "https://img.sp.mms.shopee.sg/vn-11110103-22110-58ilom7o36jvea",
+            "url": "https://play-ws.vod.shopee.com/c3/98934353/103/A3oxOD==AERr5moSEaQCACY.mp4",
+            "duration": 30651,
+            "upload_time": null,
+            "mms_ext": "{\"vid\":\"vn_9ab5cae0-03eb-4ecb-970a-5569a54faaad_000210\",\"biz\":103,\"duration\":30651,\"create_time\":1669043136,\"serviceID\":2,\"cover\":\"https://img.sp.mms.shopee.sg/vn-11110103-22110-58ilom7o36jvea\",\"cover_list\":null,\"formats\":[{\"format\":1600005,\"defn\":\"V640P\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/c3/98934353/103/A3oxOD==AERr5moSEaQCACY.mp4\",\"width\":640,\"height\":1138,\"bitrate\":848871,\"size\":3290994,\"fps\":25.03234,\"duration\":30920,\"update_time\":1669043166},{\"format\":1600046,\"defn\":\"V480P\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/c3/98934353/103/A3oxOJiMAGDq5WoSEZECACY.mp4\",\"width\":480,\"height\":854,\"bitrate\":643486,\"size\":2497199,\"fps\":25.03234,\"duration\":30920,\"update_time\":1669043158}],\"default_format\":{\"format\":600001,\"defn\":\"ORI\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/api/v4/11110103/mms/vn_9ab5cae0-03eb-4ecb-970a-5569a54faaad_000210.ori.mp4\",\"width\":720,\"height\":1280,\"bitrate\":1696024,\"size\":6502070,\"fps\":24.04451,\"duration\":30651,\"update_time\":1669043139},\"extend_formats\":{\"H265\":[{\"format\":1600022,\"defn\":\"V640P\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/c3/98934353/103/A3oxOJM8AIA66GoSEaQIACY.mp4\",\"width\":640,\"height\":1138,\"bitrate\":693123,\"size\":2688123,\"fps\":25.03234,\"duration\":30920,\"update_time\":1669043195}]},\"ab_test\":\"\"}",
+            "cover_image_id": ""
+          }
+        ],
+        "product_items": [
+          {
+            "itemid": 11282321915,
+            "shopid": 175753395,
+            "name": "[Mã FMCGMALL -8% đơn 250K] HÀNG TẶNG KHÔNG BÁN - Mặt nạ nghệ Hưng Yên Cocoon giúp da rạng rỡ \u0026 mịn màng 30ml",
+            "image": "124ca72327ec30f94e232dbace4c9154",
+            "is_snapshot": 1,
+            "snapshotid": 3904108515,
+            "modelid": 141668121532,
+            "model_name": "",
+            "options": [""]
+          }
+        ],
+        "delete_reason": null,
+        "delete_operator": null,
+        "ItemRatingReply": null,
+        "tags": null,
+        "editable_date": null,
+        "show_reply": null,
+        "like_count": null,
+        "liked": null,
+        "sync_to_social": false,
+        "detailed_rating": {
+          "product_quality": 5,
+          "seller_service": 5,
+          "delivery_service": 5
+        },
+        "exclude_scoring_due_low_logistic": false,
+        "loyalty_info": null,
+        "template_tags": null,
+        "has_template_tag": false,
+        "sync_to_social_toggle": null,
+        "sip_info": { "is_oversea": false, "origin_region": "vn" },
+        "is_repeated_purchase": false,
+        "display_variation_filter": null,
+        "overall_fit": 0,
+        "is_normal_item": true,
+        "viewed": null,
+        "show_view": null,
+        "sync_to_social_detail": null,
+        "profile": null,
+        "size_info_tags": null,
+        "size_info_abt": "",
+        "image_data": [
+          {
+            "image_id": "vn-11134103-22110-sybg98lo36jv26",
+            "cover_image_id": "vn-11134103-22110-sybg98lo36jv26"
+          },
+          {
+            "image_id": "vn-11134103-22110-whpec0lo36jv52",
+            "cover_image_id": "vn-11134103-22110-whpec0lo36jv52"
+          },
+          {
+            "image_id": "vn-11134103-22110-lcxfi9lo36jvc7",
+            "cover_image_id": "vn-11134103-22110-lcxfi9lo36jvc7"
+          }
+        ],
+        "key_media": { "key_media_code": 0, "key_media_id": "" }
+      },
+      {
+        "orderid": 120579327100592,
+        "itemid": 11282321915,
+        "cmtid": 9937875826,
+        "ctime": 1667132297,
+        "rating": 1,
+        "userid": 113007114,
+        "shopid": 175753395,
+        "comment": "Công dụng:mặt nạ\nMùi hương:mui nghệ tự nhiên\nDành cho da:mọi loại da\n\nHàng Việt Nam chất lượng cao. Sp thuần chay nên cũng yên tâm. Mình sd sp Cocoon từ da tới tóc, ổn trong tầm giá mà hiệu quả lắm. Người VN ủng hộ hàng VN 🇻🇳🇻🇳🇻🇳",
+        "rating_star": 5,
+        "status": 2,
+        "mtime": 1667132297,
+        "editable": 0,
+        "opt": 2,
+        "filter": 7,
+        "mentioned": null,
+        "is_hidden": false,
+        "author_username": "yuntran.vn",
+        "author_portrait": "0eb5f2e8c1f7c98c928c16b738cc5d14",
+        "author_shopid": 113005516,
+        "anonymous": false,
+        "images": [
+          "vn-11134103-22100-hxap6fk7hajvff",
+          "vn-11134103-22100-ojppvfk7hajvd7",
+          "vn-11134103-22100-pjppvfk7hajv20"
+        ],
+        "videos": [
+          {
+            "id": "vn_3225a5af-f20f-4e60-800b-5f87e43fd1ee_000204",
+            "cover": "https://img.sp.mms.shopee.sg/vn-11110103-22100-zo6qv9q7hajvd6",
+            "url": "https://play-aka.vod.shopee.com/c3/98934353/103/A3oxOMLTALSMQ6MQEXwGACY.mp4",
+            "duration": 31035,
+            "upload_time": null,
+            "mms_ext": "{\"vid\":\"vn_3225a5af-f20f-4e60-800b-5f87e43fd1ee_000204\",\"biz\":103,\"duration\":31041,\"create_time\":1667132078,\"serviceID\":2,\"cover\":\"https://img.sp.mms.shopee.sg/vn-11110103-22100-zo6qv9q7hajvd6\",\"cover_list\":null,\"formats\":[{\"format\":1600005,\"defn\":\"V640P\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-aka.vod.shopee.com/c3/98934353/103/A3oxOMLTALSMQ6MQEXwGACY.mp4\",\"width\":540,\"height\":540,\"bitrate\":783578,\"size\":3250476,\"fps\":25.03226,\"duration\":31000,\"update_time\":1667132089},{\"format\":1600046,\"defn\":\"V480P\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-aka.vod.shopee.com/api/v4/11110103/mms/vn_3225a5af-f20f-4e60-800b-5f87e43fd1ee_000204.12000461667132085.mp4\",\"width\":480,\"height\":480,\"bitrate\":632384,\"size\":2858629,\"fps\":25,\"duration\":31079,\"update_time\":1667132085}],\"default_format\":{\"format\":600001,\"defn\":\"ORI\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-aka.vod.shopee.com/api/v4/11110103/mms/vn_3225a5af-f20f-4e60-800b-5f87e43fd1ee_000204.ori.mp4\",\"width\":540,\"height\":540,\"bitrate\":1557369,\"size\":6541494,\"fps\":24,\"duration\":31041,\"update_time\":1667132080},\"extend_formats\":{},\"ab_test\":\"\"}",
+            "cover_image_id": ""
+          }
+        ],
+        "product_items": [
+          {
+            "itemid": 11282321915,
+            "shopid": 175753395,
+            "name": "HÀNG TẶNG KHÔNG BÁN - Mặt nạ nghệ Hưng Yên Cocoon giúp da rạng rỡ \u0026 mịn màng 30ml",
+            "image": "124ca72327ec30f94e232dbace4c9154",
+            "is_snapshot": 1,
+            "snapshotid": 3947807119,
+            "modelid": 141668121532,
+            "model_name": "",
+            "options": [""]
+          }
+        ],
+        "delete_reason": null,
+        "delete_operator": null,
+        "ItemRatingReply": null,
+        "tags": null,
+        "editable_date": null,
+        "show_reply": null,
+        "like_count": null,
+        "liked": null,
+        "sync_to_social": false,
+        "detailed_rating": {
+          "product_quality": 5,
+          "seller_service": 5,
+          "delivery_service": 5
+        },
+        "exclude_scoring_due_low_logistic": false,
+        "loyalty_info": null,
+        "template_tags": ["Công dụng", "Mùi hương", "Dành cho da"],
+        "has_template_tag": true,
+        "sync_to_social_toggle": null,
+        "sip_info": { "is_oversea": false, "origin_region": "vn" },
+        "is_repeated_purchase": false,
+        "display_variation_filter": null,
+        "overall_fit": 0,
+        "is_normal_item": true,
+        "viewed": null,
+        "show_view": null,
+        "sync_to_social_detail": null,
+        "profile": null,
+        "size_info_tags": null,
+        "size_info_abt": "",
+        "image_data": [
+          {
+            "image_id": "vn-11134103-22100-hxap6fk7hajvff",
+            "cover_image_id": "vn-11134103-22100-hxap6fk7hajvff"
+          },
+          {
+            "image_id": "vn-11134103-22100-ojppvfk7hajvd7",
+            "cover_image_id": "vn-11134103-22100-ojppvfk7hajvd7"
+          },
+          {
+            "image_id": "vn-11134103-22100-pjppvfk7hajv20",
+            "cover_image_id": "vn-11134103-22100-pjppvfk7hajv20"
+          }
+        ],
+        "key_media": { "key_media_code": 0, "key_media_id": "" }
+      },
+      {
+        "orderid": 122154740192540,
+        "itemid": 11282321915,
+        "cmtid": 10071539563,
+        "ctime": 1668584075,
+        "rating": 1,
+        "userid": 45620141,
+        "shopid": 175753395,
+        "comment": "Công dụng:relax\nMùi hương:8/10\nDành cho da:.\n\nPass tuýp kcn quốc dân Anessa nguyên seal 2022 giá 430k freeship Zalo \n0934 063 630",
+        "rating_star": 5,
+        "status": 2,
+        "mtime": 1668584075,
+        "editable": 0,
+        "opt": 2,
+        "filter": 7,
+        "mentioned": null,
+        "is_hidden": false,
+        "author_username": "tram_li315",
+        "author_portrait": "7ffcdee02c1f2c9ac7becdb1c3fb982c",
+        "author_shopid": 45618755,
+        "anonymous": false,
+        "images": [
+          "vn-11134103-22110-ikja84unhyjv77",
+          "vn-11134103-22110-jkja84unhyjv77",
+          "vn-11134103-22110-y5xb84unhyjv7f"
+        ],
+        "videos": [
+          {
+            "id": "vn_ecc26b5c-b04b-4aed-93bc-c6992f78143a_000209",
+            "cover": "https://img.sp.mms.shopee.sg/vn-11110103-22110-pbfkm2lnhyjv50",
+            "url": "https://play-ws.vod.shopee.com/c3/98934353/103/A3oxOP1OABhMbv0REYYJACY.mp4",
+            "duration": 16663,
+            "upload_time": null,
+            "mms_ext": "{\"vid\":\"vn_ecc26b5c-b04b-4aed-93bc-c6992f78143a_000209\",\"biz\":103,\"duration\":16681,\"create_time\":1668584010,\"serviceID\":2,\"cover\":\"https://img.sp.mms.shopee.sg/vn-11110103-22110-pbfkm2lnhyjv50\",\"cover_list\":null,\"formats\":[{\"format\":1600005,\"defn\":\"V640P\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/c3/98934353/103/A3oxOP1OABhMbv0REYYJACY.mp4\",\"width\":614,\"height\":640,\"bitrate\":601924,\"size\":1367714,\"fps\":25.0601,\"duration\":16639,\"update_time\":1668584019},{\"format\":1600046,\"defn\":\"V480P\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/c3/98934353/103/A3oxOM-PAPxXbv0REYsEACY.mp4\",\"width\":480,\"height\":500,\"bitrate\":470737,\"size\":1193345,\"fps\":25.0601,\"duration\":16639,\"update_time\":1668584019}],\"default_format\":{\"format\":600001,\"defn\":\"ORI\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/api/v4/11110103/mms/vn_ecc26b5c-b04b-4aed-93bc-c6992f78143a_000209.ori.mp4\",\"width\":614,\"height\":640,\"bitrate\":1545458,\"size\":3445365,\"fps\":22.06015,\"duration\":16681,\"update_time\":1668584012},\"extend_formats\":{},\"ab_test\":\"\"}",
+            "cover_image_id": ""
+          }
+        ],
+        "product_items": [
+          {
+            "itemid": 11282321915,
+            "shopid": 175753395,
+            "name": "HÀNG TẶNG KHÔNG BÁN - Mặt nạ nghệ Hưng Yên Cocoon giúp da rạng rỡ \u0026 mịn màng 30ml",
+            "image": "124ca72327ec30f94e232dbace4c9154",
+            "is_snapshot": 1,
+            "snapshotid": 4004953188,
+            "modelid": 141668121532,
+            "model_name": "",
+            "options": [""]
+          }
+        ],
+        "delete_reason": null,
+        "delete_operator": null,
+        "ItemRatingReply": null,
+        "tags": null,
+        "editable_date": null,
+        "show_reply": null,
+        "like_count": null,
+        "liked": null,
+        "sync_to_social": false,
+        "detailed_rating": {
+          "product_quality": 5,
+          "seller_service": 5,
+          "delivery_service": 5
+        },
+        "exclude_scoring_due_low_logistic": false,
+        "loyalty_info": null,
+        "template_tags": ["Công dụng", "Mùi hương", "Dành cho da"],
+        "has_template_tag": true,
+        "sync_to_social_toggle": null,
+        "sip_info": { "is_oversea": false, "origin_region": "vn" },
+        "is_repeated_purchase": false,
+        "display_variation_filter": null,
+        "overall_fit": 0,
+        "is_normal_item": true,
+        "viewed": null,
+        "show_view": null,
+        "sync_to_social_detail": null,
+        "profile": null,
+        "size_info_tags": null,
+        "size_info_abt": "",
+        "image_data": [
+          {
+            "image_id": "vn-11134103-22110-ikja84unhyjv77",
+            "cover_image_id": "vn-11134103-22110-ikja84unhyjv77"
+          },
+          {
+            "image_id": "vn-11134103-22110-jkja84unhyjv77",
+            "cover_image_id": "vn-11134103-22110-jkja84unhyjv77"
+          },
+          {
+            "image_id": "vn-11134103-22110-y5xb84unhyjv7f",
+            "cover_image_id": "vn-11134103-22110-y5xb84unhyjv7f"
+          }
+        ],
+        "key_media": { "key_media_code": 0, "key_media_id": "" }
+      },
+      {
+        "orderid": 115062352259422,
+        "itemid": 11282321915,
+        "cmtid": 9438732332,
+        "ctime": 1662028718,
+        "rating": 1,
+        "userid": 60022332,
+        "shopid": 175753395,
+        "comment": "Công dụng:mat na\n\nShop chuẩn bị hàng nhanh, mua serum được tặng kèm mặt nạ, chưa sử dụng nên chưa đánh giá được hiệu quả 😘",
+        "rating_star": 5,
+        "status": 2,
+        "mtime": 1662028718,
+        "editable": 0,
+        "opt": 2,
+        "filter": 7,
+        "mentioned": null,
+        "is_hidden": false,
+        "author_username": "d*****3",
+        "author_portrait": "cb012d6278ed5104723d4692c1b9ea4c",
+        "author_shopid": 60020898,
+        "anonymous": true,
+        "images": [
+          "vn-11134103-22090-2ccocmb77xgv97",
+          "vn-11134103-22090-tqxnmmb77xgv67",
+          "vn-11134103-22090-sqxnmmb77xgvff"
+        ],
+        "videos": [
+          {
+            "id": "vn_eac80cb1-833b-4787-841a-ed24a23d1de5_000187",
+            "cover": "https://play-ws.vod.shopee.com/c3/98934353/103/A3oxOMtFAHj-g-ILEUAKACc.jpg",
+            "url": "https://play-ws.vod.shopee.com/c3/98934353/103/A3oxOM8PAFxchOILETkIACc.mp4",
+            "duration": 4963,
+            "upload_time": null,
+            "mms_ext": "{\"vid\":\"vn_eac80cb1-833b-4787-841a-ed24a23d1de5_000187\",\"biz\":103,\"duration\":5000,\"create_time\":1662028677,\"serviceID\":6,\"cover\":\"http://play-ws.vod.shopee.com/c3/98934353/103/A3oxOMtFAHj-g-ILEUAKACc.jpg\",\"cover_list\":null,\"formats\":[{\"format\":1600005,\"defn\":\"V640P\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/c3/98934353/103/A3oxOM8PAFxchOILETkIACc.mp4\",\"width\":360,\"height\":640,\"bitrate\":742174,\"size\":466140,\"fps\":25,\"duration\":5000,\"update_time\":1662028683}],\"default_format\":{\"format\":600001,\"defn\":\"ORI\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/c3/98934353/103/A3oxOAxaAJAFhOILET8DACc.mp4\",\"width\":360,\"height\":640,\"bitrate\":1567505,\"size\":981271,\"fps\":24,\"duration\":5000,\"update_time\":1662028678},\"extend_formats\":{},\"ab_test\":\"\"}",
+            "cover_image_id": ""
+          }
+        ],
+        "product_items": [
+          {
+            "itemid": 11282321915,
+            "shopid": 175753395,
+            "name": "HÀNG TẶNG KHÔNG BÁN - Mặt nạ nghệ Hưng Yên Cocoon giúp da rạng rỡ \u0026 mịn màng 30ml",
+            "image": "124ca72327ec30f94e232dbace4c9154",
+            "is_snapshot": 1,
+            "snapshotid": 3791146522,
+            "modelid": 141668121532,
+            "model_name": "",
+            "options": [""]
+          }
+        ],
+        "delete_reason": null,
+        "delete_operator": null,
+        "ItemRatingReply": null,
+        "tags": null,
+        "editable_date": null,
+        "show_reply": null,
+        "like_count": null,
+        "liked": null,
+        "sync_to_social": false,
+        "detailed_rating": {
+          "product_quality": 5,
+          "seller_service": null,
+          "delivery_service": null
+        },
+        "exclude_scoring_due_low_logistic": false,
+        "loyalty_info": null,
+        "template_tags": ["Công dụng", "Mùi hương", "Dành cho da"],
+        "has_template_tag": true,
+        "sync_to_social_toggle": null,
+        "sip_info": { "is_oversea": false, "origin_region": "vn" },
+        "is_repeated_purchase": false,
+        "display_variation_filter": null,
+        "overall_fit": 0,
+        "is_normal_item": true,
+        "viewed": null,
+        "show_view": null,
+        "sync_to_social_detail": null,
+        "profile": null,
+        "size_info_tags": null,
+        "size_info_abt": "",
+        "image_data": [
+          {
+            "image_id": "vn-11134103-22090-2ccocmb77xgv97",
+            "cover_image_id": "vn-11134103-22090-2ccocmb77xgv97"
+          },
+          {
+            "image_id": "vn-11134103-22090-tqxnmmb77xgv67",
+            "cover_image_id": "vn-11134103-22090-tqxnmmb77xgv67"
+          },
+          {
+            "image_id": "vn-11134103-22090-sqxnmmb77xgvff",
+            "cover_image_id": "vn-11134103-22090-sqxnmmb77xgvff"
+          }
+        ],
+        "key_media": { "key_media_code": 0, "key_media_id": "" }
+      },
+      {
+        "orderid": 115088929270066,
+        "itemid": 11282321915,
+        "cmtid": 9445602911,
+        "ctime": 1662100555,
+        "rating": 1,
+        "userid": 8023408,
+        "shopid": 175753395,
+        "comment": "Công dụng:chưa sd nên chưa đánh giá dc\nMùi hương:thơm\nDành cho da:mọi loại da\n\nMới sử dụng sản phẩm nên chưa biết thế nào, giao hàng nhanh, shop tận tình, sản phẩm gói cẩn thận",
+        "rating_star": 5,
+        "status": 2,
+        "mtime": 1662100555,
+        "editable": 0,
+        "opt": 2,
+        "filter": 7,
+        "mentioned": null,
+        "is_hidden": false,
+        "author_username": "lethilan91",
+        "author_portrait": "83577f17ce61dab3fc000850caeef7f5",
+        "author_shopid": 8022112,
+        "anonymous": false,
+        "images": [
+          "vn-11134103-22090-5fp49maudzgv4c",
+          "vn-11134103-22090-wdmpvbeudzgv0c",
+          "vn-11134103-22090-d7uf6liudzgv3d",
+          "vn-11134103-22090-syz3x0ludzgv2c",
+          "vn-11134103-22090-g6kuaytudzgv6a"
+        ],
+        "videos": [
+          {
+            "id": "vn_1154df49-d66c-4cb6-bb62-f4ce9d8ea769_000187",
+            "cover": "https://play-aka.vod.shopee.com/c3/98934353/103/A3oxOMvtAABbofMLEUkDACc.jpg",
+            "url": "https://play-aka.vod.shopee.com/c3/98934353/103/A3oxOO3yANSYofMLEToGACc.mp4",
+            "duration": 4700,
+            "upload_time": null,
+            "mms_ext": "{\"vid\":\"vn_1154df49-d66c-4cb6-bb62-f4ce9d8ea769_000187\",\"biz\":103,\"duration\":4699,\"create_time\":1662100459,\"serviceID\":2,\"cover\":\"http://play-aka.vod.shopee.com/c3/98934353/103/A3oxOMvtAABbofMLEUkDACc.jpg\",\"cover_list\":null,\"formats\":[{\"format\":1600005,\"defn\":\"V640P\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-aka.vod.shopee.com/c3/98934353/103/A3oxOO3yANSYofMLEToGACc.mp4\",\"width\":640,\"height\":1138,\"bitrate\":898533,\"size\":573218,\"fps\":25,\"duration\":4800,\"update_time\":1662100465},{\"format\":1600046,\"defn\":\"V480P\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-aka.vod.shopee.com/c3/98934353/103/A3oxOOVHALydofMLEUgJACc.mp4\",\"width\":480,\"height\":854,\"bitrate\":666556,\"size\":462878,\"fps\":25,\"duration\":4800,\"update_time\":1662100465}],\"default_format\":{\"format\":600001,\"defn\":\"ORI\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-aka.vod.shopee.com/c3/98934353/103/A3oxOJPCANhdofMLET4HACY.mp4\",\"width\":720,\"height\":1280,\"bitrate\":5327308,\"size\":3208394,\"fps\":30,\"duration\":4699,\"update_time\":1662100461},\"extend_formats\":{},\"ab_test\":\"\"}",
+            "cover_image_id": ""
+          }
+        ],
+        "product_items": [
+          {
+            "itemid": 11282321915,
+            "shopid": 175753395,
+            "name": "HÀNG TẶNG KHÔNG BÁN - Mặt nạ nghệ Hưng Yên Cocoon giúp da rạng rỡ \u0026 mịn màng 30ml",
+            "image": "124ca72327ec30f94e232dbace4c9154",
+            "is_snapshot": 1,
+            "snapshotid": 3791146522,
+            "modelid": 141668121532,
+            "model_name": "",
+            "options": [""]
+          }
+        ],
+        "delete_reason": null,
+        "delete_operator": null,
+        "ItemRatingReply": null,
+        "tags": [
+          {
+            "tag_id": 5,
+            "tag_description": "Đóng gói sản phẩm rất đẹp và chắc chắn"
+          }
+        ],
+        "editable_date": null,
+        "show_reply": null,
+        "like_count": null,
+        "liked": null,
+        "sync_to_social": false,
+        "detailed_rating": {
+          "product_quality": 5,
+          "seller_service": null,
+          "delivery_service": null
+        },
+        "exclude_scoring_due_low_logistic": false,
+        "loyalty_info": null,
+        "template_tags": ["Công dụng", "Mùi hương", "Dành cho da"],
+        "has_template_tag": true,
+        "sync_to_social_toggle": null,
+        "sip_info": { "is_oversea": false, "origin_region": "vn" },
+        "is_repeated_purchase": false,
+        "display_variation_filter": null,
+        "overall_fit": 0,
+        "is_normal_item": true,
+        "viewed": null,
+        "show_view": null,
+        "sync_to_social_detail": null,
+        "profile": null,
+        "size_info_tags": null,
+        "size_info_abt": "",
+        "image_data": [
+          {
+            "image_id": "vn-11134103-22090-5fp49maudzgv4c",
+            "cover_image_id": "vn-11134103-22090-5fp49maudzgv4c"
+          },
+          {
+            "image_id": "vn-11134103-22090-wdmpvbeudzgv0c",
+            "cover_image_id": "vn-11134103-22090-wdmpvbeudzgv0c"
+          },
+          {
+            "image_id": "vn-11134103-22090-d7uf6liudzgv3d",
+            "cover_image_id": "vn-11134103-22090-d7uf6liudzgv3d"
+          },
+          {
+            "image_id": "vn-11134103-22090-syz3x0ludzgv2c",
+            "cover_image_id": "vn-11134103-22090-syz3x0ludzgv2c"
+          },
+          {
+            "image_id": "vn-11134103-22090-g6kuaytudzgv6a",
+            "cover_image_id": "vn-11134103-22090-g6kuaytudzgv6a"
+          }
+        ],
+        "key_media": { "key_media_code": 0, "key_media_id": "" }
+      },
+      {
+        "orderid": 109778178121580,
+        "itemid": 11282321915,
+        "cmtid": 8829897956,
+        "ctime": 1656604529,
+        "rating": 1,
+        "userid": 319766013,
+        "shopid": 175753395,
+        "comment": "Mua 1 tặng 1 ạ không biết là dùng coá thích không nữa để trong tủ lạnhhh từ hôm giao vào cx ko bt là coá hiệu quả khum nứa",
+        "rating_star": 5,
+        "status": 2,
+        "mtime": 1656604529,
+        "editable": 0,
+        "opt": 2,
+        "filter": 7,
+        "mentioned": null,
+        "is_hidden": false,
+        "author_username": "nguyenthihuong2k2",
+        "author_portrait": "9a2fffbb4c6b8749f46226670f507172",
+        "author_shopid": 319746414,
+        "anonymous": false,
+        "images": [
+          "vn-11134103-22060-pfix273blgev20",
+          "vn-11134103-22060-mstrxa4blgevc7",
+          "vn-11134103-22060-qb8p2b4blgev4e",
+          "vn-11134103-22060-9m2s403blgev98",
+          "vn-11134103-22060-lstrxa4blgevff"
+        ],
+        "videos": [
+          {
+            "id": "vn_3413c34f-f3f2-4d62-972f-ad4b385ef09f_000165",
+            "cover": "https://play-ws.vod.shopee.com/c3/98934353/103/A3oxOLCuABw5QtUGEQwLACc.jpg",
+            "url": "https://play-ws.vod.shopee.com/c3/98934353/103/A3oxOHqyAIioQtUGESsIACY.mp4",
+            "duration": 20502,
+            "upload_time": null,
+            "mms_ext": "{\"vid\":\"vn_3413c34f-f3f2-4d62-972f-ad4b385ef09f_000165\",\"biz\":103,\"duration\":20502,\"create_time\":1656604362,\"serviceID\":2,\"cover\":\"http://play-ws.vod.shopee.com/c3/98934353/103/A3oxOLCuABw5QtUGEQwLACc.jpg\",\"cover_list\":null,\"formats\":[{\"format\":1600005,\"defn\":\"V640P\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/c3/98934353/103/A3oxOHqyAIioQtUGESsIACY.mp4\",\"width\":576,\"height\":960,\"bitrate\":842751,\"size\":2284242,\"fps\":25,\"duration\":20559,\"update_time\":1656604371}],\"default_format\":{\"format\":600001,\"defn\":\"ORI\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/c3/98934353/103/A3oxOPEzABA8QtUGERcBACY.mp4\",\"width\":576,\"height\":960,\"bitrate\":1758974,\"size\":4856596,\"fps\":24.09482,\"duration\":20502,\"update_time\":1656604364},\"extend_formats\":{},\"ab_test\":\"\"}",
+            "cover_image_id": ""
+          }
+        ],
+        "product_items": [
+          {
+            "itemid": 11282321915,
+            "shopid": 175753395,
+            "name": "HÀNG TẶNG KHÔNG BÁN - Mặt nạ nghệ Hưng Yên Cocoon giúp da rạng rỡ \u0026 mịn màng 30ml",
+            "image": "124ca72327ec30f94e232dbace4c9154",
+            "is_snapshot": 1,
+            "snapshotid": 3624539791,
+            "modelid": 141668121532,
+            "model_name": "",
+            "options": [""]
+          }
+        ],
+        "delete_reason": null,
+        "delete_operator": null,
+        "ItemRatingReply": null,
+        "tags": [
+          { "tag_id": 2, "tag_description": "Chất lượng sản phẩm tuyệt vời" },
+          { "tag_id": 3, "tag_description": "Rất đáng tiền" },
+          { "tag_id": 4, "tag_description": "Thời gian giao hàng rất nhanh" }
+        ],
+        "editable_date": null,
+        "show_reply": null,
+        "like_count": null,
+        "liked": null,
+        "sync_to_social": false,
+        "detailed_rating": {
+          "product_quality": 5,
+          "seller_service": null,
+          "delivery_service": null
+        },
+        "exclude_scoring_due_low_logistic": false,
+        "loyalty_info": null,
+        "template_tags": null,
+        "has_template_tag": false,
+        "sync_to_social_toggle": null,
+        "sip_info": { "is_oversea": false, "origin_region": "vn" },
+        "is_repeated_purchase": false,
+        "display_variation_filter": null,
+        "overall_fit": 0,
+        "is_normal_item": true,
+        "viewed": null,
+        "show_view": null,
+        "sync_to_social_detail": null,
+        "profile": null,
+        "size_info_tags": null,
+        "size_info_abt": "",
+        "image_data": [
+          {
+            "image_id": "vn-11134103-22060-pfix273blgev20",
+            "cover_image_id": "vn-11134103-22060-pfix273blgev20"
+          },
+          {
+            "image_id": "vn-11134103-22060-mstrxa4blgevc7",
+            "cover_image_id": "vn-11134103-22060-mstrxa4blgevc7"
+          },
+          {
+            "image_id": "vn-11134103-22060-qb8p2b4blgev4e",
+            "cover_image_id": "vn-11134103-22060-qb8p2b4blgev4e"
+          },
+          {
+            "image_id": "vn-11134103-22060-9m2s403blgev98",
+            "cover_image_id": "vn-11134103-22060-9m2s403blgev98"
+          },
+          {
+            "image_id": "vn-11134103-22060-lstrxa4blgevff",
+            "cover_image_id": "vn-11134103-22060-lstrxa4blgevff"
+          }
+        ],
+        "key_media": { "key_media_code": 0, "key_media_id": "" }
+      },
+      {
+        "orderid": 108199166616166,
+        "itemid": 11282321915,
+        "cmtid": 8699139784,
+        "ctime": 1655433430,
+        "rating": 1,
+        "userid": 98642981,
+        "shopid": 175753395,
+        "comment": "Công dụng:dương da\nMùi hương:cà phê, nghệ\nDành cho da:da hỗn hợp dầu\n\nMask đắp lên the the, sau 20p đắp rửa lại với nước, massage nhẹ nhàng. Mask có thể lấy đi lượng dầu thừa trên dạ",
+        "rating_star": 5,
+        "status": 2,
+        "mtime": 1655433430,
+        "editable": 0,
+        "opt": 2,
+        "filter": 7,
+        "mentioned": null,
+        "is_hidden": false,
+        "author_username": "n*****2",
+        "author_portrait": "7821322736417a36d503b2374dc397c6",
+        "author_shopid": 98641503,
+        "anonymous": true,
+        "images": [
+          "vn-11134103-22060-eis08p1x9wdv32",
+          "vn-11134103-22060-2sc8vr1x9wdv3d",
+          "vn-11134103-22060-9er8lr1x9wdv0c",
+          "vn-11134103-22060-kkj7fs1x9wdvbc",
+          "vn-11134103-22060-t7x76r1x9wdv26"
+        ],
+        "videos": [
+          {
+            "id": "vn_3b4338b8-9cb5-403d-aafa-38034716f25c_000161",
+            "cover": "https://play-ws.vod.shopee.com/c3/98934353/103/Anoy86cAqDYUvgUhKAIKAEc.jpg",
+            "url": "https://play-ws.vod.shopee.com/c3/98934353/103/Anoy6ZMAzJwUvgUhOgIDAEY.mp4",
+            "duration": 14348,
+            "upload_time": null,
+            "mms_ext": "{\"vid\":\"vn_3b4338b8-9cb5-403d-aafa-38034716f25c_000161\",\"biz\":103,\"duration\":14421,\"create_time\":1655433397,\"serviceID\":2,\"cover\":\"http://play-ws.vod.shopee.com/c3/98934353/103/Anoy86cAqDYUvgUhKAIKAEc.jpg\",\"cover_list\":null,\"formats\":[{\"format\":1600005,\"defn\":\"V640P\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/c3/98934353/103/Anoy6ZMAzJwUvgUhOgIDAEY.mp4\",\"width\":360,\"height\":640,\"bitrate\":638327,\"size\":1220959,\"fps\":25,\"duration\":14421,\"update_time\":1655433406}],\"default_format\":{\"format\":600001,\"defn\":\"ORI\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/c3/98934353/103/AnoyYB8ArDgUvgUhKQIAAEY.mp4\",\"width\":360,\"height\":640,\"bitrate\":1071476,\"size\":2089763,\"fps\":24,\"duration\":14375,\"update_time\":1655433399},\"extend_formats\":{},\"ab_test\":\"\"}",
+            "cover_image_id": ""
+          }
+        ],
+        "product_items": [
+          {
+            "itemid": 11282321915,
+            "shopid": 175753395,
+            "name": "HÀNG TẶNG KHÔNG BÁN - Mặt nạ nghệ Hưng Yên Cocoon giúp da rạng rỡ \u0026 mịn màng 30ml",
+            "image": "124ca72327ec30f94e232dbace4c9154",
+            "is_snapshot": 1,
+            "snapshotid": 3575859322,
+            "modelid": 141668121532,
+            "model_name": "",
+            "options": [""]
+          }
+        ],
+        "delete_reason": null,
+        "delete_operator": null,
+        "ItemRatingReply": null,
+        "tags": null,
+        "editable_date": null,
+        "show_reply": null,
+        "like_count": null,
+        "liked": null,
+        "sync_to_social": false,
+        "detailed_rating": {
+          "product_quality": 5,
+          "seller_service": null,
+          "delivery_service": null
+        },
+        "exclude_scoring_due_low_logistic": false,
+        "loyalty_info": null,
+        "template_tags": ["Công dụng", "Mùi hương", "Dành cho da"],
+        "has_template_tag": true,
+        "sync_to_social_toggle": null,
+        "sip_info": { "is_oversea": false, "origin_region": "vn" },
+        "is_repeated_purchase": false,
+        "display_variation_filter": null,
+        "overall_fit": 0,
+        "is_normal_item": true,
+        "viewed": null,
+        "show_view": null,
+        "sync_to_social_detail": null,
+        "profile": null,
+        "size_info_tags": null,
+        "size_info_abt": "",
+        "image_data": [
+          {
+            "image_id": "vn-11134103-22060-eis08p1x9wdv32",
+            "cover_image_id": "vn-11134103-22060-eis08p1x9wdv32"
+          },
+          {
+            "image_id": "vn-11134103-22060-2sc8vr1x9wdv3d",
+            "cover_image_id": "vn-11134103-22060-2sc8vr1x9wdv3d"
+          },
+          {
+            "image_id": "vn-11134103-22060-9er8lr1x9wdv0c",
+            "cover_image_id": "vn-11134103-22060-9er8lr1x9wdv0c"
+          },
+          {
+            "image_id": "vn-11134103-22060-kkj7fs1x9wdvbc",
+            "cover_image_id": "vn-11134103-22060-kkj7fs1x9wdvbc"
+          },
+          {
+            "image_id": "vn-11134103-22060-t7x76r1x9wdv26",
+            "cover_image_id": "vn-11134103-22060-t7x76r1x9wdv26"
+          }
+        ],
+        "key_media": { "key_media_code": 0, "key_media_id": "" }
+      },
+      {
+        "orderid": 108998598206772,
+        "itemid": 11282321915,
+        "cmtid": 8781792309,
+        "ctime": 1656175041,
+        "rating": 1,
+        "userid": 669440478,
+        "shopid": 175753395,
+        "comment": "Shop giao hàng khá nhanh, 2 ngày là đã nhận được hàng ạ ^.^ mình chưa dùng thử nên không biết mặt nạ sẽ có công dụng khác biệt lớn với thạch nghệ không",
+        "rating_star": 5,
+        "status": 1,
+        "mtime": 1656175041,
+        "editable": 0,
+        "opt": 2,
+        "filter": 7,
+        "mentioned": null,
+        "is_hidden": false,
+        "author_username": "k*****2",
+        "author_portrait": "1e11003d75a555d923b9e6c617e488d1",
+        "author_shopid": 669420893,
+        "anonymous": true,
+        "images": [
+          "vn-11134103-22060-e3z98dwvh0dvd4",
+          "vn-11134103-22060-dmvuhfewh0dv3d",
+          "vn-11134103-22060-y64li7fxh0dvce"
+        ],
+        "videos": [
+          {
+            "id": "vn_648f44c3-59f4-4aac-8f54-97364d947610_000163",
+            "cover": "https://play-ws.vod.shopee.com/c3/98934353/103/AnoyBGsAIBfdbgYhIQIPAEc.jpg",
+            "url": "https://play-ws.vod.shopee.com/c3/98934353/103/AnoyyN8AlE3dbgYhMQIAAEY.mp4",
+            "duration": 11400,
+            "upload_time": null,
+            "mms_ext": "{\"vid\":\"vn_648f44c3-59f4-4aac-8f54-97364d947610_000163\",\"biz\":103,\"duration\":11416,\"create_time\":1656174886,\"serviceID\":2,\"cover\":\"http://play-ws.vod.shopee.com/c3/98934353/103/AnoyBGsAIBfdbgYhIQIPAEc.jpg\",\"cover_list\":null,\"formats\":[{\"format\":1600005,\"defn\":\"V640P\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/c3/98934353/103/AnoyyN8AlE3dbgYhMQIAAEY.mp4\",\"width\":360,\"height\":640,\"bitrate\":868146,\"size\":1254575,\"fps\":25,\"duration\":11439,\"update_time\":1656174891}],\"default_format\":{\"format\":600001,\"defn\":\"ORI\",\"profile\":\"MP4\",\"path\":\"\",\"url\":\"http://play-ws.vod.shopee.com/c3/98934353/103/AnoyCWMA6BndbgYhQAIHAEY.mp4\",\"width\":360,\"height\":640,\"bitrate\":1550982,\"size\":2221925,\"fps\":24,\"duration\":11416,\"update_time\":1656174888},\"extend_formats\":{},\"ab_test\":\"\"}",
+            "cover_image_id": ""
+          }
+        ],
+        "product_items": [
+          {
+            "itemid": 11282321915,
+            "shopid": 175753395,
+            "name": "HÀNG TẶNG KHÔNG BÁN - Mặt nạ nghệ Hưng Yên Cocoon giúp da rạng rỡ \u0026 mịn màng 30ml",
+            "image": "124ca72327ec30f94e232dbace4c9154",
+            "is_snapshot": 1,
+            "snapshotid": 3595403185,
+            "modelid": 141668121532,
+            "model_name": "",
+            "options": [""]
+          }
+        ],
+        "delete_reason": null,
+        "delete_operator": null,
+        "ItemRatingReply": null,
+        "tags": [
+          {
+            "tag_id": 5,
+            "tag_description": "Đóng gói sản phẩm rất đẹp và chắc chắn"
+          },
+          { "tag_id": 6, "tag_description": "Shop phục vụ rất tốt" },
+          { "tag_id": 3, "tag_description": "Rất đáng tiền" },
+          { "tag_id": 4, "tag_description": "Thời gian giao hàng rất nhanh" }
+        ],
+        "editable_date": null,
+        "show_reply": null,
+        "like_count": null,
+        "liked": null,
+        "sync_to_social": false,
+        "detailed_rating": {
+          "product_quality": 5,
+          "seller_service": null,
+          "delivery_service": null
+        },
+        "exclude_scoring_due_low_logistic": false,
+        "loyalty_info": null,
+        "template_tags": null,
+        "has_template_tag": false,
+        "sync_to_social_toggle": null,
+        "sip_info": { "is_oversea": false, "origin_region": "vn" },
+        "is_repeated_purchase": false,
+        "display_variation_filter": null,
+        "overall_fit": 0,
+        "is_normal_item": true,
+        "viewed": null,
+        "show_view": null,
+        "sync_to_social_detail": null,
+        "profile": null,
+        "size_info_tags": null,
+        "size_info_abt": "",
+        "image_data": [
+          {
+            "image_id": "vn-11134103-22060-e3z98dwvh0dvd4",
+            "cover_image_id": "vn-11134103-22060-e3z98dwvh0dvd4"
+          },
+          {
+            "image_id": "vn-11134103-22060-dmvuhfewh0dv3d",
+            "cover_image_id": "vn-11134103-22060-dmvuhfewh0dv3d"
+          },
+          {
+            "image_id": "vn-11134103-22060-y64li7fxh0dvce",
+            "cover_image_id": "vn-11134103-22060-y64li7fxh0dvce"
+          }
+        ],
+        "key_media": { "key_media_code": 0, "key_media_id": "" }
+      }
+    ],
+    "item_rating_summary": {
+      "rating_total": 1834,
+      "rating_count": [6, 5, 11, 28, 1784],
+      "rcount_with_context": 728,
+      "rcount_with_image": 699,
+      "rcount_with_media": 701,
+      "rcount_local_review": 1834,
+      "rcount_repeat_purchase": 0,
+      "rcount_overall_fit_small": 0,
+      "rcount_overall_fit_fit": 0,
+      "rcount_overall_fit_large": 0,
+      "rcount_oversea_review": 0,
+      "rcount_folded": 0
+    },
+    "is_sip_item": true,
+    "rcmd_algo": "BUNDLE:comment_search_oversea,RECALLER:comment_search_oversea,QUEUE:comment_search_oversea,ABTEST:2.a.3644@AD0,QUEUES:comment_search_oversea,NEWABTEST:0",
+    "downgrade_switch": false,
+    "has_more": true,
+    "show_local_review": false,
+    "browsing_ui": "",
+    "enable_buyer_gallery_media": false,
+    "user_latest_rating": null,
+    "size_info_abt": "",
+    "top_ratings": [],
+    "resize_image_abt": false,
+    "purchase_bar_abt": "bucket_a"
+  },
+  "error": 0,
+  "error_msg": null
+}

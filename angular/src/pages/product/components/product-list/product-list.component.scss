@@ -1,0 +1,118 @@
+body {
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+}
+ul {
+	padding-left: unset;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+	display: block;
+	max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	overflow-wrap: break-word;
+}
+.hover-item:hover {
+	cursor: pointer;
+	background-color: #f7f8fa;
+}
+.drop-down {
+	position: relative;
+}
+.drop-drown-content {
+	position: absolute;
+	top: 103%;
+	z-index: 100;
+	content: '';
+	left: 0px;
+}
+.line-clamp_2 {
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.td_table {
+	font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+	font-weight: 400;
+	font-size: 0.875rem;
+	line-height: 1.43;
+	letter-spacing: 0.01071em;
+	vertical-align: inherit;
+	border-bottom: 1px solid rgba(224, 224, 224, 1);
+	text-align: left;
+	padding: 16px;
+	color: rgba(0, 0, 0, 0.87);
+}
+::ng-deep .ant-table {
+	// background: none !important;
+	--tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+.word-break {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	word-break: break-all;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+}
+svg:not(:root) {
+	overflow: hidden;
+}
+.shopee-rating-stars__primary-star {
+	color: #ee4d2d;
+	stroke: #ee4d2d;
+	display: block;
+	position: absolute;
+	left: 0;
+	overflow-x: hidden;
+}
+.shopee-svg-icon {
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	fill: currentColor;
+	position: relative;
+}
+
+::ng-deep .ant-pagination-next .ant-pagination-item-link,
+::ng-deep .ant-pagination-prev .ant-pagination-item-link {
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+::ng-deep .ant-select:not(.ant-select-customize-input) .ant-select-selector,
+::ng-deep .ant-pagination-item {
+	border-radius: 5px;
+}
+[nz-button] {
+	margin-right: 8px;
+	margin-bottom: 8px;
+}
+::ng-deep .ant-rate-star-second .anticon {
+	color: #ee4d2d;
+	font-size: 14px;
+}
+::ng-deep .ant-rate-star:not(:last-child) {
+	margin-right: 2px;
+}

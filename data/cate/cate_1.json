@@ -1,0 +1,2136 @@
+{
+  "msg": "success",
+  "code": 0,
+  "data": {
+    "total": 1341,
+    "global_cats": [
+      {
+        "category_name": "Áo hai dây và ba lỗ",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024436,
+        "images": [
+          "https://cf.shopee.sg/file/89006c76c4e713905b76f3a6a32b8ce9",
+          "https://cf.shopee.sg/file/776774d4b1f1bdcc83842ded4ee3e13f",
+          "https://cf.shopee.sg/file/f523f76ac771a55364572c6ce96e3ac3",
+          "https://cf.shopee.sg/file/6bce4b8a7ec08723a8bc0efe1e016762",
+          "https://cf.shopee.sg/file/85362d8f4146eeac4174a2561582b8b7",
+          "https://cf.shopee.sg/file/d168d37d3d4573cc17f0b8a71b0edfca"
+        ],
+        "path": [
+          { "category_id": 100017, "category_name": "Thời Trang Nữ" },
+          { "category_id": 100099, "category_name": "Áo" },
+          { "category_id": 100350, "category_name": "Áo hai dây và ba lỗ" }
+        ],
+        "category_id": 100350,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Áo ống",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024436,
+        "images": [
+          "https://cf.shopee.sg/file/94e15c072bfc2699f59a72cf4de6a2e9",
+          "https://cf.shopee.sg/file/5739ebaba28eafbd537128ff036a459a",
+          "https://cf.shopee.sg/file/37c77fe8f3392c1c8263622978b029a1",
+          "https://cf.shopee.sg/file/741c4d60c9017f255c7d41829b23cf6e",
+          "https://cf.shopee.sg/file/ca4d8a4423aa30fdaf7cd177a6ef8d4d",
+          "https://cf.shopee.sg/file/af6db352e490b7ac30509b6f20cb7107"
+        ],
+        "path": [
+          { "category_id": 100017, "category_name": "Thời Trang Nữ" },
+          { "category_id": 100099, "category_name": "Áo" },
+          { "category_id": 100351, "category_name": "Áo ống" }
+        ],
+        "category_id": 100351,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Áo thun",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024437,
+        "images": [
+          "https://cf.shopee.sg/file/5cd513ba1714585441f3c8bcb76a485a",
+          "https://cf.shopee.sg/file/62c23abf9268f2ed00d973fd36b6776e",
+          "https://cf.shopee.sg/file/bf585a52a83660c943ae16fc7c75c87f",
+          "https://cf.shopee.sg/file/d6e4a5c093747b2fc31bc20fd51a7a23",
+          "https://cf.shopee.sg/file/e17b1133ac6182c80b573aa7b9303d74",
+          "https://cf.shopee.sg/file/1267842e320bafeeea2525cd3c867d4a"
+        ],
+        "path": [
+          { "category_id": 100017, "category_name": "Thời Trang Nữ" },
+          { "category_id": 100099, "category_name": "Áo" },
+          { "category_id": 100352, "category_name": "Áo thun" }
+        ],
+        "category_id": 100352,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Áo sơ mi",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024437,
+        "images": [
+          "https://cf.shopee.sg/file/b406411960e809e15e6d67fd6f942e6d",
+          "https://cf.shopee.sg/file/82ca7e0c4959f5904669e7cffc227adb",
+          "https://cf.shopee.sg/file/b23f30abf6942381392b2f735e2c2739",
+          "https://cf.shopee.sg/file/5864543718474245da8c0e42dc66d651",
+          "https://cf.shopee.sg/file/5e692512384ce6788f9882e800e140f8",
+          "https://cf.shopee.sg/file/fd736fc747d27747e267763389d57278"
+        ],
+        "path": [
+          { "category_id": 100017, "category_name": "Thời Trang Nữ" },
+          { "category_id": 100099, "category_name": "Áo" },
+          { "category_id": 100353, "category_name": "Áo sơ mi" }
+        ],
+        "category_id": 100353,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Áo polo",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024437,
+        "images": [
+          "https://cf.shopee.sg/file/4e49f242796eb5bc3c69d9f37a5624a4",
+          "https://cf.shopee.sg/file/42f75dcaba2aeb4bc5146a9aeb1239b5",
+          "https://cf.shopee.sg/file/85c7bd01f04fb90ae084700650ecaa62",
+          "https://cf.shopee.sg/file/3f2430b2b2606f18dff4609cf5442ef9",
+          "https://cf.shopee.sg/file/2c1aef12b4c76d9136c627c0df39cd8c",
+          "https://cf.shopee.sg/file/26d62d172e0e3609d791465de13d8a67"
+        ],
+        "path": [
+          { "category_id": 100017, "category_name": "Thời Trang Nữ" },
+          { "category_id": 100099, "category_name": "Áo" },
+          { "category_id": 100354, "category_name": "Áo polo" }
+        ],
+        "category_id": 100354,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Áo liền thân",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024437,
+        "images": [
+          "https://cf.shopee.sg/file/02fa69df2810ac6c4553cabfb7b6c79a",
+          "https://cf.shopee.sg/file/8088638a0587a805c2f8e8c97b1d3f71",
+          "https://cf.shopee.sg/file/b135dd003ad44569a331867bfd6fd532",
+          "https://cf.shopee.sg/file/3b0227758986a8156870a5f2d19df511",
+          "https://cf.shopee.sg/file/0e7a1ee615baa9f3b81b8b2c70f06665",
+          "https://cf.shopee.sg/file/2796f4c5202573d83139ece48888c96a"
+        ],
+        "path": [
+          { "category_id": 100017, "category_name": "Thời Trang Nữ" },
+          { "category_id": 100099, "category_name": "Áo" },
+          { "category_id": 100355, "category_name": "Áo liền thân" }
+        ],
+        "category_id": 100355,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Quần legging",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024437,
+        "images": [
+          "https://cf.shopee.sg/file/9de5eb6193723ff755e96088e4998cae",
+          "https://cf.shopee.sg/file/d0f5b01371e5ad24f86cfcaeb4001a59",
+          "https://cf.shopee.sg/file/6cb4b96fe1009c9f9f5db6691bf0d230",
+          "https://cf.shopee.sg/file/15dde42fcd35f7300ba3706264bbfb91",
+          "https://cf.shopee.sg/file/9b2a42bbce12b6c6211a0e306bfa8a77",
+          "https://cf.shopee.sg/file/9e1cf376a6e85422226039c02bbcb15d"
+        ],
+        "path": [
+          { "category_id": 100017, "category_name": "Thời Trang Nữ" },
+          { "category_id": 100100, "category_name": "Quần" },
+          { "category_id": 100357, "category_name": "Quần legging" }
+        ],
+        "category_id": 100357,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Quần dài",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024437,
+        "images": [
+          "https://cf.shopee.sg/file/7c68fc4d5dda794b1bb2af3ca3c18165",
+          "https://cf.shopee.sg/file/f51b1ccf395c2b72b56857acaaa6d9b6",
+          "https://cf.shopee.sg/file/9bb3eefbad29d12e9ebf263b94fa2256",
+          "https://cf.shopee.sg/file/7e31bb7b221db355d42aa938654f580f",
+          "https://cf.shopee.sg/file/23b41dcb91a555aa03a4df280e3abd28",
+          "https://cf.shopee.sg/file/65b87e29d5db41ccb25193c5fb249ed8"
+        ],
+        "path": [
+          { "category_id": 100017, "category_name": "Thời Trang Nữ" },
+          { "category_id": 100100, "category_name": "Quần" },
+          { "category_id": 100358, "category_name": "Quần dài" }
+        ],
+        "category_id": 100358,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Quần đùi",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024437,
+        "images": [
+          "https://cf.shopee.sg/file/7ee844396d4d9630b5a57a4b7043a63c",
+          "https://cf.shopee.sg/file/d9f7afc49c33dd0a8165f45eef129266",
+          "https://cf.shopee.sg/file/d65b664e0909878f353b6fd9310a0431",
+          "https://cf.shopee.sg/file/3293002e0aca0063be26212b5b1e9829",
+          "https://cf.shopee.sg/file/08876d3f8aa0d7ed7139b5f59c69bcf7",
+          "https://cf.shopee.sg/file/b51642b6ee59e94a60621be57d596dba"
+        ],
+        "path": [
+          { "category_id": 100017, "category_name": "Thời Trang Nữ" },
+          { "category_id": 100101, "category_name": "Quần đùi" },
+          { "category_id": 100360, "category_name": "Quần đùi" }
+        ],
+        "category_id": 100360,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Quần váy",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024437,
+        "images": [
+          "https://cf.shopee.sg/file/4d1ae6af42e394af92fa11bfba2d28f5",
+          "https://cf.shopee.sg/file/8eb0e32b475461f45c860ce675110b34",
+          "https://cf.shopee.sg/file/f53cca5d7e012becdeaf16e2e0117fc9",
+          "https://cf.shopee.sg/file/b0b8db28bd6e88f6f4569efe4597d575",
+          "https://cf.shopee.sg/file/967316eea94915a232f26abf929331a6",
+          "https://cf.shopee.sg/file/662774bfb62f647c745ed1581583660d"
+        ],
+        "path": [
+          { "category_id": 100017, "category_name": "Thời Trang Nữ" },
+          { "category_id": 100101, "category_name": "Quần đùi" },
+          { "category_id": 100361, "category_name": "Quần váy" }
+        ],
+        "category_id": 100361,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Váy",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024437,
+        "images": [
+          "https://cf.shopee.sg/file/13de3e91b6965f9a890e58ac38ae1f0a",
+          "https://cf.shopee.sg/file/c61d9fcebeb97242c5d96d3bd8508083",
+          "https://cf.shopee.sg/file/beb936cda882979df5f6b66d5fff4173",
+          "https://cf.shopee.sg/file/717577b87dae92ee55195abb3fc33649",
+          "https://cf.shopee.sg/file/d057328334c3275202a7992d6a24fac5",
+          "https://cf.shopee.sg/file/2783b69a234b2fc6a60948ba961053b8"
+        ],
+        "path": [
+          { "category_id": 100017, "category_name": "Thời Trang Nữ" },
+          { "category_id": 100102, "category_name": "Váy" }
+        ],
+        "category_id": 100102,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Quần jeans",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024437,
+        "images": [
+          "https://cf.shopee.sg/file/9ef91868222aab17962bf8143d65ff73",
+          "https://cf.shopee.sg/file/9d1e20437248456c9e25e137cea94cfe",
+          "https://cf.shopee.sg/file/d96e2b6f534ed331dc05cda1ec486fe5",
+          "https://cf.shopee.sg/file/6644ef19361d3c0f1810c5843f181f05",
+          "https://cf.shopee.sg/file/98bebd4cc12a147f65e8c8e21f1d14cc",
+          "https://cf.shopee.sg/file/786fde598b4cfad35b702533e83cef47"
+        ],
+        "path": [
+          { "category_id": 100017, "category_name": "Thời Trang Nữ" },
+          { "category_id": 100103, "category_name": "Quần jeans" }
+        ],
+        "category_id": 100103,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Đầm",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024437,
+        "images": [
+          "https://cf.shopee.sg/file/dce2b5a3fc0b5e96577002e42e6805ec",
+          "https://cf.shopee.sg/file/f9bf2365d3d19e5d68cb739dececbe8d",
+          "https://cf.shopee.sg/file/a0ab41294eb7dacaeaea6591855b1d83",
+          "https://cf.shopee.sg/file/1091b5d21b6bd1595d2039b531c1bdc2",
+          "https://cf.shopee.sg/file/cd0967bff883ec03c30988dafda2d2d0",
+          "https://cf.shopee.sg/file/60848466a36a4079929fc9a327719b27"
+        ],
+        "path": [
+          { "category_id": 100017, "category_name": "Thời Trang Nữ" },
+          { "category_id": 100104, "category_name": "Đầm" }
+        ],
+        "category_id": 100104,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Váy cưới",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024437,
+        "images": [
+          "https://cf.shopee.sg/file/1d480efa270d903cff5dcfc8e2a3dbb3",
+          "https://cf.shopee.sg/file/11b87c51e5213debf74bd1a6b05403fa",
+          "https://cf.shopee.sg/file/bc08ad7736569f0a3a1919057ae4eb31",
+          "https://cf.shopee.sg/file/628d99a18541407c2ab487e65ad41d28",
+          "https://cf.shopee.sg/file/f62a732b72d650be77db4c4763bd2c2b",
+          "https://cf.shopee.sg/file/e7782044cff4293dac0a2bd19c19e333"
+        ],
+        "path": [
+          { "category_id": 100017, "category_name": "Thời Trang Nữ" },
+          { "category_id": 100105, "category_name": "Váy cưới" }
+        ],
+        "category_id": 100105,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Đồ bay (Jumpsuits)",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024438,
+        "images": [
+          "https://cf.shopee.sg/file/7ea68877a971ecadf21ee26421e3bc33",
+          "https://cf.shopee.sg/file/fe6d1238aab7af69d07e7ef34d3b0333",
+          "https://cf.shopee.sg/file/7c66985cc968397b3a8e460b9832d2ce",
+          "https://cf.shopee.sg/file/8b70430e46e7184183c1d51f7145d875",
+          "https://cf.shopee.sg/file/19e2d96eb818ccd2e1d67bba7756b301",
+          "https://cf.shopee.sg/file/43dda0a88f6eedb71bf1fd2f2e6ddd21"
+        ],
+        "path": [
+          { "category_id": 100017, "category_name": "Thời Trang Nữ" },
+          { "category_id": 100106, "category_name": "Đồ liền thân" },
+          { "category_id": 100363, "category_name": "Đồ bay (Jumpsuits)" }
+        ],
+        "category_id": 100363,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Đồ bay ngắn (playsuits)",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024438,
+        "images": [
+          "https://cf.shopee.sg/file/da162612284ada5c8a2bcc2bc03ec6a6",
+          "https://cf.shopee.sg/file/a26b4e59ed12487c6b95c332ab80d0c2",
+          "https://cf.shopee.sg/file/4ec010ee572ccf03369b08cf48bf3ee7",
+          "https://cf.shopee.sg/file/0d3eb60d03105c982c4ffc68820874ea",
+          "https://cf.shopee.sg/file/ef4aaf0e281641d65cba2bdbc72c0208",
+          "https://cf.shopee.sg/file/a60e369557214dc593505909822bbf2f"
+        ],
+        "path": [
+          { "category_id": 100017, "category_name": "Thời Trang Nữ" },
+          { "category_id": 100106, "category_name": "Đồ liền thân" },
+          { "category_id": 100364, "category_name": "Đồ bay ngắn (playsuits)" }
+        ],
+        "category_id": 100364,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Quần yếm",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024438,
+        "images": [
+          "https://cf.shopee.sg/file/0b2c4bc1ff09f7654b8b146e17925028",
+          "https://cf.shopee.sg/file/2db19739b67ddc48ffd68071b993eefb",
+          "https://cf.shopee.sg/file/0a762af9d1fa93e005872dba30d1822c",
+          "https://cf.shopee.sg/file/bb82fae9a31a9bfce405352ffe5af340",
+          "https://cf.shopee.sg/file/e92494f2205b238c1db89d1abb6e2696",
+          "https://cf.shopee.sg/file/0299d14c3717069b767079e09be7ceb2"
+        ],
+        "path": [
+          { "category_id": 100017, "category_name": "Thời Trang Nữ" },
+          { "category_id": 100106, "category_name": "Đồ liền thân" },
+          { "category_id": 100365, "category_name": "Quần yếm" }
+        ],
+        "category_id": 100365,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Áo khoác mùa đông",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024438,
+        "images": [
+          "https://cf.shopee.sg/file/c4bb3fe487a612cafb0b245ebc372d2e",
+          "https://cf.shopee.sg/file/be5f3f1a4b6efebdba7ab5dabb8bed58",
+          "https://cf.shopee.sg/file/757692173b8453c965c639576f99044e"
+        ],
+        "path": [
+          { "category_id": 100017, "category_name": "Thời Trang Nữ" },
+          { "category_id": 100107, "category_name": "Áo khoác" },
+          { "category_id": 100367, "category_name": "Áo khoác mùa đông" }
+        ],
+        "category_id": 100367,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Áo choàng",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024438,
+        "images": [
+          "https://cf.shopee.sg/file/b4857537d0b767b6a7a0770368382f43",
+          "https://cf.shopee.sg/file/7a5d7d854c78ce27164af9b7c3714666",
+          "https://cf.shopee.sg/file/cb8a7689b44361ebed53b46e716dd9b4",
+          "https://cf.shopee.sg/file/edf4d5c92f7cc057620df84acba264e7",
+          "https://cf.shopee.sg/file/07541b1aedc30b46a522b82671bb9dd5",
+          "https://cf.shopee.sg/file/e10feb0853e002eeac45793c9dba0e13"
+        ],
+        "path": [
+          { "category_id": 100017, "category_name": "Thời Trang Nữ" },
+          { "category_id": 100107, "category_name": "Áo khoác" },
+          { "category_id": 100368, "category_name": "Áo choàng" }
+        ],
+        "category_id": 100368,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Áo blazer",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024438,
+        "images": [
+          "https://cf.shopee.sg/file/222c0240f51195ece1a9565b332db205",
+          "https://cf.shopee.sg/file/4b643bbff507b12c3c09746cbc8b6595",
+          "https://cf.shopee.sg/file/8c2357897d84ef9c765a176c180201b9",
+          "https://cf.shopee.sg/file/7af9d6588b579246781789904f9ac1c1",
+          "https://cf.shopee.sg/file/83b881a5422175b87c3011a55088450f",
+          "https://cf.shopee.sg/file/1376924f9a74554a9c2d7ca31a9e0e40"
+        ],
+        "path": [
+          { "category_id": 100017, "category_name": "Thời Trang Nữ" },
+          { "category_id": 100107, "category_name": "Áo khoác" },
+          { "category_id": 100369, "category_name": "Áo blazer" }
+        ],
+        "category_id": 100369,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Áo khoác ngoài",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024438,
+        "images": [
+          "https://cf.shopee.sg/file/d3529953b9b2996a2d62b753a90e25c0",
+          "https://cf.shopee.sg/file/62fbd93d04c0c648a8b6fb693fdd84a0",
+          "https://cf.shopee.sg/file/f51b32a5cb41e39d8b097d6d9739f990",
+          "https://cf.shopee.sg/file/bdce03d72fbdd0108c95a3b0b6eb4ff0",
+          "https://cf.shopee.sg/file/8f4f636a168b9e30f1c399760b59d559",
+          "https://cf.shopee.sg/file/698cd8e0970c841e6bc04783290d5609"
+        ],
+        "path": [
+          { "category_id": 100017, "category_name": "Thời Trang Nữ" },
+          { "category_id": 100107, "category_name": "Áo khoác" },
+          { "category_id": 100370, "category_name": "Áo khoác ngoài" }
+        ],
+        "category_id": 100370,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Áo vest",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024438,
+        "images": [
+          "https://cf.shopee.sg/file/19aaba8822960457b0ed57201a361257",
+          "https://cf.shopee.sg/file/4f985293b3e47f4e84c82d5155ac556e",
+          "https://cf.shopee.sg/file/2140fa392075a4b923127f1ca7ec6f4c",
+          "https://cf.shopee.sg/file/e98f6d813bd963694a44ee1c5283b564",
+          "https://cf.shopee.sg/file/0822696cd87ce1131339213b0a736d16",
+          "https://cf.shopee.sg/file/4fb08ed220aad4592d0b4d914bb3ab5f"
+        ],
+        "path": [
+          { "category_id": 100017, "category_name": "Thời Trang Nữ" },
+          { "category_id": 100107, "category_name": "Áo khoác" },
+          { "category_id": 100371, "category_name": "Áo vest" }
+        ],
+        "category_id": 100371,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Áo len",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024438,
+        "images": [
+          "https://cf.shopee.sg/file/37fffdf5c605ae13161619d89764c239",
+          "https://cf.shopee.sg/file/c020c9a3082c239d31dcce6c8e6cfe24",
+          "https://cf.shopee.sg/file/a3177bec1f0844ad7c5885658f45dd9e",
+          "https://cf.shopee.sg/file/fe4c61275520458f08f84110cdc2b733",
+          "https://cf.shopee.sg/file/7defe19472da06befd6a0033b39f22aa",
+          "https://cf.shopee.sg/file/bdff6d9066af44c1ce8a0c3d7d5b8765"
+        ],
+        "path": [
+          { "category_id": 100017, "category_name": "Thời Trang Nữ" },
+          { "category_id": 100108, "category_name": "Áo len" }
+        ],
+        "category_id": 100108,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Áo khoác nỉ",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024439,
+        "images": [
+          "https://cf.shopee.sg/file/af0b6a9aaf55dd3b6056c2b87f632ecd",
+          "https://cf.shopee.sg/file/65f84fc62085a5cd9e134f268ced1eca",
+          "https://cf.shopee.sg/file/b03c0be8bcca45db050e8ee5cb6efa38",
+          "https://cf.shopee.sg/file/fc4191e54aaa4b6f0563c20c586dddf5",
+          "https://cf.shopee.sg/file/fc9b526a5d4e9c3d13550262e2e5ce8e",
+          "https://cf.shopee.sg/file/c3ed61ec0cbaeaffb71d5265e3fa9640"
+        ],
+        "path": [
+          { "category_id": 100017, "category_name": "Thời Trang Nữ" },
+          { "category_id": 100109, "category_name": "Hoodie và Áo nỉ" },
+          { "category_id": 100373, "category_name": "Áo khoác nỉ" }
+        ],
+        "category_id": 100373,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Áo hoodies",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024439,
+        "images": [
+          "https://cf.shopee.sg/file/470663a3025aeb30ef6a9a66ffa48b36",
+          "https://cf.shopee.sg/file/32ce748afabbb77aa089337217112952",
+          "https://cf.shopee.sg/file/a4a384610989c09a1d8a5fb11f9d4569",
+          "https://cf.shopee.sg/file/0d892e9bddf5b5226f22379c04ebad2d",
+          "https://cf.shopee.sg/file/3bdd6a5cdd1da84b00d68d68b68be6ac",
+          "https://cf.shopee.sg/file/286c257b48fd5f51f94e776c981e26a1"
+        ],
+        "path": [
+          { "category_id": 100017, "category_name": "Thời Trang Nữ" },
+          { "category_id": 100109, "category_name": "Hoodie và Áo nỉ" },
+          { "category_id": 100374, "category_name": "Áo hoodies" }
+        ],
+        "category_id": 100374,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Bộ đồ đôi",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024439,
+        "images": [
+          "https://cf.shopee.sg/file/771defc659cd47fc1c011a6904073358",
+          "https://cf.shopee.sg/file/52daa7eb14b82e0cb8644da6177c7d8c",
+          "https://cf.shopee.sg/file/6860ca4c18f15ab22689327a7d2f0648",
+          "https://cf.shopee.sg/file/5b22cd0b9d018bbfa087e81f1e396e5e",
+          "https://cf.shopee.sg/file/de91ac99aaf9b0403dbb5768d8a7d502",
+          "https://cf.shopee.sg/file/082bbc78fb4c236c14d45657d9b8d586"
+        ],
+        "path": [
+          { "category_id": 100017, "category_name": "Thời Trang Nữ" },
+          { "category_id": 100110, "category_name": "Bộ" },
+          { "category_id": 100376, "category_name": "Bộ đồ đôi" }
+        ],
+        "category_id": 100376,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Bộ đồ gia đình",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024439,
+        "images": [
+          "https://cf.shopee.sg/file/04335e6f4326aaaa04f219ab9e2f123a",
+          "https://cf.shopee.sg/file/5d3df1c1fadeec20c1da0afd51f777fc",
+          "https://cf.shopee.sg/file/a109fdd8da34fb3b50a04a092b2817c3",
+          "https://cf.shopee.sg/file/5bca51be0a4e21353dfe41537adc671d",
+          "https://cf.shopee.sg/file/b806dc6fa487b72a5ff63d4a60501d05",
+          "https://cf.shopee.sg/file/6b6141997c51de98722c105896a234f1"
+        ],
+        "path": [
+          { "category_id": 100017, "category_name": "Thời Trang Nữ" },
+          { "category_id": 100110, "category_name": "Bộ" },
+          { "category_id": 100377, "category_name": "Bộ đồ gia đình" }
+        ],
+        "category_id": 100377,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Đồ lẻ",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024439,
+        "images": [
+          "https://cf.shopee.sg/file/110f0aa69cb1af6750c2c89951de4880",
+          "https://cf.shopee.sg/file/137c96fc15e1c5ff137c8c56341284f6",
+          "https://cf.shopee.sg/file/c60c1af542c32577f0ce97ddd30c3ee3",
+          "https://cf.shopee.sg/file/e4498ef56268e754bf2b76a0dbc25bab",
+          "https://cf.shopee.sg/file/747008d309844f2b3076505676051d32",
+          "https://cf.shopee.sg/file/e28f9c2193906b8ed881399415918751"
+        ],
+        "path": [
+          { "category_id": 100017, "category_name": "Thời Trang Nữ" },
+          { "category_id": 100110, "category_name": "Bộ" },
+          { "category_id": 100378, "category_name": "Đồ lẻ" }
+        ],
+        "category_id": 100378,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Bộ đồ lót",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024439,
+        "images": [
+          "https://cf.shopee.sg/file/8a59ddd389c48d6838113fde460a2f80",
+          "https://cf.shopee.sg/file/edce8dabaceed52f465142f1ec6ee9c2",
+          "https://cf.shopee.sg/file/1cd268ee96900ed976f6547e7c3d2da6",
+          "https://cf.shopee.sg/file/46f9fced670bdffa8613149071825441",
+          "https://cf.shopee.sg/file/d92af4d477f04bc71c05620e37d5b48c",
+          "https://cf.shopee.sg/file/8ae31c956748f533672198956dad2605"
+        ],
+        "path": [
+          { "category_id": 100017, "category_name": "Thời Trang Nữ" },
+          { "category_id": 100111, "category_name": "Đồ lót" },
+          { "category_id": 100380, "category_name": "Bộ đồ lót" }
+        ],
+        "category_id": 100380,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Áo ngực",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024439,
+        "images": [
+          "https://cf.shopee.sg/file/42342ec9a26ad3b0352826ad9079ce10",
+          "https://cf.shopee.sg/file/873799a1f69d5b7a2d208244ec5ff1cd",
+          "https://cf.shopee.sg/file/229c1fe4feebf58b09ddd284b99a2d09",
+          "https://cf.shopee.sg/file/5e4221b0563cb6edef5ea76145df3b64",
+          "https://cf.shopee.sg/file/6f640e6f9d52baa2d049aa3e21d0191b",
+          "https://cf.shopee.sg/file/62211946ebe0836bf39ae2662b66f78a"
+        ],
+        "path": [
+          { "category_id": 100017, "category_name": "Thời Trang Nữ" },
+          { "category_id": 100111, "category_name": "Đồ lót" },
+          { "category_id": 100381, "category_name": "Áo ngực" }
+        ],
+        "category_id": 100381,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Quần lót",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024439,
+        "images": [
+          "https://cf.shopee.sg/file/cb438a67545ced0406e9bba24cc2272a",
+          "https://cf.shopee.sg/file/af15d0619bec26cf0e2d7e7b9a0bbd69",
+          "https://cf.shopee.sg/file/28439023121249020332a58622d03c93",
+          "https://cf.shopee.sg/file/7b6667c88c3c515190da4d4931ae2486",
+          "https://cf.shopee.sg/file/8a0177484493f7fade82e73a226aa3e9",
+          "https://cf.shopee.sg/file/415513e089859cf90037751ef825bbe7"
+        ],
+        "path": [
+          { "category_id": 100017, "category_name": "Thời Trang Nữ" },
+          { "category_id": 100111, "category_name": "Đồ lót" },
+          { "category_id": 100382, "category_name": "Quần lót" }
+        ],
+        "category_id": 100382,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Đồ lót giữ nhiệt",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024439,
+        "images": [
+          "https://cf.shopee.sg/file/6541bf6e7d11e09db087cb8bf249a1b4",
+          "https://cf.shopee.sg/file/ffcf21e8ae72a80988bdf504a60c1607",
+          "https://cf.shopee.sg/file/ed6f85b5abbaff5c2c9e38a3f3ff1c4f",
+          "https://cf.shopee.sg/file/75d6992dc96b381f30cfdc8c407e84d9",
+          "https://cf.shopee.sg/file/8d59b87103f075cd10f5193c1d5af6e8",
+          "https://cf.shopee.sg/file/dbd52547c0faac8944b28d156a785b06"
+        ],
+        "path": [
+          { "category_id": 100017, "category_name": "Thời Trang Nữ" },
+          { "category_id": 100111, "category_name": "Đồ lót" },
+          { "category_id": 100383, "category_name": "Đồ lót giữ nhiệt" }
+        ],
+        "category_id": 100383,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Dây áo lót",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024440,
+        "images": [
+          "https://cf.shopee.sg/file/a0c230e982b46fa915563a3670f7aad3",
+          "https://cf.shopee.sg/file/a0e11d6cf0fa30025722195c024ffe6b",
+          "https://cf.shopee.sg/file/6d071948e80eb6e83615571a340a291a",
+          "https://cf.shopee.sg/file/b9c2a31cb558ab29b8a0db439440d0bd",
+          "https://cf.shopee.sg/file/d6cc1c9914c82adb8ea3773a3ee23506",
+          "https://cf.shopee.sg/file/c6ac68f17134995e2bda82a29ab532e5"
+        ],
+        "path": [
+          { "category_id": 100017, "category_name": "Thời Trang Nữ" },
+          { "category_id": 100111, "category_name": "Đồ lót" },
+          { "category_id": 100384, "category_name": "Phụ kiện đồ lót" },
+          { "category_id": 100523, "category_name": "Dây áo lót" }
+        ],
+        "category_id": 100523,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Miếng mút rời",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024440,
+        "images": [
+          "https://cf.shopee.sg/file/99a1ad8d965d28f867dc1a65db9ef3ce",
+          "https://cf.shopee.sg/file/adb069425e6dca2bc8018f3a62975b7c",
+          "https://cf.shopee.sg/file/8a3879e9036bcfd62619f0b6e83f0d87",
+          "https://cf.shopee.sg/file/4d6441796f140f409161ee771532a0d4",
+          "https://cf.shopee.sg/file/fb9439fcb254101856c6ee8a126857cf",
+          "https://cf.shopee.sg/file/177bd75d4293467ee52ecab49f29e34a"
+        ],
+        "path": [
+          { "category_id": 100017, "category_name": "Thời Trang Nữ" },
+          { "category_id": 100111, "category_name": "Đồ lót" },
+          { "category_id": 100384, "category_name": "Phụ kiện đồ lót" },
+          { "category_id": 100524, "category_name": "Miếng mút rời" }
+        ],
+        "category_id": 100524,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Miếng dán ngực",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024440,
+        "images": [
+          "https://cf.shopee.sg/file/48b838647c8c3a27cd2392593bd91ecd",
+          "https://cf.shopee.sg/file/3ac0e63a2b58a72c1c43d353e5402e27",
+          "https://cf.shopee.sg/file/ace8f8d642c6f9e808c970226fb4a5f0",
+          "https://cf.shopee.sg/file/23ae2d7e49d55a4954b975f029fab122",
+          "https://cf.shopee.sg/file/52ea79b090a35d96d554d654c5568dda",
+          "https://cf.shopee.sg/file/a5d81cfd6ee7918881b47b31a2d90a98"
+        ],
+        "path": [
+          { "category_id": 100017, "category_name": "Thời Trang Nữ" },
+          { "category_id": 100111, "category_name": "Đồ lót" },
+          { "category_id": 100384, "category_name": "Phụ kiện đồ lót" },
+          { "category_id": 100525, "category_name": "Miếng dán ngực" }
+        ],
+        "category_id": 100525,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Đồ định hình",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024440,
+        "images": [
+          "https://cf.shopee.sg/file/01db0c02a7d8a6109e8b9f601d1f1282",
+          "https://cf.shopee.sg/file/7dc93f19d89994519984d7902db0ba8a",
+          "https://cf.shopee.sg/file/fb7569ba1e62a0adfadf6e18566302f7",
+          "https://cf.shopee.sg/file/4fc75c7cbd75b6d34c0b76976a24041b",
+          "https://cf.shopee.sg/file/58a8096778268db48bf4c84a4375083f",
+          "https://cf.shopee.sg/file/5df544bac64e3127d34f84a4f7df9ee6"
+        ],
+        "path": [
+          { "category_id": 100017, "category_name": "Thời Trang Nữ" },
+          { "category_id": 100111, "category_name": "Đồ lót" },
+          { "category_id": 100385, "category_name": "Đồ định hình" }
+        ],
+        "category_id": 100385,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Đồ lót bảo hộ",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024440,
+        "images": [
+          "https://cf.shopee.sg/file/e3849736d392f36cba8f0943c27ea368",
+          "https://cf.shopee.sg/file/c1cd08e5f3b3aa61794f22c0a8808eed",
+          "https://cf.shopee.sg/file/b3e69e724cfd27d6d999312e468563d7",
+          "https://cf.shopee.sg/file/5d743b59bd079350a34355afd0bcc1ad",
+          "https://cf.shopee.sg/file/7123a89983de729468c436f4d5c08635",
+          "https://cf.shopee.sg/file/db1b2a391f2ec27f1973f470d8e6706d"
+        ],
+        "path": [
+          { "category_id": 100017, "category_name": "Thời Trang Nữ" },
+          { "category_id": 100111, "category_name": "Đồ lót" },
+          { "category_id": 100386, "category_name": "Đồ lót bảo hộ" }
+        ],
+        "category_id": 100386,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Đồ lót gợi cảm",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024440,
+        "images": [
+          "https://cf.shopee.sg/file/b776cbed1e88ba9e1477549f4d64a00e",
+          "https://cf.shopee.sg/file/972933970c867985437e2b9fb9c6d055",
+          "https://cf.shopee.sg/file/925ee6b2a86a07a06f94b6c61e0bcf2a",
+          "https://cf.shopee.sg/file/643fbf20aab3b49c14d7d92396fe92e6",
+          "https://cf.shopee.sg/file/0aaa26f09f43c4d679dddfea71fff9cd",
+          "https://cf.shopee.sg/file/81e7204698eade00d9a0b1aa61b1d4ef"
+        ],
+        "path": [
+          { "category_id": 100017, "category_name": "Thời Trang Nữ" },
+          { "category_id": 100111, "category_name": "Đồ lót" },
+          { "category_id": 100387, "category_name": "Đồ lót gợi cảm" }
+        ],
+        "category_id": 100387,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Pyjama",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024440,
+        "images": [
+          "https://cf.shopee.sg/file/d527f408651e0c6e6a9c71cec9fd10a5",
+          "https://cf.shopee.sg/file/34a551339a17fc5d2bdef03e4f600195",
+          "https://cf.shopee.sg/file/f0f04f3b11aebd6344d72bcf4cfa625f",
+          "https://cf.shopee.sg/file/b7c703bf5a3d216e1287c32f4df8ab6d",
+          "https://cf.shopee.sg/file/63dae88864bba7d6f1d6076da921deb1",
+          "https://cf.shopee.sg/file/bcca491881265292a287a20ddf26e48a"
+        ],
+        "path": [
+          { "category_id": 100017, "category_name": "Thời Trang Nữ" },
+          { "category_id": 100112, "category_name": "Đồ ngủ" },
+          { "category_id": 100389, "category_name": "Pyjama" }
+        ],
+        "category_id": 100389,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Váy ngủ",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024440,
+        "images": [
+          "https://cf.shopee.sg/file/daaa01c81e9ce0c62e596b9625fdcfd2",
+          "https://cf.shopee.sg/file/6d8afb479509c3061a0f77f4754df036",
+          "https://cf.shopee.sg/file/4b18f361b4a0b079b95059df971dd6a0",
+          "https://cf.shopee.sg/file/1f20f3de7552c98882c29880fb9bd794",
+          "https://cf.shopee.sg/file/eb95c45fa622f60e1d2f923f1acc74de",
+          "https://cf.shopee.sg/file/80b16f059bf0d667ab89b904204cadc3"
+        ],
+        "path": [
+          { "category_id": 100017, "category_name": "Thời Trang Nữ" },
+          { "category_id": 100112, "category_name": "Đồ ngủ" },
+          { "category_id": 100390, "category_name": "Váy ngủ" }
+        ],
+        "category_id": 100390,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Áo choàng ngủ, Áo khoác kimono",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024440,
+        "images": [
+          "https://cf.shopee.sg/file/0fad82b6d92c277f3a04d7b97d1c009d",
+          "https://cf.shopee.sg/file/2d5ecffe14a587e7687d1b76c369e75e",
+          "https://cf.shopee.sg/file/a88fcffd427fa21a1557fed35a76d200",
+          "https://cf.shopee.sg/file/dab1ee50b62e87e3c73dd37cbbdfad20",
+          "https://cf.shopee.sg/file/5231f1fdf4deae2a9bbff77170843bca",
+          "https://cf.shopee.sg/file/ed2dbc444228771146e417bc8ed67812"
+        ],
+        "path": [
+          { "category_id": 100017, "category_name": "Thời Trang Nữ" },
+          { "category_id": 100112, "category_name": "Đồ ngủ" },
+          {
+            "category_id": 100391,
+            "category_name": "Áo choàng ngủ, Áo khoác kimono"
+          }
+        ],
+        "category_id": 100391,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Áo ngực cho con bú",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024440,
+        "images": [
+          "https://cf.shopee.sg/file/cd2ed5ad9d01baa3b4f8afdb1284fe19",
+          "https://cf.shopee.sg/file/cae64f9778ceb6911e92b7d37f5d0271",
+          "https://cf.shopee.sg/file/ff51dd6d6621ab4d07a9480aaca4b3dd",
+          "https://cf.shopee.sg/file/30d8e7db41d684ad88c7b47b6856351f",
+          "https://cf.shopee.sg/file/bb01c883e58202d70ad2c37902b0a0ee",
+          "https://cf.shopee.sg/file/539142e67a7a1c156723395e7b47f2a7"
+        ],
+        "path": [
+          { "category_id": 100017, "category_name": "Thời Trang Nữ" },
+          { "category_id": 100113, "category_name": "Đồ Bầu" },
+          { "category_id": 100393, "category_name": "Áo ngực cho con bú" }
+        ],
+        "category_id": 100393,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Đầm bầu",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024441,
+        "images": [
+          "https://cf.shopee.sg/file/4b23d5ebb4535ec9687235fa42ae351d",
+          "https://cf.shopee.sg/file/f6f94bbedbe1da55d3136c4e9d04eb92",
+          "https://cf.shopee.sg/file/1f96c57e7ed7db01ac40cced95424d4e",
+          "https://cf.shopee.sg/file/fe459e966987f1ea6d10b4e5933af991",
+          "https://cf.shopee.sg/file/3c6a5d7b005d8621cc1462dac73308e7",
+          "https://cf.shopee.sg/file/8b18047889c2cde36a61a3c3745c3ca3"
+        ],
+        "path": [
+          { "category_id": 100017, "category_name": "Thời Trang Nữ" },
+          { "category_id": 100113, "category_name": "Đồ Bầu" },
+          { "category_id": 100394, "category_name": "Đầm bầu" }
+        ],
+        "category_id": 100394,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Áo bầu",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024441,
+        "images": [
+          "https://cf.shopee.sg/file/36fb010f3b170531632489c96bf15e3d",
+          "https://cf.shopee.sg/file/d6b92a2dc92d8a913c54239beb1bd725",
+          "https://cf.shopee.sg/file/244ec475250c5d40f3a839149e86c31e",
+          "https://cf.shopee.sg/file/96cdb1fa1b7336d0881f7d57c2821b69",
+          "https://cf.shopee.sg/file/1c5a9fa29e8c3aa198a62b946d1d9531",
+          "https://cf.shopee.sg/file/a7d96b2ecf88668a62c2f82724718fbd"
+        ],
+        "path": [
+          { "category_id": 100017, "category_name": "Thời Trang Nữ" },
+          { "category_id": 100113, "category_name": "Đồ Bầu" },
+          { "category_id": 100395, "category_name": "Áo bầu" }
+        ],
+        "category_id": 100395,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Đồ mặc cho con bú",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024441,
+        "images": [
+          "https://cf.shopee.sg/file/bd42c3fba1f1d018876f8589aa9fcfe3",
+          "https://cf.shopee.sg/file/a440c87bdbc6c69be8a5b0ebd1bd0b49",
+          "https://cf.shopee.sg/file/3c8c694ed790855a6b940ae8f23a0875",
+          "https://cf.shopee.sg/file/5281b4da8fc501a95092a77ba8f55c58",
+          "https://cf.shopee.sg/file/d4520adc6de13c93bf6e7fa5b07a94ce",
+          "https://cf.shopee.sg/file/ae8dd3f38a883424da163e4f012103d6"
+        ],
+        "path": [
+          { "category_id": 100017, "category_name": "Thời Trang Nữ" },
+          { "category_id": 100113, "category_name": "Đồ Bầu" },
+          { "category_id": 100396, "category_name": "Đồ mặc cho con bú" }
+        ],
+        "category_id": 100396,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Bộ đồ bầu",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024441,
+        "images": [
+          "https://cf.shopee.sg/file/47386a5ba53947fde0320a039034f337",
+          "https://cf.shopee.sg/file/bd42c3fba1f1d018876f8589aa9fcfe3",
+          "https://cf.shopee.sg/file/0fb13958bfc09c9d8f5e667443aedc14",
+          "https://cf.shopee.sg/file/3d9300fccb7e05eb52338dc85d2470b5",
+          "https://cf.shopee.sg/file/56e9664fec3679847c7dd88b5e66c978",
+          "https://cf.shopee.sg/file/5c9f1731ed6a3eb4104f0eb6976d2913"
+        ],
+        "path": [
+          { "category_id": 100017, "category_name": "Thời Trang Nữ" },
+          { "category_id": 100113, "category_name": "Đồ Bầu" },
+          { "category_id": 100397, "category_name": "Bộ đồ bầu" }
+        ],
+        "category_id": 100397,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Quần bầu, Váy bầu",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024441,
+        "images": [
+          "https://cf.shopee.sg/file/9ee1afb9bf4aab497f3d23a4294d0abe",
+          "https://cf.shopee.sg/file/2b10e575616dba75e2a517799b90fc76",
+          "https://cf.shopee.sg/file/0a32bad14e57be8d70eae3f4fe85b308",
+          "https://cf.shopee.sg/file/5e432aaca47be571a19ef00d566566a7",
+          "https://cf.shopee.sg/file/68c3cadb1cdbbafc8082a8ee551286d7",
+          "https://cf.shopee.sg/file/2c9bc9c630d94134715fca04276591c2"
+        ],
+        "path": [
+          { "category_id": 100017, "category_name": "Thời Trang Nữ" },
+          { "category_id": 100113, "category_name": "Đồ Bầu" },
+          { "category_id": 100398, "category_name": "Quần bầu, Váy bầu" }
+        ],
+        "category_id": 100398,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Áo",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024441,
+        "images": [
+          "https://cf.shopee.sg/file/a326cc0ea7b3fbbdc48ebc1b5562bbd6",
+          "https://cf.shopee.sg/file/701f939e77e6ef662e844ec396af6b79",
+          "https://cf.shopee.sg/file/3a7558d072c309de828321bb003ab63c",
+          "https://cf.shopee.sg/file/654edd933812b573d5e4fce131bcc2e9",
+          "https://cf.shopee.sg/file/24fc3c0c9ff85b78e93ad238d56e3758",
+          "https://cf.shopee.sg/file/7de457568a409d9c0d279e1b450584fc"
+        ],
+        "path": [
+          { "category_id": 100017, "category_name": "Thời Trang Nữ" },
+          { "category_id": 100114, "category_name": "Đồ truyền thống" },
+          { "category_id": 100400, "category_name": "Áo" }
+        ],
+        "category_id": 100400,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Quần và chân váy",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024441,
+        "images": [
+          "https://cf.shopee.sg/file/c2eb83671f706fd90468f531c853439f",
+          "https://cf.shopee.sg/file/a4745019ba6a9744822deccced6f8bf7",
+          "https://cf.shopee.sg/file/b3e98b4fc70c20667136012989b48719",
+          "https://cf.shopee.sg/file/9cee411a1860699203fa8e0527555367",
+          "https://cf.shopee.sg/file/d4acc16c77dfbaa75fdccdb68810e7d8",
+          "https://cf.shopee.sg/file/0ce58b1b3599468907e5f7b71c4de6e5"
+        ],
+        "path": [
+          { "category_id": 100017, "category_name": "Thời Trang Nữ" },
+          { "category_id": 100114, "category_name": "Đồ truyền thống" },
+          { "category_id": 100401, "category_name": "Quần và chân váy" }
+        ],
+        "category_id": 100401,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Bộ",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024441,
+        "images": [
+          "https://cf.shopee.sg/file/428a301af1b8af6be70b6379ced6fb61",
+          "https://cf.shopee.sg/file/8b269af021b513f8dd64ae7ca44acbf7",
+          "https://cf.shopee.sg/file/b98156090ea600ac0652408a4042e08b",
+          "https://cf.shopee.sg/file/68a1b8f9cffb0513eca6ec751274154b",
+          "https://cf.shopee.sg/file/ef9e947e39ff4ea4f681fbd12982a189",
+          "https://cf.shopee.sg/file/32850d9d6f1e653b95e559797b4d19ff"
+        ],
+        "path": [
+          { "category_id": 100017, "category_name": "Thời Trang Nữ" },
+          { "category_id": 100114, "category_name": "Đồ truyền thống" },
+          { "category_id": 100402, "category_name": "Bộ" }
+        ],
+        "category_id": 100402,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Đầm",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024441,
+        "images": [
+          "https://cf.shopee.sg/file/6dfa53242c897870809865ba52085855",
+          "https://cf.shopee.sg/file/5398781cf8670420689e4abc60fc9b57",
+          "https://cf.shopee.sg/file/9d8a4adbdb84b93daccfb2b36e520526",
+          "https://cf.shopee.sg/file/923b6dcc4335157f829abb52052a0a31",
+          "https://cf.shopee.sg/file/d52a530cc135b3859b3c22888d209037",
+          "https://cf.shopee.sg/file/2972893c15bcf1b4539ba45b8d659f8d"
+        ],
+        "path": [
+          { "category_id": 100017, "category_name": "Thời Trang Nữ" },
+          { "category_id": 100114, "category_name": "Đồ truyền thống" },
+          { "category_id": 100403, "category_name": "Đầm" }
+        ],
+        "category_id": 100403,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Khác",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024441,
+        "images": [
+          "https://cf.shopee.sg/file/d9637b68452db8d51125311dda32a093",
+          "https://cf.shopee.sg/file/14b8f27d6a8689ddcfef36398f4191c6",
+          "https://cf.shopee.sg/file/4c2d770ce8ede834f6f3a8c3f9d498c0",
+          "https://cf.shopee.sg/file/b966e1d15b7407afc10a261f9e742554",
+          "https://cf.shopee.sg/file/45f761e3c52a2e4efdbe574f33b86b6d",
+          "https://cf.shopee.sg/file/c79f3812610372d2ff11e02ec507539b"
+        ],
+        "path": [
+          { "category_id": 100017, "category_name": "Thời Trang Nữ" },
+          { "category_id": 100114, "category_name": "Đồ truyền thống" },
+          { "category_id": 100404, "category_name": "Khác" }
+        ],
+        "category_id": 100404,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Đồ hóa trang",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024441,
+        "images": [
+          "https://cf.shopee.sg/file/35feb6250bda4c4a6cedcd63a1b998b9",
+          "https://cf.shopee.sg/file/52bd298af458abee10d7d225755316e3",
+          "https://cf.shopee.sg/file/50a83bcbdd78aced3fd2767cba4d9c67",
+          "https://cf.shopee.sg/file/374ee00392c63ef61806499508b552f2",
+          "https://cf.shopee.sg/file/57a1b278bb48b52fe294281af47eb9cf",
+          "https://cf.shopee.sg/file/740b80f66b447dccd97bbb842c48abf7"
+        ],
+        "path": [
+          { "category_id": 100017, "category_name": "Thời Trang Nữ" },
+          { "category_id": 100115, "category_name": "Đồ hóa trang" }
+        ],
+        "category_id": 100115,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Vải cotton",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024441,
+        "images": [
+          "https://cf.shopee.sg/file/24139730b98e566eb57243e3e833232d",
+          "https://cf.shopee.sg/file/cf4f9e26c2de19329227d99a3eca93f7",
+          "https://cf.shopee.sg/file/0f623e58613cdc250efcc0e8c03f67af"
+        ],
+        "path": [
+          { "category_id": 100017, "category_name": "Thời Trang Nữ" },
+          { "category_id": 100117, "category_name": "Vải" },
+          { "category_id": 100407, "category_name": "Vải cotton" }
+        ],
+        "category_id": 100407,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Vải len",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024442,
+        "images": [
+          "https://cf.shopee.sg/file/16de02ab0a8225c07e6f4a6a0922b68d",
+          "https://cf.shopee.sg/file/c3f27dda09c314a0409bd54e70ce96a4",
+          "https://cf.shopee.sg/file/1f1d45cfee0d29c3908b9e33cb54b98e",
+          "https://cf.shopee.sg/file/e1c996370822625e1935ab3ff357dc1c",
+          "https://cf.shopee.sg/file/97aade286518bce45e82d3ae1c78f516",
+          "https://cf.shopee.sg/file/f0128d272120ce46cc7eb7530f9ae64a"
+        ],
+        "path": [
+          { "category_id": 100017, "category_name": "Thời Trang Nữ" },
+          { "category_id": 100117, "category_name": "Vải" },
+          { "category_id": 100408, "category_name": "Vải len" }
+        ],
+        "category_id": 100408,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Vải nhung, lụa, satin",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024442,
+        "images": [
+          "https://cf.shopee.sg/file/961891b5bcfbd7a085ab5acd60968d77",
+          "https://cf.shopee.sg/file/811c55705bbe6bf582d5a1ad1d76ccd6",
+          "https://cf.shopee.sg/file/47293f533ed3d3b6d5dca78391f2fdf3",
+          "https://cf.shopee.sg/file/a0c3703ee7a785313d673fdad5950c10",
+          "https://cf.shopee.sg/file/1c7cfd1b008568beb310827a0e4cecff",
+          "https://cf.shopee.sg/file/5022869d0522cde7f6e2fd82a27dd143"
+        ],
+        "path": [
+          { "category_id": 100017, "category_name": "Thời Trang Nữ" },
+          { "category_id": 100117, "category_name": "Vải" },
+          { "category_id": 100409, "category_name": "Vải nhung, lụa, satin" }
+        ],
+        "category_id": 100409,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Vải da",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024442,
+        "images": [
+          "https://cf.shopee.sg/file/36b09415029a3150f27c29a22054fc4f",
+          "https://cf.shopee.sg/file/0a4322dfcddb9efdb98472f893434353",
+          "https://cf.shopee.sg/file/050481483405912a8787218621b46586",
+          "https://cf.shopee.sg/file/cbe8932868c8e42791697743fc5860aa",
+          "https://cf.shopee.sg/file/434ccecf9a2af56ba085185a6daf36d7",
+          "https://cf.shopee.sg/file/450b33c62db27311948aee33b8d60bd2"
+        ],
+        "path": [
+          { "category_id": 100017, "category_name": "Thời Trang Nữ" },
+          { "category_id": 100117, "category_name": "Vải" },
+          { "category_id": 100410, "category_name": "Vải da" }
+        ],
+        "category_id": 100410,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Vải nylon",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024442,
+        "images": [
+          "https://cf.shopee.sg/file/3b86ef34947772b70cc1ba71a1b39031",
+          "https://cf.shopee.sg/file/2b37fa960be6b62480cb4fe64a6c504d",
+          "https://cf.shopee.sg/file/68c0493b1ae4774af11c4218fd1c78b3",
+          "https://cf.shopee.sg/file/79ac5f3b8c5d26f2de873125338def2c",
+          "https://cf.shopee.sg/file/a9936c8ba7727f3848281003ecae4f0c",
+          "https://cf.shopee.sg/file/dc1f18f3fc8f2a7e4e4326a5cb8a22df"
+        ],
+        "path": [
+          { "category_id": 100017, "category_name": "Thời Trang Nữ" },
+          { "category_id": 100117, "category_name": "Vải" },
+          { "category_id": 100411, "category_name": "Vải nylon" }
+        ],
+        "category_id": 100411,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Vải denim",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024442,
+        "images": [
+          "https://cf.shopee.sg/file/76540e66f0db51f5a9c8a6bd8ce799f0",
+          "https://cf.shopee.sg/file/d47d5cbe046dbe0f9cea03910aadaf18",
+          "https://cf.shopee.sg/file/0b6caec65d952e3882020580f016b020",
+          "https://cf.shopee.sg/file/5c260c7d7c2ab741cadf993dda412c13",
+          "https://cf.shopee.sg/file/1a156e92d95448aec7add44148dfb242",
+          "https://cf.shopee.sg/file/df6a809373a83dc133cc7d18409f8743"
+        ],
+        "path": [
+          { "category_id": 100017, "category_name": "Thời Trang Nữ" },
+          { "category_id": 100117, "category_name": "Vải" },
+          { "category_id": 100412, "category_name": "Vải denim" }
+        ],
+        "category_id": 100412,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Vải canvas",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024442,
+        "images": [
+          "https://cf.shopee.sg/file/a273ba715e9a0bb0526f6e78e6c428eb",
+          "https://cf.shopee.sg/file/f0313acd051b5789da2a0d3a007d07af",
+          "https://cf.shopee.sg/file/2ab7df23637360db61a40e794dd3d754",
+          "https://cf.shopee.sg/file/3301cb533df4adfeb709db5797a2612f",
+          "https://cf.shopee.sg/file/eee13f92b0e8227b2ce765a6a825755f",
+          "https://cf.shopee.sg/file/b8dc2c4e3ec517d53d29ed1e09a1e36f"
+        ],
+        "path": [
+          { "category_id": 100017, "category_name": "Thời Trang Nữ" },
+          { "category_id": 100117, "category_name": "Vải" },
+          { "category_id": 100413, "category_name": "Vải canvas" }
+        ],
+        "category_id": 100413,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Tất",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024442,
+        "images": [
+          "https://cf.shopee.sg/file/569e9ccd894a57c15c385d45be7d56d4",
+          "https://cf.shopee.sg/file/dda4512bd738a4aea7208eee723e9add",
+          "https://cf.shopee.sg/file/0b503cb2461447e1b418dd705d33c13d",
+          "https://cf.shopee.sg/file/993f98e602f19c758c30b1572ff193c6",
+          "https://cf.shopee.sg/file/b2a431c3b21ad15dbb51e509ef0d0646",
+          "https://cf.shopee.sg/file/e46b8d1c881c8d15787d78a7332c1fa3"
+        ],
+        "path": [
+          { "category_id": 100017, "category_name": "Thời Trang Nữ" },
+          { "category_id": 100118, "category_name": "Vớ/ Tất" },
+          { "category_id": 100417, "category_name": "Tất" }
+        ],
+        "category_id": 100417,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Quần tất",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024442,
+        "images": [
+          "https://cf.shopee.sg/file/8e176b7f2c5e58bc21c646a0a35c5505",
+          "https://cf.shopee.sg/file/036c5fdfab1f2f914ab22b6a25e38531",
+          "https://cf.shopee.sg/file/d61560fc4677e67bbc4c48e617dca8fc",
+          "https://cf.shopee.sg/file/930703a7b7cf893b40aeefbf11573430",
+          "https://cf.shopee.sg/file/6fdf5fbdc8cce65fd2dd58bba38b0983",
+          "https://cf.shopee.sg/file/d9acc1119bfaad2e718d288b40fd5a31"
+        ],
+        "path": [
+          { "category_id": 100017, "category_name": "Thời Trang Nữ" },
+          { "category_id": 100118, "category_name": "Vớ/ Tất" },
+          { "category_id": 100418, "category_name": "Quần tất" }
+        ],
+        "category_id": 100418,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Quần jean",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024422,
+        "images": [
+          "https://cf.shopee.sg/file/bdaec2b86a299b9cc9ed94a1a08dae02",
+          "https://cf.shopee.sg/file/e841c883b437fec8812cd47366bc4b14",
+          "https://cf.shopee.sg/file/4cd9a443e704b74a421d9717be037d48",
+          "https://cf.shopee.sg/file/1d0a85b111d2ed781b3944849062bdab",
+          "https://cf.shopee.sg/file/9a8e9b9e46779b225609f8704dc856a5",
+          "https://cf.shopee.sg/file/ee7ac698f9e970092a54c6f4c256ed7f"
+        ],
+        "path": [
+          { "category_id": 100011, "category_name": "Thời Trang Nam" },
+          { "category_id": 100047, "category_name": "Quần jean" }
+        ],
+        "category_id": 100047,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Áo hoodie",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024422,
+        "images": [
+          "https://cf.shopee.sg/file/91740715a854b9addbbab6a0062cf135",
+          "https://cf.shopee.sg/file/8df1f3b9b5bad33621c828f2712747f0",
+          "https://cf.shopee.sg/file/4cc61c8be0d1b5a518027d26fa7af49d",
+          "https://cf.shopee.sg/file/8593d4cd4a3dfdcab09d2aa11b6d704a",
+          "https://cf.shopee.sg/file/4b6c8575dde6ce22358a72a2eea36d2d",
+          "https://cf.shopee.sg/file/186290ecdfc1481d4289cf4a24f72223"
+        ],
+        "path": [
+          { "category_id": 100011, "category_name": "Thời Trang Nam" },
+          { "category_id": 100048, "category_name": "Hoodie & Áo nỉ" },
+          { "category_id": 100226, "category_name": "Áo hoodie" }
+        ],
+        "category_id": 100226,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Áo nỉ",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024422,
+        "images": [
+          "https://cf.shopee.sg/file/249c8e29263fb5e53ae7d1a311f6ed5c",
+          "https://cf.shopee.sg/file/74963a9ed667c6c09150b58edb800621",
+          "https://cf.shopee.sg/file/1fb4a9d44a55571afa615399374fa760",
+          "https://cf.shopee.sg/file/ad4c83703b9f3fd92569fc750a13cd10",
+          "https://cf.shopee.sg/file/790cde785885597906a6fd824e6b812b",
+          "https://cf.shopee.sg/file/6873e1c1c06e41cca7b851c345058e5d"
+        ],
+        "path": [
+          { "category_id": 100011, "category_name": "Thời Trang Nam" },
+          { "category_id": 100048, "category_name": "Hoodie & Áo nỉ" },
+          { "category_id": 100227, "category_name": "Áo nỉ" }
+        ],
+        "category_id": 100227,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Áo len",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024422,
+        "images": [
+          "https://cf.shopee.sg/file/1d7f63e82e07d5fc4821e5e4b1b5517a",
+          "https://cf.shopee.sg/file/b26fdcc8a47b19794b5137966b00a448",
+          "https://cf.shopee.sg/file/fd878648d5054895d112fab88d1c7faa",
+          "https://cf.shopee.sg/file/fe074c7a79ebfd899e13f33dc58cff33",
+          "https://cf.shopee.sg/file/d84bc371c4b433f84f871fbe874e3881",
+          "https://cf.shopee.sg/file/cb5d0b1eba5045783b2eb1fe39c32ac0"
+        ],
+        "path": [
+          { "category_id": 100011, "category_name": "Thời Trang Nam" },
+          { "category_id": 100049, "category_name": "Áo len" }
+        ],
+        "category_id": 100049,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Áo khoác mùa đông & Áo choàng",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024423,
+        "images": [
+          "https://cf.shopee.sg/file/b9798aff58061f99af16d8d0cc71f330",
+          "https://cf.shopee.sg/file/b6d956cf9d7b1ef4d25a779a4c006b46",
+          "https://cf.shopee.sg/file/f265e76d03ac3af9eeadfcfa2e3c88ff",
+          "https://cf.shopee.sg/file/761b0ff1a3598699ae466da276783141",
+          "https://cf.shopee.sg/file/4b3e0daac9424dfd1d6c5973fd9066b5",
+          "https://cf.shopee.sg/file/284b64c11ca4a29229a796de872763f9"
+        ],
+        "path": [
+          { "category_id": 100011, "category_name": "Thời Trang Nam" },
+          { "category_id": 100050, "category_name": "Áo khoác" },
+          {
+            "category_id": 100229,
+            "category_name": "Áo khoác mùa đông & Áo choàng"
+          }
+        ],
+        "category_id": 100229,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Áo khoác",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024423,
+        "images": [
+          "https://cf.shopee.sg/file/1a3f39612593c78645d61818fa63fafb",
+          "https://cf.shopee.sg/file/02d934f8aa3936114c49c4c03eadc132",
+          "https://cf.shopee.sg/file/27e01e3d743c461eed30adde3df0490b",
+          "https://cf.shopee.sg/file/13d4c29456cb57becd752e9b5d487943",
+          "https://cf.shopee.sg/file/a6e02ba7f32a60182be7333615b8653a",
+          "https://cf.shopee.sg/file/5f1637e9a2732638d83effefe1136259"
+        ],
+        "path": [
+          { "category_id": 100011, "category_name": "Thời Trang Nam" },
+          { "category_id": 100050, "category_name": "Áo khoác" },
+          { "category_id": 100230, "category_name": "Áo khoác" }
+        ],
+        "category_id": 100230,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Áo khoác vest",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024423,
+        "images": [
+          "https://cf.shopee.sg/file/36205fe16988bf5cff7f2da0b13737ba",
+          "https://cf.shopee.sg/file/37580f01b32397669fd27c779bbc3d19",
+          "https://cf.shopee.sg/file/323ee18e6308b282e75317baed10ad75",
+          "https://cf.shopee.sg/file/a798dfe344af18c4c0f3224fa2f227aa",
+          "https://cf.shopee.sg/file/0b8f84b1e05111b964c42a4060ada790",
+          "https://cf.shopee.sg/file/52c2fa94b631ee1066fbcdd7ad16f209"
+        ],
+        "path": [
+          { "category_id": 100011, "category_name": "Thời Trang Nam" },
+          { "category_id": 100050, "category_name": "Áo khoác" },
+          { "category_id": 100231, "category_name": "Áo khoác vest" }
+        ],
+        "category_id": 100231,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Bộ Com lê",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024423,
+        "images": [
+          "https://cf.shopee.sg/file/e34ce30baad9efd78c1f80c089056484",
+          "https://cf.shopee.sg/file/d99ff9ab6eb63e9a411e817186abc966",
+          "https://cf.shopee.sg/file/3c55945afe54965e9b9e70178989f251",
+          "https://cf.shopee.sg/file/bde8c79bd94eadcebfe57a7eec00245a",
+          "https://cf.shopee.sg/file/dcddbd4572a5ea0ef582c0d44cd7e8c6",
+          "https://cf.shopee.sg/file/20addec21a875b04ad1774bf964d9e90"
+        ],
+        "path": [
+          { "category_id": 100011, "category_name": "Thời Trang Nam" },
+          { "category_id": 100051, "category_name": "Com lê" },
+          { "category_id": 100233, "category_name": "Bộ Com lê" }
+        ],
+        "category_id": 100233,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Áo Khoác & Blazer",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024423,
+        "images": [
+          "https://cf.shopee.sg/file/caa94504824bcbe84749000fb7efc2d4",
+          "https://cf.shopee.sg/file/27206304d4aa7edb7441ae7c6d71477b",
+          "https://cf.shopee.sg/file/2b02c1572f8ef1bdf31fc42ee986feec",
+          "https://cf.shopee.sg/file/30e8444d4c4d1d28dce5b70fb0437480",
+          "https://cf.shopee.sg/file/05d218b49ad8cf0e1f6d0a873a43d4de",
+          "https://cf.shopee.sg/file/501bdbc5464f8b2e44f31e6c158d7cdf"
+        ],
+        "path": [
+          { "category_id": 100011, "category_name": "Thời Trang Nam" },
+          { "category_id": 100051, "category_name": "Com lê" },
+          { "category_id": 100234, "category_name": "Áo Khoác & Blazer" }
+        ],
+        "category_id": 100234,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Quần âu",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024423,
+        "images": [
+          "https://cf.shopee.sg/file/51046512f6d0f468f310beb92f5ee626",
+          "https://cf.shopee.sg/file/0b9edb0a09e816952d86e3635c82cb93",
+          "https://cf.shopee.sg/file/90fef6b93b43626110f1c567ad0de4ec",
+          "https://cf.shopee.sg/file/132a52ec78c58ab9738569e63eefe996",
+          "https://cf.shopee.sg/file/b7675b5c7c5a9ce5909eabca93a6b7ec",
+          "https://cf.shopee.sg/file/6659b576a5e2c0c8cd101a7dbae1fb88"
+        ],
+        "path": [
+          { "category_id": 100011, "category_name": "Thời Trang Nam" },
+          { "category_id": 100051, "category_name": "Com lê" },
+          { "category_id": 100235, "category_name": "Quần âu" }
+        ],
+        "category_id": 100235,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Áo vest & Gi lê",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024423,
+        "images": [
+          "https://cf.shopee.sg/file/566651b0f5ade795e5e2fe1551f732b6",
+          "https://cf.shopee.sg/file/abb235f00254703cae9f4f1752804190",
+          "https://cf.shopee.sg/file/5a563adab71887dbc12d4bc4afe03ee2",
+          "https://cf.shopee.sg/file/71bd9198b6fd8c4b1ba9b2f741090456",
+          "https://cf.shopee.sg/file/caf3079b739d9216cd0e028e9e0a5899",
+          "https://cf.shopee.sg/file/a609efd33a0eaf2951d63903dbc16108"
+        ],
+        "path": [
+          { "category_id": 100011, "category_name": "Thời Trang Nam" },
+          { "category_id": 100051, "category_name": "Com lê" },
+          { "category_id": 100236, "category_name": "Áo vest & Gi lê" }
+        ],
+        "category_id": 100236,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Quần túi hộp",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024423,
+        "images": [
+          "https://cf.shopee.sg/file/8bfc6a774553c00573d3e309ff3465bb",
+          "https://cf.shopee.sg/file/29e80cda10bf0fd7d06b7639c759dcae",
+          "https://cf.shopee.sg/file/ff4ae0bf5580d25e133c0a5b5dbb0c46",
+          "https://cf.shopee.sg/file/40d84f6d7e86e77ddc58af2d3f0f000a",
+          "https://cf.shopee.sg/file/df1579be9dd5e7716359e31c3a0447a8",
+          "https://cf.shopee.sg/file/c27ed41cc8a1d898efcad37b5be07d9a"
+        ],
+        "path": [
+          { "category_id": 100011, "category_name": "Thời Trang Nam" },
+          { "category_id": 100052, "category_name": "Quần dài" },
+          { "category_id": 100238, "category_name": "Quần túi hộp" }
+        ],
+        "category_id": 100238,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Quần jogger",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024423,
+        "images": [
+          "https://cf.shopee.sg/file/19647727dacf26de36d17c75cd637f2e",
+          "https://cf.shopee.sg/file/92d71bff2be11452e0bcca1bf785c5d1",
+          "https://cf.shopee.sg/file/defd90b3db3477aeeac6052cf7ad9e33",
+          "https://cf.shopee.sg/file/d41ca087d22a65abc8f08f8a799e3e88",
+          "https://cf.shopee.sg/file/04d56ef9c173da1eeea3442e8a8aa33c",
+          "https://cf.shopee.sg/file/b35ad74fcd6ac93aedc5a18ba1446fbe"
+        ],
+        "path": [
+          { "category_id": 100011, "category_name": "Thời Trang Nam" },
+          { "category_id": 100052, "category_name": "Quần dài" },
+          { "category_id": 100239, "category_name": "Quần jogger" }
+        ],
+        "category_id": 100239,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Quần dài",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024423,
+        "images": [
+          "https://cf.shopee.sg/file/f2a2d456619beebfa11b4f165253c6bc",
+          "https://cf.shopee.sg/file/adf25c526f59f5da9a90dd98dd08ae70",
+          "https://cf.shopee.sg/file/f8e56e645a30d410c23fdd7b389f51a5",
+          "https://cf.shopee.sg/file/90505fbf28b74ac9dd2198e705906228",
+          "https://cf.shopee.sg/file/b7b2fe98fb2e126d9b4bc00bfc9016b6",
+          "https://cf.shopee.sg/file/4818d5bf186b87eac28af3cbf7325837"
+        ],
+        "path": [
+          { "category_id": 100011, "category_name": "Thời Trang Nam" },
+          { "category_id": 100052, "category_name": "Quần dài" },
+          { "category_id": 100240, "category_name": "Quần dài" }
+        ],
+        "category_id": 100240,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Quần đùi",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024423,
+        "images": [
+          "https://cf.shopee.sg/file/b3e4fbf6e709d9414f0a8304b88d2cd6",
+          "https://cf.shopee.sg/file/16344cfced15845dd585db937c2005a0",
+          "https://cf.shopee.sg/file/402ca3c0c5593ccbe878acea7ef9e3b2",
+          "https://cf.shopee.sg/file/f03c6b027f71d2c0f2a410e3b320aa36",
+          "https://cf.shopee.sg/file/c4632b3a3b8961660df9b36b1b66c181",
+          "https://cf.shopee.sg/file/2d4f8c96313f57180aa7fe36660191e4"
+        ],
+        "path": [
+          { "category_id": 100011, "category_name": "Thời Trang Nam" },
+          { "category_id": 100053, "category_name": "Quần đùi" }
+        ],
+        "category_id": 100053,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Áo sơ mi",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024424,
+        "images": [
+          "https://cf.shopee.sg/file/9af0fec7fd7283f5dfb4c9d72bc77093",
+          "https://cf.shopee.sg/file/26b8aea2191da9192d3e60e7d31fa601",
+          "https://cf.shopee.sg/file/aa8ac9d214ea5517c83e8043fe1a6606",
+          "https://cf.shopee.sg/file/61e6d042eb5e3a828406551fc387d8fa",
+          "https://cf.shopee.sg/file/9d934b9fe7c0f34970e0e1c4c35037f3",
+          "https://cf.shopee.sg/file/e79b4a793b751d028e041c96a36d943d"
+        ],
+        "path": [
+          { "category_id": 100011, "category_name": "Thời Trang Nam" },
+          { "category_id": 100054, "category_name": "Áo" },
+          { "category_id": 100242, "category_name": "Áo sơ mi" }
+        ],
+        "category_id": 100242,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Áo polo",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024424,
+        "images": [
+          "https://cf.shopee.sg/file/deb5b3eb1ac950bf2523315f1b055a59",
+          "https://cf.shopee.sg/file/5cc4474fd0e8a2acf969e8dcee279d43",
+          "https://cf.shopee.sg/file/f24854e78aed2b5c37b687e774a0d542",
+          "https://cf.shopee.sg/file/910a80fa22c067da8ba96dac5d26930d",
+          "https://cf.shopee.sg/file/a09f338e43431196b8d402347d3cb731",
+          "https://cf.shopee.sg/file/0966e719f4199fd1561c87db72e9b647"
+        ],
+        "path": [
+          { "category_id": 100011, "category_name": "Thời Trang Nam" },
+          { "category_id": 100054, "category_name": "Áo" },
+          { "category_id": 100243, "category_name": "Áo polo" }
+        ],
+        "category_id": 100243,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Áo thun",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024424,
+        "images": [
+          "https://cf.shopee.sg/file/d3a68b4ecb2e7c73471720d806ca7fd7",
+          "https://cf.shopee.sg/file/2bc8ffd11ea1b1b6e8f109b695f37692",
+          "https://cf.shopee.sg/file/11f8f57ffba7a0f9140735ab20a124ff",
+          "https://cf.shopee.sg/file/834326972e3ba7ad558e1c535c286397",
+          "https://cf.shopee.sg/file/896f6fc060746375a2c11c0a9d1fbd98",
+          "https://cf.shopee.sg/file/2fecc1a66dee73cde6cb16a01048d27e"
+        ],
+        "path": [
+          { "category_id": 100011, "category_name": "Thời Trang Nam" },
+          { "category_id": 100054, "category_name": "Áo" },
+          { "category_id": 100244, "category_name": "Áo thun" }
+        ],
+        "category_id": 100244,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Áo ba lỗ",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024424,
+        "images": [
+          "https://cf.shopee.sg/file/a823a0451e9204c2df55d90e344cb0fe",
+          "https://cf.shopee.sg/file/398f027cb7f601aac3fb3a2ca22fced6",
+          "https://cf.shopee.sg/file/60eeec40b2a97f8ba107b74662f939fc",
+          "https://cf.shopee.sg/file/d6736d4bcf0be1094e11f9aa93d5e710",
+          "https://cf.shopee.sg/file/06955319fdf23c835927f0d7c708c473",
+          "https://cf.shopee.sg/file/055b534c7f1d65ffdd2afad9cfd5d1df"
+        ],
+        "path": [
+          { "category_id": 100011, "category_name": "Thời Trang Nam" },
+          { "category_id": 100054, "category_name": "Áo" },
+          { "category_id": 100245, "category_name": "Áo ba lỗ" }
+        ],
+        "category_id": 100245,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Quần lót",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024424,
+        "images": [
+          "https://cf.shopee.sg/file/8b88f7881eb201101a90d8291812f3a0",
+          "https://cf.shopee.sg/file/ee1bb563bc4002f4d2c63a453025256a",
+          "https://cf.shopee.sg/file/ea2772e4e9a6d35d7d3985a3953c9104",
+          "https://cf.shopee.sg/file/db0c301b2ea75629cda81bf484017a8a",
+          "https://cf.shopee.sg/file/9715478f437c31d0ebf0eee23ac9a47b",
+          "https://cf.shopee.sg/file/21d8a0ce5d4ceec38b99f7bbbe580b6f"
+        ],
+        "path": [
+          { "category_id": 100011, "category_name": "Thời Trang Nam" },
+          { "category_id": 100055, "category_name": "Đồ lót" },
+          { "category_id": 100247, "category_name": "Quần lót" }
+        ],
+        "category_id": 100247,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Áo lót",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024424,
+        "images": [
+          "https://cf.shopee.sg/file/b921d19c19f5f162d7868d61c67a08c9",
+          "https://cf.shopee.sg/file/e8ff2cc9322268e682dc311b3b69145f",
+          "https://cf.shopee.sg/file/ebecba9e93cfeb3c883f2804f411e1a8",
+          "https://cf.shopee.sg/file/61c61793f9714d39d60d9fa461dd436d",
+          "https://cf.shopee.sg/file/55e505e0887bd6049b8cda5ffe0bc6ca",
+          "https://cf.shopee.sg/file/3d9629e3b9a4aa5c0dcfdcb236a463c9"
+        ],
+        "path": [
+          { "category_id": 100011, "category_name": "Thời Trang Nam" },
+          { "category_id": 100055, "category_name": "Đồ lót" },
+          { "category_id": 100248, "category_name": "Áo lót" }
+        ],
+        "category_id": 100248,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Đồ lót giữ nhiệt",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024424,
+        "images": [
+          "https://cf.shopee.sg/file/6f4725ca717daeb2125478dcc16fa13e",
+          "https://cf.shopee.sg/file/0bd7f4076a454757a6972f6b6239f5a5",
+          "https://cf.shopee.sg/file/e414e1dcde2727af6538344c136de4b3",
+          "https://cf.shopee.sg/file/4a8d36cbe94355b72f705929feb09bd0",
+          "https://cf.shopee.sg/file/35b768ed934c8893a0bde3f6557dac71",
+          "https://cf.shopee.sg/file/34b508a1698d663be32d600701217d4e"
+        ],
+        "path": [
+          { "category_id": 100011, "category_name": "Thời Trang Nam" },
+          { "category_id": 100055, "category_name": "Đồ lót" },
+          { "category_id": 100249, "category_name": "Đồ lót giữ nhiệt" }
+        ],
+        "category_id": 100249,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Đồ ngủ",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024424,
+        "images": [
+          "https://cf.shopee.sg/file/49bde2636783f82238ae6d3a3273e181",
+          "https://cf.shopee.sg/file/3553ef1def2837485ad0496f88b50003",
+          "https://cf.shopee.sg/file/39db8cbba516bc90cf703c643f694294",
+          "https://cf.shopee.sg/file/b3cca31369fc0e671b8c0407d4259787",
+          "https://cf.shopee.sg/file/9bc54de8f54c6777060f419cec2a0248",
+          "https://cf.shopee.sg/file/a3814732e74edce4f0bc5ce1534c7f0c"
+        ],
+        "path": [
+          { "category_id": 100011, "category_name": "Thời Trang Nam" },
+          { "category_id": 100056, "category_name": "Đồ ngủ" }
+        ],
+        "category_id": 100056,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Bộ",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024424,
+        "images": [
+          "https://cf.shopee.sg/file/5796ab73eaec8eea706a81d212027bb9",
+          "https://cf.shopee.sg/file/ccf7ed1496ad752e35cea792b98a9739",
+          "https://cf.shopee.sg/file/4288b3d23b71f72ec1ea4eb8be3859d9",
+          "https://cf.shopee.sg/file/616a01cb19e7fd06a785fd7ce5b4a4e1",
+          "https://cf.shopee.sg/file/4dd6710c6ddc26f837266c253ca36fb3",
+          "https://cf.shopee.sg/file/a1a0e927483e114acea5de70d302dd25"
+        ],
+        "path": [
+          { "category_id": 100011, "category_name": "Thời Trang Nam" },
+          { "category_id": 100057, "category_name": "Bộ" }
+        ],
+        "category_id": 100057,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Áo",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024424,
+        "images": [
+          "https://cf.shopee.sg/file/fc1faf688f0aba5426ca1dd49edf4cfb",
+          "https://cf.shopee.sg/file/d4438424f0ecf85d5c4addeece83476f",
+          "https://cf.shopee.sg/file/aa64fb42a1a7542bfb5f261375a742bc",
+          "https://cf.shopee.sg/file/cee07439b2a0571fb5d3c8db9d13a2b8",
+          "https://cf.shopee.sg/file/a8908efb4815f33c362d84257b5871cf",
+          "https://cf.shopee.sg/file/aa0fc578ba2dbde031981c494177aed8"
+        ],
+        "path": [
+          { "category_id": 100011, "category_name": "Thời Trang Nam" },
+          { "category_id": 100058, "category_name": "Trang phục truyền thống" },
+          { "category_id": 100251, "category_name": "Áo" }
+        ],
+        "category_id": 100251,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Quần",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024424,
+        "images": [
+          "https://cf.shopee.sg/file/89f439e5e4f49d36c47cb68bf1ba9526",
+          "https://cf.shopee.sg/file/d5585532b257144e49c6ea6319854557",
+          "https://cf.shopee.sg/file/f7a2d3f06b5c840570255db11219b49e",
+          "https://cf.shopee.sg/file/dd8aedcae5c7c0572a5698df14f3eacd",
+          "https://cf.shopee.sg/file/5813cdedea47fdb861140c511b7dd289",
+          "https://cf.shopee.sg/file/4b2519f55fd90a4be7eb3df984c22373"
+        ],
+        "path": [
+          { "category_id": 100011, "category_name": "Thời Trang Nam" },
+          { "category_id": 100058, "category_name": "Trang phục truyền thống" },
+          { "category_id": 100252, "category_name": "Quần" }
+        ],
+        "category_id": 100252,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Bộ",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024424,
+        "images": [
+          "https://cf.shopee.sg/file/1d7af621e59b4bd0827f0fe7e232bec7",
+          "https://cf.shopee.sg/file/1cf975fc56907edbcb06288bd7ea34c5",
+          "https://cf.shopee.sg/file/4b4ab305ab74adca30859a838534b965",
+          "https://cf.shopee.sg/file/973e7e878f37966ad02862f8a40af37f",
+          "https://cf.shopee.sg/file/ffe85d55ff5661ac805423d1fafef1ff",
+          "https://cf.shopee.sg/file/6fa43f1e4b388b4f2c1a1dc67a3461da"
+        ],
+        "path": [
+          { "category_id": 100011, "category_name": "Thời Trang Nam" },
+          { "category_id": 100058, "category_name": "Trang phục truyền thống" },
+          { "category_id": 100253, "category_name": "Bộ" }
+        ],
+        "category_id": 100253,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Đồ hóa trang",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024425,
+        "images": [
+          "https://cf.shopee.sg/file/8f8999798303c48ce0d5e22912ad6cda",
+          "https://cf.shopee.sg/file/052f13e41d64640b1624bc9e85ed1d66",
+          "https://cf.shopee.sg/file/78e197f81427967b0492c86a9175fa5d",
+          "https://cf.shopee.sg/file/063fd768f95545dd698d64d3a809fc65",
+          "https://cf.shopee.sg/file/a40002f8fb579303159e4ecf851fd74c",
+          "https://cf.shopee.sg/file/9f79fc8fdc3f8eec4a598c31f662b0ed"
+        ],
+        "path": [
+          { "category_id": 100011, "category_name": "Thời Trang Nam" },
+          { "category_id": 100059, "category_name": "Đồ hóa trang" }
+        ],
+        "category_id": 100059,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Trang phục ngành nghề",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024425,
+        "images": [
+          "https://cf.shopee.sg/file/d4da9bca27f2212c6a31b050425c9f73",
+          "https://cf.shopee.sg/file/da80bda372236923f49e6c3cda404d4b",
+          "https://cf.shopee.sg/file/91b64e7aa03858267041ebfc223ee00c",
+          "https://cf.shopee.sg/file/0cd4856b4bc35d177f471b714a71375a",
+          "https://cf.shopee.sg/file/67d59b4832a2e8386f24f38b802ef2d8",
+          "https://cf.shopee.sg/file/01f9407c990cb4c4c2ef876c2a23d038"
+        ],
+        "path": [
+          { "category_id": 100011, "category_name": "Thời Trang Nam" },
+          { "category_id": 100060, "category_name": "Trang phục ngành nghề" }
+        ],
+        "category_id": 100060,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Vớ/ Tất",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024425,
+        "images": [
+          "https://cf.shopee.sg/file/c9537212e1dcd258eeb4e88ff0e4627b",
+          "https://cf.shopee.sg/file/8c893d8d14fa2c671ece7fd73c5e3871",
+          "https://cf.shopee.sg/file/1c63699d0ef435070a380cb3c957482e",
+          "https://cf.shopee.sg/file/a1321a6512d8499eabdb923cbbbfdcf7",
+          "https://cf.shopee.sg/file/69dcc7dcbd418d22f033c0e9af29cb33",
+          "https://cf.shopee.sg/file/1d6fa287fbbf6438143768ba5a727e17"
+        ],
+        "path": [
+          { "category_id": 100011, "category_name": "Thời Trang Nam" },
+          { "category_id": 100062, "category_name": "Vớ/ Tất" }
+        ],
+        "category_id": 100062,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Mặt nạ cho tay",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024459,
+        "images": [
+          "https://cf.shopee.sg/file/1a09f50653f652a5f46ad2ca177f57a7",
+          "https://cf.shopee.sg/file/4a9e28772d35aeff392d96d54344e1f5",
+          "https://cf.shopee.sg/file/333c467335fa504fa6d0568c54015388",
+          "https://cf.shopee.sg/file/064f4402a82de1e6d7a71ef196f62128",
+          "https://cf.shopee.sg/file/d217326df571b7eb8d4e7f0c848e06de",
+          "https://cf.shopee.sg/file/cbb1cfd9a2fea67cc6bfb5254bddbb85"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          {
+            "category_id": 100658,
+            "category_name": "Chăm sóc tay, chân & móng"
+          },
+          { "category_id": 100865, "category_name": "Chăm sóc tay" },
+          { "category_id": 101607, "category_name": "Mặt nạ cho tay" }
+        ],
+        "category_id": 101607,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Kem dưỡng, dầu dưỡng & sữa dưỡng",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024459,
+        "images": [
+          "https://cf.shopee.sg/file/a9c6fac4356f976faf87b0b3575c1a44",
+          "https://cf.shopee.sg/file/e61d6002aa38c9a834267747e28ebf9e",
+          "https://cf.shopee.sg/file/0cbbd2b855097c1056a1675459ec310f",
+          "https://cf.shopee.sg/file/2d12ff7b2e6c15c3d6463be3905b0843",
+          "https://cf.shopee.sg/file/83556c898962c14ea8d4365698f13764",
+          "https://cf.shopee.sg/file/065bbd60ca0f4a33992a8219254de708"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          {
+            "category_id": 100658,
+            "category_name": "Chăm sóc tay, chân & móng"
+          },
+          { "category_id": 100865, "category_name": "Chăm sóc tay" },
+          {
+            "category_id": 101608,
+            "category_name": "Kem dưỡng, dầu dưỡng & sữa dưỡng"
+          }
+        ],
+        "category_id": 101608,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Xà phòng rửa tay",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024459,
+        "images": [
+          "https://cf.shopee.sg/file/7525a799b79edf56a8e7b3499f277086",
+          "https://cf.shopee.sg/file/3cac8645268f9799cd66e074eb3b59e0",
+          "https://cf.shopee.sg/file/d7f0a324a8e00b4030440e5032a863d9",
+          "https://cf.shopee.sg/file/57931d29b5b855fb0552462637a4bbcb",
+          "https://cf.shopee.sg/file/eed058499d117baaac71836cb9d72ba5",
+          "https://cf.shopee.sg/file/c611c17fa14676f7a4213089cd4030e8"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          {
+            "category_id": 100658,
+            "category_name": "Chăm sóc tay, chân & móng"
+          },
+          { "category_id": 100865, "category_name": "Chăm sóc tay" },
+          { "category_id": 101609, "category_name": "Xà phòng rửa tay" }
+        ],
+        "category_id": 101609,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Khử mùi hôi chân",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024459,
+        "images": [
+          "https://cf.shopee.sg/file/7de12362fc38b738fd71a32ba4d4c611",
+          "https://cf.shopee.sg/file/49d7ea322f4bcc19c06f8d82381947ca",
+          "https://cf.shopee.sg/file/c2892951a8e7694f4c40b5b9e90926a1",
+          "https://cf.shopee.sg/file/ec9732829a0fed2a72c89f06274b4202",
+          "https://cf.shopee.sg/file/d1d8b97ca81058fdaccf123f7f83e94c",
+          "https://cf.shopee.sg/file/60db72ad3e1d30a321eb75a308f57bf6"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          {
+            "category_id": 100658,
+            "category_name": "Chăm sóc tay, chân & móng"
+          },
+          { "category_id": 100866, "category_name": "Chăm sóc chân" },
+          { "category_id": 101611, "category_name": "Khử mùi hôi chân" }
+        ],
+        "category_id": 101611,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Mặt nạ cho chân",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024459,
+        "images": [
+          "https://cf.shopee.sg/file/2eda49e479c91abb87ed639fd4f6d9e9",
+          "https://cf.shopee.sg/file/514e04c408a2476aab26607c212fbfb3",
+          "https://cf.shopee.sg/file/bae640aeae61e2afaa6a128d95879520",
+          "https://cf.shopee.sg/file/70ac7b6958142c3d357e7405fbcfc023",
+          "https://cf.shopee.sg/file/fd2ded814623213cb40c722603dc2cb8",
+          "https://cf.shopee.sg/file/06539c22cdcb6c35d405f8b889e97c9d"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          {
+            "category_id": 100658,
+            "category_name": "Chăm sóc tay, chân & móng"
+          },
+          { "category_id": 100866, "category_name": "Chăm sóc chân" },
+          { "category_id": 101612, "category_name": "Mặt nạ cho chân" }
+        ],
+        "category_id": 101612,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Kem dưỡng, dầu dưỡng & sữa dưỡng",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024459,
+        "images": [
+          "https://cf.shopee.sg/file/9bf8d324afb6d7a3b2d1323352768a22",
+          "https://cf.shopee.sg/file/f8c1ab0c0728ab7f6618350f657a7f39",
+          "https://cf.shopee.sg/file/8592b609dc5702de7f575ad3a45459f6",
+          "https://cf.shopee.sg/file/7ab17066704fdb00567435318526f753",
+          "https://cf.shopee.sg/file/a920bd270ebc2ccb134cbb39a5042860",
+          "https://cf.shopee.sg/file/e8d40fc7469857d633f1a5283b7d55c5"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          {
+            "category_id": 100658,
+            "category_name": "Chăm sóc tay, chân & móng"
+          },
+          { "category_id": 100866, "category_name": "Chăm sóc chân" },
+          {
+            "category_id": 101613,
+            "category_name": "Kem dưỡng, dầu dưỡng & sữa dưỡng"
+          }
+        ],
+        "category_id": 101613,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Khác",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024459,
+        "images": [
+          "https://cf.shopee.sg/file/644869691f4241adac08132958ce23fa",
+          "https://cf.shopee.sg/file/9bf22d4703e9e1fa83316e8947173b87",
+          "https://cf.shopee.sg/file/b8f5f999af26e195c07aa645899146ec",
+          "https://cf.shopee.sg/file/35a73068d1196ca1bd771e06a73bc35d",
+          "https://cf.shopee.sg/file/71415788152760a4258e0d56169a523a",
+          "https://cf.shopee.sg/file/8080911fed0864e897290ae9b9a57f4c"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          {
+            "category_id": 100658,
+            "category_name": "Chăm sóc tay, chân & móng"
+          },
+          { "category_id": 100866, "category_name": "Chăm sóc chân" },
+          { "category_id": 101614, "category_name": "Khác" }
+        ],
+        "category_id": 101614,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Sơn nền & sơn bóng",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024459,
+        "images": [
+          "https://cf.shopee.sg/file/a6b6a372b7c91f4a81dba4d14f9d3873",
+          "https://cf.shopee.sg/file/7eccce7252e48dc99cdae91847db2ced",
+          "https://cf.shopee.sg/file/c61c92d0d97c794f7cea1526dab87653",
+          "https://cf.shopee.sg/file/58760c88dea87052609d65bde8859459",
+          "https://cf.shopee.sg/file/9a5b1e08939f61ca5125f7ba6ec92baa",
+          "https://cf.shopee.sg/file/7929797babca48f551f9dfbfd9f64e95"
+        ],
+        "path": [
+          { "category_id": 100630, "category_name": "Sắc Đẹp" },
+          {
+            "category_id": 100658,
+            "category_name": "Chăm sóc tay, chân & móng"
+          },
+          { "category_id": 100867, "category_name": "Chăm sóc móng" },
+          { "category_id": 101615, "category_name": "Sơn nền & sơn bóng" }
+        ],
+        "category_id": 101615,
+        "hl_category_name": ""
+      }
+    ]
+  }
+}

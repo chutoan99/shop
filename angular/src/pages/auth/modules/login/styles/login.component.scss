@@ -1,0 +1,233 @@
+$color_1: #fff;
+$color_2: #666;
+$font-family_1: 'Poppins', sans-serif;
+
+@keyframes animate {
+	0%,
+	100% {
+		transform: translateY(-40px);
+	}
+	50% {
+		transform: translateY(40px);
+	}
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: $font-family_1;
+}
+body {
+	overflow: hidden;
+}
+section {
+	display: flex;
+	min-height: 100%;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(to bottom, #f7f7fe, #dff1ff);
+	.colour {
+		position: absolute;
+		filter: blur(150px);
+		&:nth-child(1) {
+			top: -350px;
+			width: 600px;
+			height: 600px;
+			background: #bf4ad4;
+		}
+		&:nth-child(2) {
+			left: 100px;
+			width: 500px;
+			height: 500px;
+			bottom: -150px;
+			background: #ffa500;
+		}
+		&:nth-child(3) {
+			right: 100px;
+			bottom: 50px;
+			width: 300px;
+			height: 300px;
+			background: #2b67f3;
+		}
+	}
+}
+.box {
+	position: relative;
+	.square {
+		position: absolute;
+		border-radius: 10px;
+		backdrop-filter: blur(5px);
+		animation-delay: calc(-1s * var(--i));
+		animation: animate 10s linear infinite;
+		background: rgba(255, 255, 255, 0.1);
+		box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+		border: 1px solid rgba(255, 255, 255, 0.5);
+		border-right: 1px solid rgba(255, 255, 255, 0.2);
+		border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+		&:nth-child(1) {
+			top: -50px;
+			left: -60px;
+			width: 100px;
+			height: 100px;
+		}
+		&:nth-child(2) {
+			z-index: 2;
+			top: 150px;
+			left: -100px;
+			width: 120px;
+			height: 120px;
+		}
+		&:nth-child(3) {
+			z-index: 2;
+			width: 80px;
+			height: 80px;
+			right: -50px;
+			bottom: -60px;
+		}
+		&:nth-child(4) {
+			left: 100px;
+			width: 50px;
+			height: 50px;
+			bottom: -80px;
+		}
+		&:nth-child(5) {
+			top: -80px;
+			left: 140px;
+			width: 60px;
+			height: 60px;
+		}
+	}
+}
+.container {
+	width: 400px;
+	display: flex;
+	min-height: 400px;
+	position: relative;
+	border-radius: 10px;
+	align-items: center;
+	justify-content: center;
+	backdrop-filter: blur(5px);
+	background: rgba(255, 255, 255, 0.1);
+	box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	border-right: 1px solid rgba(255, 255, 255, 0.2);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.form {
+	width: 100%;
+	height: 100%;
+	padding: 40px;
+	position: relative;
+	h2 {
+		color: $color_1;
+		font-size: 24px;
+		font-weight: 600;
+		position: relative;
+		letter-spacing: 1px;
+		margin-bottom: 40px;
+		&::before {
+			left: 0;
+			width: 80px;
+			height: 4px;
+			content: '';
+			bottom: -10px;
+			background: #fff;
+			position: absolute;
+		}
+	}
+	.input__box {
+		width: 100%;
+		margin-top: 20px;
+		input {
+			width: 100%;
+			color: $color_1;
+			border: none;
+			outline: none;
+			font-size: 16px;
+			padding: 10px 20px;
+			letter-spacing: 1px;
+			border-radius: 35px;
+			background: rgba(255, 255, 255, 0.2);
+			border: 1px solid rgba(255, 255, 255, 0.5);
+			box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+			border-right: 1px solid rgba(255, 255, 255, 0.2);
+			border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+		}
+		input[type='submit'] {
+			color: $color_2;
+			cursor: pointer;
+			background: #fff;
+			max-width: 100px;
+			font-weight: 600;
+			margin-bottom: 20px;
+		}
+	}
+	&::placeholder {
+		color: $color_1;
+	}
+}
+.forget {
+	color: $color_1;
+	margin-top: 5px;
+	a {
+		color: $color_1;
+		font-weight: 600;
+		text-decoration: none;
+	}
+}
+
+.side-menu {
+	width: 407px;
+	height: 100%;
+	padding-top: 50px;
+	padding-bottom: 10px;
+	padding-right: 15px;
+	padding-left: 15px;
+	box-sizing: border-box;
+	display: flex;
+	flex-flow: column nowrap;
+	background-color: rgba(255, 255, 255, 0.7);
+	position: absolute;
+	transition: 0.5s;
+	z-index: 100000000000;
+}
+
+.side-menu label {
+	position: absolute;
+	width: 40px;
+	height: 90px;
+	border-radius: 0 10px 10px 0;
+	background-color: rgba(255, 255, 255, 0.5);
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+	border-right: 1px solid rgba(255, 255, 255, 0.2);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+	backdrop-filter: blur(5px);
+	right: -40px;
+	top: 0;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	line-height: 80px;
+	text-align: center;
+	font-size: 30px;
+	z-index: 100000000000;
+}
+#side-menu-switch {
+	position: absolute;
+	opacity: 0;
+}
+#side-menu-switch:checked + .side-menu {
+	transform: translateX(0%);
+}
+#side-menu-switch:checked + .side-menu label .fas {
+	transform: scaleX(1);
+}
+
+#side-menu-switch + .side-menu {
+	transform: translateX(-100%);
+}
+#side-menu-switch + .side-menu label .fas {
+	transform: scaleX(-1);
+}

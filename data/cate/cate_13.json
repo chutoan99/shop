@@ -1,0 +1,2191 @@
+{
+  "msg": "success",
+  "code": 0,
+  "data": {
+    "total": 1341,
+    "global_cats": [
+      {
+        "category_name": "HUD, Đồng hồ tốc độ, Đồng hồ số",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024521,
+        "images": [
+          "https://cf.shopee.sg/file/82f255fe9a67941cbb611905ed7af351",
+          "https://cf.shopee.sg/file/f1bf0c8405e01b2088d764e882c1f055",
+          "https://cf.shopee.sg/file/43246289aca6333864576fbb2b5307f1",
+          "https://cf.shopee.sg/file/e1dc4e306b702480cb98358cfca5b445",
+          "https://cf.shopee.sg/file/7ace34153683c7bf879d72f888a4eca9",
+          "https://cf.shopee.sg/file/22898b7e3d17d9787bde4b7c64c1823a"
+        ],
+        "path": [
+          { "category_id": 100640, "category_name": "Ô tô" },
+          { "category_id": 100747, "category_name": "Phụ kiện nội thất ô tô" },
+          {
+            "category_id": 101430,
+            "category_name": "HUD, Đồng hồ tốc độ, Đồng hồ số"
+          }
+        ],
+        "category_id": 101430,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Khác",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024521,
+        "images": [
+          "https://cf.shopee.sg/file/245f4bd94f28216fcda50d9ae0118cad",
+          "https://cf.shopee.sg/file/f42fe60380b4d9b164d732fed967caff",
+          "https://cf.shopee.sg/file/d5894991ae83a39296720ea7b84b1880",
+          "https://cf.shopee.sg/file/0aff4b0ec07382b6465300fd991e561e",
+          "https://cf.shopee.sg/file/6fdba2d73269b2fbdfe169929bd97a71",
+          "https://cf.shopee.sg/file/3040d7a7b1131a6422268fef98654ac5"
+        ],
+        "path": [
+          { "category_id": 100640, "category_name": "Ô tô" },
+          { "category_id": 100747, "category_name": "Phụ kiện nội thất ô tô" },
+          { "category_id": 101431, "category_name": "Khác" }
+        ],
+        "category_id": 101431,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Nẹp viền",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024522,
+        "images": [
+          "https://cf.shopee.sg/file/fe04f323c561b3dc81fe663bdb8a673e",
+          "https://cf.shopee.sg/file/4dae4e8e4b44304687c3b98a4f1a96cb",
+          "https://cf.shopee.sg/file/3706b3051f61027d6885e77038ac27b1",
+          "https://cf.shopee.sg/file/fe6446b1ed44184d94abcd3e3ce332d9",
+          "https://cf.shopee.sg/file/6aae1a969b369304bcb9d8b00e18b56f",
+          "https://cf.shopee.sg/file/68690bc6502ad74ddaa90b80ad0c2855"
+        ],
+        "path": [
+          { "category_id": 100640, "category_name": "Ô tô" },
+          {
+            "category_id": 100748,
+            "category_name": "Phụ kiện ngoại thất ô tô"
+          },
+          { "category_id": 101432, "category_name": "Nẹp viền" }
+        ],
+        "category_id": 101432,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Ăng-ten thu phát sóng",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024522,
+        "images": [
+          "https://cf.shopee.sg/file/5077d27843c78841d737326a32bdba69",
+          "https://cf.shopee.sg/file/180a59694212ec194d5c68a554d1a499",
+          "https://cf.shopee.sg/file/e81fd5a0d16058488bebb794ed0f0185",
+          "https://cf.shopee.sg/file/5f51653b9a75948bea826880a3098aa8",
+          "https://cf.shopee.sg/file/4147a39cd376efe4f20f304dadfe4acf",
+          "https://cf.shopee.sg/file/8f84e9b7d1b986ae2b06c3ece01bd620"
+        ],
+        "path": [
+          { "category_id": 100640, "category_name": "Ô tô" },
+          {
+            "category_id": 100748,
+            "category_name": "Phụ kiện ngoại thất ô tô"
+          },
+          { "category_id": 101433, "category_name": "Ăng-ten thu phát sóng" }
+        ],
+        "category_id": 101433,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Bạt phủ",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024522,
+        "images": [
+          "https://cf.shopee.sg/file/954a83f52cea07c8254951a6b4bde07a",
+          "https://cf.shopee.sg/file/5079f7e69fa66cbcd33803b20a493cf6",
+          "https://cf.shopee.sg/file/3566cc64d5fb12851e855bc8f3ec7d18",
+          "https://cf.shopee.sg/file/6f76ff27e8ab4810b6c803c74039c710",
+          "https://cf.shopee.sg/file/828dfbcc33708a604547794a28f55ecd",
+          "https://cf.shopee.sg/file/182e48157e2f93186f53ce3eafb9bc74"
+        ],
+        "path": [
+          { "category_id": 100640, "category_name": "Ô tô" },
+          {
+            "category_id": 100748,
+            "category_name": "Phụ kiện ngoại thất ô tô"
+          },
+          { "category_id": 101434, "category_name": "Bạt phủ" }
+        ],
+        "category_id": 101434,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Hình dán, logo, huy hiệu",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024522,
+        "images": [
+          "https://cf.shopee.sg/file/4c704f4d14bfd3de4a49b68f66d239f9",
+          "https://cf.shopee.sg/file/0f1dc88d26c6289e50d6492bd13cb57f",
+          "https://cf.shopee.sg/file/770aafbefd22ec8c7c737cfba2edd5a7",
+          "https://cf.shopee.sg/file/4de931fede2d44e7cd35fdb0b57551f5",
+          "https://cf.shopee.sg/file/06d72ed3da20be8bf2addc9c9912edf6",
+          "https://cf.shopee.sg/file/98be4f769655c841355575023cf42e82"
+        ],
+        "path": [
+          { "category_id": 100640, "category_name": "Ô tô" },
+          {
+            "category_id": 100748,
+            "category_name": "Phụ kiện ngoại thất ô tô"
+          },
+          { "category_id": 101435, "category_name": "Hình dán, logo, huy hiệu" }
+        ],
+        "category_id": 101435,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Tấm chắn bùn",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024522,
+        "images": [
+          "https://cf.shopee.sg/file/7511a1db835c426dfef3081630f02af3",
+          "https://cf.shopee.sg/file/40d9b5bcd2bb9af5023b7898c1cf1103",
+          "https://cf.shopee.sg/file/52c5df42011f15a51c96e58ec0226ef1",
+          "https://cf.shopee.sg/file/24ff01f2cf0931380a052016f42340bc",
+          "https://cf.shopee.sg/file/a9937bb8151af0f4ecbafc9c6772929f",
+          "https://cf.shopee.sg/file/1abe7a18a4b414c2e64b7a30e35ab5b0"
+        ],
+        "path": [
+          { "category_id": 100640, "category_name": "Ô tô" },
+          {
+            "category_id": 100748,
+            "category_name": "Phụ kiện ngoại thất ô tô"
+          },
+          { "category_id": 101436, "category_name": "Tấm chắn bùn" }
+        ],
+        "category_id": 101436,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Nẹp cửa chống trầy",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024522,
+        "images": [
+          "https://cf.shopee.sg/file/e62ff84f6c5b80301bf6cf8e78b626e1",
+          "https://cf.shopee.sg/file/5e95d3786110709ad815c7261c3e1339",
+          "https://cf.shopee.sg/file/b28045676c57f6b1bd425b9a342cb45b",
+          "https://cf.shopee.sg/file/cc9cd04756df77f5f9518bddddaae1ca",
+          "https://cf.shopee.sg/file/3d3a92c3c8e88e0515e0cc54e7e8c35a",
+          "https://cf.shopee.sg/file/015a57f7aec10f26cc02dc23ecc287ff"
+        ],
+        "path": [
+          { "category_id": 100640, "category_name": "Ô tô" },
+          {
+            "category_id": 100748,
+            "category_name": "Phụ kiện ngoại thất ô tô"
+          },
+          { "category_id": 101437, "category_name": "Nẹp cửa chống trầy" }
+        ],
+        "category_id": 101437,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Rãnh thoát nước mưa",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024522,
+        "images": [
+          "https://cf.shopee.sg/file/66207a2646dd783f3d934251f7a1c097",
+          "https://cf.shopee.sg/file/e1c6301905d86d49b41c96ed1661c997",
+          "https://cf.shopee.sg/file/117816e87e6ad52c6fda0ce22f77712d",
+          "https://cf.shopee.sg/file/a063392f4ecb6111a15f0d73b65f0a08",
+          "https://cf.shopee.sg/file/d1ac624b98d4fec98fc4d15fb8889d6c",
+          "https://cf.shopee.sg/file/2d2aaac8ce66efe273ddc390d77c176a"
+        ],
+        "path": [
+          { "category_id": 100640, "category_name": "Ô tô" },
+          {
+            "category_id": 100748,
+            "category_name": "Phụ kiện ngoại thất ô tô"
+          },
+          { "category_id": 101438, "category_name": "Rãnh thoát nước mưa" }
+        ],
+        "category_id": 101438,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Còi & phụ kiện",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024522,
+        "images": [
+          "https://cf.shopee.sg/file/10a4a1ead3043d84613e886a4b4bab31",
+          "https://cf.shopee.sg/file/1353c231221681d06524eca115aacce5",
+          "https://cf.shopee.sg/file/0358f279a7d329a51c59f589b4593151",
+          "https://cf.shopee.sg/file/a3e05eedea84194866bb3b8a3959c195",
+          "https://cf.shopee.sg/file/9dc8d4c627fad32a388846d6da3d9dd5",
+          "https://cf.shopee.sg/file/0d5a0872c8474094bdb1041116a2946c"
+        ],
+        "path": [
+          { "category_id": 100640, "category_name": "Ô tô" },
+          {
+            "category_id": 100748,
+            "category_name": "Phụ kiện ngoại thất ô tô"
+          },
+          { "category_id": 101439, "category_name": "Còi & phụ kiện" }
+        ],
+        "category_id": 101439,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Gương & Phụ kiện",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024522,
+        "images": [
+          "https://cf.shopee.sg/file/2c3890096f44513d4c769728748feb9c",
+          "https://cf.shopee.sg/file/687a72a7fdc5026336dece3fb8e71af0",
+          "https://cf.shopee.sg/file/0eec6272ce68e7f9c5034f35dc8b1018",
+          "https://cf.shopee.sg/file/0049b0923a47dc7cdc66432873487310",
+          "https://cf.shopee.sg/file/934778dc029197eb3099ff7a5ab0520d",
+          "https://cf.shopee.sg/file/1c2319098d4c6f7923b1ee8b474e8900"
+        ],
+        "path": [
+          { "category_id": 100640, "category_name": "Ô tô" },
+          {
+            "category_id": 100748,
+            "category_name": "Phụ kiện ngoại thất ô tô"
+          },
+          { "category_id": 101440, "category_name": "Gương & Phụ kiện" }
+        ],
+        "category_id": 101440,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Phụ kiện biển số",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024522,
+        "images": [
+          "https://cf.shopee.sg/file/c63c474d95162c44635b4353304f3bb0",
+          "https://cf.shopee.sg/file/fdc45800403ebd8ae6571276712f8207",
+          "https://cf.shopee.sg/file/90e484b0b28a17b5df8b55ea199451f5",
+          "https://cf.shopee.sg/file/7634e13d55d7cd30f632a0aab67e92ed",
+          "https://cf.shopee.sg/file/8f3f2f5574e51a93b2915af7f1d670c1",
+          "https://cf.shopee.sg/file/52e7f62b6fa60945c8a6a12b4ac322c4"
+        ],
+        "path": [
+          { "category_id": 100640, "category_name": "Ô tô" },
+          {
+            "category_id": 100748,
+            "category_name": "Phụ kiện ngoại thất ô tô"
+          },
+          { "category_id": 101441, "category_name": "Phụ kiện biển số" }
+        ],
+        "category_id": 101441,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Khác",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024522,
+        "images": [
+          "https://cf.shopee.sg/file/61ee6becdcddcc4b8b6363b4ead06e52",
+          "https://cf.shopee.sg/file/eda50ea3a31a6ac41dda81513e18d1d5",
+          "https://cf.shopee.sg/file/aa0cd330d057bb7b7c920ad166200c77",
+          "https://cf.shopee.sg/file/de8b160ec99f6b2ddcee40eb9ea868c1",
+          "https://cf.shopee.sg/file/9beb2b92e269337b87eddea5da245081",
+          "https://cf.shopee.sg/file/172670d32d3acb33d04e772d8cfea211"
+        ],
+        "path": [
+          { "category_id": 100640, "category_name": "Ô tô" },
+          {
+            "category_id": 100748,
+            "category_name": "Phụ kiện ngoại thất ô tô"
+          },
+          { "category_id": 101442, "category_name": "Khác" }
+        ],
+        "category_id": 101442,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Hệ thống khung xe và giảm sóc",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024522,
+        "images": [
+          "https://cf.shopee.sg/file/980f2eddf594499976a54bd7def46537",
+          "https://cf.shopee.sg/file/1b5530079752a8eca0aebf96563c4dd9",
+          "https://cf.shopee.sg/file/d698c05fd6d47fc5bedffc9805fd615a"
+        ],
+        "path": [
+          { "category_id": 100640, "category_name": "Ô tô" },
+          { "category_id": 100749, "category_name": "Phụ tùng ô tô" },
+          {
+            "category_id": 101443,
+            "category_name": "Hệ thống khung xe và giảm sóc"
+          }
+        ],
+        "category_id": 101443,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Cần gạt nước & vòng đệm kính chắn gió",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024522,
+        "images": [
+          "https://cf.shopee.sg/file/2d0937b15982bf0a952216bd6aa902d5",
+          "https://cf.shopee.sg/file/cb0dab02373b907c027e7a1495b6a6b5",
+          "https://cf.shopee.sg/file/632a2b46d664a7a5204da160b110d23c"
+        ],
+        "path": [
+          { "category_id": 100640, "category_name": "Ô tô" },
+          { "category_id": 100749, "category_name": "Phụ tùng ô tô" },
+          {
+            "category_id": 101444,
+            "category_name": "Cần gạt nước & vòng đệm kính chắn gió"
+          }
+        ],
+        "category_id": 101444,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Hệ thống khí xả",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024522,
+        "images": [
+          "https://cf.shopee.sg/file/d3a1a3c94ddbdcc3207b697b7728c4b8",
+          "https://cf.shopee.sg/file/a8b5a0b567f447986ae6f8d810c3c9f3",
+          "https://cf.shopee.sg/file/d1e34b8a0f61d3ca4bbad28cecefed71"
+        ],
+        "path": [
+          { "category_id": 100640, "category_name": "Ô tô" },
+          { "category_id": 100749, "category_name": "Phụ tùng ô tô" },
+          { "category_id": 101445, "category_name": "Hệ thống khí xả" }
+        ],
+        "category_id": 101445,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Bánh xe, Vành & Phụ kiện",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024522,
+        "images": [
+          "https://cf.shopee.sg/file/6236e9f00f6822573599c0520cd18d05",
+          "https://cf.shopee.sg/file/2e270d584ce9a6eea1533b0e2dbebb02",
+          "https://cf.shopee.sg/file/26b1125c469283091cf5c92da2fe07c8",
+          "https://cf.shopee.sg/file/e59559cfaedf104bff4d9924fac1df5e",
+          "https://cf.shopee.sg/file/63b95ea63ca689316d6de7ad3f2fcc92"
+        ],
+        "path": [
+          { "category_id": 100640, "category_name": "Ô tô" },
+          { "category_id": 100749, "category_name": "Phụ tùng ô tô" },
+          { "category_id": 101446, "category_name": "Bánh xe, Vành & Phụ kiện" }
+        ],
+        "category_id": 101446,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Lốp & Phụ kiện",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024522,
+        "images": [
+          "https://cf.shopee.sg/file/6bb1dd933f477c609fdeab2014f006b0",
+          "https://cf.shopee.sg/file/3f7a1b1a611ab7472e0526ebd0c4146f",
+          "https://cf.shopee.sg/file/4db007eef3e8f905184cc0ac4b5d5cda",
+          "https://cf.shopee.sg/file/ba2860928948895b8fbb36484a1ba86a",
+          "https://cf.shopee.sg/file/1f612fcffc5c109282a8b33ea1819624",
+          "https://cf.shopee.sg/file/1bc640a313d87230bd113e5a631f7066"
+        ],
+        "path": [
+          { "category_id": 100640, "category_name": "Ô tô" },
+          { "category_id": 100749, "category_name": "Phụ tùng ô tô" },
+          { "category_id": 101447, "category_name": "Lốp & Phụ kiện" }
+        ],
+        "category_id": 101447,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Giảm xóc, thanh chống và hệ thống treo",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024523,
+        "images": [
+          "https://cf.shopee.sg/file/9b54afe14c352a19a59114211a644acf",
+          "https://cf.shopee.sg/file/cb951553c7f594929997128370d9280a",
+          "https://cf.shopee.sg/file/e35e71302d18836e84b9e6ae216a6e1e",
+          "https://cf.shopee.sg/file/ce20b8e17f08a2b776bfa7dc7971d83b",
+          "https://cf.shopee.sg/file/586ac26158226189fd8351a6c2600e0e",
+          "https://cf.shopee.sg/file/a66c890a59c39a7714f2c66e43ef74e9"
+        ],
+        "path": [
+          { "category_id": 100640, "category_name": "Ô tô" },
+          { "category_id": 100749, "category_name": "Phụ tùng ô tô" },
+          {
+            "category_id": 101448,
+            "category_name": "Giảm xóc, thanh chống và hệ thống treo"
+          }
+        ],
+        "category_id": 101448,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Bộ tản nhiệt, Làm mát động cơ & Kiểm soát nhiệt",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024523,
+        "images": [
+          "https://cf.shopee.sg/file/81842b8dc4556f4b2f0d42349afba719",
+          "https://cf.shopee.sg/file/09b6a95acf2dbd7a69e8e1e75e8d090a",
+          "https://cf.shopee.sg/file/78f611f59a7552f81b828f2195ec9753",
+          "https://cf.shopee.sg/file/7408b9f9e1d186760b1ee06779eca97d",
+          "https://cf.shopee.sg/file/d1265c04f4a099a5bca55d77987472da"
+        ],
+        "path": [
+          { "category_id": 100640, "category_name": "Ô tô" },
+          { "category_id": 100749, "category_name": "Phụ tùng ô tô" },
+          {
+            "category_id": 101449,
+            "category_name": "Bộ tản nhiệt, Làm mát động cơ & Kiểm soát nhiệt"
+          }
+        ],
+        "category_id": 101449,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Hệ thống truyền động, hộp số & ly hợp",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024523,
+        "images": [
+          "https://cf.shopee.sg/file/761e56498ab07e3d05a373f0e786d864",
+          "https://cf.shopee.sg/file/7b1c41c208aa7cf33ed7622c331f8105",
+          "https://cf.shopee.sg/file/747f41956cd9ee3be0675515c36d1f0d"
+        ],
+        "path": [
+          { "category_id": 100640, "category_name": "Ô tô" },
+          { "category_id": 100749, "category_name": "Phụ tùng ô tô" },
+          {
+            "category_id": 101450,
+            "category_name": "Hệ thống truyền động, hộp số & ly hợp"
+          }
+        ],
+        "category_id": 101450,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Vòng bi & con dấu",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024523,
+        "images": [
+          "https://cf.shopee.sg/file/4c4f931cd6c4c7867a63eb4491e9a25a",
+          "https://cf.shopee.sg/file/f14343b441ef590dea896374dd1a555a",
+          "https://cf.shopee.sg/file/eb21778a31cfacfd30bbb9f8a11e1e64"
+        ],
+        "path": [
+          { "category_id": 100640, "category_name": "Ô tô" },
+          { "category_id": 100749, "category_name": "Phụ tùng ô tô" },
+          { "category_id": 101451, "category_name": "Vòng bi & con dấu" }
+        ],
+        "category_id": 101451,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Pít tông",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024523,
+        "images": [
+          "https://cf.shopee.sg/file/49921fa004011354d217d2e439887327",
+          "https://cf.shopee.sg/file/86d338964121266e10270c5b70225484",
+          "https://cf.shopee.sg/file/c7412df648089549779c4da1217cc5ac"
+        ],
+        "path": [
+          { "category_id": 100640, "category_name": "Ô tô" },
+          { "category_id": 100749, "category_name": "Phụ tùng ô tô" },
+          { "category_id": 101452, "category_name": "Bộ phận động cơ" },
+          { "category_id": 101902, "category_name": "Pít tông" }
+        ],
+        "category_id": 101902,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Bộ lọc khí",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024523,
+        "images": [
+          "https://cf.shopee.sg/file/84c78c2582ec0b0e86e9cf15bd55b7c1",
+          "https://cf.shopee.sg/file/0aa3a88129fbedcd2840656c874f0245",
+          "https://cf.shopee.sg/file/f1cd3e449990a27e717dd2b1579dc92e"
+        ],
+        "path": [
+          { "category_id": 100640, "category_name": "Ô tô" },
+          { "category_id": 100749, "category_name": "Phụ tùng ô tô" },
+          { "category_id": 101452, "category_name": "Bộ phận động cơ" },
+          { "category_id": 101903, "category_name": "Bộ lọc khí" }
+        ],
+        "category_id": 101903,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Bộ lọc dầu",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024523,
+        "images": [
+          "https://cf.shopee.sg/file/085e0c3bce6bddfc89792e2f946256e5",
+          "https://cf.shopee.sg/file/6f70ac78be44d1792b92a021188853f8",
+          "https://cf.shopee.sg/file/2ec0fc89d1396362b9c7ab83d848d870"
+        ],
+        "path": [
+          { "category_id": 100640, "category_name": "Ô tô" },
+          { "category_id": 100749, "category_name": "Phụ tùng ô tô" },
+          { "category_id": 101452, "category_name": "Bộ phận động cơ" },
+          { "category_id": 101904, "category_name": "Bộ lọc dầu" }
+        ],
+        "category_id": 101904,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Khác",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024523,
+        "images": [
+          "https://cf.shopee.sg/file/c425b70a3a223a57eaaa83f54857b7e9",
+          "https://cf.shopee.sg/file/90bd4decd1acb4b4b3ca878fcfef88bb",
+          "https://cf.shopee.sg/file/196f1f49fd496f0d2003b012923fe168"
+        ],
+        "path": [
+          { "category_id": 100640, "category_name": "Ô tô" },
+          { "category_id": 100749, "category_name": "Phụ tùng ô tô" },
+          { "category_id": 101452, "category_name": "Bộ phận động cơ" },
+          { "category_id": 101905, "category_name": "Khác" }
+        ],
+        "category_id": 101905,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Hệ thống phanh",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024523,
+        "images": [
+          "https://cf.shopee.sg/file/08ba7b7e308176085b99cff5197958ed",
+          "https://cf.shopee.sg/file/ac24ff11c5179f9538df8e85f413df58",
+          "https://cf.shopee.sg/file/2b8863fe3721137b733636a5e01c7f66"
+        ],
+        "path": [
+          { "category_id": 100640, "category_name": "Ô tô" },
+          { "category_id": 100749, "category_name": "Phụ tùng ô tô" },
+          { "category_id": 101453, "category_name": "Hệ thống phanh" }
+        ],
+        "category_id": 101453,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Dây chuyền động",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024523,
+        "images": [
+          "https://cf.shopee.sg/file/b9269c4737b4a82339b6153ff7a9efd2",
+          "https://cf.shopee.sg/file/71785ffdc76ef7a21489188dbade0123",
+          "https://cf.shopee.sg/file/2d51505727c1b27524db4758d478379d",
+          "https://cf.shopee.sg/file/0b45812e8ca884035719640478a8b778",
+          "https://cf.shopee.sg/file/d4d05fc0021286dcc5daa234587c6dbc",
+          "https://cf.shopee.sg/file/bb8c740e1716e0b37f09ed73591ab755"
+        ],
+        "path": [
+          { "category_id": 100640, "category_name": "Ô tô" },
+          { "category_id": 100749, "category_name": "Phụ tùng ô tô" },
+          { "category_id": 101454, "category_name": "Dây chuyền động" }
+        ],
+        "category_id": 101454,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Cuộn dây đánh lửa",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024523,
+        "images": [
+          "https://cf.shopee.sg/file/314cb28caabb1f12503379edb6a475c9",
+          "https://cf.shopee.sg/file/db1ad22463406e562f1624bdf60db3b1",
+          "https://cf.shopee.sg/file/096bf38c769c5fead937279b2913245f",
+          "https://cf.shopee.sg/file/78d6508b82ebd74a17fd5437471bbb08",
+          "https://cf.shopee.sg/file/a3265c263494590da95a77cce901f1ce",
+          "https://cf.shopee.sg/file/9164cb113fe3abd12bfee602b9db915f"
+        ],
+        "path": [
+          { "category_id": 100640, "category_name": "Ô tô" },
+          { "category_id": 100749, "category_name": "Phụ tùng ô tô" },
+          { "category_id": 101455, "category_name": "Thiết bị điện tử" },
+          { "category_id": 101906, "category_name": "Bộ phận đánh lửa" },
+          { "category_id": 101929, "category_name": "Cuộn dây đánh lửa" }
+        ],
+        "category_id": 101929,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Bugi",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024523,
+        "images": [
+          "https://cf.shopee.sg/file/9e41b24b137c2eb6d1e7073503abe630",
+          "https://cf.shopee.sg/file/80b781aaf9a52cbca81072baf162d8fe",
+          "https://cf.shopee.sg/file/92f2166e3cb2d17769da41ce03877fa6",
+          "https://cf.shopee.sg/file/2f0d7da8d14edca0e6323455cbe59d73",
+          "https://cf.shopee.sg/file/f9a210dcc2aa7bf61a1e38c62350e94e",
+          "https://cf.shopee.sg/file/e5b4f47ca1d32b3fff7d1f14e1a55742"
+        ],
+        "path": [
+          { "category_id": 100640, "category_name": "Ô tô" },
+          { "category_id": 100749, "category_name": "Phụ tùng ô tô" },
+          { "category_id": 101455, "category_name": "Thiết bị điện tử" },
+          { "category_id": 101906, "category_name": "Bộ phận đánh lửa" },
+          { "category_id": 101930, "category_name": "Bugi" }
+        ],
+        "category_id": 101930,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Khác",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024523,
+        "images": [
+          "https://cf.shopee.sg/file/28c9154f6a5c8e95d02e7e1f7f7f93df",
+          "https://cf.shopee.sg/file/8d91fbf42e7d3248108a92ed26b1e28b",
+          "https://cf.shopee.sg/file/081d8628d93de01f808bd676bb456c54",
+          "https://cf.shopee.sg/file/9c96dc2088a807be8f367670a9578627",
+          "https://cf.shopee.sg/file/b10f142e24df59a0b518e6079949e17b",
+          "https://cf.shopee.sg/file/cdb7e64358a6b5356f55483182a6a9b3"
+        ],
+        "path": [
+          { "category_id": 100640, "category_name": "Ô tô" },
+          { "category_id": 100749, "category_name": "Phụ tùng ô tô" },
+          { "category_id": 101455, "category_name": "Thiết bị điện tử" },
+          { "category_id": 101906, "category_name": "Bộ phận đánh lửa" },
+          { "category_id": 101931, "category_name": "Khác" }
+        ],
+        "category_id": 101931,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Pin & Phụ kiện",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024523,
+        "images": [
+          "https://cf.shopee.sg/file/58f06ae5118c80f3bc0fdba394b1c9d4",
+          "https://cf.shopee.sg/file/d84bbe6311074a9129a4fefb263d85d9",
+          "https://cf.shopee.sg/file/5aab2bbb2b31a1bc2ec758196bd71078",
+          "https://cf.shopee.sg/file/caa7a20eff2dec69edf64c47c4732958",
+          "https://cf.shopee.sg/file/eab487bde7334800990e7c228536f722",
+          "https://cf.shopee.sg/file/b5f457ac2d365225ac64fe2d38edb7c1"
+        ],
+        "path": [
+          { "category_id": 100640, "category_name": "Ô tô" },
+          { "category_id": 100749, "category_name": "Phụ tùng ô tô" },
+          { "category_id": 101455, "category_name": "Thiết bị điện tử" },
+          { "category_id": 101907, "category_name": "Pin & Phụ kiện" }
+        ],
+        "category_id": 101907,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Đèn",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024524,
+        "images": [
+          "https://cf.shopee.sg/file/2336eafc884dc92f257bd665b1cce1f0",
+          "https://cf.shopee.sg/file/e68b2792d822ad9d6d50edb0f09ef00a",
+          "https://cf.shopee.sg/file/083f4effe8d565386499b258d1ac7b46"
+        ],
+        "path": [
+          { "category_id": 100640, "category_name": "Ô tô" },
+          { "category_id": 100749, "category_name": "Phụ tùng ô tô" },
+          { "category_id": 101455, "category_name": "Thiết bị điện tử" },
+          { "category_id": 101908, "category_name": "Đèn" }
+        ],
+        "category_id": 101908,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Khác",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024524,
+        "images": [
+          "https://cf.shopee.sg/file/5bc9df60b3edc15a5786a248faa3b88e",
+          "https://cf.shopee.sg/file/eedc933ecffc9202b26a67e2e3af2d9d",
+          "https://cf.shopee.sg/file/134a602bad9719f8dad73cc1b40bb8eb",
+          "https://cf.shopee.sg/file/3b5a44a701b555f023ac59881f76f63c",
+          "https://cf.shopee.sg/file/031be959bf33b75d7fbb47bf99247dc0"
+        ],
+        "path": [
+          { "category_id": 100640, "category_name": "Ô tô" },
+          { "category_id": 100749, "category_name": "Phụ tùng ô tô" },
+          { "category_id": 101455, "category_name": "Thiết bị điện tử" },
+          { "category_id": 101909, "category_name": "Khác" }
+        ],
+        "category_id": 101909,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Hệ thống xử lý nhiên liệu",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024524,
+        "images": [
+          "https://cf.shopee.sg/file/0b6e648d41dcc90bcd704cfcfa403f34",
+          "https://cf.shopee.sg/file/9d4af6429b7ed696eed99bef0cb38ab5",
+          "https://cf.shopee.sg/file/a880b3207d67e9ffde01451111d58606",
+          "https://cf.shopee.sg/file/113046f73ad91769273794780c436d21",
+          "https://cf.shopee.sg/file/717c190ddfc319f2c723c3bf1ea20c4e",
+          "https://cf.shopee.sg/file/5c592fe55a49d3015f5873d420cb930e"
+        ],
+        "path": [
+          { "category_id": 100640, "category_name": "Ô tô" },
+          { "category_id": 100749, "category_name": "Phụ tùng ô tô" },
+          {
+            "category_id": 101456,
+            "category_name": "Hệ thống xử lý nhiên liệu"
+          }
+        ],
+        "category_id": 101456,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Dụng cụ Kiểm tra, chẩn đoán & sửa chữa",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024524,
+        "images": [
+          "https://cf.shopee.sg/file/6224ef0ee1d7507e571efcd5342dd6a7",
+          "https://cf.shopee.sg/file/ce1bfc3b0119a81b212f9c20bfe32fb8",
+          "https://cf.shopee.sg/file/273a75df326693e62095a20acb484b99",
+          "https://cf.shopee.sg/file/0040c6963db39dcdcc980be0dd12a68d",
+          "https://cf.shopee.sg/file/8e8c3f1a8cfaf0e12dc890f6c7cde81b",
+          "https://cf.shopee.sg/file/edb866739be6d2c4e575165e762088bf"
+        ],
+        "path": [
+          { "category_id": 100640, "category_name": "Ô tô" },
+          { "category_id": 100750, "category_name": "Dụng cụ sửa chữa ô tô" },
+          {
+            "category_id": 101458,
+            "category_name": "Dụng cụ Kiểm tra, chẩn đoán & sửa chữa"
+          }
+        ],
+        "category_id": 101458,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Máy đo áp suất lốp",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024524,
+        "images": [
+          "https://cf.shopee.sg/file/6bfaea8de3ffc8aecc93464a8e311f95",
+          "https://cf.shopee.sg/file/d93ac81a6070bee6dd7fb24580e3ca6a",
+          "https://cf.shopee.sg/file/3e48f6d8c17b084d176d0758f552c6dd",
+          "https://cf.shopee.sg/file/03dd035bfebb27f0c7e40271cf1e9f8a",
+          "https://cf.shopee.sg/file/383e8fb69a9d4d4978aa8bcab758c9ee",
+          "https://cf.shopee.sg/file/ad9322509b45d014c9200db3ba5bf2ad"
+        ],
+        "path": [
+          { "category_id": 100640, "category_name": "Ô tô" },
+          { "category_id": 100750, "category_name": "Dụng cụ sửa chữa ô tô" },
+          { "category_id": 101459, "category_name": "Máy đo áp suất lốp" }
+        ],
+        "category_id": 101459,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Khác",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024524,
+        "images": [
+          "https://cf.shopee.sg/file/c42d52bb998665839fc7768ac595565d",
+          "https://cf.shopee.sg/file/c08b2ad7f337a3da6a49fc4d4692c643",
+          "https://cf.shopee.sg/file/ff8c0c38d9a0bb8fcf31723a76f6e365",
+          "https://cf.shopee.sg/file/de4dda91ecdc91680829e9a596ddf8ac",
+          "https://cf.shopee.sg/file/29b16fd63fd4650892040ee97a6059ab",
+          "https://cf.shopee.sg/file/797a6459e1ae109fa137e15026cdb424"
+        ],
+        "path": [
+          { "category_id": 100640, "category_name": "Ô tô" },
+          { "category_id": 100751, "category_name": "Chăm sóc ô tô" },
+          { "category_id": 101466, "category_name": "Khác" }
+        ],
+        "category_id": 101466,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Khác",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024525,
+        "images": [
+          "https://cf.shopee.sg/file/bf643c8a87d021c43098731685460b18",
+          "https://cf.shopee.sg/file/88c3a396707807039d4da9e1e84d3542",
+          "https://cf.shopee.sg/file/2700e93baf6c01369f024a132ee7cd64",
+          "https://cf.shopee.sg/file/5e9399c50785d01c7c9104b22711d3ce",
+          "https://cf.shopee.sg/file/83d1472a4a494a2c117b08571d1983cf"
+        ],
+        "path": [
+          { "category_id": 100640, "category_name": "Ô tô" },
+          {
+            "category_id": 100752,
+            "category_name": "Dầu nhớt và phụ gia ô tô"
+          },
+          { "category_id": 101471, "category_name": "Dầu máy" },
+          { "category_id": 101912, "category_name": "Khác" }
+        ],
+        "category_id": 101912,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Móc chìa khóa và Bọc chìa ô tô",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024525,
+        "images": [
+          "https://cf.shopee.sg/file/ebc2e13f811292ce8300eebe36965998",
+          "https://cf.shopee.sg/file/c8bdabd7d7fdb81088a08c4072ee7b8f",
+          "https://cf.shopee.sg/file/f534e727d16ab76e2864308f28a09146",
+          "https://cf.shopee.sg/file/363c267fa0132fbbf081b4552e10c3d1",
+          "https://cf.shopee.sg/file/df5dd28cba1b503d187a2c4b3b785199",
+          "https://cf.shopee.sg/file/6004c8baeed547503f66044275f891d6"
+        ],
+        "path": [
+          { "category_id": 100640, "category_name": "Ô tô" },
+          {
+            "category_id": 100753,
+            "category_name": "Móc chìa khóa và Bọc chìa ô tô"
+          }
+        ],
+        "category_id": 100753,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Mô tô, xe máy",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024525,
+        "images": [
+          "https://cf.shopee.sg/file/deff1614011ec3e845195c674e2384e6",
+          "https://cf.shopee.sg/file/b020bd303b73639d51b71dc010c541db",
+          "https://cf.shopee.sg/file/c7a62da6213dd24205198ad4be40774c",
+          "https://cf.shopee.sg/file/84301aae6fd5f8f57a092463db63ed52",
+          "https://cf.shopee.sg/file/85df7a59eafec2abb909f3153186033b",
+          "https://cf.shopee.sg/file/f5547f90acdffb5a84d91c239cddc489"
+        ],
+        "path": [
+          { "category_id": 100641, "category_name": "Mô tô, xe máy" },
+          { "category_id": 100755, "category_name": "Mô tô, xe máy" }
+        ],
+        "category_id": 100755,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Lót sàn",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024525,
+        "images": [
+          "https://cf.shopee.sg/file/5a8703edc60808a4179e5369d700dc62",
+          "https://cf.shopee.sg/file/6edc61df4c73addbc47974904d37f75f",
+          "https://cf.shopee.sg/file/64ea3b431413578b4af299dd1050bd0c",
+          "https://cf.shopee.sg/file/f040b8a137c80291e2aaa92b87144d10",
+          "https://cf.shopee.sg/file/19fdab4f4ed15c1a93ea4703d0a45a0c",
+          "https://cf.shopee.sg/file/fac18f56fba0e805d6d1914d9f0fd331"
+        ],
+        "path": [
+          { "category_id": 100641, "category_name": "Mô tô, xe máy" },
+          { "category_id": 100756, "category_name": "Phụ kiện xe máy" },
+          { "category_id": 101473, "category_name": "Lót sàn" }
+        ],
+        "category_id": 101473,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Đồng hồ đo",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024525,
+        "images": [
+          "https://cf.shopee.sg/file/d14c85e7ae557b935f9a90b9baa3866d",
+          "https://cf.shopee.sg/file/42da35f3d15a9749734383c959486899",
+          "https://cf.shopee.sg/file/9eff6c50861b04e3366883c48853b691",
+          "https://cf.shopee.sg/file/29b0c860d6b19ad4a29b9c378c49ec8d",
+          "https://cf.shopee.sg/file/41bdef8c9084fecdd6a626fdd64d436b",
+          "https://cf.shopee.sg/file/25dd426f67d8dc080f24f580b0d8b8f4"
+        ],
+        "path": [
+          { "category_id": 100641, "category_name": "Mô tô, xe máy" },
+          { "category_id": 100756, "category_name": "Phụ kiện xe máy" },
+          { "category_id": 101474, "category_name": "Đồng hồ đo" }
+        ],
+        "category_id": 101474,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Bạt phủ",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024526,
+        "images": [
+          "https://cf.shopee.sg/file/2d18bc8923072843fee7f5fbb25a15d3",
+          "https://cf.shopee.sg/file/13c9f481e61eac2a0709d4fa0d35570c",
+          "https://cf.shopee.sg/file/2fa9e3071264ae88cb2891e3e0cfe69d",
+          "https://cf.shopee.sg/file/2b3f4898bab540f63329cf7e13037957",
+          "https://cf.shopee.sg/file/c9c047de45478f2adfa97b2310daa7a2",
+          "https://cf.shopee.sg/file/015759ebf4150cc689f1a61a18167640"
+        ],
+        "path": [
+          { "category_id": 100641, "category_name": "Mô tô, xe máy" },
+          { "category_id": 100756, "category_name": "Phụ kiện xe máy" },
+          { "category_id": 101475, "category_name": "Bạt phủ" }
+        ],
+        "category_id": 101475,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Hình dán, logo, huy hiệu",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024526,
+        "images": [
+          "https://cf.shopee.sg/file/37263ea168dec4443f708888d9b776e7",
+          "https://cf.shopee.sg/file/639583787755874ecc086aa60a73148e",
+          "https://cf.shopee.sg/file/3ac8bc3369cca16bda204ac1fc446354",
+          "https://cf.shopee.sg/file/28bbc0bedfabba766a1777b22614895d",
+          "https://cf.shopee.sg/file/d03c96d1d2d68f8a3e173f77726755fe",
+          "https://cf.shopee.sg/file/57643f714c2bbb005b999077f9902d93"
+        ],
+        "path": [
+          { "category_id": 100641, "category_name": "Mô tô, xe máy" },
+          { "category_id": 100756, "category_name": "Phụ kiện xe máy" },
+          { "category_id": 101476, "category_name": "Hình dán, logo, huy hiệu" }
+        ],
+        "category_id": 101476,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Ghế & bọc ghế",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024526,
+        "images": [
+          "https://cf.shopee.sg/file/18e9b182238f8913b8cd997ef0255a71",
+          "https://cf.shopee.sg/file/95182d90937dca184fbde37e489c4725",
+          "https://cf.shopee.sg/file/eb1a37d889861db1bf7fb38b8c641bbe",
+          "https://cf.shopee.sg/file/ed22a3d677b55554ea1501312fba64a0",
+          "https://cf.shopee.sg/file/3e67045e5a93258d083abe42f747cd2d",
+          "https://cf.shopee.sg/file/cab4f0578802154aa9ea495d6e71254d"
+        ],
+        "path": [
+          { "category_id": 100641, "category_name": "Mô tô, xe máy" },
+          { "category_id": 100756, "category_name": "Phụ kiện xe máy" },
+          { "category_id": 101477, "category_name": "Ghế & bọc ghế" }
+        ],
+        "category_id": 101477,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Gương và phụ kiện",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024526,
+        "images": [
+          "https://cf.shopee.sg/file/0be51ec01fc2cef3a71893cb279c6480",
+          "https://cf.shopee.sg/file/21fd83a040c7196c3caf81f51a8a836b",
+          "https://cf.shopee.sg/file/2419aaa2f65623646c07e6cc9ed404c9",
+          "https://cf.shopee.sg/file/fbd8e21273f00733450aeabb104e9f41",
+          "https://cf.shopee.sg/file/e509e7d6ad7ef4eab3764387a09aee4d",
+          "https://cf.shopee.sg/file/3f41b1f6334d9bdd14b6f8375353f790"
+        ],
+        "path": [
+          { "category_id": 100641, "category_name": "Mô tô, xe máy" },
+          { "category_id": 100756, "category_name": "Phụ kiện xe máy" },
+          { "category_id": 101478, "category_name": "Gương và phụ kiện" }
+        ],
+        "category_id": 101478,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Khóa và thiết bị chống trộm",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024526,
+        "images": [
+          "https://cf.shopee.sg/file/9b502841b7634b8aabfeed3b0287a63f",
+          "https://cf.shopee.sg/file/821c0b45597768b58a3afe26f1435e16",
+          "https://cf.shopee.sg/file/14c105021e800d54ce7a905051c43b20",
+          "https://cf.shopee.sg/file/c3461def7ffa4610686dadfcf4795728",
+          "https://cf.shopee.sg/file/77559844e7e44c03f66d6f7c58fa8a98",
+          "https://cf.shopee.sg/file/10845eb6720a824963328a64ec7f228f"
+        ],
+        "path": [
+          { "category_id": 100641, "category_name": "Mô tô, xe máy" },
+          { "category_id": 100756, "category_name": "Phụ kiện xe máy" },
+          {
+            "category_id": 101479,
+            "category_name": "Khóa và thiết bị chống trộm"
+          }
+        ],
+        "category_id": 101479,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Thùng chứa đồ",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024526,
+        "images": [
+          "https://cf.shopee.sg/file/712dcf1dde1b765273aa56c2ff5da3f4",
+          "https://cf.shopee.sg/file/760eff1b6c26d4783f3cb4db76868d2d",
+          "https://cf.shopee.sg/file/11e3cf12a18ca463af04e6d2509dcfa2",
+          "https://cf.shopee.sg/file/a883b21b57d8b792baa1a448e6fc052a",
+          "https://cf.shopee.sg/file/b88251f6ad65f1e8f8d0c0a89e84a959",
+          "https://cf.shopee.sg/file/1b2ee9af4e892a8bdc0a93a1cad811b4"
+        ],
+        "path": [
+          { "category_id": 100641, "category_name": "Mô tô, xe máy" },
+          { "category_id": 100756, "category_name": "Phụ kiện xe máy" },
+          { "category_id": 101480, "category_name": "Thùng chứa đồ" }
+        ],
+        "category_id": 101480,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Giá đỡ điện thoại",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024526,
+        "images": [
+          "https://cf.shopee.sg/file/007efc6b50853cfea91829d1016ec516",
+          "https://cf.shopee.sg/file/6340660e25737d5a51dd089445620f2b",
+          "https://cf.shopee.sg/file/77274b6a92c2d9da4f34760644919719",
+          "https://cf.shopee.sg/file/aee8720c53dc4077deb75e3394e1b8e9",
+          "https://cf.shopee.sg/file/a77cae4678ba3a77075e2d522a8accca",
+          "https://cf.shopee.sg/file/3b915c32767e949e34457d8ee4e56e01"
+        ],
+        "path": [
+          { "category_id": 100641, "category_name": "Mô tô, xe máy" },
+          { "category_id": 100756, "category_name": "Phụ kiện xe máy" },
+          { "category_id": 101481, "category_name": "Giá đỡ điện thoại" }
+        ],
+        "category_id": 101481,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Tấm chắn bùn",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024526,
+        "images": [
+          "https://cf.shopee.sg/file/53582b6dd19f50b13decb56f265051f1",
+          "https://cf.shopee.sg/file/11b44da8e6ff21d8e444890df75a6fd9",
+          "https://cf.shopee.sg/file/0ea9e6dd2138862ec7ec38ab70ca1d6d",
+          "https://cf.shopee.sg/file/42a37227fc76acdebefb201a97920213",
+          "https://cf.shopee.sg/file/f8da6fada7ed5ec57583e1d5cbf0ea8f",
+          "https://cf.shopee.sg/file/014e4efd0e28d3a94176b24dd2834f6d"
+        ],
+        "path": [
+          { "category_id": 100641, "category_name": "Mô tô, xe máy" },
+          { "category_id": 100756, "category_name": "Phụ kiện xe máy" },
+          { "category_id": 101482, "category_name": "Tấm chắn bùn" }
+        ],
+        "category_id": 101482,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Khác",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024526,
+        "images": [
+          "https://cf.shopee.sg/file/c9de4c19063437f7288e764dd9bf402b",
+          "https://cf.shopee.sg/file/42f3b0e35aa6bc16cc6a59e30e4a438a",
+          "https://cf.shopee.sg/file/9fddf5a9cbf9a67d23537655a1f17065",
+          "https://cf.shopee.sg/file/9c7ad1e4159d74a17e1595ed9257375a",
+          "https://cf.shopee.sg/file/654b2a3d814d31617f3ee8e10ce2189a",
+          "https://cf.shopee.sg/file/51a534a814b8f54aa657f3bb516b1432"
+        ],
+        "path": [
+          { "category_id": 100641, "category_name": "Mô tô, xe máy" },
+          { "category_id": 100756, "category_name": "Phụ kiện xe máy" },
+          { "category_id": 101483, "category_name": "Khác" }
+        ],
+        "category_id": 101483,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Bộ tản nhiệt",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024526,
+        "images": [
+          "https://cf.shopee.sg/file/765b8df66d35d564e1e533859886fffd",
+          "https://cf.shopee.sg/file/3c0a6b48d1042048186885eb2a8c50ed",
+          "https://cf.shopee.sg/file/f2f9899c68bea4fb78a98eeb41cae74a",
+          "https://cf.shopee.sg/file/356606d55bafde2e960b73343d9f5c35",
+          "https://cf.shopee.sg/file/61b47f4b27329297dab177e82862eb22",
+          "https://cf.shopee.sg/file/505b54dd3c90c8273c5c2e1570ff22ac"
+        ],
+        "path": [
+          { "category_id": 100641, "category_name": "Mô tô, xe máy" },
+          { "category_id": 100757, "category_name": "Phụ tùng xe máy" },
+          {
+            "category_id": 101484,
+            "category_name": "Bộ phận đánh lửa & động cơ"
+          },
+          { "category_id": 101913, "category_name": "Bộ tản nhiệt" }
+        ],
+        "category_id": 101913,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Pít tông",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024526,
+        "images": [
+          "https://cf.shopee.sg/file/dfccb35dd0e69daa4a38e3a07fe8ac94",
+          "https://cf.shopee.sg/file/c5469e00558e29bdd0e99505851c2cc4",
+          "https://cf.shopee.sg/file/07ac09de73e70cbd497f2f07e338797f",
+          "https://cf.shopee.sg/file/80a710364eea1fd6de7ebc7add1e15a6",
+          "https://cf.shopee.sg/file/8255879a5a2fc8dbcdb2452c70889ce9",
+          "https://cf.shopee.sg/file/6d2d464116cfbc2964a86105fcec82b5"
+        ],
+        "path": [
+          { "category_id": 100641, "category_name": "Mô tô, xe máy" },
+          { "category_id": 100757, "category_name": "Phụ tùng xe máy" },
+          {
+            "category_id": 101484,
+            "category_name": "Bộ phận đánh lửa & động cơ"
+          },
+          { "category_id": 101914, "category_name": "Pít tông" }
+        ],
+        "category_id": 101914,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Hộp đánh lửa & hộp đen",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024526,
+        "images": [
+          "https://cf.shopee.sg/file/ece8cebcb035b86f54f3c7006e129ff2",
+          "https://cf.shopee.sg/file/1cf9265f9e5ac22336ffffbf0780c9a9",
+          "https://cf.shopee.sg/file/92f0e742f14216b9cabf24277170d36c",
+          "https://cf.shopee.sg/file/2990fed5d3c784d1188ea969e6667d23",
+          "https://cf.shopee.sg/file/c46b492255757b152a593bac0f7ef39b",
+          "https://cf.shopee.sg/file/64404077706af381adc721a938d2545c"
+        ],
+        "path": [
+          { "category_id": 100641, "category_name": "Mô tô, xe máy" },
+          { "category_id": 100757, "category_name": "Phụ tùng xe máy" },
+          {
+            "category_id": 101484,
+            "category_name": "Bộ phận đánh lửa & động cơ"
+          },
+          { "category_id": 101915, "category_name": "Hộp đánh lửa & hộp đen" }
+        ],
+        "category_id": 101915,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Bugi",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024526,
+        "images": [
+          "https://cf.shopee.sg/file/9ea115fb4849aed753c196e27a716a5e",
+          "https://cf.shopee.sg/file/d656ed35a6eeb89cf590159525f95b9b",
+          "https://cf.shopee.sg/file/347ed597c1476c6dfa824a6dc610b4c5",
+          "https://cf.shopee.sg/file/7763e765fbbbba71f0ce839f576f94f1",
+          "https://cf.shopee.sg/file/58c8184518a43457def48a9e6ff403fa",
+          "https://cf.shopee.sg/file/63454621224f0d1426fbc327735191bf"
+        ],
+        "path": [
+          { "category_id": 100641, "category_name": "Mô tô, xe máy" },
+          { "category_id": 100757, "category_name": "Phụ tùng xe máy" },
+          {
+            "category_id": 101484,
+            "category_name": "Bộ phận đánh lửa & động cơ"
+          },
+          { "category_id": 101916, "category_name": "Bugi" }
+        ],
+        "category_id": 101916,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Cuộn dây đánh lửa",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024527,
+        "images": [
+          "https://cf.shopee.sg/file/9e030f66b0e008049230b11e1ddd8fee",
+          "https://cf.shopee.sg/file/184f3cd87b097556110b62fbbac5661b",
+          "https://cf.shopee.sg/file/5a9f8054f7ab7a6d26bede6fea8a377b",
+          "https://cf.shopee.sg/file/561e09cadb494b557daad7779f6c6c36",
+          "https://cf.shopee.sg/file/d43ceb9068ba32defb432c253fc30043",
+          "https://cf.shopee.sg/file/73b4275557c6639e2004184618f42c4f"
+        ],
+        "path": [
+          { "category_id": 100641, "category_name": "Mô tô, xe máy" },
+          { "category_id": 100757, "category_name": "Phụ tùng xe máy" },
+          {
+            "category_id": 101484,
+            "category_name": "Bộ phận đánh lửa & động cơ"
+          },
+          { "category_id": 101917, "category_name": "Cuộn dây đánh lửa" }
+        ],
+        "category_id": 101917,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Dây Curoa",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024527,
+        "images": [
+          "https://cf.shopee.sg/file/b9688440cbbfe9e19bce9d2f6ad3caff",
+          "https://cf.shopee.sg/file/6b77a9f9aa21c4208938a24e9998d286",
+          "https://cf.shopee.sg/file/ce93689645ff43283a357c55f3ebc08d",
+          "https://cf.shopee.sg/file/0296206eb22a2734dcfda747116853b2",
+          "https://cf.shopee.sg/file/1fdabd644f68eeef2b8680161fe70047",
+          "https://cf.shopee.sg/file/a70dc7da3dfd6b795261bd851e7e508b"
+        ],
+        "path": [
+          { "category_id": 100641, "category_name": "Mô tô, xe máy" },
+          { "category_id": 100757, "category_name": "Phụ tùng xe máy" },
+          {
+            "category_id": 101484,
+            "category_name": "Bộ phận đánh lửa & động cơ"
+          },
+          { "category_id": 101918, "category_name": "Dây Curoa" }
+        ],
+        "category_id": 101918,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Lọc gió",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024527,
+        "images": [
+          "https://cf.shopee.sg/file/29268e4b8573c7545eb8de636c27b26e",
+          "https://cf.shopee.sg/file/47a5cb16e0e38ecf00133fbae8663ac6",
+          "https://cf.shopee.sg/file/8f02d1ad6a1a489c79bc464c9b3707c2",
+          "https://cf.shopee.sg/file/986bdfb79af44a43662873797f011eb4",
+          "https://cf.shopee.sg/file/6012182bc14158d6c5a79848beddd703",
+          "https://cf.shopee.sg/file/a670816a16f6f581d066cef05002741c"
+        ],
+        "path": [
+          { "category_id": 100641, "category_name": "Mô tô, xe máy" },
+          { "category_id": 100757, "category_name": "Phụ tùng xe máy" },
+          {
+            "category_id": 101484,
+            "category_name": "Bộ phận đánh lửa & động cơ"
+          },
+          { "category_id": 101919, "category_name": "Lọc gió" }
+        ],
+        "category_id": 101919,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Khác",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024527,
+        "images": [
+          "https://cf.shopee.sg/file/31cb84290a06bab16102e25fdd46e4e3",
+          "https://cf.shopee.sg/file/e69171d48df07c33343474c925196d72",
+          "https://cf.shopee.sg/file/c23188501b1dd8c095728bd11e3551f8",
+          "https://cf.shopee.sg/file/378a9756f977b94afb9302e82f264ceb",
+          "https://cf.shopee.sg/file/789816a02bcb366ff4aba60186225910",
+          "https://cf.shopee.sg/file/edd204e5e0123d14c029049456e46e94"
+        ],
+        "path": [
+          { "category_id": 100641, "category_name": "Mô tô, xe máy" },
+          { "category_id": 100757, "category_name": "Phụ tùng xe máy" },
+          {
+            "category_id": 101484,
+            "category_name": "Bộ phận đánh lửa & động cơ"
+          },
+          { "category_id": 101920, "category_name": "Khác" }
+        ],
+        "category_id": 101920,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Hệ thống xử lý nhiên liệu",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024527,
+        "images": [
+          "https://cf.shopee.sg/file/bf27a1032867640c181e488778be70d9",
+          "https://cf.shopee.sg/file/0276252771417476008932843a307a38",
+          "https://cf.shopee.sg/file/c2d6a27b4d73e80e0cb868e184592643",
+          "https://cf.shopee.sg/file/954f60b5caa9fa7d417b2cda0744ce6a",
+          "https://cf.shopee.sg/file/1a19c7481da9ee8651bb10f740079a90",
+          "https://cf.shopee.sg/file/83ceb5315e419ea83f5899f43532d241"
+        ],
+        "path": [
+          { "category_id": 100641, "category_name": "Mô tô, xe máy" },
+          { "category_id": 100757, "category_name": "Phụ tùng xe máy" },
+          {
+            "category_id": 101485,
+            "category_name": "Hệ thống xử lý nhiên liệu"
+          }
+        ],
+        "category_id": 101485,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Hệ thống phanh",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024527,
+        "images": [
+          "https://cf.shopee.sg/file/deb9f61a0c6de6610b1761d93d69de83",
+          "https://cf.shopee.sg/file/165339e3dd1e7bf009db8e7a3037cd4f",
+          "https://cf.shopee.sg/file/9975e8988d794078cd2f1a5def1f8160",
+          "https://cf.shopee.sg/file/9da7acc3ffa8a40ea73210938120f7a2",
+          "https://cf.shopee.sg/file/ce2cb223e8e207ca087d8951190d406c",
+          "https://cf.shopee.sg/file/3e52bb05a6800834207b68def2e12b52"
+        ],
+        "path": [
+          { "category_id": 100641, "category_name": "Mô tô, xe máy" },
+          { "category_id": 100757, "category_name": "Phụ tùng xe máy" },
+          { "category_id": 101486, "category_name": "Hệ thống phanh" }
+        ],
+        "category_id": 101486,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Hệ thống giảm xóc",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024527,
+        "images": [
+          "https://cf.shopee.sg/file/65c823d2732903a4211b8e3c93f2d4e6",
+          "https://cf.shopee.sg/file/fe7346301cbde165616a18493918665c",
+          "https://cf.shopee.sg/file/ac568c1bbd67e692622a87185d630b5c",
+          "https://cf.shopee.sg/file/bdc8068a482f9b8926918c22254c3a4b",
+          "https://cf.shopee.sg/file/dda213ff9c4285217da0723ccadb02d9",
+          "https://cf.shopee.sg/file/f04ee86b62c5f135ec1b45de761bcd4a"
+        ],
+        "path": [
+          { "category_id": 100641, "category_name": "Mô tô, xe máy" },
+          { "category_id": 100757, "category_name": "Phụ tùng xe máy" },
+          { "category_id": 101487, "category_name": "Hệ thống giảm xóc" }
+        ],
+        "category_id": 101487,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Phụ tùng nhông xích",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024527,
+        "images": [
+          "https://cf.shopee.sg/file/9b5ea7513bd79b0cda974d7d926114b5",
+          "https://cf.shopee.sg/file/1bdafbee5e361fd40deabb42485976d4",
+          "https://cf.shopee.sg/file/22009acc092236494a9d21e54f0ba7f4",
+          "https://cf.shopee.sg/file/7217e706e952fa193cafb7b0008f2231",
+          "https://cf.shopee.sg/file/7056111dc8e337074bbccf019ca370a8",
+          "https://cf.shopee.sg/file/73ea713c5977bc11ab10555e287aa84b"
+        ],
+        "path": [
+          { "category_id": 100641, "category_name": "Mô tô, xe máy" },
+          { "category_id": 100757, "category_name": "Phụ tùng xe máy" },
+          { "category_id": 101488, "category_name": "Hệ thống dẫn động" },
+          { "category_id": 101921, "category_name": "Phụ tùng nhông xích" }
+        ],
+        "category_id": 101921,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Bộ ly hợp",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024527,
+        "images": [
+          "https://cf.shopee.sg/file/8522c229739f1edfe6b5d24b66c42f86",
+          "https://cf.shopee.sg/file/52dd31e9a8711af50026f5dc90f9a12e",
+          "https://cf.shopee.sg/file/6a3196c1b2cbaecadcda558acbb42fa8",
+          "https://cf.shopee.sg/file/b82b1e26dd31bbd6e20cbf49636d1019",
+          "https://cf.shopee.sg/file/713f09b8acb50902800d99776226db64",
+          "https://cf.shopee.sg/file/9ca1ea243860d2d67695ed30f58f1540"
+        ],
+        "path": [
+          { "category_id": 100641, "category_name": "Mô tô, xe máy" },
+          { "category_id": 100757, "category_name": "Phụ tùng xe máy" },
+          { "category_id": 101488, "category_name": "Hệ thống dẫn động" },
+          { "category_id": 101922, "category_name": "Bộ ly hợp" }
+        ],
+        "category_id": 101922,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Vòng bi",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024527,
+        "images": [
+          "https://cf.shopee.sg/file/b434016be60d225528d062bd3f9d4190",
+          "https://cf.shopee.sg/file/8d71f918d2db578217aaa424919ed099",
+          "https://cf.shopee.sg/file/58dfe7eb2738167793a1e3a23b6cdc67",
+          "https://cf.shopee.sg/file/0b8766c909a3ce7b59097f9e7c796259",
+          "https://cf.shopee.sg/file/61d7a4a1f8f4be98a41f38858e287e57",
+          "https://cf.shopee.sg/file/6580bf49c849ed1e97329d6ec3e025c4"
+        ],
+        "path": [
+          { "category_id": 100641, "category_name": "Mô tô, xe máy" },
+          { "category_id": 100757, "category_name": "Phụ tùng xe máy" },
+          { "category_id": 101488, "category_name": "Hệ thống dẫn động" },
+          { "category_id": 101923, "category_name": "Vòng bi" }
+        ],
+        "category_id": 101923,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Còi & Phụ kiện",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024527,
+        "images": [
+          "https://cf.shopee.sg/file/5edf88a9dc536152d57c637ae1e8b81e",
+          "https://cf.shopee.sg/file/37b82905e7f8c3736faad87c67c5d323",
+          "https://cf.shopee.sg/file/bbfd58b02340fcc357807c9599ca2554",
+          "https://cf.shopee.sg/file/9a4f6f6610e828bb21c8dc61ff5dcb6b",
+          "https://cf.shopee.sg/file/097fb74fc376d4684630b95c7193afdf",
+          "https://cf.shopee.sg/file/9415b63bb29a6c298783241de4dd1728"
+        ],
+        "path": [
+          { "category_id": 100641, "category_name": "Mô tô, xe máy" },
+          { "category_id": 100757, "category_name": "Phụ tùng xe máy" },
+          { "category_id": 101490, "category_name": "Còi & Phụ kiện" }
+        ],
+        "category_id": 101490,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Dây cáp & Ống",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024527,
+        "images": [
+          "https://cf.shopee.sg/file/892185f29e25045c019b61da1b26bf2a",
+          "https://cf.shopee.sg/file/a31fc1396ac4972893fb8da3928cf160",
+          "https://cf.shopee.sg/file/1ec5aee9d30fab4d4cf1f0953eea6164",
+          "https://cf.shopee.sg/file/abd7129f8382b46434955281c08e136b",
+          "https://cf.shopee.sg/file/3f7e330d4d98f235182e26e2f6cbe381",
+          "https://cf.shopee.sg/file/fb83a1810d07661c7c2f3319ab67cd1c"
+        ],
+        "path": [
+          { "category_id": 100641, "category_name": "Mô tô, xe máy" },
+          { "category_id": 100757, "category_name": "Phụ tùng xe máy" },
+          { "category_id": 101491, "category_name": "Dây cáp & Ống" }
+        ],
+        "category_id": 101491,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Hệ thống khung xe",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024527,
+        "images": [
+          "https://cf.shopee.sg/file/7793131dd29a88a1c95b4584660ffcf9",
+          "https://cf.shopee.sg/file/cf11dcb58a98493952be982d96bfc004",
+          "https://cf.shopee.sg/file/38b0a3e790a6e9ef2ae48212cb845f70",
+          "https://cf.shopee.sg/file/930220f75613ecc10b33e1d371f14523",
+          "https://cf.shopee.sg/file/e6c46c2dfba02df363b9da10bfc6c3a5",
+          "https://cf.shopee.sg/file/bc940576d88e310031ae24083d9ab2fc"
+        ],
+        "path": [
+          { "category_id": 100641, "category_name": "Mô tô, xe máy" },
+          { "category_id": 100757, "category_name": "Phụ tùng xe máy" },
+          { "category_id": 101492, "category_name": "Hệ thống khung xe" }
+        ],
+        "category_id": 101492,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Hệ thống khí xả",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024528,
+        "images": [
+          "https://cf.shopee.sg/file/3b3141ffc3b76b86f0d8c5dd2dd772cc",
+          "https://cf.shopee.sg/file/527d97e3abe4bdd353cd984a15249e3b",
+          "https://cf.shopee.sg/file/7c30e42d81f05ae6addc410c4110760a",
+          "https://cf.shopee.sg/file/28b8411e762a3974940a5906fd7ab719",
+          "https://cf.shopee.sg/file/61c2f0e7850cf77176470af72f4d1402",
+          "https://cf.shopee.sg/file/392f8c08daeb6aaa2e3676b81623fc86"
+        ],
+        "path": [
+          { "category_id": 100641, "category_name": "Mô tô, xe máy" },
+          { "category_id": 100757, "category_name": "Phụ tùng xe máy" },
+          { "category_id": 101493, "category_name": "Hệ thống khí xả" }
+        ],
+        "category_id": 101493,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Bánh xe, Vành & Phụ kiện",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024528,
+        "images": [
+          "https://cf.shopee.sg/file/38987076d2c70a572da6713a0c024ba3",
+          "https://cf.shopee.sg/file/3dd5068175ad8c1f07e17d9917bc2b92",
+          "https://cf.shopee.sg/file/f05ed4a2b0ae6ed23f0ca9d02b8ec0cb",
+          "https://cf.shopee.sg/file/55a5429390d0af0ccce38dfb6dd79922",
+          "https://cf.shopee.sg/file/20322269ace567dda94311eb672649e4",
+          "https://cf.shopee.sg/file/5e3166e7b26ab8a0ea44f68fe485b73c"
+        ],
+        "path": [
+          { "category_id": 100641, "category_name": "Mô tô, xe máy" },
+          { "category_id": 100757, "category_name": "Phụ tùng xe máy" },
+          { "category_id": 101494, "category_name": "Bánh xe, Vành & Phụ kiện" }
+        ],
+        "category_id": 101494,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Lốp xe & Phụ kiện",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024528,
+        "images": [
+          "https://cf.shopee.sg/file/4e3824f01b7fefc848004f5dba3d3300",
+          "https://cf.shopee.sg/file/183152af4825486242fd148253a8746b",
+          "https://cf.shopee.sg/file/07fea04c3b71109da801d39742a2dc63",
+          "https://cf.shopee.sg/file/9e54bd46429ef0cab7ea75b21887f8c1",
+          "https://cf.shopee.sg/file/fa860f2095787ff0af9e68142008c34b",
+          "https://cf.shopee.sg/file/564ea82a4328375adfcd74b505a89246"
+        ],
+        "path": [
+          { "category_id": 100641, "category_name": "Mô tô, xe máy" },
+          { "category_id": 100757, "category_name": "Phụ tùng xe máy" },
+          { "category_id": 101495, "category_name": "Lốp xe & Phụ kiện" }
+        ],
+        "category_id": 101495,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Đèn",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024528,
+        "images": [
+          "https://cf.shopee.sg/file/ef1fbb937cd79ef8a700036c1b89279e",
+          "https://cf.shopee.sg/file/12e49d72c6c4c7b108d16a785ed8e2ef",
+          "https://cf.shopee.sg/file/2141f4f672d5ddcd1ff29c931775d080",
+          "https://cf.shopee.sg/file/e9eb3350c096f16570ae839d486e7c0e",
+          "https://cf.shopee.sg/file/1a2115d56e353470f6abd08c733a1353",
+          "https://cf.shopee.sg/file/8272f573c8c9819ea008f72e7ea9735a"
+        ],
+        "path": [
+          { "category_id": 100641, "category_name": "Mô tô, xe máy" },
+          { "category_id": 100757, "category_name": "Phụ tùng xe máy" },
+          { "category_id": 101496, "category_name": "Đèn" }
+        ],
+        "category_id": 101496,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Khác",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024528,
+        "images": [
+          "https://cf.shopee.sg/file/d65efef60ec4b8d6eb0c870a3366e06e",
+          "https://cf.shopee.sg/file/3be2239693b44fccde062db647598069",
+          "https://cf.shopee.sg/file/62e2ab5f6a09ff344872b66d7907673b",
+          "https://cf.shopee.sg/file/5264e5cee8ccd79fdaadf7f3e25551f6",
+          "https://cf.shopee.sg/file/5af5b85cccfbf07609b4ff902615b9f6",
+          "https://cf.shopee.sg/file/8d931f87a4d7732752229f54aa7a50d5"
+        ],
+        "path": [
+          { "category_id": 100641, "category_name": "Mô tô, xe máy" },
+          { "category_id": 100757, "category_name": "Phụ tùng xe máy" },
+          { "category_id": 101497, "category_name": "Khác" }
+        ],
+        "category_id": 101497,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Mũ bảo hiểm & Phụ kiện",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024528,
+        "images": [
+          "https://cf.shopee.sg/file/12deeb58d0397ed66656c2eb62657031",
+          "https://cf.shopee.sg/file/0bc9ee6737f02128ad29d018f46f6552",
+          "https://cf.shopee.sg/file/f77efdb7ea054d1cead4170b01ef653b",
+          "https://cf.shopee.sg/file/2f7a519cf8ea104b253053c29d459646",
+          "https://cf.shopee.sg/file/d97a1fd4b1b56e0be4fa46de6dedcdff",
+          "https://cf.shopee.sg/file/b035de83e58ea5fa46b7a8a687961060"
+        ],
+        "path": [
+          { "category_id": 100641, "category_name": "Mô tô, xe máy" },
+          { "category_id": 100758, "category_name": "Mũ bảo hiểm & Phụ kiện" }
+        ],
+        "category_id": 100758,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Khác",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024528,
+        "images": [
+          "https://cf.shopee.sg/file/782e3106fe2f7c2288b498b65539e3cd",
+          "https://cf.shopee.sg/file/d6b20534f838ba19d951da2a9025513b",
+          "https://cf.shopee.sg/file/5878dc71ae740848d728ef606698679e",
+          "https://cf.shopee.sg/file/85cbf9fabd52c34a698672f29af44207",
+          "https://cf.shopee.sg/file/78f67e5d88c2b237ec6149640dff11cd",
+          "https://cf.shopee.sg/file/ce4fbe183d2debf111d526306e998451"
+        ],
+        "path": [
+          { "category_id": 100641, "category_name": "Mô tô, xe máy" },
+          { "category_id": 100759, "category_name": "Khác" }
+        ],
+        "category_id": 100759,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Tạp Chí Kinh Tế",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024537,
+        "images": [
+          "https://cf.shopee.sg/file/8b36d36ce44e374a732e92516efc5d19",
+          "https://cf.shopee.sg/file/09b94fa6e0bcbcd0c1a7c22d03f7f31f",
+          "https://cf.shopee.sg/file/139a50078c32835e68ed3fce86a767df",
+          "https://cf.shopee.sg/file/9d75299a52a95dac083a81fed253e850",
+          "https://cf.shopee.sg/file/dc16ae81f76c64486ce0db8460ab8d47",
+          "https://cf.shopee.sg/file/54051e3d557b33f5646e9168212dfe9f"
+        ],
+        "path": [
+          { "category_id": 100643, "category_name": "Sách & Tạp Chí" },
+          { "category_id": 100776, "category_name": "Tạp Chí & Báo Giấy" },
+          { "category_id": 101536, "category_name": "Tạp Chí Kinh Tế" }
+        ],
+        "category_id": 101536,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Tạp Chí Đời Sống",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024537,
+        "images": [
+          "https://cf.shopee.sg/file/22cc886daf904565b56c8c96691cb2b6",
+          "https://cf.shopee.sg/file/b9780286dc00fe6c1a76b1dde56db3cc",
+          "https://cf.shopee.sg/file/2e4723323655c52a886b0591d11b4028",
+          "https://cf.shopee.sg/file/4c7e43b74a0e460e6e6afd158a29642f",
+          "https://cf.shopee.sg/file/48e669cb467ecd58e1e54f0ab63482ae",
+          "https://cf.shopee.sg/file/ff3806fcbeffd18201ba6a4aa24d390d"
+        ],
+        "path": [
+          { "category_id": 100643, "category_name": "Sách & Tạp Chí" },
+          { "category_id": 100776, "category_name": "Tạp Chí & Báo Giấy" },
+          { "category_id": 101537, "category_name": "Tạp Chí Đời Sống" }
+        ],
+        "category_id": 101537,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Tạp Chí Tuổi Teen",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024537,
+        "images": [
+          "https://cf.shopee.sg/file/dc8e8f02a02d938889b006d6986e03a3",
+          "https://cf.shopee.sg/file/540455f5b7c9a76583a106f03706786b",
+          "https://cf.shopee.sg/file/6f7390913a93c8828500890a597be5aa",
+          "https://cf.shopee.sg/file/5b66d612571092113a9dc359751650cf",
+          "https://cf.shopee.sg/file/e8fabb70e09db572615c8a68cdc3a92e",
+          "https://cf.shopee.sg/file/def270438fdfa3b6eb82f8a908a921e2"
+        ],
+        "path": [
+          { "category_id": 100643, "category_name": "Sách & Tạp Chí" },
+          { "category_id": 100776, "category_name": "Tạp Chí & Báo Giấy" },
+          { "category_id": 101538, "category_name": "Tạp Chí Tuổi Teen" }
+        ],
+        "category_id": 101538,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Sách Thiếu Nhi",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024537,
+        "images": [
+          "https://cf.shopee.sg/file/3327fe3071e8bcadfd42df6ae62a48aa",
+          "https://cf.shopee.sg/file/b8dd19cdd893ad472439e9e1deacef9a",
+          "https://cf.shopee.sg/file/d3bae252cb6827db1b024fa13fbb47e0",
+          "https://cf.shopee.sg/file/c054ab5fb15fd615ed694648f461e926",
+          "https://cf.shopee.sg/file/079fce9b7e4c0f46396e8a0df3ceae14",
+          "https://cf.shopee.sg/file/332a3f7d8d9325164ee8392fea74eca5"
+        ],
+        "path": [
+          { "category_id": 100643, "category_name": "Sách & Tạp Chí" },
+          { "category_id": 100777, "category_name": "Sách" },
+          { "category_id": 101541, "category_name": "Sách Thiếu Nhi" }
+        ],
+        "category_id": 101541,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Sách Dạy Nấu Ăn",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024537,
+        "images": [
+          "https://cf.shopee.sg/file/e342f987f0191ad6d085d9d14dea61cb",
+          "https://cf.shopee.sg/file/b07f874ca8c3de83b18770aae4afc2ee",
+          "https://cf.shopee.sg/file/5b21288fc7a194bcb7196c216212ad37",
+          "https://cf.shopee.sg/file/aebbd7f196b0e11aba53a4e75ddd789e",
+          "https://cf.shopee.sg/file/2629b6005351f6987931c7bbc9170b6f",
+          "https://cf.shopee.sg/file/ce5ff2442f082528cbed213f9ac00ff2"
+        ],
+        "path": [
+          { "category_id": 100643, "category_name": "Sách & Tạp Chí" },
+          { "category_id": 100777, "category_name": "Sách" },
+          { "category_id": 101545, "category_name": "Sách Dạy Nấu Ăn" }
+        ],
+        "category_id": 101545,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Sách Học Ngoại Ngữ & Từ Điển",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024538,
+        "images": [
+          "https://cf.shopee.sg/file/33ddd17367b7d08c5dd2d42e7e0c53af",
+          "https://cf.shopee.sg/file/c9e5738eaa65d21207c8be77b17f3d48",
+          "https://cf.shopee.sg/file/b4128a929368ed096bed47b04a2671bc",
+          "https://cf.shopee.sg/file/6aafd91bd27dd4dfc8f58ea8086ee073",
+          "https://cf.shopee.sg/file/c48b967cf1deff7a085528af2e736db5",
+          "https://cf.shopee.sg/file/da39821415c93f45446165b311911e67"
+        ],
+        "path": [
+          { "category_id": 100643, "category_name": "Sách & Tạp Chí" },
+          { "category_id": 100777, "category_name": "Sách" },
+          {
+            "category_id": 101551,
+            "category_name": "Sách Học Ngoại Ngữ & Từ Điển"
+          }
+        ],
+        "category_id": 101551,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Văn Học Kinh Điển",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024538,
+        "images": [
+          "https://cf.shopee.sg/file/c73a78de3f6b032ba1ce747cbd6964a1",
+          "https://cf.shopee.sg/file/f06dffe0ad8ee93cfe9b43697ce9c87a",
+          "https://cf.shopee.sg/file/533e881e8951d7b3d088b9e73dd74e17",
+          "https://cf.shopee.sg/file/767060834bd25f28386cf8df150c307b",
+          "https://cf.shopee.sg/file/c9206d85398ba010d414a6d9c22e3384",
+          "https://cf.shopee.sg/file/5b585683d289a609d5339cdaa9545b49"
+        ],
+        "path": [
+          { "category_id": 100643, "category_name": "Sách & Tạp Chí" },
+          { "category_id": 100777, "category_name": "Sách" },
+          { "category_id": 101555, "category_name": "Văn Học Kinh Điển" }
+        ],
+        "category_id": 101555,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Văn Học Lãng Mạn",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024538,
+        "images": [
+          "https://cf.shopee.sg/file/56dfda2b68bf83b64efff30959a27b42",
+          "https://cf.shopee.sg/file/f2437da4976f398a34703a70de368030",
+          "https://cf.shopee.sg/file/c479c165fffdf8c4a5149329e79d09a6",
+          "https://cf.shopee.sg/file/c17146968bdbbf66a5a07cbb8b3d2cbf",
+          "https://cf.shopee.sg/file/54398d053316b8adeebb610090cdc1fa",
+          "https://cf.shopee.sg/file/5213dcf6820516add0f9ba9158f7ac84"
+        ],
+        "path": [
+          { "category_id": 100643, "category_name": "Sách & Tạp Chí" },
+          { "category_id": 100777, "category_name": "Sách" },
+          { "category_id": 101558, "category_name": "Văn Học Lãng Mạn" }
+        ],
+        "category_id": 101558,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Sách Tôn giáo & Triết học",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024539,
+        "images": [
+          "https://cf.shopee.sg/file/47129bd9aebd356211c3eabb52725ac9",
+          "https://cf.shopee.sg/file/223b6719072f88ec1886b80e571e30b4",
+          "https://cf.shopee.sg/file/9d27235b73295c05b0880b1cbcf149d8",
+          "https://cf.shopee.sg/file/77a84b41a4d6cc220b29e6ecb9452631",
+          "https://cf.shopee.sg/file/b696ffc4cf007775b9fc0218b3feb8f7",
+          "https://cf.shopee.sg/file/8a845cca6a77ff088eaaadc270c58278"
+        ],
+        "path": [
+          { "category_id": 100643, "category_name": "Sách & Tạp Chí" },
+          { "category_id": 100777, "category_name": "Sách" },
+          {
+            "category_id": 101564,
+            "category_name": "Sách Tôn giáo & Triết học"
+          }
+        ],
+        "category_id": 101564,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Bộ Máy Tính Bàn",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024540,
+        "images": [
+          "https://cf.shopee.sg/file/2584f7f59dcd43b329d436f741a0dd8c",
+          "https://cf.shopee.sg/file/1c8b11ab45affe1e29945d6eda074afa",
+          "https://cf.shopee.sg/file/9cc4fb4376b799087d7c3dae05734cf0",
+          "https://cf.shopee.sg/file/af6bf5b368eb6788b2abb0f4fd830883",
+          "https://cf.shopee.sg/file/7f6779bee70e26827a061cf156ccdc7f",
+          "https://cf.shopee.sg/file/e1b35edd4e0ccb78711c8823a0f5afe8"
+        ],
+        "path": [
+          { "category_id": 100644, "category_name": "Máy tính & Laptop" },
+          { "category_id": 101932, "category_name": "Máy Tính Bàn" },
+          { "category_id": 101944, "category_name": "Bộ Máy Tính Bàn" }
+        ],
+        "category_id": 101944,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Máy Tính Mini",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024540,
+        "images": [
+          "https://cf.shopee.sg/file/d020aca7cb1ce51202a288dc239c0f1f",
+          "https://cf.shopee.sg/file/2004fac0ef1f3641817dc8c25a2022ca",
+          "https://cf.shopee.sg/file/fab1113e1c122dc391d0e7c7da4dabb8",
+          "https://cf.shopee.sg/file/cee6a097a9cc6926d882d5edc36364c2",
+          "https://cf.shopee.sg/file/228c22b232c018d770a2cfe408630fce",
+          "https://cf.shopee.sg/file/cbcf6c253b339fbf0e9a130d851ff9d2"
+        ],
+        "path": [
+          { "category_id": 100644, "category_name": "Máy tính & Laptop" },
+          { "category_id": 101932, "category_name": "Máy Tính Bàn" },
+          { "category_id": 101945, "category_name": "Máy Tính Mini" }
+        ],
+        "category_id": 101945,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Máy Chủ",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024540,
+        "images": [
+          "https://cf.shopee.sg/file/15680f45e4a09b70792d18d12154aea1",
+          "https://cf.shopee.sg/file/1abc0582d60b8ee9e69eee14baa026db",
+          "https://cf.shopee.sg/file/ca32539e1a5a0afe7544474d059d4a9a",
+          "https://cf.shopee.sg/file/ce446bcce951d07556ca3779a909f934",
+          "https://cf.shopee.sg/file/40fae6b1c7000b67955fc66b80356499",
+          "https://cf.shopee.sg/file/e437134d7bf7a53b398eca1b2aa848d5"
+        ],
+        "path": [
+          { "category_id": 100644, "category_name": "Máy tính & Laptop" },
+          { "category_id": 101932, "category_name": "Máy Tính Bàn" },
+          { "category_id": 101946, "category_name": "Máy Chủ" }
+        ],
+        "category_id": 101946,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Máy Tính All in one",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024540,
+        "images": [
+          "https://cf.shopee.sg/file/193f15c573f9799f1ec2d2c5909845e2",
+          "https://cf.shopee.sg/file/db4be88df48eb3f1aa34b89b9e4a34d5",
+          "https://cf.shopee.sg/file/7e2da735bcffb11c8e3a9559c04b6c95",
+          "https://cf.shopee.sg/file/298b19214e66791a6af3745f723848e7",
+          "https://cf.shopee.sg/file/62ad33bee581671b0365ed9d7ce61e46",
+          "https://cf.shopee.sg/file/aed7546036394c6b9e5c1fd11f674d90"
+        ],
+        "path": [
+          { "category_id": 100644, "category_name": "Máy tính & Laptop" },
+          { "category_id": 101932, "category_name": "Máy Tính Bàn" },
+          { "category_id": 101947, "category_name": "Máy Tính All in one" }
+        ],
+        "category_id": 101947,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Màn Hình",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024540,
+        "images": [
+          "https://cf.shopee.sg/file/4cc4cc12fca8d1bc17ee8e5e47789a02",
+          "https://cf.shopee.sg/file/8f60b540eed7ef59d06229135013da72",
+          "https://cf.shopee.sg/file/2ad4fbda58d066f7c43aa0b795711464",
+          "https://cf.shopee.sg/file/c446fcfe6c61780e53d9cd8a364d685c",
+          "https://cf.shopee.sg/file/3be53603e8ade036e2fcdabdbd15d79f",
+          "https://cf.shopee.sg/file/ec537ebdf65bffdd687a6d1a2e866862"
+        ],
+        "path": [
+          { "category_id": 100644, "category_name": "Máy tính & Laptop" },
+          { "category_id": 101933, "category_name": "Màn Hình" }
+        ],
+        "category_id": 101933,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Quạt và Tản Nhiệt",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024540,
+        "images": [
+          "https://cf.shopee.sg/file/f2feb3f63d4da3796997ee0ed550df1b",
+          "https://cf.shopee.sg/file/5b512a66debc430eaaaeb1d8050d13fc",
+          "https://cf.shopee.sg/file/74cb9d909122dd44a54438f10a7f2ea9",
+          "https://cf.shopee.sg/file/629421fa82a271aa07e113b027b3eb24",
+          "https://cf.shopee.sg/file/5da4f53f0b11dae725af71f2857888b3",
+          "https://cf.shopee.sg/file/0d88f26537f71a2981a8dfbe4f660a97"
+        ],
+        "path": [
+          { "category_id": 100644, "category_name": "Máy tính & Laptop" },
+          { "category_id": 101934, "category_name": "Linh Kiện Máy Tính" },
+          { "category_id": 101949, "category_name": "Quạt và Tản Nhiệt" }
+        ],
+        "category_id": 101949,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "CPU - Bộ Vi Xử Lý",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024540,
+        "images": [
+          "https://cf.shopee.sg/file/84755116df0f50b8a8fa3dc961b8c4fa",
+          "https://cf.shopee.sg/file/013b9df21614df5899aba06856a42963",
+          "https://cf.shopee.sg/file/63a99556dd9bf588979b7f0eabad06cb",
+          "https://cf.shopee.sg/file/cd4320218e9ca712e269ba2308d65525",
+          "https://cf.shopee.sg/file/e409faf73a2aef2ff8832154fec47da7",
+          "https://cf.shopee.sg/file/420e511ca15b0fd79bdad7c7445b1349"
+        ],
+        "path": [
+          { "category_id": 100644, "category_name": "Máy tính & Laptop" },
+          { "category_id": 101934, "category_name": "Linh Kiện Máy Tính" },
+          { "category_id": 101950, "category_name": "CPU - Bộ Vi Xử Lý" }
+        ],
+        "category_id": 101950,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Mainboard - Bo Mạch Chủ",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024540,
+        "images": [
+          "https://cf.shopee.sg/file/2a92d8a647a15becfa1a61627b63486e",
+          "https://cf.shopee.sg/file/b3922e94f0a722c2c9e0476b59f2acbb",
+          "https://cf.shopee.sg/file/35a1d28a018812a99fc6578f14f9fbdd",
+          "https://cf.shopee.sg/file/9db5f41157eb0d57ded9c1756f9016d2",
+          "https://cf.shopee.sg/file/d51eed37b96b9826958c612db1972d35",
+          "https://cf.shopee.sg/file/e7b6a9f3e5a8af7d3f8b74c19a9be715"
+        ],
+        "path": [
+          { "category_id": 100644, "category_name": "Máy tính & Laptop" },
+          { "category_id": 101934, "category_name": "Linh Kiện Máy Tính" },
+          { "category_id": 101951, "category_name": "Mainboard - Bo Mạch Chủ" }
+        ],
+        "category_id": 101951,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "VGA - Card Màn Hình",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024540,
+        "images": [
+          "https://cf.shopee.sg/file/9fdad45af00e9a8a23543534d926a132",
+          "https://cf.shopee.sg/file/f07ebabccf048649136690ac64811854",
+          "https://cf.shopee.sg/file/431958bb8cd6d138793024fb193c1b33",
+          "https://cf.shopee.sg/file/99f6946fd611d3d61e5adc91f2f24c67",
+          "https://cf.shopee.sg/file/bc29b39f7487a40963d99e58828b4e01",
+          "https://cf.shopee.sg/file/250d63966e2151982dc6b82355a78618"
+        ],
+        "path": [
+          { "category_id": 100644, "category_name": "Máy tính & Laptop" },
+          { "category_id": 101934, "category_name": "Linh Kiện Máy Tính" },
+          { "category_id": 101952, "category_name": "VGA - Card Màn Hình" }
+        ],
+        "category_id": 101952,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Keo Tản Nhiệt",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024540,
+        "images": [
+          "https://cf.shopee.sg/file/42b335b98b32dc24ff0bdf795c4a90dc",
+          "https://cf.shopee.sg/file/d9e53758509124fcace934fbba26771b",
+          "https://cf.shopee.sg/file/c6c0c725f113ad83a406f1dfd75d33d2",
+          "https://cf.shopee.sg/file/4f6c3c4328fbaa3c6473848a0a58a958",
+          "https://cf.shopee.sg/file/5768ae52d743f1d568e106ae4089dab1",
+          "https://cf.shopee.sg/file/220c038e25e7b53c472e9f7ed6f3d6d2"
+        ],
+        "path": [
+          { "category_id": 100644, "category_name": "Máy tính & Laptop" },
+          { "category_id": 101934, "category_name": "Linh Kiện Máy Tính" },
+          { "category_id": 101953, "category_name": "Keo Tản Nhiệt" }
+        ],
+        "category_id": 101953,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Nguồn Máy Tính",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024540,
+        "images": [
+          "https://cf.shopee.sg/file/6e3fecfa405b45847a69b2705e8bc59e",
+          "https://cf.shopee.sg/file/8957835b7aeeec99b3a3e46e1ed8c057",
+          "https://cf.shopee.sg/file/2747518bfaea47558245b5b247ca3261",
+          "https://cf.shopee.sg/file/805db8c5cbb4b12ec19b12242bd29ae0",
+          "https://cf.shopee.sg/file/2995567c111f9a8eeb04a66f93b30463",
+          "https://cf.shopee.sg/file/fdfae2c4d9af53d01a9cac2c69551203"
+        ],
+        "path": [
+          { "category_id": 100644, "category_name": "Máy tính & Laptop" },
+          { "category_id": 101934, "category_name": "Linh Kiện Máy Tính" },
+          { "category_id": 101954, "category_name": "Nguồn Máy Tính" }
+        ],
+        "category_id": 101954,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Ram Máy Tính",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024540,
+        "images": [
+          "https://cf.shopee.sg/file/7224f323600955fe2b9c4be1563e00ab",
+          "https://cf.shopee.sg/file/2364074567a09137a1a8bfbf3b0f5ad7",
+          "https://cf.shopee.sg/file/5618ab99b37c8dd8f7e64eadc0ad08aa",
+          "https://cf.shopee.sg/file/52b65f654cb6f6438075e887885f094e",
+          "https://cf.shopee.sg/file/32a6a2ae7d0d1271ab4493d5f4156f93",
+          "https://cf.shopee.sg/file/5551a71c7299ae27874d7c5646ae6977"
+        ],
+        "path": [
+          { "category_id": 100644, "category_name": "Máy tính & Laptop" },
+          { "category_id": 101934, "category_name": "Linh Kiện Máy Tính" },
+          { "category_id": 101955, "category_name": "Ram Máy Tính" }
+        ],
+        "category_id": 101955,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Bộ Lưu Điện",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024540,
+        "images": [
+          "https://cf.shopee.sg/file/e190a8747d28b039f1a57247fa195d58",
+          "https://cf.shopee.sg/file/c38ccb5b3d630c08510df23106764452",
+          "https://cf.shopee.sg/file/36e34a755c1b2d96e1fc81f5b0bdeba4",
+          "https://cf.shopee.sg/file/6db51d27a471d10a0fdc869668eba8e5",
+          "https://cf.shopee.sg/file/5a9f1fe2c7a076c136dc7407f12db879",
+          "https://cf.shopee.sg/file/25e949fc3451a55cc77a6f02c118681a"
+        ],
+        "path": [
+          { "category_id": 100644, "category_name": "Máy tính & Laptop" },
+          { "category_id": 101934, "category_name": "Linh Kiện Máy Tính" },
+          { "category_id": 101956, "category_name": "Bộ Lưu Điện" }
+        ],
+        "category_id": 101956,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Case Máy Tính",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024540,
+        "images": [
+          "https://cf.shopee.sg/file/051a4da74a2f3be164f2bf817d9b294f",
+          "https://cf.shopee.sg/file/d1712c50cdd5384c9375bde54b3b66cd",
+          "https://cf.shopee.sg/file/0cc4db8996edb7ff07dbe588afc44a4b",
+          "https://cf.shopee.sg/file/a9a2e9a6c32c2711dcecfc32ede52738",
+          "https://cf.shopee.sg/file/2515a30ecc3a0cb845f465019687a733",
+          "https://cf.shopee.sg/file/0975ce53f0036090b8dc4dd2c5d99b06"
+        ],
+        "path": [
+          { "category_id": 100644, "category_name": "Máy tính & Laptop" },
+          { "category_id": 101934, "category_name": "Linh Kiện Máy Tính" },
+          { "category_id": 101957, "category_name": "Case Máy Tính" }
+        ],
+        "category_id": 101957,
+        "hl_category_name": ""
+      },
+      {
+        "category_name": "Ổ Đĩa Quang",
+        "hl_category_id": "",
+        "toggle": true,
+        "mtime": 1673024540,
+        "images": [
+          "https://cf.shopee.sg/file/ca79eac65f90a1b5408d2e6bf29a0055",
+          "https://cf.shopee.sg/file/7053799494d72e8337bd071082161403",
+          "https://cf.shopee.sg/file/e4ffd2f67f17c814dfac1f9c43692d55",
+          "https://cf.shopee.sg/file/613ace114e036b58eab3b337c4285440",
+          "https://cf.shopee.sg/file/f1840918855e778a18ab738e2772bb2d",
+          "https://cf.shopee.sg/file/9c99f0b6b83087f71243d071ea1f6d53"
+        ],
+        "path": [
+          { "category_id": 100644, "category_name": "Máy tính & Laptop" },
+          { "category_id": 101934, "category_name": "Linh Kiện Máy Tính" },
+          { "category_id": 101958, "category_name": "Ổ Đĩa Quang" }
+        ],
+        "category_id": 101958,
+        "hl_category_name": ""
+      }
+    ]
+  }
+}
