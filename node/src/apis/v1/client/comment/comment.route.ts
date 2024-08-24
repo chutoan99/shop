@@ -1,6 +1,6 @@
 import express from 'express'
 import { verifyToken } from '~/middleWares/jwt'
-import fileUploader from '~/configs/cloudinary'
+import fileUploader from '~/configs/cloudinary.config'
 import CommentController from './comment.controller'
 
 const router = express.Router()

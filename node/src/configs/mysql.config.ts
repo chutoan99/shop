@@ -10,7 +10,8 @@ const connectMySQL = () => {
 
 	const pool = mysql.createPool({
 		uri: connectionString,
-		connectionLimit: 10
+		connectionLimit: 10,
+    multipleStatements: true
 	})
 	console.log('Connection to Mysql database successful.')
 

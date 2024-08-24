@@ -2,7 +2,7 @@ import { Express } from 'express'
 import expressWinston from 'express-winston'
 import swaggerUi from 'swagger-ui-express'
 import swaggerDocument from '~/configs/swagger.json'
-import WriteLogger from './configs/winston'
+import WriteLogger from './configs/winston.config'
 import { transports, format, Logform } from 'winston'
 const { printf } = format
 //? CRAWL

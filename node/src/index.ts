@@ -5,12 +5,13 @@ import cookieParser from 'cookie-parser'
 import bodyParser from 'body-parser'
 import CreateTable from './configs/table'
 import initRoutes from './route'
-import configSocketIO from './configs/socketio'
+import configSocketIO from './configs/socketio.config'
 import startServer from './server'
-import connectRedis from './configs/redis'
-import connectMySQL from './configs/mysql'
-import connectMongoDB from './configs/mongodb'
-import { loginFaceBook, loginGoogle } from './configs/passpost'
+import connectRedis from './configs/redis.config'
+import connectMySQL from './configs/mysql.config'
+import connectMongoDB from './configs/mongodb.config'
+import { loginFaceBook, loginGoogle } from './configs/passpost.config'
+import connectSQLServer from './configs/sqlserver.config'
 
 // Create an Express app
 const app = express()
@@ -34,6 +35,7 @@ app.use(
 )
 
 // Database connections
+connectSQLServer()
 connectMongoDB()
 connectMySQL()
 CreateTable()

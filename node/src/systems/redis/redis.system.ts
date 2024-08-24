@@ -1,4 +1,4 @@
-import { redisClient } from '~/configs/redis'
+import { redisClient } from '~/configs/redis.config'
 
 export default class RedisSystem {
 	public async getCache(key: string): Promise<any> {

@@ -1,4 +1,4 @@
-import connectMySQL from './mysql'
+import connectMySQL from './mysql.config'
 
 const CreateTable = async () => {
 	const pool = connectMySQL()

@@ -1,7 +1,7 @@
 import { PoolConnection } from 'mysql2/promise'
 import MESSAGE from '~/@core/contains/message.json'
-import WriteLogger from '~/configs/winston'
-import connectMySQL from '~/configs/mysql'
+import WriteLogger from '~/configs/winston.config'
+import connectMySQL from '~/configs/mysql.config'
 export class BaseDataBase {
 	public db!: PoolConnection
 	public async initDb() {

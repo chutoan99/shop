@@ -1,4 +1,4 @@
-import WriteLogger from '~/configs/winston'
+import WriteLogger from '~/configs/winston.config'
 
 export class LoggerSystem {
 	public error = (err: any) => {

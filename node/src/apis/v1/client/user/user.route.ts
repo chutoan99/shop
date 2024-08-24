@@ -1,6 +1,6 @@
 import express, { Router } from 'express'
 import { verifyToken } from '~/middleWares/jwt'
-import fileUploader from '~/configs/cloudinary'
+import fileUploader from '~/configs/cloudinary.config'
 import UserController from './user.controller'
 
 require('dotenv').config()

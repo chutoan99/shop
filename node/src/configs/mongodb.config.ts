@@ -1,11 +1,11 @@
 import mongoose from 'mongoose'
 import dotenv from 'dotenv'
-import WriteLogger from './winston'
+import WriteLogger from './winston.config'
 dotenv.config()
 
 const connectMongoDB = () => {
 	try {
-		const connectionString = process.env.MONGODB_CONNECT
+		const connectionString = process.env.MONGODB_URL
 		if (!connectionString) {
 			throw new Error('MongoDB connection string is missing.')
 		}

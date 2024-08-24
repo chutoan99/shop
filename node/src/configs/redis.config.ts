@@ -1,6 +1,6 @@
 const Redis = require('redis')
 import dotenv from 'dotenv'
-import WriteLogger from './winston'
+import WriteLogger from './winston.config'
 dotenv.config()
 
 export const redisClient = Redis.createClient({
