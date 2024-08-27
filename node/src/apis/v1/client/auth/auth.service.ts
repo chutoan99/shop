@@ -94,6 +94,9 @@ export default class AuthService implements IAuthService {
 			const user: UserModel = await this._userRepository.findByEmail(
 				payload?.email
 			)
+
+      console.log(user,"csscscsc")
+
 			if (!user) {
 				return {
 					err: 2,

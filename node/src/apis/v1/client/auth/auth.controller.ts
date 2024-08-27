@@ -42,9 +42,11 @@ class AuthClientController {
 	): Promise<Response<any, Record<string, any>>> => {
 		try {
 			const payload: LoginDto = req.body
+      console.log(payload,"scscsc")
 			const { error }: { error: joi.ValidationError | undefined } =
 				this._authValidator.Login(payload)
 
+      console.log(error, "errorerrorerrorerror")
 			if (error) return badRequest(error.details[0]?.message, res)
 
 			const response = await this._authService.login(payload)

@@ -1,4 +1,4 @@
-import { BaseDataBase } from '~/systems/dataBase'
+import { MySQlSystem } from '~/systems/dataBase'
 import { ResultResponse } from '~/@core/systems/response'
 import { LoggerSystem } from '~/systems/logger'
 import { SearchSuggestModel } from './search-suggest.model'
@@ -9,16 +9,16 @@ export default class SearchSuggestRepository
 	implements ISearchSuggestRepository
 {
 	private readonly _loggerSystem: LoggerSystem
-	private readonly _baseDataBase: BaseDataBase
+	private readonly _MySQlSystem: MySQlSystem
   
 	constructor() {
 		this._loggerSystem = new LoggerSystem()
-		this._baseDataBase = new BaseDataBase()
-		this._baseDataBase.initDb()
+		this._MySQlSystem = new MySQlSystem()
+		this._MySQlSystem.initDb()
 	}
 	public findAll = async (): Promise<SearchSuggestModel[]> => {
 		try {
-			const [response]: ResultResponse = await this._baseDataBase.db.query(
+			const [response]: ResultResponse = await this._MySQlSystem.db.query(
 				`SELECT id, text, count, createdAt, updatedAt  FROM SearchSuggestions`
 			)
 
@@ -27,7 +27,7 @@ export default class SearchSuggestRepository
 			this._loggerSystem.error(error)
 			throw error
 		} finally {
-			this._baseDataBase.closeConnection()
+			this._MySQlSystem.closeConnection()
 		}
 	}
 }

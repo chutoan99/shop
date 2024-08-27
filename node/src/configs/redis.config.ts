@@ -1,6 +1,7 @@
 const Redis = require('redis')
 import dotenv from 'dotenv'
 import WriteLogger from './winston.config'
+
 dotenv.config()
 
 export const redisClient = Redis.createClient({
@@ -13,6 +14,7 @@ const connectRedis = async () => {
 			console.log('Successfully connected to Redis ')
 		})
 		redisClient.on('error', (error: any) => {
+      console.log(error,"error")
 			WriteLogger.log({
 				level: 'error',
 				message: error.message

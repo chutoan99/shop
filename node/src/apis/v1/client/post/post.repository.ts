@@ -1,4 +1,4 @@
-import { BaseDataBase } from '~/systems/dataBase'
+import { MySQlSystem } from '~/systems/dataBase'
 import { ResultResponse } from '~/@core/systems/response'
 import PostQuery from './post.query'
 import PaginationSystem from '~/systems/pagination/pagination.system'
@@ -12,16 +12,16 @@ interface IPostRepository {
 
 export default class PostRepository implements IPostRepository {
 	private readonly _loggerSystem: LoggerSystem
-	private readonly _baseDataBase: BaseDataBase
+	private readonly _MySQlSystem: MySQlSystem
 	constructor() {
 		this._loggerSystem = new LoggerSystem()
-		this._baseDataBase = new BaseDataBase()
-		this._baseDataBase.initDb()
+		this._MySQlSystem = new MySQlSystem()
+		this._MySQlSystem.initDb()
 	}
 
 	public find = async (id: number): Promise<PostModel> => {
 		try {
-			const [response]: ResultResponse = await this._baseDataBase.db.query(`
+			const [response]: ResultResponse = await this._MySQlSystem.db.query(`
             SELECT
               Posts.id,
               Posts.shopid,
@@ -146,7 +146,7 @@ export default class PostRepository implements IPostRepository {
 			this._loggerSystem.error(error)
 			throw error
 		} finally {
-			this._baseDataBase.closeConnection()
+			this._MySQlSystem.closeConnection()
 		}
 	}
 
@@ -155,7 +155,7 @@ export default class PostRepository implements IPostRepository {
 		queries: PostQuery
 	): Promise<PostModel[]> => {
 		try {
-			const [response]: ResultResponse = await this._baseDataBase.db.query(`
+			const [response]: ResultResponse = await this._MySQlSystem.db.query(`
         SELECT
             id,
             shopid,
@@ -192,7 +192,7 @@ export default class PostRepository implements IPostRepository {
 			this._loggerSystem.error(error)
 			throw error
 		} finally {
-			this._baseDataBase.closeConnection()
+			this._MySQlSystem.closeConnection()
 		}
 	}
 }

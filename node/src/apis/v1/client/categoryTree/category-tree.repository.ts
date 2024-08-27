@@ -1,5 +1,5 @@
 import { ResultResponse } from '~/@core/systems/response'
-import { BaseDataBase } from '~/systems/dataBase'
+import { MySQlSystem } from '~/systems/dataBase'
 import { LoggerSystem } from '~/systems/logger'
 import { CategoryModel } from './category-tree.model'
 
@@ -9,15 +9,15 @@ interface ICategoriesRepository {
 }
 export default class CategoriesRepository implements ICategoriesRepository {
 	private readonly _loggerSystem: LoggerSystem
-	private readonly _baseDataBase = new BaseDataBase()
+	private readonly _MySQlSystem = new MySQlSystem()
 	constructor() {
 		this._loggerSystem = new LoggerSystem()
-		this._baseDataBase = new BaseDataBase()
-		this._baseDataBase.initDb()
+		this._MySQlSystem = new MySQlSystem()
+		this._MySQlSystem.initDb()
 	}
 	public findAll = async (level: number): Promise<CategoryModel[]> => {
 		try {
-			const [response]: ResultResponse = await this._baseDataBase.db.query(
+			const [response]: ResultResponse = await this._MySQlSystem.db.query(
 				`SELECT * FROM HomeCategories WHERE level = ${level}`
 			)
 
@@ -26,13 +26,13 @@ export default class CategoriesRepository implements ICategoriesRepository {
 			this._loggerSystem.error(error)
 			throw error
 		} finally {
-			this._baseDataBase.closeConnection()
+			this._MySQlSystem.closeConnection()
 		}
 	}
 
 	public search = async (id: number): Promise<CategoryModel[]> => {
 		try {
-			const [response]: ResultResponse = await this._baseDataBase.db.query(
+			const [response]: ResultResponse = await this._MySQlSystem.db.query(
 				`SELECT * FROM HomeCategories WHERE parent_catid = ${id}`
 			)
 
@@ -41,7 +41,7 @@ export default class CategoriesRepository implements ICategoriesRepository {
 			this._loggerSystem.error(error)
 			throw error
 		} finally {
-			this._baseDataBase.closeConnection()
+			this._MySQlSystem.closeConnection()
 		}
 	}
 }

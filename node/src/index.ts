@@ -11,7 +11,7 @@ import connectRedis from './configs/redis.config'
 import connectMySQL from './configs/mysql.config'
 import connectMongoDB from './configs/mongodb.config'
 import { loginFaceBook, loginGoogle } from './configs/passpost.config'
-import connectSQLServer from './configs/sqlserver.config'
+import connectSQLServer from './configs/sqlServer.config'
 
 // Create an Express app
 const app = express()
@@ -33,6 +33,13 @@ app.use(
 		parameterLimit: 50000
 	})
 )
+// Initialize routes and socket.io configuration
+connectRedis()
+loginGoogle()
+loginFaceBook()
+initRoutes(app)
+configSocketIO(server)
+
 
 // Database connections
 connectSQLServer()
@@ -40,12 +47,7 @@ connectMongoDB()
 connectMySQL()
 CreateTable()
 
-// Initialize routes and socket.io configuration
-connectRedis()
-loginGoogle()
-loginFaceBook()
-initRoutes(app)
-configSocketIO(server)
+
 
 // Enable CORS middleware
 app.use(function (req: any, res: any, next: any) {

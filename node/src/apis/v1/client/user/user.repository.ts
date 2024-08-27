@@ -1,5 +1,5 @@
 import { LoggerSystem } from '~/systems/logger'
-import { BaseDataBase } from '~/systems/dataBase'
+import { MySQlSystem } from '~/systems/dataBase'
 import { ResultResponse } from '~/@core/systems/response'
 import { FieldPacket, ResultSetHeader } from 'mysql2'
 import { UserModel } from './user.model'
@@ -13,18 +13,18 @@ interface IUserRepository {
 
 export default class UserRepository implements IUserRepository {
 	private readonly _loggerSystem: LoggerSystem
-	private readonly _baseDataBase: BaseDataBase
+	private readonly _MySQlSystem: MySQlSystem
 
 	constructor() {
-		this._baseDataBase = new BaseDataBase()
+		this._MySQlSystem = new MySQlSystem()
 		this._loggerSystem = new LoggerSystem()
-		this._baseDataBase.initDb()
+		this._MySQlSystem.initDb()
 	}
 
 	public findByEmail = async (email: string): Promise<UserModel> => {
 		try {
 			const [response]: ResultResponse =
-				await this._baseDataBase.db.query(
+				await this._MySQlSystem.db.query(
 					`SELECT * FROM Users WHERE email = '${email}'`
 				)
 
@@ -33,14 +33,14 @@ export default class UserRepository implements IUserRepository {
 			this._loggerSystem.error(error)
 			throw error
 		} finally {
-			this._baseDataBase.closeConnection()
+			this._MySQlSystem.closeConnection()
 		}
 	}
 
 	public current = async (id: number): Promise<UserModel> => {
 		try {
 			const [response]: ResultResponse =
-				await this._baseDataBase.db.query(
+				await this._MySQlSystem.db.query(
 					`SELECT 
 					id, 
 					shopid, 
@@ -65,14 +65,14 @@ export default class UserRepository implements IUserRepository {
 			this._loggerSystem.error(error)
 			throw error
 		} finally {
-			this._baseDataBase.closeConnection()
+			this._MySQlSystem.closeConnection()
 		}
 	}
 
 	public create = async (user: UserModel): Promise<boolean> => {
 		try {
 			const [response]: [ResultSetHeader, FieldPacket[]] = await this
-				._baseDataBase.db.execute(`
+				._MySQlSystem.db.execute(`
         INSERT IGNORE INTO Users 
           (id, shopid, name, username, email, sex, role, password) 
         VALUES 
@@ -84,14 +84,14 @@ export default class UserRepository implements IUserRepository {
 			this._loggerSystem.error(error)
 			throw error
 		} finally {
-			this._baseDataBase.closeConnection()
+			this._MySQlSystem.closeConnection()
 		}
 	}
 
 	public update = async (user: UserModel): Promise<boolean> => {
 		try {
 			const [response]: [ResultSetHeader, FieldPacket[]] = await this
-				._baseDataBase.db.query(`
+				._MySQlSystem.db.query(`
             UPDATE Users 
             SET 
               sex = '${user?.sex}',
@@ -110,7 +110,7 @@ export default class UserRepository implements IUserRepository {
 			this._loggerSystem.error(error)
 			throw error
 		} finally {
-			this._baseDataBase.closeConnection()
+			this._MySQlSystem.closeConnection()
 		}
 	}
 }

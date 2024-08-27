@@ -1,4 +1,4 @@
-import { BaseDataBase } from '~/systems/dataBase'
+import { MySQlSystem } from '~/systems/dataBase'
 import { ResultResponse } from '~/@core/systems/response'
 import { FieldPacket, ResultSetHeader } from 'mysql2'
 import { LoggerSystem } from '~/systems/logger'
@@ -11,15 +11,15 @@ interface IRoomRepository {
 
 export default class RoomRepository implements IRoomRepository {
 	private readonly _loggerSystem: LoggerSystem
-	private readonly _baseDataBase: BaseDataBase
+	private readonly _MySQlSystem: MySQlSystem
 	constructor() {
 		this._loggerSystem = new LoggerSystem()
-		this._baseDataBase = new BaseDataBase()
-		this._baseDataBase.initDb()
+		this._MySQlSystem = new MySQlSystem()
+		this._MySQlSystem.initDb()
 	}
 	public findAll = async (userId: number): Promise<RoomModel[]> => {
 		try {
-			const [response]: ResultResponse = await this._baseDataBase.db.query(`
+			const [response]: ResultResponse = await this._MySQlSystem.db.query(`
 				SELECT
 				Rooms.*,
 				JSON_OBJECT (
@@ -82,13 +82,13 @@ export default class RoomRepository implements IRoomRepository {
 			this._loggerSystem.error(error)
 			throw error
 		} finally {
-			this._baseDataBase.closeConnection()
+			this._MySQlSystem.closeConnection()
 		}
 	}
 
 	public find = async (shopId: number, userId: number): Promise<RoomModel> => {
 		try {
-			const [response]: ResultResponse = await this._baseDataBase.db.query(
+			const [response]: ResultResponse = await this._MySQlSystem.db.query(
 				`SELECT * FROM Rooms  WHERE  userid = ${userId} AND shopid = ${shopId}`
 			)
 
@@ -97,14 +97,14 @@ export default class RoomRepository implements IRoomRepository {
 			this._loggerSystem.error(error)
 			throw error
 		} finally {
-			this._baseDataBase.closeConnection()
+			this._MySQlSystem.closeConnection()
 		}
 	}
 
 	public create = async (room: RoomModel): Promise<boolean> => {
 		try {
 			const [response]: [ResultSetHeader, FieldPacket[]] =
-				await this._baseDataBase.db.execute(
+				await this._MySQlSystem.db.execute(
 					`INSERT INTO Rooms (id, shopid, userid) VALUES (?, ?, ?)`,
 					[room.id, room.shopid, room.userid]
 				)
@@ -114,7 +114,7 @@ export default class RoomRepository implements IRoomRepository {
 			this._loggerSystem.error(error)
 			throw error
 		} finally {
-			this._baseDataBase.closeConnection()
+			this._MySQlSystem.closeConnection()
 		}
 	}
 }

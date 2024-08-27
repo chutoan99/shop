@@ -1,8 +1,8 @@
 import { LoggerSystem } from '~/systems/logger/logger.system'
-import { BaseDataBase } from '~/systems/dataBase'
 import { FieldPacket, ResultSetHeader } from 'mysql2'
 import { ResultResponse } from '~/@core/systems/response'
 import { UserModel } from '../user/user.model'
+import { MySQlSystem } from '~/systems/dataBase'
 
 interface IAuthRepository {
 	updateRefreshToken(user: UserModel, token: string): Promise<boolean>
@@ -17,12 +17,12 @@ interface IAuthRepository {
 
 export default class AuthRepository implements IAuthRepository {
 	private readonly _loggerSystem: LoggerSystem
-	private readonly _baseDataBase: BaseDataBase
+	private readonly _MySQlSystem: MySQlSystem
 
 	constructor() {
-		this._baseDataBase = new BaseDataBase()
+		this._MySQlSystem = new MySQlSystem()
 		this._loggerSystem = new LoggerSystem()
-		this._baseDataBase.initDb()
+		this._MySQlSystem.initDb()
 	}
 
 	public updateRefreshToken = async (
@@ -31,7 +31,7 @@ export default class AuthRepository implements IAuthRepository {
 	): Promise<boolean> => {
 		try {
 			const [response]: [ResultSetHeader, FieldPacket[]] =
-				await this._baseDataBase.db.query(
+				await this._MySQlSystem.db.query(
 					`UPDATE Users SET refreshToken = '${token}', not_new_user = CASE WHEN ${user.not_new_user} IS NULL THEN TRUE ELSE FALSE END WHERE email = '${user?.email}'`
 				)
 			return response && response?.affectedRows === 1
@@ -39,7 +39,7 @@ export default class AuthRepository implements IAuthRepository {
 			this._loggerSystem.error(error)
 			throw error
 		} finally {
-			this._baseDataBase.closeConnection()
+			this._MySQlSystem.closeConnection()
 		}
 	}
 
@@ -50,7 +50,7 @@ export default class AuthRepository implements IAuthRepository {
 	): Promise<boolean> => {
 		try {
 			const [response]: [ResultSetHeader, FieldPacket[]] =
-				await this._baseDataBase.db.execute(
+				await this._MySQlSystem.db.execute(
 					`UPDATE Users SET passwordResetToken = '${token}', passwordResetExpires = '${expires}' WHERE email = '${email}'`
 				)
 			return response && response?.affectedRows === 1
@@ -58,14 +58,14 @@ export default class AuthRepository implements IAuthRepository {
 			this._loggerSystem.error(error)
 			throw error
 		} finally {
-			this._baseDataBase.closeConnection()
+			this._MySQlSystem.closeConnection()
 		}
 	}
 
 	public logout = async (userId: number): Promise<boolean> => {
 		try {
 			const [response]: [ResultSetHeader, FieldPacket[]] =
-				await this._baseDataBase.db.query(
+				await this._MySQlSystem.db.query(
 					`UPDATE Users SET refreshToken = '' WHERE id = '${userId}'`
 				)
 			return response && response?.affectedRows === 1
@@ -73,7 +73,7 @@ export default class AuthRepository implements IAuthRepository {
 			this._loggerSystem.error(error)
 			throw error
 		} finally {
-			this._baseDataBase.closeConnection()
+			this._MySQlSystem.closeConnection()
 		}
 	}
 
@@ -83,7 +83,7 @@ export default class AuthRepository implements IAuthRepository {
 	): Promise<boolean> => {
 		try {
 			const [response]: [ResultSetHeader, FieldPacket[]] =
-				await this._baseDataBase.db.query(
+				await this._MySQlSystem.db.query(
 					`UPDATE Users SET password = '${password}', passwordChangedAt = '${Date.now()}' , passwordResetToken = '''' passwordResetExpires = '''',  WHERE email = '${email}'`
 				)
 			return response && response?.affectedRows === 1
@@ -91,7 +91,7 @@ export default class AuthRepository implements IAuthRepository {
 			this._loggerSystem.error(error)
 			throw error
 		} finally {
-			this._baseDataBase.closeConnection()
+			this._MySQlSystem.closeConnection()
 		}
 	}
 
@@ -100,7 +100,7 @@ export default class AuthRepository implements IAuthRepository {
 		refreshToken: string
 	): Promise<UserModel> => {
 		try {
-			const [response]: ResultResponse = await this._baseDataBase.db.query(
+			const [response]: ResultResponse = await this._MySQlSystem.db.query(
 				`SELECT * FROM Users WHERE id = '${userId}' AND refreshToken = '${refreshToken}'`
 			)
 			return (response as UserModel[])[0]
@@ -108,7 +108,7 @@ export default class AuthRepository implements IAuthRepository {
 			this._loggerSystem.error(error)
 			throw error
 		} finally {
-			this._baseDataBase.closeConnection()
+			this._MySQlSystem.closeConnection()
 		}
 	}
 }

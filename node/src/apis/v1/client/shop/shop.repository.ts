@@ -1,4 +1,4 @@
-import { BaseDataBase } from '~/systems/dataBase'
+import { MySQlSystem } from '~/systems/dataBase'
 import { ResultResponse } from '~/@core/systems/response'
 import { LoggerSystem } from '~/systems/logger'
 import { ShopModel } from './shop.model'
@@ -10,16 +10,16 @@ interface IShopRepository {
 
 export default class ShopRepository implements IShopRepository {
 	private readonly _loggerSystem: LoggerSystem
-	private readonly _baseDataBase: BaseDataBase
+	private readonly _MySQlSystem: MySQlSystem
   
 	constructor() {
 		this._loggerSystem = new LoggerSystem()
-		this._baseDataBase = new BaseDataBase()
-		this._baseDataBase.initDb()
+		this._MySQlSystem = new MySQlSystem()
+		this._MySQlSystem.initDb()
 	}
 	public findItems = async (id: number): Promise<PostModel[]> => {
 		try {
-			const [response]: ResultResponse = await this._baseDataBase.db.query(
+			const [response]: ResultResponse = await this._MySQlSystem.db.query(
 				`SELECT Posts.* FROM Shops LEFT JOIN Posts ON Shops.id = Posts.shopid WHERE Shops.id = ${id}`
 			)
 
@@ -28,13 +28,13 @@ export default class ShopRepository implements IShopRepository {
 			this._loggerSystem.error(error)
 			throw error
 		} finally {
-			this._baseDataBase.closeConnection()
+			this._MySQlSystem.closeConnection()
 		}
 	}
 
 	public find = async (id: number): Promise<ShopModel> => {
 		try {
-			const [response]: ResultResponse = await this._baseDataBase.db.query(`
+			const [response]: ResultResponse = await this._MySQlSystem.db.query(`
 				SELECT 
 					id,  
 					userid, 
@@ -69,7 +69,7 @@ export default class ShopRepository implements IShopRepository {
 			this._loggerSystem.error(error)
 			throw error
 		} finally {
-			this._baseDataBase.closeConnection()
+			this._MySQlSystem.closeConnection()
 		}
 	}
 }

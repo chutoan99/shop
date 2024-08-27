@@ -1,4 +1,4 @@
-import { BaseDataBase } from '~/systems/dataBase'
+import { MySQlSystem } from '~/systems/dataBase'
 import { ResultResponse } from '~/@core/systems/response'
 import IndustryQuery from './industry.query'
 import PaginationSystem from '~/systems/pagination/pagination.system'
@@ -14,16 +14,16 @@ interface IIndustryRepository {
 
 export default class IndustryRepository implements IIndustryRepository {
 	private readonly _loggerSystem: LoggerSystem
-	private readonly _baseDataBase: BaseDataBase
+	private readonly _MySQlSystem: MySQlSystem
 	constructor() {
 		this._loggerSystem = new LoggerSystem()
-		this._baseDataBase = new BaseDataBase()
-		this._baseDataBase.initDb()
+		this._MySQlSystem = new MySQlSystem()
+		this._MySQlSystem.initDb()
 	}
 
 	public findAll = async (): Promise<IndustryModel[]> => {
 		try {
-			const [response]: ResultResponse = await this._baseDataBase.db.query(
+			const [response]: ResultResponse = await this._MySQlSystem.db.query(
 				`SELECT id, parent_catid, level, category_name, images, createdAt, updatedAt  FROM Industries`
 			)
 
@@ -32,7 +32,7 @@ export default class IndustryRepository implements IIndustryRepository {
 			this._loggerSystem.error(error)
 			throw error
 		} finally {
-			this._baseDataBase.closeConnection()
+			this._MySQlSystem.closeConnection()
 		}
 	}
 
@@ -41,7 +41,7 @@ export default class IndustryRepository implements IIndustryRepository {
 		queries: IndustryQuery
 	): Promise<IndustryModel[]> => {
 		try {
-			const [response]: ResultResponse = await this._baseDataBase.db.query(`
+			const [response]: ResultResponse = await this._MySQlSystem.db.query(`
 					SELECT Posts.*, TotalCount.total
 					FROM Posts
 					INNER JOIN Industries ON Posts.catid = Industries.id
@@ -61,7 +61,7 @@ export default class IndustryRepository implements IIndustryRepository {
 			this._loggerSystem.error(error)
 			throw error
 		} finally {
-			this._baseDataBase.closeConnection()
+			this._MySQlSystem.closeConnection()
 		}
 	}
 }

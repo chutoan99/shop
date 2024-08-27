@@ -1,4 +1,4 @@
-import { BaseDataBase } from '~/systems/dataBase'
+import { MySQlSystem } from '~/systems/dataBase'
 import { ResultResponse } from '~/@core/systems/response'
 import { FieldPacket, ResultSetHeader } from 'mysql2'
 import {SearchHistoryModel} from './search-history.model'
@@ -12,15 +12,15 @@ export default class SearchHistoryRepository
 	implements ISearchHistoryRepository
 {
 	private readonly _loggerSystem: LoggerSystem
-	private readonly _baseDataBase: BaseDataBase
+	private readonly _MySQlSystem: MySQlSystem
 	constructor() {
 		this._loggerSystem = new LoggerSystem()
-		this._baseDataBase = new BaseDataBase()
-		this._baseDataBase.initDb()
+		this._MySQlSystem = new MySQlSystem()
+		this._MySQlSystem.initDb()
 	}
 	public findAll = async (userId: number): Promise<SearchHistoryModel[]> => {
 		try {
-			const [response]: ResultResponse = await this._baseDataBase.db.query(
+			const [response]: ResultResponse = await this._MySQlSystem.db.query(
 				`SELECT id, userid, text, createdAt, updatedAt  FROM SearchHistories WHERE userid = ${userId} ORDER BY createdAt DESC LIMIT 10`
 			)
 
@@ -29,14 +29,14 @@ export default class SearchHistoryRepository
 			this._loggerSystem.error(error)
 			throw error
 		} finally {
-			this._baseDataBase.closeConnection()
+			this._MySQlSystem.closeConnection()
 		}
 	}
 
 	public create = async (search: SearchHistoryModel): Promise<boolean> => {
 		try {
 			const [response]: [ResultSetHeader, FieldPacket[]] =
-				await this._baseDataBase.db.execute(
+				await this._MySQlSystem.db.execute(
 					`INSERT INTO SearchHistories (userid, text) VALUES (?, ?)`,
 					[search.userid, search.text]
 				)
@@ -45,7 +45,7 @@ export default class SearchHistoryRepository
 			this._loggerSystem.error(error)
 			throw error
 		} finally {
-			this._baseDataBase.closeConnection()
+			this._MySQlSystem.closeConnection()
 		}
 	}
 }

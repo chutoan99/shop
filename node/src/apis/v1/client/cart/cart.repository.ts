@@ -1,4 +1,4 @@
-import { BaseDataBase } from '~/systems/dataBase'
+import { MySQlSystem } from '~/systems/dataBase'
 import { ResultResponse } from '~/@core/systems/response'
 import { FieldPacket, ResultSetHeader } from 'mysql2'
 import { LoggerSystem } from '~/systems/logger'
@@ -18,16 +18,16 @@ interface ICartRepository {
 
 export default class CartRepository implements ICartRepository {
 	private readonly _loggerSystem: LoggerSystem
-	private readonly _baseDataBase = new BaseDataBase()
+	private readonly _MySQlSystem = new MySQlSystem()
   
 	constructor() {
 		this._loggerSystem = new LoggerSystem()
-		this._baseDataBase = new BaseDataBase()
-		this._baseDataBase.initDb()
+		this._MySQlSystem = new MySQlSystem()
+		this._MySQlSystem.initDb()
 	}
 	public findAll = async (userId: number): Promise<CartModel[]> => {
 		try {
-			const [response]: ResultResponse = await this._baseDataBase.db.query(`
+			const [response]: ResultResponse = await this._MySQlSystem.db.query(`
 					SELECT
 						Carts.*,
 					CASE
@@ -78,13 +78,13 @@ export default class CartRepository implements ICartRepository {
 			this._loggerSystem.error(error)
 			throw error
 		} finally {
-			this._baseDataBase.closeConnection()
+			this._MySQlSystem.closeConnection()
 		}
 	}
 
 	public find = async (cart: CartModel, userId: number): Promise<CartModel> => {
 		try {
-			const [response]: ResultResponse = await this._baseDataBase.db.query(`
+			const [response]: ResultResponse = await this._MySQlSystem.db.query(`
 				SELECT  
 					* from Carts 
 				WHERE 
@@ -100,14 +100,14 @@ export default class CartRepository implements ICartRepository {
 			this._loggerSystem.error(error)
 			throw error
 		} finally {
-			this._baseDataBase.closeConnection()
+			this._MySQlSystem.closeConnection()
 		}
 	}
 
 	public create = async (cart: CartModel): Promise<boolean> => {
 		try {
 			const [response]: [ResultSetHeader, FieldPacket[]] =
-				await this._baseDataBase.db.execute(
+				await this._MySQlSystem.db.execute(
 					`INSERT INTO Carts (id, userid, itemid, shopid, tierVariation, item_option, amount) VALUES (?, ?, ?, ?, ?, ?, ?)`,
 					[
 						cart.id,
@@ -125,14 +125,14 @@ export default class CartRepository implements ICartRepository {
 			this._loggerSystem.error(error)
 			throw error
 		} finally {
-			this._baseDataBase.closeConnection()
+			this._MySQlSystem.closeConnection()
 		}
 	}
 
 	public update = async (id: number, cart: CartModel): Promise<boolean> => {
 		try {
 			const [response]: [ResultSetHeader, FieldPacket[]] =
-				await this._baseDataBase.db.execute(
+				await this._MySQlSystem.db.execute(
 					`UPDATE Carts SET item_option = '${cart.item_option}', amount = ${cart.amount} WHERE id = ${id}`
 				)
 
@@ -141,7 +141,7 @@ export default class CartRepository implements ICartRepository {
 			this._loggerSystem.error(error)
 			throw error
 		} finally {
-			this._baseDataBase.closeConnection()
+			this._MySQlSystem.closeConnection()
 		}
 	}
 
@@ -152,7 +152,7 @@ export default class CartRepository implements ICartRepository {
 	): Promise<boolean> => {
 		try {
 			const [response]: [ResultSetHeader, FieldPacket[]] = await this
-				._baseDataBase.db.query(`
+				._MySQlSystem.db.query(`
       			UPDATE Carts
       				SET 
 						userid = ${userId}, 
@@ -171,14 +171,14 @@ export default class CartRepository implements ICartRepository {
 			this._loggerSystem.error(error)
 			throw error
 		} finally {
-			this._baseDataBase.closeConnection()
+			this._MySQlSystem.closeConnection()
 		}
 	}
 
 	public delete = async (id: number): Promise<boolean> => {
 		try {
 			const [response]: [ResultSetHeader, FieldPacket[]] =
-				await this._baseDataBase.db.execute(
+				await this._MySQlSystem.db.execute(
 					`DELETE FROM Carts WHERE id = ${id}`
 				)
 
@@ -187,7 +187,7 @@ export default class CartRepository implements ICartRepository {
 			this._loggerSystem.error(error)
 			throw error
 		} finally {
-			this._baseDataBase.closeConnection()
+			this._MySQlSystem.closeConnection()
 		}
 	}
 }

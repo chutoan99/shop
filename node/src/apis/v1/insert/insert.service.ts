@@ -2,15 +2,18 @@ import InsertRepository from './insert.repository'
 import InsertHelper from './insert.helper'
 import axios from 'axios'
 import { LoggerSystem } from '~/systems/logger'
+import InsertRepositoryMsSQl from './insert.repository.mssql'
 export default class InsertService {
 	private readonly _loggerSystem: LoggerSystem
 	private readonly _insertRepository: InsertRepository
+	private readonly _insertRepositoryMssql: InsertRepositoryMsSQl
 	private readonly _insertHelper: InsertHelper
 
 	constructor() {
 		this._insertHelper = new InsertHelper()
 		this._loggerSystem = new LoggerSystem()
 		this._insertRepository = new InsertRepository()
+		this._insertRepositoryMssql = new InsertRepositoryMsSQl()
 	}
 
 	public FormatIndustries = async () => {
@@ -19,7 +22,7 @@ export default class InsertService {
 			const dataBatch: any[][] = []
 			for (let index = 1; index < 15; index++) {
 				const response = await axios.get(
-					`https://raw.githubusercontent.com/chutoan99/shop-data/main/cate/cate_${index}.json`
+					`https://api.bitbucket.org/2.0/repositories/chutoan99/shopee/src/main/data/cate/cate_${index}.json`
 				)
 				const jsonData = response.data
 
@@ -39,14 +42,14 @@ export default class InsertService {
 							newIndustry.images
 						])
 						if (dataBatch.length === batchSize) {
-							this._insertRepository.Industry(dataBatch)
+							this._insertRepositoryMssql.Industry(dataBatch)
 							dataBatch.length = 0
 						}
 					}
 				}
 			}
 			if (dataBatch.length > 0) {
-				this._insertRepository.Industry(dataBatch)
+				this._insertRepositoryMssql.Industry(dataBatch)
 			}
 		} catch (error: any) {
 			this._loggerSystem.error(error)
@@ -61,12 +64,13 @@ export default class InsertService {
 			const dataBatchChild: any[][] = []
 
 			const response = await axios.get(
-				'https://raw.githubusercontent.com/chutoan99/shop-data/main/category_tree.json'
+				`https://api.bitbucket.org/2.0/repositories/chutoan99/shopee/src/main/data/category_tree.json`
 			)
 			if (response?.data) {
-				for (const item of Array(response?.data?.data?.category_list)) {
+				for (const item of response?.data?.data?.category_list) {
 					const newCategory =
 						this._insertHelper.processDataCategory(item)
+
 					dataBatch.push([
 						newCategory.id,
 						newCategory.parent_catid,
@@ -78,7 +82,7 @@ export default class InsertService {
 						newCategory.level
 					])
 					if (dataBatch.length === batchSize) {
-						this._insertRepository.InsertHomeCategories(dataBatch)
+						this._insertRepositoryMssql.InsertHomeCategories(dataBatch)
 						dataBatch.length = 0
 					}
 
@@ -86,18 +90,19 @@ export default class InsertService {
 						for (const ele of item.children) {
 							const newCategory =
 								this._insertHelper.processDataCategory(ele)
-							dataBatchChild.push([
-								newCategory.id,
-								newCategory.parent_catid,
-								newCategory.name,
-								newCategory.display_name,
-								newCategory.image,
-								newCategory.unselected_image,
-								newCategory.selected_image,
-								newCategory.level
-							])
+                dataBatchChild.push([
+                  newCategory.id,
+                  newCategory.parent_catid,
+                  newCategory.name,
+                  newCategory.display_name,
+                  newCategory.image,
+                  newCategory.unselected_image,
+                  newCategory.selected_image,
+                  newCategory.level
+                ])
+
 							if (dataBatchChild.length === batchSize) {
-								this._insertRepository.InsertHomeCategories(
+								this._insertRepositoryMssql.InsertHomeCategories(
 									dataBatchChild
 								)
 								dataBatchChild.length = 0
@@ -108,10 +113,10 @@ export default class InsertService {
 			}
 
 			if (dataBatch.length > 0) {
-				this._insertRepository.InsertHomeCategories(dataBatch)
+				this._insertRepositoryMssql.InsertHomeCategories(dataBatch)
 			}
 			if (dataBatchChild.length > 0) {
-				this._insertRepository.InsertHomeCategories(dataBatchChild)
+				this._insertRepositoryMssql.InsertHomeCategories(dataBatchChild)
 			}
 		} catch (error: any) {
 			this._loggerSystem.error(error)
@@ -124,7 +129,7 @@ export default class InsertService {
 			const dataBatch: any[][] = []
 			const batchSize = 10 // Số lượng bản ghi trong mỗi batch
 			const response = await axios.get(
-				'https://raw.githubusercontent.com/chutoan99/shop-data/main/banner.json'
+				`https://api.bitbucket.org/2.0/repositories/chutoan99/shopee/src/main/data/banner.json`
 			)
 
 			response.data?.data?.space_banners[0]?.banners?.forEach(
@@ -135,13 +140,13 @@ export default class InsertService {
 					const newBanner = this._insertHelper.processDataBanner(item)
 					dataBatch.push([newBanner.image_url])
 					if (dataBatch.length === batchSize) {
-						this._insertRepository.InsertBanner(dataBatch)
+						this._insertRepositoryMssql.InsertBanner(dataBatch)
 						dataBatch.length = 0
 					}
 				}
 			)
 			if (dataBatch.length > 0) {
-				this._insertRepository.InsertBanner(dataBatch)
+				this._insertRepositoryMssql.InsertBanner(dataBatch)
 			}
 		} catch (error: any) {
 			this._loggerSystem.error(error)
@@ -154,7 +159,7 @@ export default class InsertService {
 			const dataBatch: any[][] = []
 			const batchSize = 10 // Số lượng bản ghi trong mỗi batch
 			const response = await axios.get(
-				'https://raw.githubusercontent.com/chutoan99/shop-data/main/shopMall.json'
+          `https://api.bitbucket.org/2.0/repositories/chutoan99/shopee/src/main/data/shopMall.json`
 			)
 			response?.data?.data?.shops?.forEach((item: any) => {
 				// ************************************************************
@@ -168,12 +173,12 @@ export default class InsertService {
 					newShop.promo_text
 				])
 				if (dataBatch.length === batchSize) {
-					this._insertRepository.InsertShopMall(dataBatch)
+					this._insertRepositoryMssql.InsertShopMall(dataBatch)
 					dataBatch.length = 0
 				}
 			})
 			if (dataBatch.length > 0) {
-				this._insertRepository.InsertShopMall(dataBatch)
+				this._insertRepositoryMssql.InsertShopMall(dataBatch)
 			}
 		} catch (error: any) {
 			this._loggerSystem.error(error)
@@ -186,7 +191,7 @@ export default class InsertService {
 			const dataBatch: any[][] = []
 			const batchSize = 10 // Số lượng bản ghi trong mỗi batch
 			const response = await axios.get(
-				'https://raw.githubusercontent.com/chutoan99/shop-data/main/search_suggestion.json'
+				`https://api.bitbucket.org/2.0/repositories/chutoan99/shopee/src/main/data/search_suggestion.json`
 			)
 
 			response?.data &&
@@ -198,12 +203,14 @@ export default class InsertService {
 						this._insertHelper.processDataSearchSuggest(item)
 					dataBatch.push([newSuggestion.text, newSuggestion.count])
 					if (dataBatch.length === batchSize) {
-						this._insertRepository.InsertSearchSuggestion(dataBatch)
+						this._insertRepositoryMssql.InsertSearchSuggestion(
+							dataBatch
+						)
 						dataBatch.length = 0
 					}
 				})
 			if (dataBatch.length > 0) {
-				this._insertRepository.InsertSearchSuggestion(dataBatch)
+				this._insertRepositoryMssql.InsertSearchSuggestion(dataBatch)
 			}
 		} catch (error: any) {
 			this._loggerSystem.error(error)
@@ -216,11 +223,11 @@ export default class InsertService {
 			const batchSize = 10 // Số lượng bản ghi trong mỗi batch
 			const dataBatch: any[][] = []
 			const response = await axios.get(
-				'https://raw.githubusercontent.com/chutoan99/shop-data/main/notify.json'
+				`https://api.bitbucket.org/2.0/repositories/chutoan99/shopee/src/main/data/notify.json`
 			)
 
 			response?.data &&
-				Array(response.data).forEach((item: any) => {
+				response.data?.forEach((item: any) => {
 					const newNotify = this._insertHelper.processDataNotify(item)
 					// ************************************************************
 					// CREATE MODE
@@ -233,13 +240,14 @@ export default class InsertService {
 						newNotify.content,
 						newNotify.time
 					])
+
 					if (dataBatch.length === batchSize) {
-						this._insertRepository.InsertNotify(dataBatch)
+						this._insertRepositoryMssql.InsertNotify(dataBatch)
 						dataBatch.length = 0
 					}
 				})
 			if (dataBatch.length > 0) {
-				this._insertRepository.InsertNotify(dataBatch)
+				this._insertRepositoryMssql.InsertNotify(dataBatch)
 			}
 		} catch (error: any) {
 			this._loggerSystem.error(error)
@@ -252,7 +260,7 @@ export default class InsertService {
 			const batchSize = 10 // Số lượng bản ghi trong mỗi batch
 			const dataBatch: any[][] = []
 			const response = await axios.get(
-				'https://raw.githubusercontent.com/chutoan99/shop-data/main/batch_list.json'
+				`https://api.bitbucket.org/2.0/repositories/chutoan99/shopee/src/main/data/batch_list.json`
 			)
 			response?.data?.data?.banners[1]?.banners.forEach((item: any) => {
 				// ************************************************************
@@ -267,12 +275,12 @@ export default class InsertService {
 					newBatchList.start
 				])
 				if (dataBatch.length === batchSize) {
-					this._insertRepository.InsertBatchList(dataBatch)
+					this._insertRepositoryMssql.InsertBatchList(dataBatch)
 					dataBatch.length = 0
 				}
 			})
 			if (dataBatch.length > 0) {
-				this._insertRepository.InsertBatchList(dataBatch)
+				this._insertRepositoryMssql.InsertBatchList(dataBatch)
 			}
 		} catch (error: any) {
 			this._loggerSystem.error(error)
@@ -285,12 +293,13 @@ export default class InsertService {
 			const batchSize = 10 // Số lượng bản ghi trong mỗi batch
 			const dataBatch: any[][] = []
 			const response = await axios.get(
-				'https://raw.githubusercontent.com/chutoan99/shop-data/main/top.json'
+				`https://api.bitbucket.org/2.0/repositories/chutoan99/shopee/src/main/data/top.json`
 			)
 			response?.data?.data?.sections[0]?.data?.top_product?.forEach(
 				(item: any) => {
 					const newData =
 						this._insertHelper.processDataTopProduct(item)
+
 					// ************************************************************
 					// CREATE MODE
 					// ************************************************************
@@ -304,13 +313,13 @@ export default class InsertService {
 						newData.display_text
 					])
 					if (dataBatch.length === batchSize) {
-						this._insertRepository.InsertTopProduct(dataBatch)
+						this._insertRepositoryMssql.InsertTopProduct(dataBatch)
 						dataBatch.length = 0
 					}
 				}
 			)
 			if (dataBatch.length > 0) {
-				this._insertRepository.InsertTopProduct(dataBatch)
+				this._insertRepositoryMssql.InsertTopProduct(dataBatch)
 			}
 		} catch (error: any) {
 			this._loggerSystem.error(error)
@@ -323,8 +332,9 @@ export default class InsertService {
 			const batchSize = 10
 			const dataBatch: any[][] = []
 			const response = await axios.get(
-				'https://raw.githubusercontent.com/chutoan99/shop-data/main/flash_sale.json'
+				`https://api.bitbucket.org/2.0/repositories/chutoan99/shopee/src/main/data/flash_sale.json`
 			)
+
 			response?.data?.data?.items?.forEach((item: any) => {
 				// ************************************************************
 				// CREATE MODE
@@ -351,12 +361,12 @@ export default class InsertService {
 					newFlashSale.end_time
 				])
 				if (dataBatch.length === batchSize) {
-					this._insertRepository.InsertFlashSale(dataBatch)
+					this._insertRepositoryMssql.InsertFlashSale(dataBatch)
 					dataBatch.length = 0
 				}
 			})
 			if (dataBatch.length > 0) {
-				this._insertRepository.InsertFlashSale(dataBatch)
+				this._insertRepositoryMssql.InsertFlashSale(dataBatch)
 			}
 		} catch (error: any) {
 			this._loggerSystem.error(error)
@@ -364,7 +374,7 @@ export default class InsertService {
 		}
 	}
 
-	FormatShopAndUser = async (start: number, end: number) => {
+	public FormatShopAndUser = async (start: number, end: number) => {
 		try {
 			const batchSize = 2 // Số lượng bản ghi trong mỗi batch
 			const dataUsers: any[][] = []

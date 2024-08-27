@@ -1,4 +1,4 @@
-import { BaseDataBase } from '~/systems/dataBase'
+import { MySQlSystem } from '~/systems/dataBase'
 import { FieldPacket, ResultSetHeader } from 'mysql2'
 import { ResultResponse } from '~/@core/systems/response'
 import PaginationSystem from '~/systems/pagination/pagination.system'
@@ -12,18 +12,18 @@ interface ICommentRepository {
 
 export default class CommentRepository implements ICommentRepository {
 	private readonly _loggerSystem: LoggerSystem
-	private readonly _baseDataBase = new BaseDataBase()
+	private readonly _MySQlSystem = new MySQlSystem()
 
 	constructor() {
 		this._loggerSystem = new LoggerSystem()
-		this._baseDataBase = new BaseDataBase()
-		this._baseDataBase.initDb()
+		this._MySQlSystem = new MySQlSystem()
+		this._MySQlSystem.initDb()
 	}
 	public findAll = async (
 		pagination: PaginationSystem
 	): Promise<CommentModel[]> => {
 		try {
-			const [response]: ResultResponse = await this._baseDataBase.db.query(`
+			const [response]: ResultResponse = await this._MySQlSystem.db.query(`
         SELECT
             id, 
             'like_count', 
@@ -51,14 +51,14 @@ export default class CommentRepository implements ICommentRepository {
 			this._loggerSystem.error(error)
 			throw error
 		} finally {
-			this._baseDataBase.closeConnection()
+			this._MySQlSystem.closeConnection()
 		}
 	}
 
 	public create = async (comment: CommentModel): Promise<boolean> => {
 		try {
 			const [response]: [ResultSetHeader, FieldPacket[]] =
-				await this._baseDataBase.db.execute(
+				await this._MySQlSystem.db.execute(
 					`
             INSERT IGNORE INTO Comments (id, orderid, itemid, rating, userid, shopid, parent_cmtid, comment, rating_star, status, author_username, author_portrait, images, cover, videos, tierVariation, list_option, is_replied, level, is_shop, like_count, liked)  
             VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
@@ -93,7 +93,7 @@ export default class CommentRepository implements ICommentRepository {
 			this._loggerSystem.error(error)
 			throw error
 		} finally {
-			this._baseDataBase.closeConnection()
+			this._MySQlSystem.closeConnection()
 		}
 	}
 }

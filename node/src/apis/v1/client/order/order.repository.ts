@@ -1,4 +1,4 @@
-import { BaseDataBase } from '~/systems/dataBase'
+import { MySQlSystem } from '~/systems/dataBase'
 import { FieldPacket, ResultSetHeader } from 'mysql2'
 import { ResultResponse } from '~/@core/systems/response'
 import OrderQueries from './order.queries'
@@ -13,11 +13,11 @@ interface IOrderRepository {
 
 export default class OrderRepository implements IOrderRepository {
 	private readonly _loggerSystem: LoggerSystem
-	private readonly _baseDataBase: BaseDataBase
+	private readonly _MySQlSystem: MySQlSystem
 	constructor() {
 		this._loggerSystem = new LoggerSystem()
-		this._baseDataBase = new BaseDataBase()
-		this._baseDataBase.initDb()
+		this._MySQlSystem = new MySQlSystem()
+		this._MySQlSystem.initDb()
 	}
 
 	public search = async (
@@ -25,7 +25,7 @@ export default class OrderRepository implements IOrderRepository {
 		payload: OrderQueries
 	): Promise<OrderModel[] | []> => {
 		try {
-			const [response]: ResultResponse = await this._baseDataBase.db.query(`
+			const [response]: ResultResponse = await this._MySQlSystem.db.query(`
             SELECT
                 Orders.id,
                 Orders.shop_name,
@@ -103,13 +103,13 @@ export default class OrderRepository implements IOrderRepository {
 			this._loggerSystem.error(error)
 			throw error
 		} finally {
-			this._baseDataBase.closeConnection()
+			this._MySQlSystem.closeConnection()
 		}
 	}
 
 	public getTab = async (userid: number): Promise<any[] | []> => {
 		try {
-			const [response]: ResultResponse = await this._baseDataBase.db.query(`
+			const [response]: ResultResponse = await this._MySQlSystem.db.query(`
           SELECT
             JSON_OBJECT(
               'is_all',
@@ -148,13 +148,13 @@ export default class OrderRepository implements IOrderRepository {
 			this._loggerSystem.error(error)
 			throw error
 		} finally {
-			this._baseDataBase.closeConnection()
+			this._MySQlSystem.closeConnection()
 		}
 	}
 
 	public find = async (orderid: number): Promise<OrderModel> => {
 		try {
-			const [response]: ResultResponse = await this._baseDataBase.db.query(`
+			const [response]: ResultResponse = await this._MySQlSystem.db.query(`
             SELECT
                 Orders.id,
                 Orders.shop_name,
@@ -230,14 +230,14 @@ export default class OrderRepository implements IOrderRepository {
 			this._loggerSystem.error(error)
 			throw error
 		} finally {
-			this._baseDataBase.closeConnection()
+			this._MySQlSystem.closeConnection()
 		}
 	}
 
 	public create = async (order: OrderModel): Promise<boolean> => {
 		try {
 			const [response]: [ResultSetHeader, FieldPacket[]] =
-				await this._baseDataBase.db.execute(
+				await this._MySQlSystem.db.execute(
 					`INSERT INTO Orders (id, userid, shopid, shop_name, type, state, total_num_items, note, amount, tierVariation, item_option, item_groups_id, final_total) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
 					[
 						order.id,
@@ -261,7 +261,7 @@ export default class OrderRepository implements IOrderRepository {
 			this._loggerSystem.error(error)
 			throw error
 		} finally {
-			this._baseDataBase.closeConnection()
+			this._MySQlSystem.closeConnection()
 		}
 	}
 }
