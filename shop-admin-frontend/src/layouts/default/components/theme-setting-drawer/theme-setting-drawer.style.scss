@@ -1,0 +1,35 @@
+:host {
+	.setting {
+		position: fixed;
+		background-color: var(--dropdown-bg);
+		box-shadow: -1px 3px 8px -1px rgba(0, 0, 0, 0.2);
+		padding: 8px;
+		border-radius: 50%;
+		z-index: 3;
+		cursor: pointer;
+
+		svg {
+			width: 24px;
+			flex-shrink: 0;
+			transition: 0.5s;
+		}
+
+		:hover {
+			transform: rotate(90deg);
+		}
+	}
+}
+::ng-deep {
+	.ant-drawer-body {
+		padding: 10px;
+	}
+	.ant-drawer-content {
+		height: 95%;
+		border-radius: 15px;
+	}
+	.ant-drawer-content-wrapper {
+		padding-right: 10px;
+		display: flex;
+		align-items: center;
+	}
+}

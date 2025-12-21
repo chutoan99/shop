@@ -1,0 +1,26 @@
+<form [formGroup]="form" [class]="!isMultiRow ? 'grid grid-cols-3' : ''">
+	<label
+		*ngIf="!isMultiRow"
+		class="flex items-center text-sm bg-background text-foreground {{ !field.AllowNull ? 'required' : '' }}"
+		>{{ field.VnName }}</label
+	>
+	<div [class]="!isMultiRow ? 'col-span-2' : 'w-full'">
+		<div
+			[ngClass]="{
+				disabled: !field.AllowEdit
+			}"
+			class="relative flex h-[50px] items-center justify-start rounded-[5px] border-[1.5px] border-solid border-[#d1d5db] hover:border-[2px] hover:border-[#2563eb]">
+			<p-slider
+				[formControlName]="field.Name"
+				class="absolute w-full px-[15px]"
+				[ngClass]="{
+					'ng-invalid': submitted && !form.get(field.Name).valid,
+					disabled: !field.AllowEdit
+				}" />
+			<span class="absolute right-0 px-4">{{ form.get(field.Name).value }}%</span>
+		</div>
+		<div class="is__invalid-error" *ngIf="submitted && !form.get(field.Name).valid">
+			<div *ngIf="form.get(field.Name).errors['required']">Nhập {{ field.VnName }}</div>
+		</div>
+	</div>
+</form>

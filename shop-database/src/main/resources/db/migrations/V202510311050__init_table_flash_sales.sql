@@ -1,0 +1,33 @@
+-- Write your SQL migration here
+-- defaultdb.FlashSales definition
+START TRANSACTION;
+CREATE TABLE flash_sales (
+  "id" bigint NOT NULL,
+  "shop_id" bigint DEFAULT NULL,
+  "cat_id" bigint DEFAULT NULL,
+  "name" varchar(1000) DEFAULT NULL,
+  "image" varchar(1000) DEFAULT NULL,
+  "price" int DEFAULT NULL,
+  "price_before_discount" int DEFAULT NULL,
+  "stock" int DEFAULT NULL,
+  "historical_sold" int DEFAULT NULL,
+  "discount" varchar(255) DEFAULT NULL,
+  "shop_rating" int DEFAULT NULL,
+  "filename" varchar(255) DEFAULT NULL,
+  "liked" tinyint(1) DEFAULT NULL,
+  "is_official_shop" tinyint(1) DEFAULT NULL,
+  "is_service_by_shopee" tinyint(1) DEFAULT NULL,
+  "show_free_shipping" tinyint(1) DEFAULT NULL,
+  "start_time" timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  "end_time" timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  "is_active" tinyint(1) NOT NULL DEFAULT '0',
+  "metadata" json DEFAULT NULL,
+  "created_by" int DEFAULT NULL,
+	"deleted_by" int DEFAULT NULL,
+	"updated_by" int DEFAULT NULL,
+  "created_at" timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  "updated_at" timestamp NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  "deleted_at" timestamp NULL DEFAULT NULL,
+  PRIMARY KEY ("id")
+);
+COMMIT

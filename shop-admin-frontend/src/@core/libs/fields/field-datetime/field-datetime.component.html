@@ -1,0 +1,25 @@
+<form [formGroup]="form" [class]="!isMultiRow ? 'grid grid-cols-3' : ''">
+	<label
+		*ngIf="isMultiRow != true"
+		class="flex items-center text-sm bg-background text-foreground {{ !field.AllowNull ? 'required' : '' }}"
+		>{{ field.VnName }}</label
+	>
+
+	<div
+		[class]="!isMultiRow ? 'col-span-2' : 'w-full'"
+		[ngClass]="{
+			disabled: !field.AllowEdit
+		}">
+		<p-calendar
+			appendTo="body"
+			[formControlName]="field.Name"
+			[readonly]="!field.AllowEdit"
+			[showIcon]="true"
+			styleClass="w-full"
+			[showTime]="showTime"
+			[showButtonBar]="true"
+			dateFormat="{{ dateInputFormat }}"
+			(onSelect)="onSelect($event)"
+			[view]="view" />
+	</div>
+</form>

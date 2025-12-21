@@ -1,0 +1,144 @@
+:host ::ng-deep {
+	.comment-editor {
+		.ql-container.ql-snow {
+			border-radius: 16px;
+			-moz-background-clip: padding;
+			-webkit-background-clip: padding-box;
+			background-clip: padding-box;
+			border-color: #ddd;
+			display: flex;
+			flex-direction: column;
+			border: 1px solid rgba(97, 97, 97, 0.5803921569);
+		}
+
+		.icon-upload {
+			position: absolute;
+			top: 10px;
+			right: 10px;
+		}
+
+		.list-attachment {
+			width: 100% !important;
+			display: flex;
+			flex-wrap: wrap;
+			padding-top: 8px;
+
+			.attachment-img {
+				width: 90px;
+			}
+
+			.attach-item {
+				height: 56px;
+				margin-right: 12px;
+				margin-bottom: 12px;
+			}
+
+			.attachment-item {
+				align-items: center;
+				border: 1px solid #e0e0e0;
+				border-radius: 8px;
+				width: 100%;
+				height: 100%;
+				cursor: pointer;
+
+				.img-preview {
+					width: 100% !important;
+					height: 100% !important;
+					border-radius: 4px;
+					border: none;
+				}
+
+				.text-attachment {
+					width: 100%;
+					padding-right: 20px;
+				}
+
+				.file-office {
+					padding: 8px;
+					align-items: center;
+					height: 100%;
+					border-radius: 4px;
+				}
+
+				.text-overflow-file {
+					width: auto;
+					overflow: hidden;
+					text-overflow: ellipsis;
+					white-space: nowrap;
+				}
+			}
+
+			.remove-label-icon {
+				display: block;
+				position: absolute;
+				top: -10px;
+				right: -10px;
+				transition: 1s;
+			}
+
+			.attachment-office {
+				width: 190px;
+			}
+		}
+
+		.align-items-center {
+			align-items: center !important;
+		}
+
+		.ql-mention-list-container {
+			width: 270px;
+			border: 1px solid #f0f0f0;
+			border-radius: 4px;
+			background-color: #ffffff;
+			box-shadow: 0 2px 12px 0 rgba(30, 30, 30, 0.08);
+			z-index: 9001;
+			overflow: auto;
+		}
+
+		.ql-mention-loading {
+			line-height: 44px;
+			padding: 0 20px;
+			vertical-align: middle;
+			font-size: 16px;
+		}
+
+		.ql-mention-list {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			overflow: scroll;
+			max-height: 400px;
+		}
+
+		.ql-mention-list-item {
+			cursor: pointer;
+			line-height: 44px;
+			font-size: 16px;
+			padding: 0 20px;
+			vertical-align: middle;
+		}
+
+		.ql-mention-list-item.disabled {
+			cursor: auto;
+		}
+
+		.ql-mention-list-item.selected {
+			background-color: #d3e1eb;
+			text-decoration: none;
+		}
+
+		.mention {
+			height: 24px;
+			width: 65px;
+			border-radius: 6px;
+			background-color: #d3e1eb;
+			padding: 3px 0;
+			margin-right: 2px;
+			user-select: all;
+		}
+
+		.mention > span {
+			margin: 0 3px;
+		}
+	}
+}

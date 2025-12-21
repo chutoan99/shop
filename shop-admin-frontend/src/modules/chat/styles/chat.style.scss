@@ -1,0 +1,23 @@
+:host {
+	height: 100% !important;
+	// .search-bar {
+	//     max-width: 600px;
+	//     margin: auto;
+	//     transition: 0.4s;
+	//     box-shadow: 0 0 0 1px var(--border-color);
+	//     padding-left: 0;
+	// }
+}
+
+::ng-deep {
+	.ant-empty {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: absolute;
+	}
+
+	.ant-empty-image {
+		height: auto;
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"LABEL": {
+		"ONLINE": "Online vài phút trước",
+		"FOLLOWS": "Theo dõi",
+		"CHAT": "chat",
+		"PRODUCTS": "Sản phẩm:",
+		"FOLLOWERS": "Người theo dõi:",
+		"EVALUATE": "Đánh giá:",
+		"CHAT_RESPONSE_RATE": "Tỉ lệ phản hồi Chat:",
+		"JOIN": "Tham gia:",
+		"CANCELLATION_RATE": "Tỉ lệ Shop hủy đơn:"
+	},
+	"MESSAGE": {},
+	"PLACEHOLDER": {},
+	"VALIDATOR": {}
+}

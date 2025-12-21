@@ -1,0 +1,358 @@
+<form [formGroup]="form" class="flex w-full flex-col gap-[5px]">
+	<div class="flex flex-col items-center gap-[15px] min-h-[200px] w-full">
+		<div class="px-[20px] pt-[14px] flex w-full items-center justify-between">
+			<div class="flex w-full items-center justify-start">
+				<span class="text-[14px] font-medium"> Apply logical operator </span>
+				<nz-select
+					class="min-w-[68px] z-20 mx-[5px] w-[100px] scale-[0.95] text-[14px] font-medium"
+					formControlName="Compare"
+					nzAllowClear
+					nzPlaceHolder="Choose ">
+					<nz-option *ngFor="let option of compares" [nzValue]="option" [nzLabel]="option.Name"></nz-option>
+				</nz-select>
+				<span class="text-[14px] font-medium"> to the conditions below </span>
+			</div>
+
+			<div
+				*ngIf="logics.length > 1"
+				(click)="onHandleAction($event, ACTION_FIELD_CONDITION.RemoveAllCondition)"
+				class="flex w-[110px] min-w-[96px] max-w-[96px] cursor-pointer items-center gap-[5px] rounded-[5px] px-[5px] py-[3px] text-[14px] hover:bg-[#0000001A]">
+				<svg width="16" height="16" viewBox="0 0 26 26">
+					<rect width="26" height="26" fill="none" />
+					<path
+						fill="#FF3130"
+						d="M11.5-.031c-1.958 0-3.531 1.627-3.531 3.594V4H4c-.551 0-1 .449-1 1v1H2v2h2v15c0 1.645 1.355 3 3 3h12c1.645 0 3-1.355 3-3V8h2V6h-1V5c0-.551-.449-1-1-1h-3.969v-.438c0-1.966-1.573-3.593-3.531-3.593zm0 2.062h3c.804 0 1.469.656 1.469 1.531V4H10.03v-.438c0-.875.665-1.53 1.469-1.53zM6 8h5.125c.124.013.247.031.375.031h3c.128 0 .25-.018.375-.031H20v15c0 .563-.437 1-1 1H7c-.563 0-1-.437-1-1zm2 2v12h2V10zm4 0v12h2V10zm4 0v12h2V10z" />
+				</svg>
+				<span class="text-[14px] font-medium text-[#FF3130]"> Gỡ tất cả </span>
+			</div>
+		</div>
+		<div class="w-full px-[20px] pb-[14px]">
+			<ng-container *ngIf="form.get('Compare')?.value?.Type !== LOGIC_COMPARES.CUSTOM">
+				<div
+					*ngIf="logics.length > 0"
+					cdkDropList
+					(cdkDropListDropped)="onHandleAction($event, ACTION_FIELD_CONDITION.MoveCondition)"
+					class="flex w-full flex-col gap-[10px]">
+					<div
+						cdkDrag
+						*ngFor="let condition of conditions; let i = index"
+						class="flex w-full items-center justify-between gap-[10px]">
+						<div class="flex w-full items-center justify-center gap-[10px]">
+							<div class="flex items-center justify-center gap-[5px]">
+								<div
+									cdkDragHandle
+									class="flex size-[28px] cursor-move items-center justify-center rounded-[4px] hover:bg-[#0000001A]">
+									<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+										<path
+											fill="none"
+											stroke="#666666"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+											stroke-width="2.5"
+											d="M8 6h.006M8 12h.006M8 18h.006m7.988-12H16m-.006 6H16m-.006 6H16"
+											color="666666" />
+									</svg>
+								</div>
+								<div class="flex size-[28px] items-center justify-center rounded-[4px] bg-[#F1F1F1]">
+									<span class="text-[14px] font-semibold"> {{ i + 1 | number : '2.0' }} </span>
+								</div>
+							</div>
+							<div class="flex w-full flex-1 gap-[10px]">
+								<nz-select
+									*ngIf="getFieldCompareControl(i)"
+									[formControl]="getFieldCompareControl(i)"
+									nzPlaceHolder="Choose"
+									nz-tooltip
+									[nzTooltipTitle]="logics.value[i].FieldCompare?.Name"
+									class="min-w-[100px] bg-background text-sm text-foreground rounded-md border border-border">
+									<nz-option
+										*ngFor="let option of fieldsCondition"
+										[nzValue]="option"
+										[nzLabel]="option.Name"
+										[nzCustomContent]="true">
+										<span class="flex items-center gap-2">
+											<!-- <nz-icon *ngIf="option.Icon" [nzType]="option.Icon"></nz-icon> -->
+											<span>{{ option.Name }}</span>
+										</span>
+									</nz-option>
+								</nz-select>
+								<ng-container [ngSwitch]="logics.value[i].FieldCompare?.TypeCompare">
+									<ng-container *ngSwitchCase="TYPE_COMPARE.NUMBER">
+										<div class="flex w-full items-center gap-[10px]">
+											<nz-select
+												*ngIf="getOperatorCompareControl(i)"
+												[formControl]="getOperatorCompareControl(i)"
+												nzPlaceHolder="Choose"
+												nz-tooltip
+												[nzTooltipTitle]="logics.value[i].Operator?.Label"
+												class="min-w-[140px] bg-background text-sm text-foreground rounded-md border border-border">
+												<nz-option
+													*ngFor="let option of numbersCondition"
+													[nzValue]="option"
+													[nzLabel]="option.Label"></nz-option>
+											</nz-select>
+											<ng-container *ngIf="logics?.value[i].Operator as Operator">
+												<ng-container
+													*ngIf="
+													[
+														OPERATOR.EQUAL,
+														OPERATOR.NOT_EQUAL,
+														OPERATOR.GREATER_THAN,
+														OPERATOR.LESS_THAN,
+														OPERATOR.GREATER_THAN_OR_EQUAL,
+														OPERATOR.LESS_THAN_OR_EQUAL
+													]
+													.includes(Operator?.Type)
+                        						">
+													<input
+														nz-input
+														*ngIf="getValueCompareControl(i)"
+														[formControl]="getValueCompareControl(i)"
+														nzPlaceHolder="Enter value"
+														[type]="'number'"
+														class="w-full bg-background text-sm text-foreground rounded-md border border-border" />
+												</ng-container>
+												<ng-container
+													*ngIf="[OPERATOR.EMPTY, OPERATOR.NOT_EMPTY].includes(Operator?.Type)"
+													class="w-full"></ng-container>
+												<div *ngIf="Operator?.Type === OPERATOR.BETWEEN">Nằm giữa</div>
+												<div *ngIf="Operator?.Type === OPERATOR.NOT_BETWEEN">
+													Không nằm giữa
+												</div>
+											</ng-container>
+										</div>
+									</ng-container>
+									<ng-container *ngSwitchCase="TYPE_COMPARE.TEXT">
+										<div class="flex w-full items-center gap-[10px]">
+											<nz-select
+												*ngIf="getOperatorCompareControl(i)"
+												[formControl]="getOperatorCompareControl(i)"
+												nzPlaceHolder="Choose"
+												nz-tooltip
+												[nzTooltipTitle]="logics.value[i].Operator?.Label"
+												class="min-w-[140px] bg-background text-sm text-foreground rounded-md border border-border">
+												<nz-option
+													*ngFor="let option of textsCondition"
+													[nzValue]="option"
+													[nzLabel]="option.Label">
+												</nz-option>
+											</nz-select>
+											<ng-container *ngIf="logics.value[i].Operator as Operator">
+												<ng-container
+													*ngIf="
+													[
+														OPERATOR.ENDS_WITH,
+														OPERATOR.STARTS_WITH,
+														OPERATOR.NOT_CONTAINS,
+														OPERATOR.CONTAINS,
+														OPERATOR.NOT_EXACTLY,
+														OPERATOR.EXACTLY
+													]
+													.includes(Operator?.Type)
+												">
+													<input
+														nz-input
+														*ngIf="getValueCompareControl(i)"
+														[formControl]="getValueCompareControl(i)"
+														nzPlaceHolder="Enter value"
+														[type]="'text'"
+														class="w-full bg-background text-sm text-foreground rounded-md border border-border" />
+												</ng-container>
+												<ng-container
+													*ngIf="[OPERATOR.EMPTY, OPERATOR.NOT_EMPTY].includes(Operator?.Type)"
+													class="w-full">
+												</ng-container>
+											</ng-container>
+										</div>
+									</ng-container>
+									<ng-container *ngSwitchCase="TYPE_COMPARE.DATE">
+										<div class="flex w-full items-center gap-[10px]">
+											<nz-select
+												*ngIf="getOperatorCompareControl(i)"
+												[formControl]="getOperatorCompareControl(i)"
+												nzPlaceHolder="Choose"
+												nz-tooltip
+												[nzTooltipTitle]="logics.value[i].Operator?.Label"
+												class="min-w-[140px] bg-background text-sm text-foreground rounded-md border border-border">
+												<nz-option
+													*ngFor="let option of datesCondition"
+													[nzValue]="option"
+													[nzLabel]="option.Label"></nz-option>
+											</nz-select>
+											<ng-container
+												*ngIf="logics?.value[i].Operator as Operator"
+												[ngSwitch]="Operator?.Type">
+												<ng-container
+													*ngIf="[OPERATOR.EMPTY, OPERATOR.NOT_EMPTY].includes(Operator?.Type)"
+													class="w-full"></ng-container>
+
+												<ng-container
+													*ngIf="
+													[
+														OPERATOR.EXACTLY, 
+														OPERATOR.NOT_EXACTLY, 
+														OPERATOR.BEFORE, 
+														OPERATOR.AFTER
+													]
+													.includes(Operator?.Type)
+												">
+													<nz-date-picker
+														*ngIf="getOperatorCompareControl(i)"
+														[formControl]="getOperatorCompareControl(i)"
+														nz-tooltip
+														[nzTooltipTitle]="logics.value[i].Operator?.Label"
+														class="w-full bg-background text-sm text-foreground rounded-md border border-border">
+													</nz-date-picker>
+												</ng-container>
+												<ng-container
+													*ngIf="
+													[
+														OPERATOR.RANGE, 
+														OPERATOR.NOT_RANGE
+													]
+													.includes(Operator?.Type)
+												">
+													<nz-range-picker
+														*ngIf="getOperatorCompareControl(i)"
+														[nzShowWeekNumber]="true"
+														[formControl]="getOperatorCompareControl(i)"
+														nz-tooltip
+														[nzTooltipTitle]="logics.value[i].Operator?.Label"
+														class="w-full bg-background text-sm text-foreground rounded-md border border-border">
+													</nz-range-picker>
+												</ng-container>
+												<div *ngSwitchCase="OPERATOR.COMPARE_TODAY">
+													So với ngày hôm nay
+													<!-- <nz-icon *ngIf="option.Icon" [nzType]="option.Icon"></nz-icon> -->
+												</div>
+											</ng-container>
+										</div>
+									</ng-container>
+									<ng-container *ngSwitchCase="TYPE_COMPARE.SELECT">
+										<div class="flex w-full items-center gap-[10px]">
+											<nz-select
+												*ngIf="getOperatorCompareControl(i)"
+												[formControl]="getOperatorCompareControl(i)"
+												nzPlaceHolder="Choose"
+												nz-tooltip
+												[nzTooltipTitle]="logics.value[i].Operator?.Label"
+												class="min-w-[140px] bg-background text-sm text-foreground rounded-md border border-border">
+												<nz-option
+													*ngFor="let option of selectsCondition"
+													[nzValue]="option"
+													[nzLabel]="option.Label"></nz-option>
+											</nz-select>
+											<ng-container
+												*ngIf="logics?.value[i].Operator as Operator"
+												[ngSwitch]="Operator?.Type">
+												<div *ngSwitchCase="OPERATOR.EMPTY">trống</div>
+												<div *ngSwitchCase="OPERATOR.NOT_EMPTY">k trống</div>
+												<div *ngSwitchCase="OPERATOR.EXACTLY">Là</div>
+												<div *ngSwitchCase="OPERATOR.NOT_EXACTLY">Không là</div>
+												<div *ngSwitchCase="OPERATOR.IN">Thuộc một trong</div>
+												<div *ngSwitchCase="OPERATOR.NOT_IN">Không thuộc một trong</div>
+											</ng-container>
+										</div>
+									</ng-container>
+									<ng-container *ngSwitchCase="TYPE_COMPARE.BOOLEAN">
+										<div class="flex w-full items-center gap-[10px]">
+											<nz-select
+												*ngIf="getOperatorCompareControl(i)"
+												[formControl]="getOperatorCompareControl(i)"
+												nzPlaceHolder="Choose"
+												nz-tooltip
+												[nzTooltipTitle]="logics.value[i].Operator?.Label"
+												class="min-w-[140px] bg-background text-sm text-foreground rounded-md border border-border">
+												<nz-option
+													*ngFor="let option of booleansCondition"
+													[nzValue]="option"
+													[nzLabel]="option.Label"></nz-option>
+											</nz-select>
+
+											<ng-container *ngIf="logics?.value[i].Operator as Operator">
+												<ng-container
+													*ngIf="[OPERATOR.EQUAL, OPERATOR.NOT_EQUAL].includes(Operator?.Type)">
+													<div
+														class="flex w-full items-center justify-start rounded-[5px] border-[0.094em] border-solid border-[#d1d5db] py-[5px] pl-[0.625rem] hover:border-[2px] hover:border-[#2563eb]">
+														<label
+															nz-checkbox
+															*ngIf="getValueCompareControl(i)"
+															[formControl]="getValueCompareControl(i)">
+														</label>
+													</div>
+												</ng-container>
+											</ng-container>
+										</div>
+									</ng-container>
+								</ng-container>
+							</div>
+						</div>
+						<div
+							(click)="onHandleAction($event, ACTION_FIELD_CONDITION.RemoveCondition, i)"
+							class="cursor-pointer rounded-[5px] px-[10px] py-[3px] hover:bg-[#0000001A]">
+							<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+								<rect width="24" height="24" fill="none" />
+								<g
+									fill="none"
+									stroke="currentColor"
+									stroke-dasharray="22"
+									stroke-dashoffset="22"
+									stroke-linecap="round"
+									stroke-width="2">
+									<path d="M19 5L5 19">
+										<animate
+											fill="freeze"
+											attributeName="stroke-dashoffset"
+											begin="0.3s"
+											dur="0.3s"
+											values="22;0" />
+									</path>
+									<path d="M5 5L19 19">
+										<animate
+											fill="freeze"
+											attributeName="stroke-dashoffset"
+											dur="0.3s"
+											values="22;0" />
+									</path>
+								</g>
+							</svg>
+						</div>
+					</div>
+				</div>
+			</ng-container>
+
+			<ng-container *ngIf="form.get('Compare')?.value?.Type === LOGIC_COMPARES.CUSTOM">
+				<div class="mb-2">
+					<div class="flex w-full flex-col rounded-[10px] bg-[#e5e7f2] px-[20px] py-[16px] opacity-85">
+						<!-- <app-dynamic-long-text
+        [field]="inputCompare.get('LogicCustom')"
+        [form]="form"
+        [isMultiRow]="true"
+        [submitted]="false" /> -->
+					</div>
+				</div>
+			</ng-container>
+		</div>
+	</div>
+	<div class="bg-gray-50 px-[20px] py-[14px] flex justify-between" style="border-top: 1px solid #ccc">
+		<div
+			class="flex w-[fit-content] cursor-pointer items-center gap-[5px] rounded-[5px] px-[5px] py-[3px] text-[14px] hover:bg-[#0000001A]">
+			<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 256 256">
+				<g stroke-linecap="round" stroke-linejoin="round" stroke-width="16" fill="none" stroke="#666666">
+					<circle cx="128" cy="128" r="112" />
+					<path d="M 79.999992,128 H 176.0001" />
+					<path d="m 128.00004,79.99995 v 96.0001" />
+				</g>
+			</svg>
+			<span class="text-[14px] font-medium" (click)="onHandleAction($event, ACTION_FIELD_CONDITION.AddCondition)">
+				Thêm điều kiện
+			</span>
+		</div>
+		<button
+			(click)="confirm()"
+			type="button"
+			class="inline-flex w-full justify-center rounded-md px-3 py-2 text-sm bg-primary font-semibold text-[white] shadow-sm sm:ml-3 sm:w-auto">
+			Apply
+		</button>
+	</div>
+</form>

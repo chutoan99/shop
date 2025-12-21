@@ -1,0 +1,82 @@
+<form [formGroup]="form" [class]="!isMultiRow ? 'grid grid-cols-3' : ''">
+	<ng-container *ngIf="!isMultiRow; else fieldMultiRow">
+		<label
+			class="flex items-center text-sm bg-background text-foreground {{ !field.AllowNull ? 'required' : '' }}"
+			>{{ field.VnName }}</label
+		>
+		<div class="col-span-2">
+			<ng-select
+				[items]="optionList"
+				[bindLabel]="bindLabel"
+				[readonly]="!field.AllowEdit"
+				[virtualScroll]="true"
+				[typeahead]="searchInput$"
+				[formControlName]="field.Name"
+				placeholder="{{ field.VnName }}"
+				[ngClass]="{
+					disabled: !field.AllowEdit
+				}">
+				<ng-template ng-label-tmp let-item="item">
+					<div class="flex items-center gap-[4px]">
+						<div *ngIf="useIcon && item.Icon">
+							<img [src]="item.Icon" width="100%" height="100%" alt="" />
+						</div>
+						<div [innerHtml]="item[bindLabel] | safeHtml"></div>
+					</div>
+				</ng-template>
+
+				<ng-template ng-option-tmp let-item="item" let-index="index">
+					<div class="flex items-center gap-[4px]">
+						<div *ngIf="useIcon && item.Icon">
+							<img [src]="item.Icon" width="100%" height="100%" alt="" />
+						</div>
+						<div [innerHtml]="item[bindLabel] | safeHtml"></div>
+					</div>
+				</ng-template>
+			</ng-select>
+			<div class="is__invalid-error" *ngIf="submitted && !form.get(field.Name).valid">
+				<div *ngIf="form.get(field.Name).errors['required']">Nhập {{ field.VnName }}</div>
+			</div>
+		</div>
+	</ng-container>
+	<ng-template #fieldMultiRow>
+		<div class="w-full">
+			<ng-select
+				[items]="optionList"
+				[bindLabel]="bindLabel"
+				class=""
+				[readonly]="!field.AllowEdit"
+				[virtualScroll]="true"
+				[typeahead]="searchInput$"
+				[formControlName]="field.Name"
+				placeholder="{{ field.VnName }}"
+				[ngClass]="{
+					disabled: !field.AllowEdit
+				}">
+				<ng-template ng-label-tmp let-item="item">
+					<div class="flex items-center gap-[4px]">
+						<div *ngIf="useIcon && item.Icon">
+							<img [src]="item.Icon" width="100%" height="100%" alt="" />
+						</div>
+						<div [innerHtml]="item[bindLabel] | safeHtml"></div>
+					</div>
+				</ng-template>
+
+				<ng-template ng-option-tmp let-item="item" let-index="index">
+					<div
+						class="flex items-center gap-[4px]"
+						[ngClass]="{ 'cursor-not-allowed opacity-50': item.Disable }">
+						<div *ngIf="useIcon && item.Icon">
+							<img [src]="item.Icon" width="100%" height="100%" alt="" />
+						</div>
+						<div [innerHtml]="item[bindLabel] | safeHtml"></div>
+					</div>
+				</ng-template>
+			</ng-select>
+
+			<div class="fv-plugins-message-container invalid-feedback" *ngIf="submitted && !form.get(field.Name).valid">
+				<div *ngIf="form.get(field.Name).errors['required']">Nhập {{ field.VnName }}</div>
+			</div>
+		</div>
+	</ng-template>
+</form>

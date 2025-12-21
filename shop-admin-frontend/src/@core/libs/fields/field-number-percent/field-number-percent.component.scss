@@ -1,0 +1,25 @@
+::ng-deep {
+	.p-inputnumber {
+		width: 100%;
+		.p-element {
+			border-radius: 5px;
+			border: 1px solid #ccc;
+		}
+	}
+	.dynamic-number-percent {
+		.disabled {
+			background-color: #e0e0e0 !important;
+			cursor: not-allowed !important;
+			opacity: 0.6 !important;
+			pointer-events: none !important;
+		}
+
+		input.disabled {
+			outline: none !important;
+		}
+
+		input[readonly] {
+			pointer-events: none !important;
+		}
+	}
+}

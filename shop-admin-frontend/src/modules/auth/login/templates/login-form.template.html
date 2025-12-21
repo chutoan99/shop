@@ -1,0 +1,26 @@
+<div class="form">
+	<h2>Login Form</h2>
+	<form>
+		<div class="input__box">
+			<input
+				type="text"
+				placeholder="your-email@gmail.com"
+				id="email"
+				[(ngModel)]="payload.email"
+				[ngModelOptions]="{ standalone: true }" />
+		</div>
+		<div class="input__box">
+			<input
+				type="password"
+				placeholder="Password"
+				id="password"
+				[ngModelOptions]="{ standalone: true }"
+				[(ngModel)]="payload.password" />
+		</div>
+		<div class="input__box">
+			<input type="submit" value="Login" (click)="handleSubmit()" />
+		</div>
+		<p class="forget">Forgot Password? <a href="#">Click Here</a></p>
+		<p class="forget">Don't have an account? <a href="#">Sign Up</a></p>
+	</form>
+</div>

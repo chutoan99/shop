@@ -1,0 +1,150 @@
+.slick-prev,
+.slick-next {
+	z-index: 1;
+}
+
+#topProduct .slick-slider {
+	display: flex;
+	gap: 10px;
+}
+#topProduct .slick-slide {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#topProduct .slick-next {
+	z-index: 9;
+	right: -15px !important;
+	box-shadow: 0 1px 12px 0 rgba(0, 0, 0, 0.12);
+	transition: all 0.1s cubic-bezier(0.4, 0, 0.6, 1);
+}
+#topProduct .slick-prev {
+	z-index: 9;
+	left: -15px !important;
+	box-shadow: 0 1px 12px 0 rgba(0, 0, 0, 0.12);
+	transition: all 0.1s cubic-bezier(0.4, 0, 0.6, 1);
+}
+#topProduct .slick-prev:before {
+	font-size: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#topProduct .slick-next:before {
+	font-size: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#carousel .slick-next {
+	right: 10px !important;
+}
+#carousel .slick-prev {
+	left: 10px !important;
+}
+#carousel .slick-prev {
+	position: absolute;
+	top: 50%;
+	right: -30px;
+	display: block;
+	width: 20px;
+	z-index: 10;
+	height: 20px;
+	padding: 0;
+	transform: translate(0, -50%);
+	cursor: pointer;
+	color: transparent;
+	border: none;
+	outline: none;
+	background: transparent;
+}
+
+#carousel .slick-dots {
+	bottom: 10px !important;
+}
+#carousel .underlay {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	cursor: pointer;
+	-webkit-animation: fadein 0.5s;
+	animation: fadein 0.5s;
+}
+#flashSale .slick-track {
+	display: flex;
+	gap: 10px;
+}
+#shopmall .slick-dots {
+	bottom: 10px !important;
+}
+
+/* config checbox */
+.shopping_cart-checkBox {
+	display: block;
+	position: relative;
+	padding-left: 35px;
+	margin-bottom: 12px;
+	cursor: pointer;
+	font-size: 1.375rem;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.shopping_cart-checkBox input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+}
+.checkmark {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 18px;
+	width: 18px;
+	background-color: #eee;
+}
+.shopping_cart-checkBox:hover input ~ .checkmark {
+	background-color: #ccc;
+}
+
+.shopping_cart-checkBox input:checked ~ .checkmark {
+	background-color: #ee4d2d;
+}
+.shopping_cart-checkBox input:checked ~ .checkmark {
+	background-color: #ee4d2d;
+}
+.checkmark:after {
+	content: '';
+	position: absolute;
+	display: none;
+}
+
+.shopping_cart-checkBox input:checked ~ .checkmark:after {
+	display: block;
+}
+.shopping_cart-checkBox .checkmark:after {
+	left: 9px;
+	top: 5px;
+	width: 5px;
+	height: 10px;
+	border: solid white;
+	border-width: 0 3px 3px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+/* config checbox */
+.cPTmHX {
+	display: flex !important;
+}
+.hjzHMx {
+	color: #ee4d2d !important;
+}

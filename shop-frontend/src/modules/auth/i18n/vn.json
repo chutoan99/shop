@@ -1,0 +1,37 @@
+{
+	"LABEL": {
+		"RETURN": "TRỞ LẠI",
+		"SUBMIT": "XÁC NHẬN",
+		"UPDATE": "CẬP NHẬT",
+		"LOGIN": "Đăng Nhập",
+		"REGISTER": "Đăng Ký",
+		"LOGIN_FACEBOOK": "Đăng nhập với Facebook",
+		"LOGIN_GOOGLE": "Đăng Nhập với google",
+		"HELP": "Cần trợ giúp?",
+		"FORGOT_PASSWORD": "Quên mật khẩu",
+		"HEADING_LOGIN": "Đăng Nhập",
+		"HEADING_REGISTER": "Đăng Ký",
+		"HEADING_FORGOT_PASSWORD": " Cập nhật mật khẩu",
+		"HEADING_DEFAULT": "Xác minh tài khoản"
+	},
+	"MESSAGE": {
+		"LOGIN_SUCCESS": "Đăng nhập thành công",
+		"REGISTER_SUCCESS": "Đăng ký thành công",
+		"FORGOT_PASSWORD_SUCCESS": "Vui lòng kiểm tra email",
+		"RESET_PASSWORD_SUCCESS": "Cập nhật mật khẩu thành công",
+		"LOGOUT_SUCCESS": "Đăng xuất thành công",
+		"UPDATE_USER_SUCCESS": "Cập nhật thông tin thành công"
+	},
+	"PLACEHOLDER": {
+		"EMAIL": "Email của bạn",
+		"PASSWORD": "Mật khẩu của bạn",
+		"NAME": "Tên của bạn",
+		"NEW_PASSWORD": "Mật khẩu mới của bạn"
+	},
+	"VALIDATOR": {
+		"INVALID_EMAIL": "Email your is incorrect",
+		"MISS_PASSWORD": "Pleas input your PassWord",
+		"MISS_EMAIL": "Pleas input your Email",
+		"MISS_NAME": "Pleas input your Name"
+	}
+}

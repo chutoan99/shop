@@ -1,0 +1,27 @@
+<form [formGroup]="form" [class]="!isMultiRow ? 'grid grid-cols-3' : ''">
+	<label
+		*ngIf="!isMultiRow"
+		class="flex items-center text-sm bg-background text-foreground {{ !field.AllowNull ? 'required' : '' }}"
+		>{{ field.VnName }}</label
+	>
+	<div
+		[class]="!isMultiRow ? 'col-span-2' : 'w-full'"
+		[ngClass]="{
+			disabled: !field.AllowEdit
+		}">
+		<p-inputNumber
+			[formControlName]="field.Name"
+			mode="decimal"
+			placeholder="{{ field.VnName }}"
+			formControlName="value"
+			class="w-full"
+			[readonly]="!field.AllowEdit"
+			[ngClass]="{
+				'ng-invalid': submitted && !form.get(field.Name).valid,
+				disabled: !field.AllowEdit
+			}" />
+		<div class="is__invalid-error" *ngIf="submitted && !form.get(field.Name).valid">
+			<div *ngIf="form.get(field.Name).errors['required']">Nhập {{ field.VnName }}</div>
+		</div>
+	</div>
+</form>

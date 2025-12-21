@@ -1,0 +1,18 @@
+<form [formGroup]="form" [class]="!isMultiRow ? 'grid grid-cols-3' : ''">
+	<label
+		*ngIf="!isMultiRow"
+		class="flex items-center text-sm bg-background text-foreground {{ !field.AllowNull ? 'required' : '' }}"
+		>{{ field.VnName }}</label
+	>
+	<div [class]="!isMultiRow ? 'col-span-2' : 'w-full'">
+		<div class="custom-radio flex flex-col gap-[5px]">
+			<div *ngFor="let option of optionList" class="align-items-center mr-2 flex">
+				<p-radioButton
+					[value]="option"
+					[formControlName]="field.Name"
+					[ngClass]="{ disabled: !field.AllowEdit }" />
+				<label [for]="option.OptionID" class="ml-2"> {{ option[label] }} </label>
+			</div>
+		</div>
+	</div>
+</form>

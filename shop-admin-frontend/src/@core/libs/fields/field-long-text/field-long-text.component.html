@@ -1,0 +1,22 @@
+<form [formGroup]="form" [class]="!isMultiRow ? 'grid grid-cols-3' : ''">
+	<label
+		*ngIf="!isMultiRow"
+		class="flex items-center text-sm bg-background text-foreground {{ !field.AllowNull ? 'required' : '' }}"
+		>{{ field.VnName }}</label
+	>
+	<div [class]="!isMultiRow ? 'col-span-2' : 'w-full'">
+		<textarea
+			class="textarea"
+			rows="2"
+			cols="30"
+			[formControlName]="field.Name"
+			placeholder="{{ field.VnName }}"
+			[ngClass]="{
+				'ng-invalid': submitted && !form.get(field.Name).valid,
+				disabled: !field.AllowEdit
+			}"></textarea>
+		<div class="is__invalid-error" *ngIf="submitted && !form.get(field.Name).valid">
+			<div *ngIf="form.get(field.Name).errors['required']">Nhập {{ field.VnName }}</div>
+		</div>
+	</div>
+</form>

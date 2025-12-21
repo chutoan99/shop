@@ -1,0 +1,24 @@
+<form [formGroup]="form" [class]="!isMultiRow ? 'grid grid-cols-3' : ''">
+	<label *ngIf="!isMultiRow">{{ field.Name }}</label>
+	<div [class]="!isMultiRow ? 'col-span-2' : 'w-full'">
+		<input
+			type="text"
+			placeholder="{{ field.Name }}"
+			class="p-2"
+			nz-input
+			[readonly]="!field.AllowEdit"
+			[formControlName]="field.Name" />
+		<!-- [ngClass]="{
+        'ng-invalid': (submitted && !form.get(field.Name)?.valid) || (form.get(field.Name)?.errors),
+        disabled: !field.AllowEdit
+      }"  -->
+		<!-- <div class="is__invalid-error" *ngIf="submitted && !form.get(field.Name)?.valid">
+      <div *ngIf="form.get(field.Name)?.errors['required']">Nhập {{ field.Name }}</div>
+    </div>
+    <div class="is__invalid-error" *ngIf="form.get(field.Name)?.errors">
+      <div *ngIf="form.get(field.Name)?.errors['customError']">
+        {{ form.get(field.Name).errors['customError'] }}
+      </div>
+    </div> -->
+	</div>
+</form>

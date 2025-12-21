@@ -1,0 +1,137 @@
+<div class="py-2 mb-6 px-2">
+	<span class="text-[#294566] text-[20px] leading-[20px] font-bold no-underline font-inter"> Settings </span>
+	<br />
+	<div class="px-2">
+		<!-- Theme Options -->
+		<div class="mt-[20px] mb-[10px] flex gap-[10px] flex-col">
+			<span class="text-[15px] leading-[20px] text-[#333333] font-bold no-underline font-inter">
+				Theme Options
+			</span>
+			<ng-container *ngIf="themeModes.length > 0">
+				<ul class="flex flex-wrap gap-x-[15px] gap-y-[10px]">
+					<li *ngFor="let option of themeModes">
+						<div
+							(click)="onChooseThemeMode(option)"
+							class="flex items-center justify-center gap-[5px] w-[100px] h-[60px] bg-[white] rounded-[18px] cursor-pointer shadow-[0px_0px_2px_0px_rgba(31,13,64,0.10),_0px_12px_24px_-4px_rgba(31,13,64,0.08)]">
+							<ng-container [ngSwitch]="option.label">
+								<ng-container *ngSwitchCase="THEME_MODE.LightTheme">
+									<svg
+										width="24"
+										height="25"
+										viewBox="0 0 24 25"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M14.8279 15.518C15.21 15.149 15.5147 14.7077 15.7243 14.2196C15.934 13.7316 16.0443 13.2067 16.0489 12.6756C16.0535 12.1445 15.9523 11.6178 15.7512 11.1262C15.5501 10.6346 15.2531 10.188 14.8775 9.81244C14.5019 9.43687 14.0553 9.13986 13.5637 8.93874C13.0722 8.73761 12.5454 8.6364 12.0143 8.64102C11.4832 8.64564 10.9583 8.75598 10.4703 8.96562C9.98229 9.17525 9.54091 9.47998 9.17192 9.86202C8.44329 10.6164 8.04011 11.6268 8.04922 12.6756C8.05834 13.7244 8.47901 14.7277 9.22065 15.4693C9.96228 16.2109 10.9655 16.6316 12.0143 16.6407C13.0631 16.6498 14.0735 16.2467 14.8279 15.518Z"
+											fill="white"
+											stroke="black"
+											stroke-width="2"
+											stroke-linecap="round"
+											stroke-linejoin="round" />
+										<path d="M6.34296 18.347L4.92896 19.761L6.34296 18.347Z" fill="white" />
+										<path
+											d="M6.34296 18.347L4.92896 19.761"
+											stroke="black"
+											stroke-width="2"
+											stroke-linecap="round"
+											stroke-linejoin="round" />
+										<path d="M6.34296 7.03302L4.92896 5.61902L6.34296 7.03302Z" fill="white" />
+										<path
+											d="M6.34296 7.03302L4.92896 5.61902"
+											stroke="black"
+											stroke-width="2"
+											stroke-linecap="round"
+											stroke-linejoin="round" />
+										<path d="M17.657 7.03302L19.071 5.61902L17.657 7.03302Z" fill="white" />
+										<path
+											d="M17.657 7.03302L19.071 5.61902"
+											stroke="black"
+											stroke-width="2"
+											stroke-linecap="round"
+											stroke-linejoin="round" />
+										<path d="M17.657 18.347L19.071 19.761L17.657 18.347Z" fill="white" />
+										<path
+											d="M17.657 18.347L19.071 19.761"
+											stroke="black"
+											stroke-width="2"
+											stroke-linecap="round"
+											stroke-linejoin="round" />
+										<path d="M4 12.69H2H4Z" fill="white" />
+										<path
+											d="M4 12.69H2"
+											stroke="black"
+											stroke-width="2"
+											stroke-linecap="round"
+											stroke-linejoin="round" />
+										<path d="M12 4.69V2.69Z" fill="black" />
+										<path
+											d="M12 4.69V2.69"
+											stroke="black"
+											stroke-width="2"
+											stroke-linecap="round"
+											stroke-linejoin="round" />
+										<path d="M20 12.69H22H20Z" fill="white" />
+										<path
+											d="M20 12.69H22"
+											stroke="black"
+											stroke-width="2"
+											stroke-linecap="round"
+											stroke-linejoin="round" />
+										<path d="M12 20.69V22.69V20.69Z" fill="white" />
+										<path
+											d="M12 20.69V22.69"
+											stroke="black"
+											stroke-width="2"
+											stroke-linecap="round"
+											stroke-linejoin="round" />
+									</svg>
+								</ng-container>
+								<ng-container *ngSwitchCase="THEME_MODE.DarkTheme">
+									<svg
+										width="25"
+										height="25"
+										viewBox="0 0 25 25"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M12.69 3.69001C12.822 3.69001 12.953 3.69001 13.083 3.69001C11.7983 4.88371 10.9726 6.48985 10.7493 8.22923C10.526 9.9686 10.9192 11.7312 11.8607 13.2107C12.8022 14.6902 14.2323 15.793 15.9026 16.3275C17.5728 16.8619 19.3775 16.7942 21.003 16.136C20.3777 17.6405 19.3558 18.947 18.0462 19.9163C16.7366 20.8855 15.1884 21.481 13.5669 21.6394C11.9453 21.7977 10.3112 21.513 8.83886 20.8154C7.36648 20.1179 6.11108 19.0337 5.20656 17.6786C4.30203 16.3235 3.78232 14.7483 3.70285 13.121C3.62339 11.4937 3.98715 9.8753 4.75534 8.43852C5.52353 7.00174 6.66733 5.80043 8.06473 4.96274C9.46213 4.12505 11.0607 3.6824 12.69 3.68201V3.69001Z"
+											stroke="#1A1B1F"
+											stroke-width="2"
+											stroke-linecap="round"
+											stroke-linejoin="round" />
+									</svg>
+								</ng-container>
+								<span
+									class="font-inter text-[14px] font-medium leading-[20px] text-[#687182] cursor-pointer">
+									{{option.value}}
+								</span>
+							</ng-container>
+						</div>
+					</li>
+				</ul>
+			</ng-container>
+		</div>
+
+		<!-- Theme Colors -->
+		<div class="mt-[20px] mb-[10px] flex gap-[10px] flex-col">
+			<span class="text-[15px] leading-[20px] text-[#333333] font-bold no-underline font-inter">
+				Theme Colors
+			</span>
+			<ng-container *ngIf="themeColors.length > 0">
+				<ul class="flex flex-wrap gap-x-[15px] gap-y-[10px]">
+					<li *ngFor="let color of themeColors">
+						<div
+							(click)="onChooseThemeColor(color)"
+							[style.background]="currentThemeColor.label === color.label ? color.primaryFixedDim : 'white'"
+							class="flex items-center justify-center w-[73px] h-[65px] white rounded-[18px] cursor-pointer shadow-[0px_0px_2px_0px_rgba(31,13,64,0.10),_0px_12px_24px_-4px_rgba(31,13,64,0.08)]">
+							<div
+								class="w-[25px] h-[25px] rounded-full hover:scale-110 transition"
+								[style.background]="color.primary"
+								[title]="color.label"></div>
+						</div>
+					</li>
+				</ul>
+			</ng-container>
+		</div>
+	</div>
+</div>

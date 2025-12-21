@@ -1,0 +1,26 @@
+::ng-deep {
+	.p-inputnumber {
+		width: 100%;
+		.p-element {
+			border-radius: 5px;
+			border: 1px solid #ccc;
+		}
+	}
+	.dynamic-number-float {
+		.disabled {
+			background-color: #e0e0e0;
+			cursor: not-allowed;
+			opacity: 0.6;
+			border-radius: 0.375rem;
+			pointer-events: none;
+		}
+
+		input.disabled {
+			outline: none;
+		}
+
+		input[readonly] {
+			pointer-events: none;
+		}
+	}
+}

@@ -1,0 +1,21 @@
+-- Write your SQL migration here
+-- defaultdb.Discounts definition
+START TRANSACTION;
+CREATE TABLE discounts (
+  "id" bigint NOT NULL,
+  "promotion_price" varchar(255) DEFAULT NULL,
+  "hidden_promotion_price" varchar(255) DEFAULT NULL,
+  "text" varchar(255) DEFAULT NULL,
+  "start_time" varchar(255) DEFAULT NULL,
+  "end_time" varchar(255) DEFAULT NULL,
+  "is_active" tinyint(1) NOT NULL DEFAULT '0',
+  "metadata" json DEFAULT NULL,
+  "created_by" int DEFAULT NULL,
+	"deleted_by" int DEFAULT NULL,
+	"updated_by" int DEFAULT NULL,
+  "created_at" timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  "updated_at" timestamp NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  "deleted_at" timestamp NULL DEFAULT NULL,
+  PRIMARY KEY ("id")
+);
+COMMIT

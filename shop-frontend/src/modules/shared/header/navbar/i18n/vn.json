@@ -1,0 +1,16 @@
+{
+	"LABEL": {
+		"SELLER": "Kênh người bán",
+		"CONNECT": "Kết nối",
+		"NOTIFY": "Thông báo",
+		"HELP": "Trợ giúp",
+		"ACCOUNT": "Tài khoản của tôi",
+		"PURCHASE": "Đơn mua",
+		"LOGOUT": "Đăng xuất",
+		"REGISTER": "Đăng ký",
+		"LOGIN": "Đăng nhập"
+	},
+	"MESSAGE": {},
+	"PLACEHOLDER": {},
+	"VALIDATOR": {}
+}

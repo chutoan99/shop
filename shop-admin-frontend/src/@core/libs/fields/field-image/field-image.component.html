@@ -1,0 +1,36 @@
+<!-- <div class="field grid">
+    <div class="col-4 form-label {{!field.AllowNull?'required':''}}">{{field.VnName}}</div>
+    <div class="col-8">
+        <div class="box-detail-avatar py-2">
+            <div class="custom-icon-edit icon-edit bg-yellow-500" (click)="image_avatar_upload.click()">
+            </div>
+            <input type='file' [hidden]="true" multiple="false" (change)="onFileSelected($event)" #image_avatar_upload
+                accept="image/*">
+        </div>
+    </div>
+</div> -->
+<form [formGroup]="form" class="grid grid-cols-3">
+	<label class="flex items-center text-sm bg-background text-foreground {{ !field.AllowNull ? 'required' : '' }}">{{
+		field.VnName
+	}}</label>
+	<div class="col-span-2">
+		<div class="flex items-center space-x-6">
+			<div class="shrink-0">
+				<!-- [imageClass]="'object-cover rounded-full'" -->
+				<app-prime-image [srcDefault]="imageUrl" width="64" height="64"> </app-prime-image>
+			</div>
+			<label class="block">
+				<span class="sr-only">Choose profile photo</span>
+				<input
+					type="file"
+					accept="image/*"
+					(change)="onFileSelected($event)"
+					class="block w-full text-sm text-slate-500 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-violet-50 file:text-violet-700 hover:file:bg-violet-100" />
+			</label>
+		</div>
+
+		<div class="is__invalid-error" *ngIf="submitted && !form.get(field.Name).valid">
+			<div *ngIf="form.get(field.Name).errors['required']">Nhập {{ field.VnName }}</div>
+		</div>
+	</div>
+</form>

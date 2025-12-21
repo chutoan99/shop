@@ -1,0 +1,416 @@
+<p-toast></p-toast>
+<p-confirmDialog [style]="{ width: '450px' }" />
+<p-dialog
+	ng
+	*ngIf="visible"
+	position="center"
+	header="Header"
+	[modal]="true"
+	[style]="{ width: '540px' }"
+	[draggable]="true"
+	[resizable]="true"
+	[closable]="true"
+	[maximizable]="false"
+	[(visible)]="visible"
+	[closeOnEscape]="true"
+	(visibleChange)="onHidePopup()">
+	<ng-template pTemplate="header" class="dialogHeader">
+		<div class="w-full">
+			<h3 class="text-md pl-3 font-bold text-foreground">{{ header | uppercase }}</h3>
+		</div>
+	</ng-template>
+	<form [formGroup]="formPopup" class="row px-[24px]">
+		<div class="w-ful mb-[10px] flex justify-center">
+			<p-tabMenu
+				styleClass="
+      [&>div>div>ul]:flex
+      [&>div>div>ul]:flex-wrap
+      [&>div>div>ul]:text-[1rem]
+      [&>div>div>ul]:gap-[10px]
+      [&>div>div>ul]:font-normal
+      [&>div>div>ul]:text-center
+      [&>div>div>ul]:text-[#1f2a37]
+      [&>div>div>ul]:bg-transparent
+      [&>div>div]:text-sm
+      [&>div>div]:font-normal
+      [&>div>div]:text-center
+      [&>div>div]:text-[#1f2a37]
+      [&>div>div]:border-0
+      [&>div>div>ul>li>a]:inline-block
+      [&>div>div>ul>li>a]:py-1
+      [&>div>div>ul>li>a]:px-2
+      [&>div>div>ul>li>a]:text-sm
+      [&>div>div>ul>li>a]:font-normal
+      [&>div>div>ul>li>a]:rounded-t-lg
+      [&>div>div>ul>li>a]:mb-0
+      [&>div>div>ul>li:hover>a]:hover:text-[#2c5099]
+      [&>div>div>ul>li:hover>a]:hover:border-[#2c5099]
+      [&>div>div>ul>li:hover>a]:hover:border-b-2
+      "
+				[model]="tabs">
+				<ng-template pTemplate="item" let-item>
+					<ng-container>
+						<a
+							class="p-menuitem-link rounded-none hover:bg-gray-100 hover:text-[#2c5099]"
+							(click)="onChangeTab(item)"
+							[ngClass]="activeItem === item && 'border-b-2 border-[#2c5099] text-[#2c5099]'">
+							<div class="flex">
+								{{ item }}
+							</div>
+						</a>
+					</ng-container>
+				</ng-template>
+			</p-tabMenu>
+		</div>
+
+		<ng-container [ngSwitch]="activeItem">
+			<ng-container *ngSwitchCase="tabs[0]">
+				<div class="mb-4">
+					<label class="required mb-2 flex items-center bg-background text-sm text-foreground"
+						>Tên trường</label
+					>
+					<app-dynamic-input
+						[field]="dataInputBase.get('InputName')"
+						[form]="formPopup"
+						[isMultiRow]="true"
+						[submitted]="false" />
+				</div>
+				<div class="mb-4">
+					<label class="required mb-2 flex items-center bg-background text-sm text-foreground">Câu hỏi</label>
+					<app-dynamic-input
+						[field]="dataInputBase.get('Question')"
+						[form]="formPopup"
+						[isMultiRow]="true"
+						[submitted]="false" />
+				</div>
+				<div class="mb-4">
+					<div class="mb-2 flex w-full flex-col gap-[5px]">
+						<div class="flex items-center gap-[15px]">
+							<div>
+								<label
+									class="required flex w-[125px] items-center bg-background text-sm text-foreground"
+									>Kiểu chọn giá trị</label
+								>
+							</div>
+							<div class="card justify-content-center flex w-full">
+								<div
+									class="flex w-full flex-wrap justify-between gap-3"
+									formGroupName="DataTypeSetting">
+									<div class="align-items-center flex gap-[7px]">
+										<p-radioButton [value]="TYPE_CONFIG.Manual" formControlName="ConfigType" />
+										<label
+											for="Config1"
+											class="flex items-center bg-background text-sm text-foreground">
+											Tạo Thủ công
+										</label>
+									</div>
+									<div class="align-items-center flex gap-[7px]">
+										<p-radioButton [value]="TYPE_CONFIG.Reference" formControlName="ConfigType" />
+										<label
+											for="Config2"
+											class="flex items-center bg-background text-sm text-foreground">
+											Tham chiếu
+										</label>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<ng-container
+						*ngIf="this.formPopup.get('DataTypeSetting')?.get('ConfigType')?.value === TYPE_CONFIG.Manual">
+						<div class="flex w-full flex-col gap-[10px] rounded-[10px] bg-[#e5e7f2] px-[20px] py-[16px]">
+							<div
+								cdkDropList
+								(cdkDropListDropped)="onHandleAction($event, ACTION_FIELD_SELECT.MoveOption)"
+								class="flex max-h-[136px] w-full flex-col gap-[12px] overflow-y-auto py-[5px]">
+								<div
+									cdkDrag
+									class="flex w-full items-center justify-between gap-[5px]"
+									*ngFor="let option of optionsInputBase; let i = index">
+									<div class="flex w-full flex-1 items-center gap-[5px]">
+										<div
+											cdkDragHandle
+											class="flex size-[28px] cursor-move items-center justify-center rounded-[4px] hover:bg-[#0000001A]">
+											<svg
+												xmlns="http://www.w3.org/2000/svg"
+												width="20"
+												height="20"
+												viewBox="0 0 24 24">
+												<path
+													fill="none"
+													stroke="#666666"
+													stroke-linecap="round"
+													stroke-linejoin="round"
+													stroke-width="2.5"
+													d="M8 6h.006M8 12h.006M8 18h.006m7.988-12H16m-.006 6H16m-.006 6H16"
+													color="666666" />
+											</svg>
+										</div>
+										<div
+											class="flex size-[28px] items-center justify-center rounded-[4px] bg-[#fff]">
+											<span class="text-[14px] font-semibold">
+												{{ i + 1 | number: '2.0' }}
+											</span>
+										</div>
+
+										<app-dynamic-input
+											class="w-full"
+											[field]="option"
+											[form]="options.controls[i]"
+											[isMultiRow]="true"
+											[submitted]="false" />
+									</div>
+									<div
+										(click)="onHandleAction($event, ACTION_FIELD_SELECT.RemoveOption, i)"
+										class="cursor-pointer rounded-[5px] px-[10px] py-[3px] hover:bg-[#0000001A]">
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											width="20"
+											height="20"
+											viewBox="0 0 24 24">
+											<rect width="24" height="24" fill="none" />
+											<g
+												fill="none"
+												stroke="currentColor"
+												stroke-dasharray="22"
+												stroke-dashoffset="22"
+												stroke-linecap="round"
+												stroke-width="2">
+												<path d="M19 5L5 19">
+													<animate
+														fill="freeze"
+														attributeName="stroke-dashoffset"
+														begin="0.3s"
+														dur="0.3s"
+														values="22;0" />
+												</path>
+												<path d="M5 5L19 19">
+													<animate
+														fill="freeze"
+														attributeName="stroke-dashoffset"
+														dur="0.3s"
+														values="22;0" />
+												</path>
+											</g>
+										</svg>
+									</div>
+								</div>
+							</div>
+							<span
+								(click)="onHandleAction($event, ACTION_FIELD_SELECT.AddOption)"
+								class="inline-block w-[fit-content] cursor-pointer rounded-[5px] px-[10px] py-[3px] text-[14px] hover:bg-[#0000001A]">
+								<i class="fa-regular fa-plus pr-[5px]"></i>
+								Thêm giá trị
+							</span>
+						</div>
+					</ng-container>
+					<ng-container
+						*ngIf="
+							this.formPopup.get('DataTypeSetting')?.get('ConfigType').value === TYPE_CONFIG.Reference
+						">
+						<div class="flex w-full flex-col gap-[10px] rounded-[10px] bg-[#e5e7f2] px-[20px] py-[16px]">
+							<div class="flex max-h-[170px] w-full flex-col gap-[12px] py-[5px]">
+								<div class="mb-4" formGroupName="DataTypeSetting">
+									<label class="required mb-2 flex items-center text-sm text-foreground"
+										>Chọn bảng chứa trường cần tham chiếu</label
+									>
+									<app-dynamic-select-option
+										bindLabel="Name"
+										[field]="dataInputBase.get('TableReference')"
+										[form]="formPopup.get('DataTypeSetting')"
+										[isMultiRow]="true"
+										[submitted]="false"
+										[optionList]="tables"
+										styleClass="bg-background text-sm text-foreground rounded-md border border-border" />
+								</div>
+							</div>
+						</div>
+					</ng-container>
+				</div>
+				<div class="mb-4">
+					<div class="flex items-center gap-[15px]">
+						<label class="flex w-[125px] items-center bg-background text-sm text-foreground"
+							>Kiểu chọn giá trị</label
+						>
+						<div class="card justify-content-center flex">
+							<div class="flex flex-wrap gap-3" formGroupName="DataTypeSetting">
+								<div class="align-items-center flex gap-[7px]">
+									<p-radioButton [value]="TYPE_SELECT.Select" formControlName="TypeSelect" />
+									<label
+										for="TypeSelect1"
+										class="flex items-center bg-background text-sm text-foreground">
+										Chọn một
+									</label>
+								</div>
+								<div class="align-items-center flex gap-[7px]">
+									<p-radioButton [value]="TYPE_SELECT.MultipleSelect" formControlName="TypeSelect" />
+									<label
+										for="TypeSelect2"
+										class="flex items-center bg-background text-sm text-foreground">
+										Chọn nhiều
+									</label>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="mb-4">
+					<div class="flex items-center gap-[15px]">
+						<label class="flex w-[125px] items-center bg-background text-sm text-foreground"
+							>Kiểu hiển thị giá trị</label
+						>
+						<div class="card justify-content-center flex">
+							<div class="flex flex-wrap gap-3" formGroupName="DataTypeSetting">
+								<div class="align-items-center flex gap-[7px]">
+									<p-radioButton
+										[value]="DISPLAY_VALUE_SELECT_TYPE.Select"
+										formControlName="DisplayValueSelectType" />
+									<label
+										for="DisplayValueSelectType1"
+										class="flex items-center bg-background text-sm text-foreground">
+										Sổ chọn
+									</label>
+								</div>
+								<div class="align-items-center flex gap-[7px]">
+									<p-radioButton
+										[value]="DISPLAY_VALUE_SELECT_TYPE.Check"
+										formControlName="DisplayValueSelectType" />
+									<label
+										for="radiDisplayValueSelectType2o1"
+										class="flex items-center bg-background text-sm text-foreground">
+										Tích chọn
+									</label>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="mb-4 flex items-center gap-[7px]">
+					<app-dynamic-checkbox
+						[field]="dataInputBase.get('IsRequired')"
+						[form]="formPopup"
+						[isMultiRow]="true"
+						[submitted]="false" />
+					<label class="flex items-center bg-background text-sm text-foreground">Trường bắt buộc</label>
+				</div>
+				<div class="flex items-center gap-[7px]">
+					<app-dynamic-checkbox
+						[field]="dataInputBase.get('IsReadOnly')"
+						[form]="formPopup"
+						[isMultiRow]="true"
+						[submitted]="false" />
+					<label class="flex items-center bg-background text-sm text-foreground">Chỉ xem</label>
+				</div>
+			</ng-container>
+			<ng-container *ngSwitchCase="tabs[1]">
+				<div class="mb-2">
+					<label class="mb-2 flex items-center bg-background text-sm text-foreground">Hướng dẫn nhập</label>
+					<app-dynamic-long-text
+						[field]="dataInputBase.get('Guide')"
+						[form]="formPopup"
+						[isMultiRow]="true"
+						[submitted]="false" />
+				</div>
+				<div class="mb-2 flex items-center gap-[5px]">
+					<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24">
+						<path
+							fill="currentColor"
+							fill-rule="evenodd"
+							d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10s-4.477 10-10 10m0-1.2a8.8 8.8 0 1 0 0-17.6a8.8 8.8 0 0 0 0 17.6M11.4 10h1.2v7h-1.2zm.6-1a1 1 0 1 1 0-2a1 1 0 0 1 0 2" />
+					</svg>
+					<span class="text-[15px] font-medium">Mô tả để người khác hiểu rõ hơn về trường dữ liệu này</span>
+				</div>
+			</ng-container>
+			<ng-container *ngSwitchCase="tabs[2]">
+				<div class="mb-6 flex items-center gap-[10px]">
+					<div class="flex w-full flex-wrap justify-between gap-[10px]" formGroupName="DataTypeSetting">
+						<div class="align-items-center flex gap-[7px]">
+							<p-radioButton [value]="VALUE.ValueDefault" formControlName="TypeValue" />
+							<label for="Config1" class="flex items-center bg-background text-sm text-foreground">
+								Thiết lập sẵn
+							</label>
+						</div>
+						<!-- <div class="align-items-center flex gap-[7px]">
+              <p-radioButton [value]="VALUE.RecentData" formControlName="TypeValue" />
+              <label for="Config2" class="flex items-center bg-background text-sm text-foreground">
+                Ghi nhớ lần gần nhất
+              </label>
+            </div> -->
+						<div class="align-items-center flex gap-[7px]">
+							<p-radioButton [value]="VALUE.DataCMS" formControlName="TypeValue" />
+							<label for="Config2" class="flex items-center bg-background text-sm text-foreground">
+								Dữ liệu từ CMS
+							</label>
+						</div>
+					</div>
+				</div>
+				<ng-container [ngSwitch]="formPopup.get('DataTypeSetting').get('TypeValue')?.value">
+					<ng-container *ngSwitchCase="VALUE.ValueDefault">
+						<div class="mb-4">
+							<ng-container [ngSwitch]="formPopup.get('DataTypeSetting.TypeSelect')?.value">
+								<app-dynamic-select-option
+									bindLabel="OptionInputName"
+									*ngSwitchCase="TYPE_SELECT.Select"
+									[field]="dataInputBase.get('ValueDefault')"
+									[form]="formPopup.get('DataTypeSetting')"
+									[isMultiRow]="true"
+									[submitted]="false"
+									[optionList]="options.value"
+									[selectedItem]="formPopup.get('DataTypeSetting')?.value?.ValueDefault" />
+								<app-dynamic-select-multiple-option
+									bindLabel="OptionInputName"
+									*ngSwitchCase="TYPE_SELECT.MultipleSelect"
+									[field]="dataInputBase.get('ListOptionDefault')"
+									[form]="formPopup.get('DataTypeSetting')"
+									[isMultiRow]="true"
+									[submitted]="false"
+									[optionList]="options.value"
+									[selectedItem]="formPopup.get('DataTypeSetting')?.value?.ListOptionDefault" />
+							</ng-container>
+						</div>
+					</ng-container>
+					<ng-container *ngSwitchCase="VALUE.DataCMS">
+						<div class="mb-2">
+							<label class="required mb-2 flex items-center bg-background text-sm text-foreground"
+								>Chọn cột đồng bộ</label
+							>
+							<app-dynamic-select-option
+								bindLabel="Name"
+								[field]="dataInputBase.get('DataCMS')"
+								[form]="formPopup.get('DataTypeSetting')"
+								[isMultiRow]="true"
+								[submitted]="false"
+								[optionList]="optionColCMS"
+								styleClass="bg-background text-sm text-foreground rounded-md border border-border" />
+						</div>
+						<div class="mb-4 flex items-center gap-[5px]">
+							<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+								<g fill="none">
+									<path
+										d="M24 0v24H0V0zM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.019-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z" />
+									<path
+										fill="#666666"
+										d="M12 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12S6.477 2 12 2m0 2a8 8 0 1 0 0 16a8 8 0 0 0 0-16m0 12a1 1 0 1 1 0 2a1 1 0 0 1 0-2m0-9.5a3.625 3.625 0 0 1 1.348 6.99a.8.8 0 0 0-.305.201c-.044.05-.051.114-.05.18L13 14a1 1 0 0 1-1.993.117L11 14v-.25c0-1.153.93-1.845 1.604-2.116a1.626 1.626 0 1 0-2.229-1.509a1 1 0 1 1-2 0A3.625 3.625 0 0 1 12 6.5" />
+								</g>
+							</svg>
+							<span class="text-[15px] font-medium">Chọn dữ liệu từ CMS làm giá trị mặc định</span>
+						</div>
+					</ng-container>
+				</ng-container>
+			</ng-container>
+		</ng-container>
+	</form>
+	<ng-template pTemplate="content" class="dialogContent"> </ng-template>
+	<ng-template pTemplate="footer">
+		<div class="flex flex-row justify-end gap-2">
+			<app-button (click)="onHidePopup()" impact="bold" tone="light" shape="square" size="medium">
+				<i class="fa-solid fa-xmark pr-[5px]"></i>
+				Huỷ
+			</app-button>
+			<app-button impact="bold" tone="primary" shape="square" size="medium" (click)="saveData()">
+				<i class="fa-regular fa-floppy-disk pr-[5px]"></i>
+				{{ isModePopup === MODE_POPUP.Create ? 'Lưu' : 'Cập Nhật' }}
+			</app-button>
+		</div>
+	</ng-template>
+</p-dialog>

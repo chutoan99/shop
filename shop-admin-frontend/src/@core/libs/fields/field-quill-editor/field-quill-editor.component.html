@@ -1,0 +1,52 @@
+<form [formGroup]="form" [class]="!isMultiRow ? 'grid grid-cols-3' : ''">
+	<label
+		*ngIf="!isMultiRow"
+		class="flex items-center text-sm bg-background text-foreground {{ !field.AllowNull ? 'required' : '' }}"
+		>{{ field.VnName }}</label
+	>
+	<div [class]="!isMultiRow ? 'col-span-2' : 'w-full'">
+		<quill-editor
+			placeholder="Nhập mô tả..."
+			[formControlName]="field.Name"
+			[styles]="{ 'font-size': '14px' }"
+			style="display: inline-block; width: 100%"
+			(onEditorCreated)="getMeEditorInstance($event, htmlstring)"
+			[modules]="quillConfig"
+			[ngClass]="{
+				disabled: !field.AllowEdit
+			}">
+		</quill-editor>
+
+		<div class="is__invalid-error" *ngIf="submitted && !form.get(field.Name).valid">
+			<div *ngIf="form.get(field.Name).errors['required']">Nhập {{ field.VnName }}</div>
+		</div>
+	</div>
+</form>
+<div class="clear-both"></div>
+<!-- <form [formGroup]="form" [class]="!isMultiRow?'grid grid-cols-3':''">
+    <ng-container *ngIf="!isMultiRow; else fieldMultiRow">
+        <label
+            class="flex items-center text-sm bg-background text-foreground {{!field.AllowNull?'required':''}}">{{field.VnName}}</label>
+        <div class="col-span-2">
+            <quill-editor placeholder="Nhập mô tả..." [formControlName]="field.Name" [styles]="{ 'font-size': '14px' }"
+                style="display:inline-block;width: 100%;" (onEditorCreated)="getMeEditorInstance($event,htmlstring)"
+                [modules]="quillConfig">
+            </quill-editor>
+
+            <div class="is__invalid-error" *ngIf="submitted && !form.get(field.Name).valid">
+                <div *ngIf="form.get(field.Name).errors['required']">Nhập {{field.VnName}}</div>
+            </div>
+        </div>
+    </ng-container>
+    <ng-template #fieldMultiRow>
+        <div class="w-full">
+            <textarea rows="5" cols="30" pInputTextarea [formControlName]="field.Name"
+                placeholder="{{field.VnName}}"></textarea>
+
+            <div class="is__invalid-error" *ngIf="submitted && !form.get(field.Name).valid">
+                <div *ngIf="form.get(field.Name).errors['required']">Nhập {{field.VnName}}</div>
+            </div>
+        </div>
+    </ng-template>
+</form>
+<div class="clear-both"></div> -->

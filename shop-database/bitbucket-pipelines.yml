@@ -1,0 +1,37 @@
+image: maven:3.9.8-eclipse-temurin-21
+
+options:
+  size: 2x
+  max-time: 20 # tránh timeout nếu migrations lớn
+
+pipelines:
+  branches:
+    1-Build-And-Promote-Dev:
+      - step:
+          name: Flyway Migration - DEV
+          caches:
+            - maven
+          script:
+            - echo "🔧 Running Flyway migration on DEV DB"
+            - mvn -B flyway:migrate -Dflyway.configFiles=flyway-dev.conf
+          deployment: development
+
+    2-Build-And-Promote-Staging:
+      - step:
+          name: Flyway Migration - STAGING
+          caches:
+            - maven
+          script:
+            - echo "🚀 Running Flyway migration on STAGING DB"
+            - mvn -B flyway:migrate -Dflyway.configFiles=flyway-staging.conf
+          deployment: staging
+
+    3-Build-And-Promote-Production:
+      - step:
+          name: Flyway Migration - PRODUCTION
+          caches:
+            - maven
+          script:
+            - echo "🔥 Running Flyway migration on PRODUCTION DB"
+            - mvn -B flyway:migrate -Dflyway.configFiles=flyway-prod.conf
+          deployment: production

@@ -1,0 +1,80 @@
+<form [formGroup]="form" [class]="!isMultiRow ? 'grid grid-cols-3' : ''">
+	<label
+		*ngIf="!isMultiRow"
+		class="flex items-center text-sm bg-background text-foreground {{ !field.AllowNull ? 'required' : '' }}"
+		>{{ field.VnName }}</label
+	>
+	<div [class]="!isMultiRow ? 'col-span-2' : 'w-full'">
+		<div class="display-flex">
+			<div class="flex min-h-[200px] content-center items-center gap-x-6">
+				<div
+					class="width-200 relative flex h-[200px] flex-col items-center justify-center rounded-2xl outline-dashed outline-2 -outline-offset-4 outline-gray-500">
+					<input
+						[ngClass]="{
+							disabled: !field.AllowEdit
+						}"
+						#fileInput
+						type="file"
+						(change)="handleChange($event)"
+						[accept]="allowedFileTypes"
+						multiple="true"
+						class="absolute left-0 top-0 h-full w-full cursor-pointer opacity-0" />
+					<i class="fa-solid fa-arrow-up-from-bracket text-3xl"></i>
+					<p class="max-w-[90%] py-2 text-center text-base">
+						Drag and drop <br />
+						file here to upload.
+					</p>
+					<app-button
+						[ngClass]="{
+							disabled: !field.AllowEdit
+						}"
+						impact="bold"
+						tone="primary"
+						shape="square"
+						size="medium"
+						(click)="fileInput.click()">
+						Browse File
+					</app-button>
+				</div>
+				<!-- End Drop Zone -->
+			</div>
+			<div class="w-full pl-4">
+				@for (item of lstDataFile; track $index) {
+					<div class="mb-2 flex gap-2">
+						<div
+							class="flex h-7 w-10 items-center justify-center rounded-md bg-card text-muted-foreground hover:bg-muted hover:text-foreground">
+							<i [class]="item.icon"></i>
+						</div>
+						<div class="grid">
+							<p class="truncate">{{ item.filenameextension }}</p>
+						</div>
+						<div
+							(click)="deleteItemFile($index)"
+							class="flex h-7 w-10 items-center justify-center rounded-md bg-card text-muted-foreground hover:bg-muted hover:text-destructive">
+							<i class="fas fa-trash icon"></i>
+						</div>
+					</div>
+					<!-- <tr class="border-b border-dashed border-border hover:bg-card ng-star-inserted">
+                        <td class="w-[40px] p-2">
+                            <div
+                                class="flex h-7 w-7 items-center justify-center rounded-md bg-card text-muted-foreground hover:bg-muted hover:text-foreground">
+                                <i [class]="item.icon"></i>
+                            </div>
+                        </td>
+                        <td class="p-2 truncate text-sm text-foreground">{{item.filenameextension}}</td>
+                        <td class="w-[40px] p-2">
+                            <div (click)="deleteItemFile($index)"
+                                class="flex h-7 w-7 items-center justify-center rounded-md bg-card text-muted-foreground hover:bg-muted hover:text-destructive">
+                                <i class="fas fa-trash icon"></i>
+                            </div>
+                        </td>
+                    </tr> -->
+				}
+			</div>
+		</div>
+		<input type="hidden" [formControlName]="field.Name" />
+		<div class="is__invalid-error" *ngIf="submitted && !form.get(field.Name).valid">
+			<div *ngIf="form.get(field.Name).errors['required']">Nhập {{ field.VnName }}</div>
+		</div>
+	</div>
+</form>

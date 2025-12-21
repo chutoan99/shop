@@ -1,0 +1,240 @@
+<p-toast></p-toast>
+<p-confirmDialog [style]="{ width: '450px' }"> </p-confirmDialog>
+<p-contextMenu #cm [model]="itemsContextMenu"></p-contextMenu>
+<div class="card py-2" *ngIf="!initLoading">
+	<form [formGroup]="form">
+		<p-table
+			#dt
+			[reorderableColumns]="true"
+			[resizableColumns]="false"
+			columnResizeMode="expand"
+			scrollHeight="flex"
+			[scrollable]="true"
+			styleClass="p-datatable-gridlines"
+			[columns]="columnDefs"
+			[(selection)]="selectedRowsData"
+			[value]="formArr.controls"
+			scrollDirection="both"
+			[paginator]="true"
+			[showCurrentPageReport]="true"
+			[tableStyle]="{ 'min-width': '50rem' }"
+			[lazy]="false"
+			[loading]="initLoading"
+			[rows]="pageLen"
+			[totalRecords]="totalRecords"
+			currentPageReportTemplate="{first} -> {last}/{totalRecords}"
+			[rowsPerPageOptions]="[20, 50, 100, { showAll: 'All' }]"
+			[filterDelay]="300"
+			[rowHover]="true"
+			[contextMenu]="cm"
+			(onContextMenuSelect)="onContextMenuSelectRow($event)"
+			(onColResize)="detectOnColResize($event)">
+			<ng-template pTemplate="caption" styleClass="p-0">
+				<div class="flex">
+					<div class="flex items-center flex-1">
+						<h3 class="text-md font-bold text-foreground">{{ field.VnName }}</h3>
+					</div>
+					<div class="flex gap-1">
+						<app-button
+							impact="bold"
+							tone="primary"
+							shape="square"
+							size="medium"
+							(click)="deleteRows()"
+							*ngIf="selectedRowsData.length > 0">
+							<div class="text-sm text-primary-foreground fas fa-trash icon pr-2"></div>
+							<div class="text-sm text-primary-foreground font-normal">Xoá</div>
+						</app-button>
+						<app-button impact="bold" tone="primary" shape="square" size="medium" (click)="addNewRow()">
+							<div class="text-sm text-primary-foreground fas fa-plus icon pr-2"></div>
+							<div class="text-sm text-primary-foreground font-normal">Thêm mới</div>
+						</app-button>
+						<!-- <app-button impact="bold" tone="primary" shape="square" size="medium"
+                            (click)="visible_Filter=!visible_Filter">
+                            <div class="text-sm text-primary-foreground icon fas fa-search pr-2"></div>
+                            <div class="text-sm text-primary-foreground font-normal">Tìm kiếm</div>
+                        </app-button> -->
+						<app-button
+							impact="bold"
+							tone="primary"
+							shape="square"
+							size="medium"
+							(click)="re_loadDataRows()">
+							<div class="text-sm text-primary-foreground icon fas fa-sync-alt pr-2"></div>
+							<div class="text-sm text-primary-foreground font-normal">Tải lại</div>
+						</app-button>
+						<!-- <app-button impact="bold" tone="primary" shape="square" size="medium" (click)="exportExcel()"
+                            *ngIf="lstActionTable.export">
+                            <div class="text-sm text-primary-foreground icon fa-regular fa-file-excel pr-2"></div>
+                            <div class="text-sm text-primary-foreground font-normal">Export Excel</div>
+                        </app-button> -->
+					</div>
+				</div>
+			</ng-template>
+			<ng-template pTemplate="header" let-columns>
+				<tr class="bg-gray-100 dark:bg-gray-700 text-sm text-foreground">
+					<th style="width: 4rem" class="bg-gray-100 dark:bg-gray-700">
+						<p-tableHeaderCheckbox></p-tableHeaderCheckbox>
+					</th>
+					<th
+						*ngFor="let col of columns"
+						[pSortableColumn]="col.Name"
+						pResizableColumn
+						pReorderableColumn
+						[style]="{ 'min-width': col.widthColumn, width: col.widthColumn }"
+						class="p-2 text-center bg-gray-100 dark:bg-gray-700">
+						<div class="flex align-items-center justify-content-center w-full text-sm text-foreground">
+							<div>{{ col.VnName }}</div>
+							<!-- <div class="w-2rem">
+                                <p-sortIcon [field]="col.Name"></p-sortIcon>
+                            </div> -->
+						</div>
+					</th>
+				</tr>
+				<tr *ngIf="visible_Filter">
+					<th style="width: 4rem"></th>
+					<th *ngFor="let col of columns" class="p-2">
+						<div *ngIf="col.isFilterColumn">
+							<!-- <div *ngIf="col.DataType==12">
+                                <input pInputText type="text"
+                                    (input)="dt.filter($event.target.value, col.Name, 'startsWith')"
+                                    placeholder="{{ col.VnName }}" class="p-column-filter  w-full">
+                            </div>
+                            <div *ngIf="col.DataType==4">
+                                <app-control-filter-datetime [columName]="col.Name"
+                                    (resultSubmit)="resultSubmitDateTime($event,col)"
+                                    appendTo="body"></app-control-filter-datetime>
+                            </div>
+                            <div *ngIf="col.DataType==8">
+                                <ng-select appendTo="body" [items]="col.Filter_optionList" bindLabel="text"
+                                    (change)="filterColumn_Change(col)" (open)="filterColumn_focusInputField(col)"
+                                    [virtualScroll]="true" [(ngModel)]="col.Filter_Selected"
+                                    (close)="filterColumn_onCloseSelect(col)"
+                                    (scrollToEnd)="filterColumn_onScrollToEnd(col)" [loading]="col.Filter_isLoading"
+                                    (search)="filterColumn_customSearchFn($event,col)" placeholder="{{col.VnName}}">
+                                </ng-select>
+                            </div> -->
+						</div>
+					</th>
+				</tr>
+			</ng-template>
+			<ng-template pTemplate="body" let-rowData let-columns="columns" let-rowIndex="rowIndex">
+				<ng-container *ngIf="rowData.value['state'] != 3" formArrayName="{{ Ref_Column }}">
+					<tr
+						[formGroupName]="rowIndex"
+						[pSelectableRow]="rowData"
+						class="border-b border-dashed border-border hover:bg-card">
+						<td class="td-edit-column text-center py-2 bg-background">
+							<p-tableCheckbox [pSelectableRow]="rowData" [value]="rowData"></p-tableCheckbox>
+						</td>
+						<ng-container *ngFor="let field of dataInputBase">
+							<ng-container *ngIf="checkExistsColumn(field.Name)">
+								<td class="td-edit-column p-2 text-sm text-foreground bg-background">
+									<ng-container [ngSwitch]="field.ControlType">
+										<app-dynamic-boolean
+											*ngSwitchCase="1"
+											[field]="field"
+											[form]="rowData"
+											[isMultiRow]="isMultiRow"
+											[submitted]="submitted"></app-dynamic-boolean>
+										<app-dynamic-input
+											*ngSwitchCase="2"
+											[field]="field"
+											[form]="rowData"
+											[isMultiRow]="isMultiRow"
+											[submitted]="submitted"></app-dynamic-input>
+										<app-dynamic-select
+											*ngSwitchCase="3"
+											[field]="field"
+											[form]="rowData"
+											[isMultiRow]="isMultiRow"
+											[submitted]="submitted"></app-dynamic-select>
+										<app-dynamic-image
+											*ngSwitchCase="4"
+											[field]="field"
+											[form]="rowData"
+											[submitted]="submitted"></app-dynamic-image>
+										<app-dynamic-datetime
+											*ngSwitchCase="5"
+											[field]="field"
+											[form]="rowData"
+											[isMultiRow]="isMultiRow"
+											[submitted]="submitted"></app-dynamic-datetime>
+										<app-dynamic-radio
+											*ngSwitchCase="6"
+											[field]="field"
+											[form]="rowData"
+											[isMultiRow]="isMultiRow"
+											[submitted]="submitted"></app-dynamic-radio>
+										<app-dynamic-number-int
+											*ngSwitchCase="7"
+											[field]="field"
+											[form]="rowData"
+											[isMultiRow]="isMultiRow"
+											[submitted]="submitted"></app-dynamic-number-int>
+										<app-dynamic-select-multiple
+											*ngSwitchCase="8"
+											[field]="field"
+											[form]="rowData"
+											[isMultiRow]="isMultiRow"
+											[submitted]="submitted"></app-dynamic-select-multiple>
+										<app-dynamic-long-text
+											*ngSwitchCase="12"
+											[field]="field"
+											[form]="rowData"
+											[isMultiRow]="isMultiRow"
+											[submitted]="submitted"></app-dynamic-long-text>
+										<app-dynamic-quill-editor
+											*ngSwitchCase="13"
+											[field]="field"
+											[form]="rowData"
+											[submitted]="submitted"></app-dynamic-quill-editor>
+										<app-dynamic-upload-file
+											*ngSwitchCase="14"
+											[field]="field"
+											[form]="rowData"
+											[submitted]="submitted"></app-dynamic-upload-file>
+										<app-dynamic-select-multiple-tree
+											*ngSwitchCase="9"
+											[field]="field"
+											[form]="rowData"
+											[submitted]="submitted">
+										</app-dynamic-select-multiple-tree>
+									</ng-container>
+								</td>
+							</ng-container>
+						</ng-container>
+					</tr>
+				</ng-container>
+			</ng-template>
+			<ng-template pTemplate="paginatorleft" let-page>
+				<div class="ml-2 text-color font-medium">
+					Hiển thị {{ page.first + 1 }}-{{ page.rows * (page.page + 1) }} trên {{ page.totalRecords }} kết quả
+				</div>
+			</ng-template>
+			<!-- <ng-template pTemplate="paginatorleft">
+                <div class="flex p-0 column-gap-3 ml-2 font-medium">
+                    <div class="flex align-items-center cursor-pointer column-gap-1 text-primary-custom"
+                        (click)="addNewRow()">
+                        <div class="fas fa-plus"></div>
+                        <div>Thêm mới</div>
+                    </div>
+                    <div class="flex align-items-center cursor-pointer column-gap-1 text-red-500"
+                        (click)="deleteRows()">
+                        <div class="fas fa-trash"></div>
+                        <div>Xóa</div>
+                    </div>
+                    <div class="flex align-items-center cursor-pointer column-gap-1" (click)="re_loadDataRows()">
+                        <div class="fas fa-sync-alt"></div>
+                        <div class="text-color">Tải lại</div>
+                    </div>
+                    <div class="flex align-items-center cursor-pointer column-gap-1"
+                        (click)="visible_Filter=!visible_Filter">
+                        <div class="fas fa-search text-color"></div>
+                        <div class="text-color">Tìm kiếm</div>
+                    </div>
+                </div>
+            </ng-template> -->
+		</p-table>
+	</form>
+</div>

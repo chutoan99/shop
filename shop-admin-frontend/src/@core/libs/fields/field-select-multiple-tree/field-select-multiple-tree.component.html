@@ -1,0 +1,28 @@
+<form class="grid grid-cols-3">
+	<label class="flex items-center text-sm bg-background text-foreground {{ !field.AllowNull ? 'required' : '' }}">{{
+		field.VnName
+	}}</label>
+	<div class="col-span-2">
+		<p-treeSelect
+			[style]="{ 'max-height': '34.5px', overflow: 'auto' }"
+			*ngIf="loading"
+			appendTo="body"
+			class="w-full"
+			containerStyleClass="w-full rounded-md border border-border bg-background px-3 py-3 text-sm text-foreground placeholder-muted-foreground focus:z-10 focus:border-primary focus:outline-none focus:ring-primary"
+			selectionMode="checkbox"
+			[options]="nodes"
+			placeholder="{{ field.VnName }}"
+			[filter]="true"
+			[filterInputAutoFocus]="true"
+			[(ngModel)]="selectedNodes"
+			[ngModelOptions]="{ standalone: true }"
+			(onNodeUnselect)="onChange($event)"
+			(onNodeSelect)="onChange($event)"
+			[showClear]="false">
+			<ng-template pTemplate="itemtogglericon" let-expanded>
+				<i class="fas fa-caret-right text-2xl text-900" *ngIf="!expanded"></i>
+				<i class="fas fa-caret-down text-2xl text-900" *ngIf="expanded"></i>
+			</ng-template>
+		</p-treeSelect>
+	</div>
+</form>

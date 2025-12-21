@@ -1,0 +1,96 @@
+:host {
+	height: 100% !important;
+	width: 100% !important;
+	display: flex;
+	justify-content: center;
+	.app {
+		background: rgba(255, 255, 255, 1);
+		border-radius: 10px;
+		border: 1px solid rgba(255, 255, 255, 0.18);
+		transition: 0.2s;
+		&:hover {
+			cursor: pointer;
+			background: rgba(255, 255, 255, 0.85);
+			backdrop-filter: blur(4px);
+			-webkit-backdrop-filter: blur(4px);
+			border-radius: 10px;
+			border: 1px solid rgba(255, 255, 255, 0.18);
+		}
+	}
+	.hover-chart:hover {
+		transform: scale(1.05);
+		cursor: pointer;
+	}
+	.animation-chart {
+		animation: loader-1-1 4.8s linear infinite;
+	}
+	@keyframes loader-1-1 {
+		0% {
+			transform: rotate(0deg);
+		}
+		100% {
+			transform: rotate(360deg);
+		}
+	}
+	.animations-Chart {
+		transform-origin: bottom;
+		animation: revealing-bars 4s linear infinite;
+	}
+	@keyframes revealing-bars {
+		0% {
+			transform: scaleY(0);
+		}
+		15% {
+			transform: scaleY(1);
+		}
+	}
+	/* radial bar */
+	.CircularProgressbar {
+		width: 4rem !important;
+		overflow: visible;
+	}
+	.CircularProgressbar-path {
+		stroke: white !important;
+		stroke-width: 12px !important;
+		filter: drop-shadow(2px 4px 6px white);
+	}
+	.CircularProgressbar-trail {
+		display: none;
+	}
+	.CircularProgressbar-text {
+		fill: white !important;
+	}
+	.CompactCard {
+		display: flex;
+		flex: 1;
+		border-radius: 0.7rem;
+		color: white;
+		padding: 1rem;
+		position: relative;
+		cursor: pointer;
+		&:hover {
+			box-shadow: none !important;
+		}
+	}
+	.radialBar {
+		flex: 1 1;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+		gap: 1rem;
+		& > span {
+			font-size: 17px;
+			font-weight: bold;
+		}
+	}
+	// canvas
+	#divChart {
+		display: inline-block;
+		width: 100%;
+		height: 100%;
+	}
+}
+app-dashboard {
+	display: flex;
+	justify-content: center;
+}

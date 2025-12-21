@@ -1,0 +1,70 @@
+<div class="relative comment-editor min-w-fit">
+	<quill-editor
+		placeholder="Nhập @ để tag tên, Shift + Enter để xuống dòng, Enter để gửi..."
+		[(ngModel)]="Comment"
+		[readOnly]="isDisabled"
+		(onEditorCreated)="getMeEditorInstance($event, Comment)"
+		[modules]="quillConfig"
+		(onFocus)="isDisabled = false"
+		class="[&>.ql-container>.ql-editor.ql-blank::before]:line-clamp-1">
+	</quill-editor>
+	<div class="icon-upload">
+		<button
+			type="button"
+			class="btn font-normal border-noround m-0 p-0 text-primary-custom text-base"
+			(click)="onClickClose($event)"
+			*ngIf="showBtnClose">
+			<i class="icon-close-red"></i>
+		</button>
+		<input hidden type="file" multiple="true" #uploader (change)="onFileSelected($event)" />
+		<button
+			type="button"
+			class="btn font-normal border-noround m-0 p-0 text-primary-custom text-base"
+			(click)="uploader.click()">
+			<i class="fa-solid fa-paperclip"></i>
+		</button>
+	</div>
+</div>
+<div class="list-attachment flex flex-wrap">
+	<ng-container *ngFor="let item of FileUploads; let idx = index">
+		<ng-container [ngSwitch]="item.File_Icon">
+			<div class="attach-item attachment-img" *ngSwitchCase="'fa-solid fa-image'">
+				<div class="attachment-item relative">
+					<img alt="" class="img-preview" [src]="item.FileUploads_Thumb | pipeHostFile" />
+					<div class="align-items-center flex text-attachment"></div>
+					<div class="absolute top-[-10px] right-[-10px]" (click)="deleteItemUpdate(idx)">
+						<i class="fa-solid fa-xmark"></i>
+					</div>
+				</div>
+			</div>
+			<div *ngSwitchDefault class="attach-item attachment-office">
+				<div class="attachment-item relative">
+					<div class="file-office flex">
+						<div [ngClass]="item.File_Icon" class="icon-svg icon-page-attachment-excel"></div>
+						<div class="ml-2 name-attachment text-overflow-file">
+							{{ item.File_Name }}
+						</div>
+					</div>
+					<div class="align-items-center flex text-attachment"></div>
+					<div class="absolute top-[-10px] right-[-10px]" (click)="deleteItemUpdate(idx)">
+						<i class="fa-solid fa-xmark"></i>
+					</div>
+				</div>
+			</div>
+		</ng-container>
+	</ng-container>
+</div>
+<div class="flex w-full mt-2 justify-end" *ngIf="showBtnSend">
+	<app-button
+		(click)="handleEnter()"
+		full
+		impact="bold"
+		tone="primary"
+		shape="rounded"
+		size="medium"
+		ngClass="font-bold text-xs sm:text-base flex items-center [&>button]:bg-[#0238BF] [&>button]:hover:bg-[#0238BF]
+        [&>button]:max-sm:py-1.5 [&>button]:max-sm:px-3">
+		<svg-icon src="assets/icons/send.svg" class="pe-1" svgClass="max-sm:w-5"></svg-icon>
+		Gửi
+	</app-button>
+</div>

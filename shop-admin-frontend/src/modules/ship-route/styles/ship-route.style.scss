@@ -1,0 +1,13 @@
+:host {
+	height: 100% !important;
+	border-radius: 15px;
+}
+
+::ng-deep {
+	h3,
+	h2 {
+		font: unset;
+		letter-spacing: unset;
+		margin: unset;
+	}
+}

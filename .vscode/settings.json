@@ -1,0 +1,11 @@
+{
+	"search.exclude": {
+		"**/shop-backend/storage": true
+	},
+	"files.exclude": {
+		"**/shop-backend/storage": true
+	},
+	"files.watcherExclude": {
+		"**/shop-backend/storage": true
+	}
+}

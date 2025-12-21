@@ -1,0 +1,9 @@
+{
+	"LABEL": {},
+	"MESSAGE": {},
+	"PLACEHOLDER": {},
+	"VALIDATOR": {
+		"INVALID_PHONE": "Vui lòng cập nhật số điện thoại nhận hàng",
+		"INVALID_ADDRESS": "Vui lòng cập nhật địa chỉ nhận hàng"
+	}
+}

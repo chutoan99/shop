@@ -1,0 +1,673 @@
+<form class="flex h-[100%] w-[100%] gap-[0.938rem] py-[0.938rem] bg-white">
+	<section
+		class="h-full min-h-0 w-[280px] min-w-[280px] justify-start overflow-y-auto p-[0.938rem] shadow-md shadow-black/5">
+		<div class="h-full">
+			<!-- <div class="flex justify-center py-[10px]">
+  <nav
+    class="flex w-full items-center space-x-1 overflow-x-auto rounded-xl bg-gray-500/5 px-[8px] py-[10px] text-sm 0 dark:bg-gray-500/20 rtl:space-x-reverse">
+    <button
+    (click)="onChangeTab(1)"
+    [ngClass]="{
+      'bg-white': tabActive === 1,
+    }"
+    class="flex h-[32px] w-[40%] items-center whitespace-nowrap rounded-lg px-2 text-[15px] font-medium text-foreground outline-none focus:ring-2 focus:ring-inset hover:text-gray-800 dark:text-gray-400 dark:focus:text-gray-400 dark:hover:text-gray-300"
+    role="tab"
+    type="button"
+    >
+    Bố trí
+  </button>
+    <button
+      (click)="onChangeTab(0)"
+      class="flex h-[32px] w-[60%] items-center whitespace-nowrap rounded-lg px-2 text-[15px] font-medium text-foreground outline-none focus:ring-2 focus:ring-inset hover:text-gray-800 dark:text-gray-400 dark:focus:text-gray-400 dark:hover:text-gray-300"
+      [ngClass]="{
+        'bg-white': tabActive === 0,
+      }"
+      role="tab"
+      type="button"
+    >
+      Trường dữ liệu
+    </button>
+  </nav>
+</div> -->
+
+			<!-- <div class="search flex mt-[10px]  rounded-md border-2 hover:border-blue-500 overflow-hidden max-w-md mx-auto font-[sans-serif] gap-[10px] px-[10px]">
+  <app-dynamic-input
+    [field]="dataInputBase.get('ProcessGroupName')"
+    [form]="form"
+    [isMultiRow]="true"
+    [submitted]="false"
+    class="w-full border-[unset] outline-none bg-transparent text-gray-600 text-sm"
+    />
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192.904 192.904" width="16px" class="fill-gray-600">
+    <path
+      d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z">
+    </path>
+  </svg>
+</div> -->
+			<div class="mt-[15px] flex items-center justify-between px-2 pb-1 pt-2">
+				<div class="flex items-center justify-between">
+					<div class="flex-col items-center">
+						<h3 class="line-clamp-1 text-[15px] font-semibold text-foreground">Nội dung hiển thị</h3>
+					</div>
+				</div>
+			</div>
+
+			<ul class="mt-[10px] flex flex-col gap-[0.625rem]">
+				@for (content of displayContent; track $index) {
+				<li
+					style="background: rgba(255, 255, 255, 50%)"
+					[ngClass]="{
+      					'opacity-50': content.Disable,
+      					'pointer-events-none': content.Disable
+					}"
+					class="shadow-1 flex h-[45px] w-full items-center justify-between rounded-[5px] pl-[0.938rem] pr-[0.625rem]">
+					<div class="flex items-center gap-[5px]">
+						<div class="flex items-center gap-[4px]">
+							<div>
+								<img [src]="content.Icon" width="100%" height="100%" alt="" />
+							</div>
+							{{ content.Name }}
+						</div>
+					</div>
+					<div class="cursor-pointer rounded-[5px] px-[3px] py-[3px] hover:bg-[#0000001A]">
+						<img src="/assets/svg/fields/add.svg" width="25px" height="100%" alt="" />
+					</div>
+				</li>
+				}
+			</ul>
+
+			<div class="flex items-center justify-between px-2 pb-1 pt-3">
+				<div class="flex items-center justify-between">
+					<div class="flex-col items-center">
+						<h3 class="line-clamp-1 text-[15px] font-semibold text-foreground">Trường dữ liệu</h3>
+					</div>
+				</div>
+			</div>
+
+			<ul class="mt-[10px] flex flex-col gap-[0.625rem] pb-[40px]">
+				@for (field of fieldMetadata; track $index) {
+				<li
+					style="background: rgba(255, 255, 255, 50%)"
+					[ngClass]="{ 'opacity-50': field.Disable }"
+					class="shadow-1 flex h-[45px] w-full items-center justify-between rounded-[5px] px-[0.625rem]">
+					<div class="flex items-center gap-[5px]">
+						<div class="cursor-move rounded-[5px] px-[3px] py-[3px] hover:bg-[#0000001A]">
+							<img src="/assets/svg/fields/grid.svg" width="25px" height="100%" alt="" />
+						</div>
+						<div class="flex items-center gap-[4px]">
+							<div>
+								<img [src]="field.Icon" width="100%" height="100%" alt="" />
+							</div>
+							{{ field.Name }}
+						</div>
+					</div>
+					<div class="cursor-pointer rounded-[5px] px-[3px] py-[3px] hover:bg-[#0000001A]">
+						<img src="/assets/svg/fields/add.svg" width="25px" height="100%" alt="" />
+					</div>
+				</li>
+				}
+			</ul>
+		</div>
+	</section>
+
+	<section
+		class="flex h-[unset] w-full flex-1 flex-col gap-[1.875rem] overflow-y-auto rounded-[0.938rem] bg-white px-[1.85rem] pb-[3.75rem] pt-[1.875rem] shadow-md">
+		<!-- <div *ngIf="groups?.length === 0" class="flex h-[unset] w-[100%] justify-center pt-[1.25rem]">
+			<div
+				cdkDropList
+				(cdkDropListDropped)="onDrop($event)"
+				class="justify-centerbg-gray-100 flex h-[17.5rem] w-[37.5rem] transform items-center justify-center rounded-lg border-2 border-dashed border-gray-300 p-8 text-center transition duration-300 ease-in-out hover:scale-105 hover:border-blue-500 hover:shadow-md">
+				<div class="flex flex-col justify-center gap-[0.625rem]">
+					<div class="icon-pr-empty-step"></div>
+					<div class="flex items-center justify-center gap-[5px]">
+						<img src="/assets/icons/fields/drap.svg" width="24px" height="100%" alt="" /> Kéo thả nhóm hoặc
+						các trường và đây
+					</div>
+				</div>
+			</div>
+		</div> -->
+		<!-- <div class="flex flex-col gap-[0.625rem]" id="all">
+			<div
+				*ngFor="let gr of groups; let indexG = index"
+				[id]="gr.groupCode"
+				cdkDropList
+				#list="cdkDropList"
+				[cdkDropListConnectedTo]="connectedDropLists"
+				(cdkDropListDropped)="onDrop($event)"
+				[cdkDropListData]="fieldsInputBaseGroup[gr?.groupCode]"
+				class="rounded-[0.625rem] border-[0.094em] border-solid border-[#ccc] bg-white p-2.5 hover:border-solid hover:border-[#000]">
+				<div class="flex items-center justify-between gap-[1.25rem] pb-[0.625rem]">
+					<div class="flex flex-1 items-center">
+						<input
+							type="text"
+							pInputText
+							class="input-group-name text-[16px] font-semibold"
+							(change)="onHandleFormBuilder($event, ACTION_FORM_BUILDER.EditGroupName, gr?.groupCode, indexG)"
+							[value]="gr?.groupName" />
+					</div>
+					<div
+						(click)="onHandleFormBuilder($event, ACTION_FORM_BUILDER.RemoveGroup, gr?.groupCode, indexG)"
+						class="flex w-fit cursor-pointer items-center gap-[5px] rounded-[5px] px-[5px] py-[3px] text-[14px] hover:bg-[#0000001A]">
+						<svg width="18" height="18" viewBox="0 0 26 26">
+							<rect width="26" height="26" fill="none" />
+							<path
+								fill="#FF3130"
+								d="M11.5-.031c-1.958 0-3.531 1.627-3.531 3.594V4H4c-.551 0-1 .449-1 1v1H2v2h2v15c0 1.645 1.355 3 3 3h12c1.645 0 3-1.355 3-3V8h2V6h-1V5c0-.551-.449-1-1-1h-3.969v-.438c0-1.966-1.573-3.593-3.531-3.593zm0 2.062h3c.804 0 1.469.656 1.469 1.531V4H10.03v-.438c0-.875.665-1.53 1.469-1.53zM6 8h5.125c.124.013.247.031.375.031h3c.128 0 .25-.018.375-.031H20v15c0 .563-.437 1-1 1H7c-.563 0-1-.437-1-1zm2 2v12h2V10zm4 0v12h2V10zm4 0v12h2V10z" />
+						</svg>
+						<span class="text-[14px] font-medium text-[#FF3130]"> Gỡ Tất cả </span>
+					</div>
+				</div>
+				<div
+					*ngIf="fieldsInputBaseGroup[gr?.groupCode]?.length !== 0"
+					class="flex w-full flex-col gap-[0.938rem] pb-[1.25rem] pl-[1.25rem]">
+					<div
+						cdkDrag
+						cdkDragLockAxis="y"
+						(cdkDragStarted)="onDragStarted(field, 'FieldConfig')"
+						*ngFor="let field of fieldsInputBaseGroup[gr?.groupCode]; let i = index"
+						[hidden]="field.HideColumn"
+						class="flex flex-col gap-[0.625rem] rounded-[5px] hover:border-[0.094em]">
+						<div
+							class="flex w-full flex-col items-center justify-between rounded-[0.625rem] border-[0.094em] border-solid border-[#ccc] bg-white hover:border-solid hover:border-[#000]">
+							<div class="flex h-[100%] w-full items-center justify-between px-[5px] py-[5px]">
+								<div class="flex flex-col items-start">
+									<div class="flex items-center">
+										<div
+											class="cursor-move rounded-[5px] px-[3px] py-[3px] hover:bg-[#0000001A]"
+											cdkDragHandle>
+											<img
+												src="/assets/icons/fields/grid.svg"
+												width="26px"
+												height="100%"
+												alt="" />
+										</div>
+										<div class="flex items-center gap-[4px]">
+											<ng-container *ngIf="field.ControlType | fieldMetadata : 'Icon' as icon">
+												<img [src]="icon" width="22" height="22" alt="" />
+											</ng-container>
+											<span class="text-[16px]">
+												{{ field.VnName }}
+												<span class="required" *ngIf="!field.AllowNull"></span>
+											</span>
+											<span
+												class="mx-1 flex h-[21px] w-px min-w-[1px] max-w-[1px] border border-solid border-[#e4e4e6]"></span>
+											<div
+												(click)="onHandleFormBuilder($event, ACTION_FORM_BUILDER.EditField, gr?.groupCode, i)"
+												class="inline-block w-[fit-content] cursor-pointer rounded-[5px] px-[5px] py-[3px] text-[14px] hover:bg-[#0000001A]">
+												<svg width="22" height="22" viewBox="0 0 24 24">
+													<rect width="24" height="24" fill="none" />
+													<path
+														fill="currentColor"
+														d="M19.9 12.66a1 1 0 0 1 0-1.32l1.28-1.44a1 1 0 0 0 .12-1.17l-2-3.46a1 1 0 0 0-1.07-.48l-1.88.38a1 1 0 0 1-1.15-.66l-.61-1.83a1 1 0 0 0-.95-.68h-4a1 1 0 0 0-1 .68l-.56 1.83a1 1 0 0 1-1.15.66L5 4.79a1 1 0 0 0-1 .48L2 8.73a1 1 0 0 0 .1 1.17l1.27 1.44a1 1 0 0 1 0 1.32L2.1 14.1a1 1 0 0 0-.1 1.17l2 3.46a1 1 0 0 0 1.07.48l1.88-.38a1 1 0 0 1 1.15.66l.61 1.83a1 1 0 0 0 1 .68h4a1 1 0 0 0 .95-.68l.61-1.83a1 1 0 0 1 1.15-.66l1.88.38a1 1 0 0 0 1.07-.48l2-3.46a1 1 0 0 0-.12-1.17ZM18.41 14l.8.9l-1.28 2.22l-1.18-.24a3 3 0 0 0-3.45 2L12.92 20h-2.56L10 18.86a3 3 0 0 0-3.45-2l-1.18.24l-1.3-2.21l.8-.9a3 3 0 0 0 0-4l-.8-.9l1.28-2.2l1.18.24a3 3 0 0 0 3.45-2L10.36 4h2.56l.38 1.14a3 3 0 0 0 3.45 2l1.18-.24l1.28 2.22l-.8.9a3 3 0 0 0 0 3.98m-6.77-6a4 4 0 1 0 4 4a4 4 0 0 0-4-4m0 6a2 2 0 1 1 2-2a2 2 0 0 1-2 2" />
+												</svg>
+											</div>
+										</div>
+									</div>
+									<div class="flex items-center">
+										<div
+											(click)="onHandleFormBuilder($event, ACTION_FORM_BUILDER.Expand, gr?.groupCode, i)"
+											class="inline-block w-fit cursor-pointer rounded-[5px] px-[5px] py-[3px] text-[14px] hover:bg-[#0000001A]">
+											<div
+												[class.-rotate-180]="field.HideColumn"
+												class="transform transition-transform duration-300 hover:-rotate-180">
+												<svg
+													xmlns="http://www.w3.org/2000/svg"
+													width="24"
+													height="24"
+													viewBox="0 0 24 24">
+													<path
+														fill="none"
+														stroke="#666666"
+														stroke-linecap="round"
+														stroke-linejoin="round"
+														stroke-width="1.5"
+														d="m7 10l5 5l5-5" />
+												</svg>
+											</div>
+										</div>
+										<div class="flex items-center gap-[3px]">
+											<div class="group" *ngIf="field.Guide">
+												<svg
+													xmlns="http://www.w3.org/2000/svg"
+													width="22"
+													height="22"
+													viewBox="0 0 24 24">
+													<path
+														fill="currentColor"
+														fill-rule="evenodd"
+														d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10s-4.477 10-10 10m0-1.2a8.8 8.8 0 1 0 0-17.6a8.8 8.8 0 0 0 0 17.6M11.4 10h1.2v7h-1.2zm.6-1a1 1 0 1 1 0-2a1 1 0 0 1 0 2" />
+												</svg>
+												<div class="fixed w-full">
+													<span
+														class="absolute left-[1.25rem] top-0 z-[100] w-auto min-w-max origin-left scale-0 rounded-md bg-foreground p-2 text-sm font-bold text-background shadow-md transition-all duration-200 group-hover:scale-100">
+														{{ field.Guide }}
+													</span>
+												</div>
+											</div>
+											<span
+												*ngIf="field.Guide"
+												class="mx-1 flex h-[21px] w-px min-w-[1px] max-w-[1px] border border-solid border-[#e4e4e6]"></span>
+											<span class="text-[0.938rem] font-medium"> {{ field.Question }} </span>
+										</div>
+									</div>
+								</div>
+								<div
+									class="flex w-[fit-content] cursor-pointer items-center gap-[5px] rounded-[5px] px-[5px] py-[3px] text-[14px] hover:bg-[#0000001A]"
+									(click)="menu.toggle($event)">
+									<svg
+										class="relative"
+										xmlns="http://www.w3.org/2000/svg"
+										width="20"
+										height="20"
+										viewBox="0 0 24 24">
+										<path
+											fill="666666"
+											d="M12 3c-1.1 0-2 .9-2 2s.9 2 2 2s2-.9 2-2s-.9-2-2-2m0 14c-1.1 0-2 .9-2 2s.9 2 2 2s2-.9 2-2s-.9-2-2-2m0-7c-1.1 0-2 .9-2 2s.9 2 2 2s2-.9 2-2s-.9-2-2-2" />
+									</svg>
+									<p-tieredMenu
+										#menu
+										[model]="MENU_ACTION"
+										[popup]="true"
+										class="absolute left-[-10%] top-[-10%] z-[1000] w-[100px]">
+										<ng-template pTemplate="item" let-item>
+											<ng-container [ngSwitch]="item.id">
+												<ng-container *ngSwitchCase="'1'">
+													<div
+														(click)="onHandleFormBuilder($event, ACTION_FORM_BUILDER.RemoveField, gr?.groupCode, i)"
+														class="flex w-full cursor-pointer items-center gap-[10px] rounded-[5px] px-[5px] py-[6px] text-[14px] hover:bg-[#0000001A]">
+														<svg width="18" height="18" viewBox="0 0 26 26">
+															<rect width="26" height="26" fill="none" />
+															<path
+																fill="#FF3130"
+																d="M11.5-.031c-1.958 0-3.531 1.627-3.531 3.594V4H4c-.551 0-1 .449-1 1v1H2v2h2v15c0 1.645 1.355 3 3 3h12c1.645 0 3-1.355 3-3V8h2V6h-1V5c0-.551-.449-1-1-1h-3.969v-.438c0-1.966-1.573-3.593-3.531-3.593zm0 2.062h3c.804 0 1.469.656 1.469 1.531V4H10.03v-.438c0-.875.665-1.53 1.469-1.53zM6 8h5.125c.124.013.247.031.375.031h3c.128 0 .25-.018.375-.031H20v15c0 .563-.437 1-1 1H7c-.563 0-1-.437-1-1zm2 2v12h2V10zm4 0v12h2V10zm4 0v12h2V10z" />
+														</svg>
+														<span class="text-[14px] font-medium text-[#FF3130]">
+															{{ item.label }}
+														</span>
+													</div>
+												</ng-container>
+												<ng-container *ngSwitchCase="'2'">
+													<div
+														(click)="onHandleFormBuilder($event, ACTION_FORM_BUILDER.EditField, gr?.groupCode, i)"
+														class="flex w-full cursor-pointer items-center gap-[10px] rounded-[5px] px-[5px] py-[6px] text-[14px] hover:bg-[#0000001A]">
+														<svg
+															xmlns="http://www.w3.org/2000/svg"
+															width="20"
+															height="20"
+															viewBox="0 0 24 24">
+															<g
+																fill="none"
+																stroke="currentColor"
+																stroke-linecap="round"
+																stroke-linejoin="round"
+																stroke-width="2">
+																<path
+																	d="M12 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
+																<path
+																	d="M18.375 2.625a1 1 0 0 1 3 3l-9.013 9.014a2 2 0 0 1-.853.505l-2.873.84a.5.5 0 0 1-.62-.62l.84-2.873a2 2 0 0 1 .506-.852z" />
+															</g>
+														</svg>
+														<span class="text-[14px] font-medium"> {{ item.label }} </span>
+													</div>
+												</ng-container>
+												<ng-container *ngSwitchCase="'3'">
+													<div
+														class="flex w-full cursor-pointer items-center gap-[10px] rounded-[5px] px-[5px] py-[6px] text-[14px] hover:bg-[#0000001A]">
+														<svg
+															xmlns="http://www.w3.org/2000/svg"
+															width="23"
+															height="23"
+															viewBox="0 0 24 24">
+															<path
+																fill="none"
+																stroke="currentColor"
+																stroke-linecap="round"
+																stroke-linejoin="round"
+																stroke-width="1.5"
+																d="M20.829 12.861c.171-.413.171-.938.171-1.986s0-1.573-.171-1.986a2.25 2.25 0 0 0-1.218-1.218c-.413-.171-.938-.171-1.986-.171H11.1c-1.26 0-1.89 0-2.371.245a2.25 2.25 0 0 0-.984.984C7.5 9.209 7.5 9.839 7.5 11.1v6.525c0 1.048 0 1.573.171 1.986c.229.551.667.99 1.218 1.218c.413.171.938.171 1.986.171s1.573 0 1.986-.171m7.968-7.968a2.25 2.25 0 0 1-1.218 1.218c-.413.171-.938.171-1.986.171s-1.573 0-1.986.171a2.25 2.25 0 0 0-1.218 1.218c-.171.413-.171.938-.171 1.986s0 1.573-.171 1.986a2.25 2.25 0 0 1-1.218 1.218m7.968-7.968a11.68 11.68 0 0 1-7.75 7.9l-.218.068M16.5 7.5v-.9c0-1.26 0-1.89-.245-2.371a2.25 2.25 0 0 0-.983-.984C14.79 3 14.16 3 12.9 3H6.6c-1.26 0-1.89 0-2.371.245a2.25 2.25 0 0 0-.984.984C3 4.709 3 5.339 3 6.6v6.3c0 1.26 0 1.89.245 2.371c.216.424.56.768.984.984c.48.245 1.111.245 2.372.245H7.5" />
+														</svg>
+														<span class="text-[14px] font-medium"> {{ item.label }} </span>
+													</div>
+												</ng-container>
+											</ng-container>
+										</ng-template>
+									</p-tieredMenu>
+								</div>
+							</div>
+							<div *ngIf="!field.HideColumn" class="w-full border-t border-t-[#ccc]">
+								<div class="w-full px-[1.25rem] py-[0.625rem]">
+									<div class="form-group">
+										<ng-container [ngSwitch]="field.ControlType">
+											<ng-container *ngSwitchCase="CONTROL_TYPE.CheckBox">
+												<div
+													class="flex min-h-[34px] items-center justify-start rounded-[5px] border-[0.094em] border-solid border-[#d1d5db] py-[5px] pl-[0.625rem] hover:border-[2px] hover:border-[#2563eb]">
+													<app-dynamic-checkbox
+														[field]="field"
+														[form]="inputConfigGroup[gr?.groupCode]?.controls[i]"
+														[isMultiRow]="isMultiRow"
+														[submitted]="submitted" />
+												</div>
+											</ng-container>
+											<ng-container *ngSwitchCase="CONTROL_TYPE.Boolean">
+												<div
+													class="flex min-h-[34px] items-center justify-start rounded-[5px] border-[0.094em] border-solid border-[#d1d5db] py-[5px] pl-[0.625rem] hover:border-[2px] hover:border-[#2563eb]">
+													<app-dynamic-boolean
+														class="scale-90"
+														[field]="field"
+														[form]="inputConfigGroup[gr?.groupCode]?.controls[i]"
+														[isMultiRow]="isMultiRow"
+														[submitted]="submitted" />
+												</div>
+											</ng-container>
+											<app-dynamic-input
+												*ngSwitchCase="CONTROL_TYPE.Input"
+												[field]="field"
+												[form]="inputConfigGroup[gr?.groupCode]?.controls[i]"
+												[isMultiRow]="isMultiRow"
+												[submitted]="submitted" />
+											<app-dynamic-rating
+												*ngSwitchCase="CONTROL_TYPE.Rating"
+												[field]="field"
+												[form]="inputConfigGroup[gr?.groupCode]?.controls[i]"
+												[isMultiRow]="isMultiRow"
+												[submitted]="submitted"
+												[maxPoint]="inputConfigGroup[gr?.groupCode]?.controls[i]?.value?.DefaultValue?.Type?.value" />
+											<app-dynamic-process
+												*ngSwitchCase="CONTROL_TYPE.Progress"
+												[field]="field"
+												[form]="inputConfigGroup[gr?.groupCode]?.controls[i]"
+												[isMultiRow]="isMultiRow"
+												[submitted]="submitted" />
+											<ng-container *ngSwitchCase="CONTROL_TYPE.NumberInt">
+												<ng-container
+													[ngSwitch]="inputConfigGroup[gr?.groupCode].controls[i]?.value.DefaultValue.Type.type">
+													<app-dynamic-number-int
+														*ngSwitchCase="OPTIONS_NUMBER.Int"
+														[field]="field"
+														[form]="inputConfigGroup[gr?.groupCode]?.controls[i]"
+														[isMultiRow]="isMultiRow"
+														[submitted]="submitted" />
+													<app-dynamic-number-float
+														*ngSwitchCase="OPTIONS_NUMBER.Float"
+														[field]="field"
+														[form]="inputConfigGroup[gr?.groupCode]?.controls[i]"
+														[isMultiRow]="isMultiRow"
+														[submitted]="submitted" />
+													<app-dynamic-number-percent
+														*ngSwitchCase="OPTIONS_NUMBER.Percent"
+														[field]="field"
+														[form]="inputConfigGroup[gr?.groupCode]?.controls[i]"
+														[isMultiRow]="isMultiRow"
+														[submitted]="submitted" />
+												</ng-container>
+											</ng-container>
+											<app-dynamic-currency
+												*ngSwitchCase="CONTROL_TYPE.Currency"
+												[field]="field"
+												[form]="inputConfigGroup[gr?.groupCode]?.controls[i]"
+												[isMultiRow]="true"
+												[submitted]="false"
+												[currency]="inputConfigGroup[gr?.groupCode]?.controls[i]?.value?.DefaultValue?.Currency"
+												[format]="inputConfigGroup[gr?.groupCode]?.controls[i]?.value?.DefaultValue?.Format" />
+											<app-dynamic-upload-file
+												*ngSwitchCase="CONTROL_TYPE.UploadFile"
+												[field]="field"
+												[form]="inputConfigGroup[gr?.groupCode]?.controls[i]"
+												[isMultiRow]="isMultiRow"
+												[submitted]="submitted" />
+											<app-control-filter-select-employee
+												*ngSwitchCase="CONTROL_TYPE.People"
+												[multiple]="false"
+												[colDefine]="field"
+												(resultSubmit)="handleFilterSelectEmployee($event)" />
+											<app-dynamic-email-multiple
+												*ngSwitchCase="CONTROL_TYPE.Email"
+												[field]="field"
+												[form]="inputConfigGroup[gr?.groupCode]?.controls[i]"
+												[isMultiRow]="true"
+												[submitted]="false" />
+											<app-dynamic-datetime
+												*ngSwitchCase="CONTROL_TYPE.DateTime"
+												[field]="field"
+												[form]="inputConfigGroup[gr?.groupCode]?.controls[i]"
+												[isMultiRow]="isMultiRow"
+												[submitted]="submitted" />
+											<app-dynamic-long-text
+												*ngSwitchCase="CONTROL_TYPE.LongText"
+												[field]="field"
+												[form]="inputConfigGroup[gr?.groupCode]?.controls[i]"
+												[isMultiRow]="isMultiRow"
+												[submitted]="submitted" />
+											<ng-container *ngSwitchCase="CONTROL_TYPE.Select">
+												@if(inputConfigGroup[gr?.groupCode]?.controls[i]?.value?.DefaultValue?.TypeSelect
+												=== TYPE_SELECT.Select &&
+												inputConfigGroup[gr?.groupCode]?.controls[i]?.value?.DefaultValue?.DisplayValueSelectType
+												=== DISPLAY_VALUE_SELECT_TYPE.Select){
+												<app-dynamic-select-option
+													[field]="field"
+													[form]="inputConfigGroup[gr?.groupCode]?.controls[i]"
+													bindLabel="OptionInputName"
+													[isMultiRow]="isMultiRow"
+													[submitted]="submitted"
+													[optionList]="inputConfigGroup[gr?.groupCode]?.controls[i]?.value?.DefaultValue?.ListOption"
+													[selectedItem]="
+                            inputConfigGroup[gr?.groupCode]?.controls[i]?.value?.DefaultValue?.ValueDefault
+                          " />
+												} @else
+												if(inputConfigGroup[gr?.groupCode]?.controls[i]?.value?.DefaultValue?.TypeSelect
+												=== TYPE_SELECT.Select &&
+												inputConfigGroup[gr?.groupCode]?.controls[i]?.value?.DefaultValue?.DisplayValueSelectType
+												=== DISPLAY_VALUE_SELECT_TYPE.Check){
+												<app-dynamic-radio-custom
+													label="OptionInputName"
+													[field]="field"
+													[form]="inputConfigGroup[gr?.groupCode]?.controls[i]"
+													[isMultiRow]="isMultiRow"
+													[isMultiple]="true"
+													[submitted]="submitted"
+													[optionList]="inputConfigGroup[gr?.groupCode]?.controls[i]?.value?.DefaultValue?.ListOption"
+													[selectedItem]="
+                            inputConfigGroup[gr?.groupCode]?.controls[i]?.value?.DefaultValue?.ValueDefault
+                          " />
+												}@else
+												if(inputConfigGroup[gr?.groupCode]?.controls[i]?.value?.DefaultValue?.TypeSelect
+												=== TYPE_SELECT.MultipleSelect &&
+												inputConfigGroup[gr?.groupCode]?.controls[i]?.value?.DefaultValue?.DisplayValueSelectType
+												=== DISPLAY_VALUE_SELECT_TYPE.Select){
+												<app-dynamic-select-multiple-option
+													bindLabel="OptionInputName"
+													[field]="field"
+													[form]="inputConfigGroup[gr?.groupCode]?.controls[i]"
+													[isMultiRow]="isMultiRow"
+													[submitted]="submitted"
+													[optionList]="inputConfigGroup[gr?.groupCode]?.controls[i]?.value?.DefaultValue?.ListOption"
+													[selectedItem]="
+                            inputConfigGroup[gr?.groupCode]?.controls[i]?.value?.DefaultValue?.ListOptionDefault
+                          " />
+												}@else
+												if(inputConfigGroup[gr?.groupCode]?.controls[i]?.value?.DefaultValue?.TypeSelect
+												=== TYPE_SELECT.MultipleSelect &&
+												inputConfigGroup[gr?.groupCode]?.controls[i]?.value?.DefaultValue?.DisplayValueSelectType
+												=== DISPLAY_VALUE_SELECT_TYPE.Check){
+												<app-dynamic-checkbox
+													label="OptionInputName"
+													[field]="field"
+													[form]="inputConfigGroup[gr?.groupCode]?.controls[i]"
+													[isMultiRow]="isMultiRow"
+													[isMultiple]="true"
+													[submitted]="submitted"
+													[optionList]="inputConfigGroup[gr?.groupCode]?.controls[i]?.value?.DefaultValue?.ListOption"
+													[selectedItem]="
+                            inputConfigGroup[gr?.groupCode]?.controls[i]?.value?.DefaultValue?.ListOptionDefault
+                          " />
+												}
+											</ng-container>
+											<app-dynamic-quill-editor
+												*ngSwitchCase="CONTROL_TYPE.QuillEditor"
+												[field]="field"
+												[form]="inputConfigGroup[gr?.groupCode]?.controls[i]"
+												[isMultiRow]="isMultiRow"
+												[submitted]="submitted" />
+											<app-dynamic-select-multiple-tree
+												*ngSwitchCase="CONTROL_TYPE.SelectMultipleTree"
+												[field]="field"
+												[form]="inputConfigGroup[gr?.groupCode]?.controls[i]"
+												[submitted]="submitted" />
+										</ng-container>
+									</div>
+								</div>
+								<ng-container
+									*ngIf="
+                    ![CONTROL_TYPE.UploadFile, CONTROL_TYPE.People, CONTROL_TYPE.QuillEditor].includes(
+                      field.ControlType
+                    ) && fieldsCondition.length > 1
+                  ">
+									<div
+										class="flex w-full items-center justify-start px-[0.938rem] py-[3px] pt-[unset]">
+										<div class="items-centers flex">
+											<form [formGroup]="inputConfigGroup[gr?.groupCode]?.controls[i]">
+												<p-inputSwitch
+													formControlName="HasCondition"
+													class="flex origin-left scale-[0.65]"
+													(onChange)="
+                            onHandleFormBuilder($event, ACTION_FORM_BUILDER.SwitchCondition, gr?.groupCode, i)
+                          " />
+											</form>
+										</div>
+										<span class="ml-[-7px] text-[14px] font-medium">
+											Đặt điều kiện cho câu hỏi này
+										</span>
+									</div>
+									<app-field-condition
+										#fieldCondition
+										*ngIf="inputConfigGroup[gr?.groupCode]?.controls[i]?.value['HasCondition']"
+										[key]="inputConfigGroup[gr?.groupCode]?.controls[i]?.value['VnName']"
+										[fieldsCondition]="fieldsCondition"
+										[formEdit]="inputConfigResponse[i]?.Conditions"
+										[form]="inputConfigGroup[gr?.groupCode]?.controls[i]?.get('Conditions')"
+										class="flex w-full items-center justify-start px-[0.938rem]" />
+								</ng-container>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> -->
+	</section>
+</form>
+@if(popup.isVisible) {
+<ng-container [ngSwitch]="draggedField.ControlType">
+	<!-- <app-field-config-default
+      *ngSwitchCase="CONTROL_TYPE.Input"
+      [header]="draggedField?.Name"
+      [isModePopup]="popup.mode"
+      [formEdit]="formEdit"
+      [fields]="fieldsCondition"
+      (submit)="onSubmitPopup($event)"
+      (resultSubmit)="onResultSubmit($event)" /> -->
+	<!-- <app-field-config-process
+      *ngSwitchCase="CONTROL_TYPE.Progress"
+      [header]="draggedField?.Name"
+      [isModePopup]="popup.mode"
+      [formEdit]="formEdit"
+      [fields]="fieldsCondition"
+      (submit)="onSubmitPopup($event)"
+      (resultSubmit)="onResultSubmit($event)" />
+    <app-field-config-select
+      *ngSwitchCase="CONTROL_TYPE.Select"
+      [header]="draggedField?.Name"
+      [isModePopup]="popup.mode"
+      [formEdit]="formEdit"
+      [fields]="fieldsCondition"
+      (submit)="onSubmitPopup($event)"
+      (resultSubmit)="onResultSubmit($event)" />
+    <app-field-config-email
+      *ngSwitchCase="CONTROL_TYPE.Email"
+      [header]="draggedField?.Name"
+      [isModePopup]="popup.mode"
+      [formEdit]="formEdit"
+      [fields]="fieldsCondition"
+      (submit)="onSubmitPopup($event)"
+      (resultSubmit)="onResultSubmit($event)" />
+    <app-field-config-number
+      *ngSwitchCase="CONTROL_TYPE.NumberInt"
+      [header]="draggedField?.Name"
+      [isModePopup]="popup.mode"
+      [formEdit]="formEdit"
+      [fields]="fieldsCondition"
+      (submit)="onSubmitPopup($event)"
+      (resultSubmit)="onResultSubmit($event)" />
+    <app-field-config-datetime
+      *ngSwitchCase="CONTROL_TYPE.DateTime"
+      [header]="draggedField?.Name"
+      [isModePopup]="popup.mode"
+      [formEdit]="formEdit"
+      [fields]="fieldsCondition"
+      (submit)="onSubmitPopup($event)"
+      (resultSubmit)="onResultSubmit($event)" />
+    <app-field-config-default
+      *ngSwitchCase="CONTROL_TYPE.LongText"
+      [header]="draggedField?.Name"
+      [isModePopup]="popup.mode"
+      [formEdit]="formEdit"
+      [fields]="fieldsCondition"
+      (submit)="onSubmitPopup($event)"
+      (resultSubmit)="onResultSubmit($event)" />
+    <app-field-config-currency
+      *ngSwitchCase="CONTROL_TYPE.Currency"
+      [header]="draggedField?.Name"
+      [isModePopup]="popup.mode"
+      [formEdit]="formEdit"
+      [fields]="fieldsCondition"
+      (submit)="onSubmitPopup($event)"
+      (resultSubmit)="onResultSubmit($event)" />
+    <app-field-config-upload
+      *ngSwitchCase="CONTROL_TYPE.UploadFile"
+      [header]="draggedField?.Name"
+      [isModePopup]="popup.mode"
+      [formEdit]="formEdit"
+      [fields]="fieldsCondition"
+      (submit)="onSubmitPopup($event)"
+      (resultSubmit)="onResultSubmit($event)" />
+    <app-field-config-rating
+      *ngSwitchCase="CONTROL_TYPE.Rating"
+      [header]="draggedField?.Name"
+      [isModePopup]="popup.mode"
+      [formEdit]="formEdit"
+      [fields]="fieldsCondition"
+      (submit)="onSubmitPopup($event)"
+      (resultSubmit)="onResultSubmit($event)" />
+    <app-field-config-default
+      *ngSwitchCase="CONTROL_TYPE.People"
+      [header]="draggedField?.Name"
+      [isModePopup]="popup.mode"
+      [formEdit]="formEdit"
+      [fields]="fieldsCondition"
+      (submit)="onSubmitPopup($event)"
+      (resultSubmit)="onResultSubmit($event)" />
+    <app-field-config-quill-editor
+      *ngSwitchCase="CONTROL_TYPE.QuillEditor"
+      [header]="draggedField?.Name"
+      [isModePopup]="popup.mode"
+      [formEdit]="formEdit"
+      [fields]="fieldsCondition"
+      (submit)="onSubmitPopup($event)"
+      (resultSubmit)="onResultSubmit($event)" />
+    <app-field-config-checkbox
+      *ngSwitchCase="CONTROL_TYPE.CheckBox"
+      [header]="draggedField?.Name"
+      [isModePopup]="popup.mode"
+      [formEdit]="formEdit"
+      [fields]="fieldsCondition"
+      (submit)="onSubmitPopup($event)"
+      (resultSubmit)="onResultSubmit($event)" />
+    <app-field-config-boolean
+      *ngSwitchCase="CONTROL_TYPE.Boolean"
+      [header]="draggedField?.Name"
+      [isModePopup]="popup.mode"
+      [formEdit]="formEdit"
+      [fields]="fieldsCondition"
+      (submit)="onSubmitPopup($event)"
+      (resultSubmit)="onResultSubmit($event)" /> -->
+</ng-container>
+}

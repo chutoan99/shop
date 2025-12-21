@@ -1,0 +1,38 @@
+::ng-deep {
+	.p-sidebar {
+		.p-sidebar-header,
+		.p-sidebar-footer {
+			padding: 1rem;
+		}
+	}
+	.p-ripple,
+	.p-button {
+		box-shadow: unset !important;
+	}
+	.p-radiobutton-box {
+		border: 1px solid #ccc;
+	}
+	.p-dialog-content {
+		padding: 0px 10px;
+	}
+}
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+	scrollbar-width: thin;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+	width: 13px;
+}
+*::-webkit-scrollbar-track {
+	background: #ffffff;
+	border-radius: 10px;
+}
+*::-webkit-scrollbar-thumb {
+	border-color: #ffffff;
+	border-style: solid;
+	background: #7d11f9;
+	border-color: 3px;
+}

@@ -1,0 +1,12 @@
+{
+	"LABEL": {
+		"EDIT_ACCOUNT": "Sửa hồ sơ",
+		"VOUCHER": "Kho Voucher",
+		"NOTIFY": "Thông báo",
+		"ACCOUNT": "Tài khoản của tôi",
+		"PURCHASE": "Đơn Mua"
+	},
+	"MESSAGE": {},
+	"PLACEHOLDER": {},
+	"VALIDATOR": {}
+}

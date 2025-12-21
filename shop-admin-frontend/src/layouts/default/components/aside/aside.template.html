@@ -1,0 +1,25 @@
+<aside
+	id="sidebar"
+	class="transition-transform duration-300 p-[15px] min-w-[85px] flex"
+	[class.left-side]="collapsed"
+	[class.justify-left]="!collapsed"
+	[class.justify-center]="!collapsed"
+	role="dialog"
+	tabindex="-1"
+	aria-label="Sidebar">
+	<div class="side-wrapper">
+		<div class="flex justify-between items-center"></div>
+		<!-- [ngClass]="{ 'side_menu-active': currentRoute === nav.path }" -->
+		<div *ngFor="let nav of navigation" class="side_menu">
+			<a
+				[routerLink]="nav.path"
+				[ngClass]="{ 'side_menu-active': currentRoute === nav.path }"
+				class="flex items-center p-2 gap-[10px]">
+				<img width="24" height="24" [src]="nav.icon" [alt]="nav.label" />
+				<ng-container *ngIf="collapsed">
+					<span class="pr-[30px]">{{ nav.label }}</span>
+				</ng-container>
+			</a>
+		</div>
+	</div>
+</aside>

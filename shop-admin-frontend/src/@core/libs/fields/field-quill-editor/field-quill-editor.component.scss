@@ -1,0 +1,28 @@
+::ng-deep {
+	.dynamic-quill-editor {
+		.disabled {
+			cursor: not-allowed;
+			opacity: 0.5;
+			border-radius: 5px;
+			pointer-events: none;
+			background-color: #e0e0e0;
+			quill-editor {
+				input,
+				input[text] .p-element {
+					background-color: #e0e0e0 !important;
+					cursor: not-allowed !important;
+					opacity: 0.5 !important;
+					border-radius: 5px !important;
+					pointer-events: none !important;
+				}
+			}
+			input.disabled {
+				outline: none;
+			}
+
+			input[readonly] {
+				pointer-events: none;
+			}
+		}
+	}
+}

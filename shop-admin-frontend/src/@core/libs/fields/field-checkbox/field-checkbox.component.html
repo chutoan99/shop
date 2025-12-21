@@ -1,0 +1,17 @@
+<form [formGroup]="form" [class]="!isMultiRow ? 'grid grid-cols-3' : ''">
+	<label
+		*ngIf="!isMultiRow"
+		class="flex items-center text-sm bg-background text-foreground {{ !field.AllowNull ? 'required' : '' }}"
+		>{{ field.VnName }}</label
+	>
+	<div [class]="!isMultiRow ? 'col-span-2' : 'w-full'">
+		<p-checkbox
+			[formControlName]="field.Name"
+			[readonly]="!field.AllowEdit"
+			[trueValue]="true"
+			[falseValue]="false"
+			[binary]="true"
+			inputId="binary"
+			[ngClass]="{ disabled: !field.AllowEdit }" />
+	</div>
+</form>

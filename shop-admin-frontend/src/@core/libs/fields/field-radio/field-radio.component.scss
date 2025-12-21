@@ -1,0 +1,17 @@
+::ng-deep {
+	.dynamic-radio {
+		.disabled {
+			cursor: not-allowed;
+			opacity: 0.6;
+			pointer-events: none;
+		}
+
+		input.disabled {
+			outline: none;
+		}
+
+		input[readonly] {
+			pointer-events: none;
+		}
+	}
+}

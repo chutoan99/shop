@@ -1,0 +1,9 @@
+::ng-deep {
+	.p-ripple,
+	.p-button {
+		box-shadow: unset !important;
+	}
+	.p-radiobutton-box {
+		border: 1px solid #ccc;
+	}
+}

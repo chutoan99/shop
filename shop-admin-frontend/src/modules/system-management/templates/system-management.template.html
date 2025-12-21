@@ -1,0 +1,54 @@
+<div class="flex-1 p-[20px] h-full">
+	<div class="flex-1">
+		<div class="h-[100%]">
+			<div class="w-full flex gap-y-[10px] justify-between items-center flex-wrap">
+				<div class="flex justify-start w-full">
+					<nav
+						class="flex overflow-x-auto items-center p-1 space-x-2 rtl:space-x-reverse text-sm text-gray-600 bg-gray-500/5 rounded-xl dark:bg-gray-500/20">
+						<section
+							role="tab"
+							type="button"
+							(click)="activeTab = 'user'"
+							[class.active]="activeTab === 'user'"
+							class="tab-item">
+							User Management
+						</section>
+
+						<section
+							role="tab"
+							type="button"
+							(click)="activeTab = 'group'"
+							[class.active]="activeTab === 'group'"
+							class="tab-item">
+							Group Management
+						</section>
+
+						<section
+							role="tab"
+							type="button"
+							(click)="activeTab = 'role'"
+							[class.active]="activeTab === 'role'"
+							class="tab-item">
+							Role Management
+						</section>
+
+						<section
+							role="tab"
+							type="button"
+							(click)="activeTab = 'permission'"
+							[class.active]="activeTab === 'permission'"
+							class="tab-item">
+							Permission Management
+						</section>
+					</nav>
+				</div>
+			</div>
+			<div [ngSwitch]="activeTab">
+				<app-user-management *ngSwitchCase="'user'"></app-user-management>
+				<app-group-management *ngSwitchCase="'group'"></app-group-management>
+				<app-role-management *ngSwitchCase="'role'"></app-role-management>
+				<app-permission-management *ngSwitchCase="'permission'"></app-permission-management>
+			</div>
+		</div>
+	</div>
+</div>

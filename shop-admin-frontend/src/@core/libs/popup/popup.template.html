@@ -1,0 +1,33 @@
+<div class="relative z-10" role="modal">
+	<div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity" aria-hidden="true"></div>
+	<div class="fixed inset-0 z-10 overflow-y-auto">
+		<div class="flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0 w-[100%]">
+			<div
+				class="relative transform overflow-hidden rounded-lg bg-[white] text-left shadow-xl transition-all sm:my-8 w-full sm:w-[842px]">
+				<div class="bg-[#F1F1F1] px-[20px] py-[14px] flex items-center justify-between w-full">
+					<h3
+						class="mb-[unset] text-[#262626] text-base font-semibold leading-6 text-gray-900"
+						id="modal-title">
+						{{ data?.title || 'Popup' }}
+					</h3>
+					<div
+						class="w-[20px] h-[20px] flex items-center justify-center rounded-[50%] cursor-pointer"
+						style="background-color: rgba(36, 36, 38, 25%)"
+						(click)="cancel()">
+						<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								fill-rule="evenodd"
+								clip-rule="evenodd"
+								d="M8.89933 8.00146L12.4786 4.42261C12.7291 4.17208 12.7276 3.7707 12.4786 3.52131C12.2292 3.27078 11.8278 3.27383 11.5788 3.52131L7.99994 7.10016L4.42108 3.52131C4.17055 3.27078 3.76917 3.27231 3.52131 3.52131C3.27078 3.77222 3.27231 4.17323 3.52131 4.42261L7.10054 8.00146L3.52131 11.5788C3.27078 11.8293 3.27231 12.2307 3.52131 12.4797C3.7707 12.7306 4.17208 12.7291 4.42108 12.4797L7.99994 8.90085L11.5788 12.4797C11.8293 12.7306 12.2307 12.7291 12.4786 12.4797C12.7291 12.2292 12.7276 11.8278 12.4786 11.5788L8.89933 8.00146Z"
+								fill="white" />
+						</svg>
+					</div>
+				</div>
+
+				<div>
+					<ng-template #popupContent></ng-template>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

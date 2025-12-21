@@ -1,0 +1,132 @@
+<input type="checkbox" name="" id="side-menu-switch" class="hidden" />
+<div class="side-menu">
+	<label for="side-menu-switch">
+		<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 320 512" fill="#666">
+			<path
+				d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" />
+		</svg>
+	</label>
+
+	<h2 style="font-size: 24px; font-weight: 600; letter-spacing: 1px; margin-bottom: 20px">Shop Example</h2>
+
+	<!-- <div class="search-bar">
+		<input
+			type="text"
+			placeholder="Search products..."
+			(input)="onHandleAction($event, ACTIONS_PRODUCT.Search)"
+			(blur)="onSearch()" />
+	</div> -->
+
+	<div
+		class="flex gap-[10px] gap-y-[25px] flex-wrap justify-start h-full overflow-y-auto overflow-x-hidden"
+		style="background-color: unset; color: unset">
+		<div
+			class="relative w-full overflow-hidden rounded-[7px] h-[165px] max-w-[360px] cursor-pointer"
+			*ngFor="let data of dataSources$ | async; let i = index"
+			(click)="onChooseAccount(data)">
+			<div
+				class="absolute bg-[50%_center] bg-cover bg-no-repeat blur-[2px] inset-0"
+				[style.background-image]="'url(' + data?.portrait + ')'"></div>
+			<div class="absolute bg-[rgba(0,0,0,0.4)] inset-0"></div>
+			<div class="absolute left-0 right-0 top-0 bottom-0 rounded-[7px]">
+				<div class="h-full" style="padding: 10px 20px">
+					<div class="flex gap-[15px]">
+						<div class="relative block h-20 w-20 shrink-0">
+							<div
+								class="block cursor-pointer select-none h-20 w-20 box-border relative border rounded-[50%] border-solid border-[rgba(0,0,0,0.09)]">
+								<img
+									class="absolute w-full h-full block rounded-[50%] left-0 top-0"
+									[src]="data?.portrait"
+									[alt]="data?.name" />
+							</div>
+						</div>
+						<div class="text-[#fff] relative overflow-hidden ml-2.5 mt-2.5">
+							<h2
+								class="text-[#fff] text-lg leading-6 max-h-12 font-medium break-words overflow-hidden text-ellipsis mt-0 mb-[0.3125rem]"
+								style="
+									display: -webkit-box;
+									webkitboxorient: vertical;
+									webkitlineclamp: 2;
+									overflow: hidden;
+									textoverflow: ellipsis;
+								">
+								{{ data?.name }}
+							</h2>
+							<div class="text-[0.75rem]">
+								<div
+									class="align-middle text-xs text-[rgba(255,255,255,0.698)] mt-[0.3125rem] mb-1.5 mx-0">
+									{{ data?.shopLocation }}
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="mb-2 flex justify-between px-[15px]" style="margin-top: 15px">
+						<div class="flex flex-col items-center justify-center">
+							<p class="text-[#fff] text-[15px] font-bold dark:text-white mb-[unset]">
+								{{ data?.itemCount }}
+							</p>
+							<div class="flex gap-[5px] items-center justify-center">
+								<div class="contents">
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										width="14"
+										height="14"
+										viewBox="0 0 2048 2048">
+										<path
+											fill="#fff"
+											d="m960 120l832 416v1040l-832 415l-832-415V536zm625 456L960 264L719 384l621 314zM960 888l238-118l-622-314l-241 120zM256 680v816l640 320v-816zm768 1136l640-320V680l-640 320z" />
+									</svg>
+								</div>
+								<p class="text-xs font-normal text-[#fff] mb-[unset]">Posts</p>
+							</div>
+						</div>
+						<div class="flex flex-col items-center justify-center">
+							<p class="text-[#fff] text-[15px] font-bold dark:text-white mb-[unset]">
+								{{ data?.followerCount }}
+							</p>
+
+							<div class="flex gap-[5px] items-center justify-center">
+								<div class="contents">
+									<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24">
+										<g fill="#fff" fill-rule="evenodd">
+											<path
+												d="m12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.018-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z" />
+											<path
+												fill="#fff"
+												d="M16 14a5 5 0 0 1 5 5v2a1 1 0 1 1-2 0v-2a3 3 0 0 0-3-3H8a3 3 0 0 0-3 3v2a1 1 0 1 1-2 0v-2a5 5 0 0 1 5-5zm5.414-4.919a1 1 0 0 1 1.498 1.32l-.084.095L20 13.324a1 1 0 0 1-1.32.083l-.094-.083l-1.414-1.414a1 1 0 0 1 1.32-1.498l.094.083l.707.708zM12 2a5 5 0 1 1 0 10a5 5 0 0 1 0-10m0 2a3 3 0 1 0 0 6a3 3 0 0 0 0-6" />
+										</g>
+									</svg>
+								</div>
+								<p class="text-xs font-normal text-[#fff] mb-[unset]">Followers</p>
+							</div>
+						</div>
+						<div class="flex flex-col items-center justify-center">
+							<p class="text-[#fff] text-[15px] font-bold dark:text-white mb-[unset]">
+								{{ data.ratingBad + data.ratingGood + data.ratingNormal }}
+							</p>
+
+							<div class="flex gap-[5px] items-center justify-center">
+								<div class="contents">
+									<svg
+										stroke="white"
+										enableBackground="new 0 0 15 15"
+										viewBox="0 0 15 15"
+										width="14"
+										height="14">
+										<polygon
+											fill="none"
+											points="7.5 .8 9.7 5.4 14.5 5.9 10.7 9.1 11.8 14.2 7.5 11.6 3.2 14.2 4.3 9.1 .5 5.9 5.3 5.4"
+											strokeLinecap="round"
+											strokeLinejoin="round"
+											strokeMiterlimit="{10}" />
+									</svg>
+								</div>
+								<p class="text-xs font-normal text-[#fff] mb-[unset]">Rating</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

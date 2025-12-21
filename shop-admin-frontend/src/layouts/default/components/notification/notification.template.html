@@ -1,0 +1,31 @@
+<div
+	class="group-hover:block w-[404px] absolute bg-[#fff] hidden cursor-default will-change-[opacity_transform] origin-[(100%-32px)_top] animate-[HeaderNOtifyGrowth_ease-in_0.25s] z-10 rounded-sm right-[-25px] top-[155%] before:content-[''] before:z-10 before:absolute before:top-[-37px] before:border-solid before:!border-x-[30px] before:!border-y-[20px] before:border-[transparent_transparent_#fff_transparent] before:right-1 after:content-[''] after:z-10 after:block after:absolute after:w-[118px] after:h-[31px] after:right-0 after:-top-4"
+	style="border: solid 1px rgba(0, 0, 0, 0.1)">
+	<header class="h-[40px] bg-[#fff]">
+		<h3 class="text-[#999] font-normal text-sm leading-10 ml-3 mr-0 my-0">New notification received</h3>
+	</header>
+
+	<ng-container *ngIf="dataSources.length > 0; else noData">
+		<ul class="pl-0">
+			<li *ngFor="let item of dataSources" [ngClass]="item.seen ? 'flex bg-[#fff]' : 'flex bg-[#f7f7f7]'">
+				<a [routerLink]="'#'" class="flex no-underline w-full p-2 hover:bg-[#fafafa]">
+					<div>
+						<img [src]="item.image" [alt]="item.title" class="w-12 object-contain" />
+					</div>
+					<div class="ml-[12px]">
+						<span class="text-[black] text-sm block font-normal leading-[1.125rem]">
+							{{ item.title }}
+						</span>
+						<span class="text-xs block text-[#756f6e] leading-4 mt-1"> {{ item.content }} </span>
+					</div>
+				</a>
+			</li>
+		</ul>
+		<footer class="text-[black] text-[0.938rem] text-center w-full px-12 py-2">
+			<a [routerLink]="'#'" class="no-underline font-normal hover:text-[unset]"> View all </a>
+		</footer>
+	</ng-container>
+	<ng-template #noData>
+		<nz-empty class="h-full w-full py-[20px]" [nzNotFoundContent]="null"></nz-empty>
+	</ng-template>
+</div>

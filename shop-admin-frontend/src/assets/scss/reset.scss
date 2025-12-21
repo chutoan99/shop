@@ -1,0 +1,47 @@
+@use './variables.scss' as vars;
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: vars.$font-family_1;
+}
+
+html,
+body {
+	font-family: 'Inter', sans-serif;
+	font-family: 'Poppins', sans-serif;
+	font-family: 'Rubik', sans-serif;
+}
+
+body {
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	overflow-wrap: break-word;
+}

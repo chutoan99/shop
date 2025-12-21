@@ -1,0 +1,15 @@
+::ng-deep {
+	.p-ripple,
+	.p-button {
+		box-shadow: unset !important;
+	}
+	.p-radiobutton-box {
+		border: 1px solid #ccc;
+	}
+	.custom-checkbox {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: repeat(3, 1fr);
+		gap: 10px;
+	}
+}

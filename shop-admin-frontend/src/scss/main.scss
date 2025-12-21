@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200&family=Rubik:wght@400;500;700&display=swap');
+.App {
+	background: linear-gradient(106.37deg, #ffe1bc 29.63%, #ffcfd1 51.55%, #f3c6f1 90.85%);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Inter', sans-serif;
+}
+.appGlass {
+	display: grid;
+	height: 97%;
+	width: 97%;
+	background: rgba(255, 255, 255, 0.54);
+	border-radius: 2rem;
+	overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+	width: 6px;
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: rgb(255 253 253 / 57%);
+	border-radius: 10px;
+}
+.webkit-3 {
+	text-overflow: ellipsis;
+	word-break: break-all;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+	overflow: hidden;
+}
+
+.blue_theme {
+	--color-primary: 0, 133, 219;
+	--color-primary-fixed-dim: 0, 133, 219, 0.15;
+}
+
+.aqua_theme {
+	--color-primary: 0, 116, 186;
+	--color-primary-fixed-dim: 0, 116, 186, 0.15;
+}
+
+.purple_theme {
+	--color-primary: 95, 47, 180;
+	--color-primary-fixed-dim: 95, 47, 180, 0.15;
+}
+
+.green_theme {
+	--color-primary: 10, 126, 164;
+	--color-primary-fixed-dim: 10, 126, 164, 0.15;
+}
+
+.cyan_theme {
+	--color-primary: 1, 192, 200;
+	--color-primary-fixed-dim: 1, 192, 200, 0.15;
+}
+
+.orange_theme {
+	--color-primary: 251, 85, 51;
+	--color-primary-fixed-dim: 251, 85, 51, 0.15;
+}
+
+.red_theme {
+	--color-primary: 231, 76, 60;
+	--color-primary-fixed-dim: 231, 76, 60, 0.15;
+}
+
+.pink_theme {
+	--color-primary: 233, 30, 99;
+	--color-primary-fixed-dim: 233, 30, 99, 0.15;
+}
+
+.yellow_theme {
+	--color-primary: 241, 196, 15;
+	--color-primary-fixed-dim: 241, 196, 15, 0.15;
+}
+
+.teal_theme {
+	--color-primary: 0, 150, 136;
+	--color-primary-fixed-dim: 0, 150, 136, 0.15;
+}
+
+.indigo_theme {
+	--color-primary: 63, 81, 181;
+	--color-primary-fixed-dim: 63, 81, 181, 0.15;
+}
+
+.gray_theme {
+	--color-primary: 149, 165, 166;
+	--color-primary-fixed-dim: 149, 165, 166, 0.15;
+}
