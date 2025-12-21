@@ -1,0 +1,42 @@
+{
+	"compilerOptions": {
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"allowJs": true,
+		"resolveJsonModule": true,
+		"forceConsistentCasingInFileNames": true,
+		"module": "commonjs", // Quy định output module được sử dụng
+		"moduleResolution": "node", //
+		"target": "ES2020", // Target ouput cho code
+		"outDir": "dist", // Đường dẫn output cho thư mục build
+		"esModuleInterop": true /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */,
+		"strict": true /* Enable all strict type-checking options. */,
+		"skipLibCheck": true /* Skip type checking all .d.ts files. */,
+		"baseUrl": ".",
+		"paths": {
+			"@configs/*": ["src/configs/*"],
+			"@helpers/*": ["src/helpers/*"],
+			"@middlewares/*": ["src/middlewares/*"],
+			"@templates/*": ["src/templates/*"],
+			"@core/*": ["src/@core/*"],
+			"@storage/*": ["storage/*"],
+			"@industry/*": ["src/apis/v1/client/industry/*"],
+			"@auth/*": ["src/apis/v1/client/auth/*"],
+			"@cart/*": ["src/apis/v1/client/cart/*"],
+			"@post/*": ["src/apis/v1/client/post/*"],
+			"@user/*": ["src/apis/v1/client/user/*"],
+			"@order/*": ["src/apis/v1/client/order/*"],
+			"@chat/*": ["src/apis/v1/client/chat/*"],
+			"@group/*": ["src/apis/v1/client/group/*"],
+			"@notify/*": ["src/apis/v1/client/notify/*"],
+			"@room/*": ["src/apis/v1/client/room/*"],
+			"@shop/*": ["src/apis/v1/client/shop/*"],
+			"@systems/*": ["src/apis/v1/client/system/*"]
+		}
+	},
+	"exclude": ["node_modules"],
+	"ts-node": {
+		"require": ["tsconfig-paths/register"]
+	},
+	"include": ["src/**/*"] // Đường dẫn include cho các file cần build
+}

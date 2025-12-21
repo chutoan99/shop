@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <title>Tiki.vn: Trang Mua Hàng Trực Tuyến Được Yêu Thích Nhất | Tiki.vn</title>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <meta name="description" content="Thỏa sức mua sắm qua mạng hàng ngàn mặt hàng sách, điện tử, đồ gia dụng, quà tặng, thời trang, làm đẹp &amp; sức khỏe tại Tiki với giá rẻ hơn và khuyến mãi hấp dẫn">
+    <meta name="robots" content="INDEX,FOLLOW">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            background: url("https://salt.tikicdn.com/assets/img/bg-form.png") #ddf3fe center bottom repeat-x;
+            background-attachment: fixed;
+            min-width: 320px;
+        }
+        .error-box{
+            margin: auto;
+            width: 80%;
+            min-width: 353px;
+            max-width: 395px;
+            max-height: 178px;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            position: fixed;
+            padding: 20px;
+            background: #fff;
+            font-family: Arial, Georgia, Serif;
+            -webkit-box-shadow: 1px 1px 1px #ccc;
+            box-shadow: 1px 1px 1px #ccc;
+
+            -webkit-border-radius: 8px;
+            -moz-border-radius: 8px;
+            -ms-border-radius: 8px;
+            -o-border-radius: 8px;
+            border-radius: 8px;
+
+            -webkit-animation-duration: 3s;
+            animation-duration: 3s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+        }
+
+        .error-box img{
+            float: left;
+            margin-right: 20px;
+            margin-bottom: 10px;
+        }
+
+        .error-box p{
+            margin-top: 0;
+            font-size: 13px;
+            margin-bottom: 4px;
+            line-height: 20px;
+        }
+
+        .error-box p span{
+            color: #00B6F0;
+            font-weight: bold;
+        }
+
+        .error-box p a{
+            color: #00B6F0;
+            font-weight: bold;
+        }
+
+        .error-box:after{
+            content: " ";
+            clear: both;
+            height: 0;
+            padding: 0;
+            display: block;
+        }
+
+        @-webkit-keyframes slideInDown {
+            0% {
+                -webkit-transform: translateY(-300%);
+                transform: translateY(-300%);
+                visibility: visible;
+            }
+
+            100% {
+                -webkit-transform: translateY(0);
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes slideInDown {
+            0% {
+                -webkit-transform: translateY(-300%);
+                transform: translateY(-300%);
+                visibility: visible;
+            }
+
+            100% {
+                -webkit-transform: translateY(0);
+                transform: translateY(0);
+            }
+        }
+
+        .slideInDown {
+          -webkit-animation-name: slideInDown;
+          animation-name: slideInDown;
+        }
+
+        @media (min-width: 992px) {
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="error-box slideInDown">
+        <img src="https://salt.tikicdn.com/ts/tmp/aa/d8/22/16a6ae722d5cf1ba5cec808874b71642.png" height="55" width="90">
+        <p><strong>Liên kết này chưa được Tiki hỗ trợ.</strong></p>
+        <p>Quý khách vui lòng kiểm tra lại.<br> Nếu Quý khách có nhu cầu liên lạc ngay với chúng tôi, xin gọi đường dây nóng Hỗ trợ nhà bán: <a href = "tel:19006034">1900-6034</a> hoặc gửi email đến <a href = "mailto:hotrodoitac@tiki.vn">hotrodoitac@tiki.vn</a> / <a href ="mailto:partnersupport@tiki.vn">partnersupport@tiki.vn </a></p>
+    </div>
+
+<script type="text/javascript">
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-15036050-1', 'auto');
+
+        // Updates the tracker to use  if available.
+        ga('set', 'transport', 'beacon');
+        ga('send', 'pageview');
+        ga(
+            'send',
+            'event',
+            'Desktop Maintenance',
+            'Show Maintenance Screen',
+            { nonInteraction: true}
+        );
+    </script>
+
+</body>
+</html>

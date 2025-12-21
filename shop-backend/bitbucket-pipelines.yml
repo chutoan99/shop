@@ -1,0 +1,39 @@
+image: node:20
+
+pipelines:
+    default:
+        - step:
+              name: Install Dependencies
+              caches:
+                  - node
+              script:
+                  - echo "Installing dependencies..."
+                  - npm ci
+
+        - step:
+              name: Lint & Format Check
+              script:
+                  - echo "Running ESLint and Prettier..."
+                  - npm run lint
+                  - npm run prettier
+
+        - step:
+              name: Build Project
+              script:
+                  - echo "Building project..."
+                  - npm run build
+
+        - step:
+              name: Run Tests
+              script:
+                  - echo "Running tests..."
+                  - npm test
+
+        - step:
+              name: Deploy
+              trigger: manual
+              deployment: production
+              script:
+                  - echo "Deploying application..."
+                  - npm run docker:build
+                  - npm run docker:run

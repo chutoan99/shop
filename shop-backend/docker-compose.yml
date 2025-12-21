@@ -1,0 +1,85 @@
+version: '3.8'
+services:
+    server:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        environment:
+            - PORT=${PORT}
+            - ACCSEE_TOKEN_SECRECT=${ACCSEE_TOKEN_SECRECT}
+            - URL_BACKEND=${URL_BACKEND}
+            - SECRET_KEY=${SECRET_KEY}
+            - LIMIT=${LIMIT}
+            - NODE_ENV=${LIMIT}
+            - URL_DATA=${LIMIT}
+            - USER_EMAIL=${USER_EMAIL}
+            - PASS_EMAIL=${PASS_EMAIL}
+            - CLOUDINARY_NAME=${CLOUDINARY_NAME}
+            - CLOUDINARY_KEY=${CLOUDINARY_KEY}
+            - GOOGLE_CLIENT_ID=${GOOGLE_CLIENT_ID}
+            - GOOGLE_CLIENT_SECRET=${GOOGLE_CLIENT_SECRET}
+            - FACEBOOK_APP_ID=${FACEBOOK_APP_ID}
+            - FACEBOOK_APP_SECRET=${FACEBOOK_APP_SECRET}
+            - TELEGRAM_TOKEN=${TELEGRAM_TOKEN}
+            - CLOUDINARY_SECRET=${CLOUDINARY_SECRET}
+            - FIREBASE_PROJECT_ID=${FIREBASE_PROJECT_ID}
+            - FIREBASE_PRIVATE_KEY_ID=${FIREBASE_PRIVATE_KEY_ID}
+            - FIREBASE_PRIVATE_KEY=${FIREBASE_PRIVATE_KEY}
+            - FIREBASE_CLIENT_EMAIL=${FIREBASE_CLIENT_EMAIL}
+            - FIREBASE_CLIENT_ID=${FIREBASE_CLIENT_ID}
+            - FIREBASE_CLIENT_CERT_URL=${FIREBASE_CLIENT_CERT_URL}
+            - REDIS_URL=${REDIS_URL}
+            - MONGODB_URL=${MONGODB_URL}
+            - ELASTICSEARCH_URL=${ELASTICSEARCH_URL}
+            - MYSQL_HOST=${MYSQL_HOST}
+            - MYSQL_NAME=${MYSQL_NAME}
+            - MYSQL_USERNAME=${MYSQL_USERNAME}
+            - MYSQL_PASSWORD=${MYSQL_PASSWORD}
+            - MYSQL_PORT=${MYSQL_PORT}
+        ports:
+            - '9001:9001'
+    mysql:
+        image: mysql:latest
+        restart: always
+        environment:
+            - MYSQL_HOST=${MYSQL_HOST}
+            - MYSQL_DATABASE=${MYSQL_NAME}
+            - MYSQL_USERNAME=${MYSQL_USERNAME}
+            - MYSQL_ROOT_PASSWORD=${MYSQL_PASSWORD}
+            - MYSQL_PORT=${MYSQL_PORT}
+    mongo:
+        image: mongodb/atlas:latest
+        environment:
+            - MONGODB_URL=${MONGODB_URL}
+        ports:
+            - '27017:27017'
+    redis:
+        image: redis:latest
+        environment:
+            - REDIS_URL=${REDIS_URL}
+        ports:
+            - '6379:6379'
+    elasticsearch:
+        container_name: es-container
+        image: docker.elastic.co/elasticsearch/elasticsearch:7.17.0
+        environment:
+            - xpack.security.enabled=false
+            - 'discovery.type=single-node'
+        networks:
+            - es-net
+        ports:
+            - 9200:9200
+    kibana:
+        container_name: kb-container
+        image: docker.elastic.co/kibana/kibana:7.17.0
+        environment:
+            - ELASTICSEARCH_HOSTS=http://es-container:9200
+        networks:
+            - es-net
+        depends_on:
+            - elasticsearch
+        ports:
+            - 5601:5601
+networks:
+    es-net:
+        driver: bridge
